@@ -1,0 +1,1177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI 教育周刊数据契约",
+  "description": "按文件使用 manifest、catalog、issue 或 profileCatalog 定义。界面沿用四页周刊与独立累计创意库；人物背景在 data/people.json 独立维护，不改写本期动态事实和日期。",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/manifest"
+    },
+    {
+      "$ref": "#/$defs/catalog"
+    },
+    {
+      "$ref": "#/$defs/issue"
+    },
+    {
+      "$ref": "#/$defs/profileCatalog"
+    },
+    {
+      "$ref": "#/$defs/editorialCatalog"
+    }
+  ],
+  "$defs": {
+    "manifest": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "latestIssueId",
+        "libraryAsOf",
+        "issues"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 2
+        },
+        "latestIssueId": {
+          "type": "string"
+        },
+        "libraryAsOf": {
+          "type": "string",
+          "format": "date"
+        },
+        "issues": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "number",
+              "date",
+              "title",
+              "file"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "title": {
+                "type": "string"
+              },
+              "file": {
+                "type": "string",
+                "pattern": "^issues/[^/]+\\.json$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "idea": {
+      "type": "object",
+      "required": [
+        "difficultyGroup",
+        "difficulty",
+        "uses",
+        "updatedAt",
+        "title",
+        "firstIssue",
+        "sources",
+        "firstSeen",
+        "id",
+        "stageBasis",
+        "originalDate",
+        "tools",
+        "lastVerified",
+        "categories",
+        "educationLevels",
+        "scopeTags",
+        "audienceTypes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "firstIssue": {
+          "type": "string"
+        },
+        "originalDate": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string"
+        },
+        "stageBasis": {
+          "type": "string"
+        },
+        "firstSeen": {
+          "type": "string",
+          "format": "date"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "lastVerified": {
+          "type": "string",
+          "format": "date"
+        },
+        "categories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "图像设计",
+              "故事视频",
+              "音乐声音",
+              "互动游戏",
+              "Agent自动化",
+              "个性化体验",
+              "教学应用"
+            ]
+          }
+        },
+        "educationLevels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "学前教育",
+              "小学教育",
+              "初中教育",
+              "高中阶段教育",
+              "高等教育"
+            ]
+          }
+        },
+        "audienceTypes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "职业教育",
+              "成人与继续教育",
+              "教育工作者"
+            ]
+          }
+        },
+        "scopeTags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "跨学段",
+              "未限定"
+            ]
+          }
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "uses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "difficultyGroup": {
+          "enum": [
+            "入门",
+            "进阶",
+            "分层"
+          ]
+        },
+        "ageRestriction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "label": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "catalog": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "asOf",
+        "items",
+        "categoryOrder",
+        "educationLevelOrder",
+        "audienceTypeOrder",
+        "scopeTagOrder"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 2
+        },
+        "asOf": {
+          "type": "string",
+          "format": "date"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/idea"
+          }
+        },
+        "categoryOrder": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "图像设计",
+              "故事视频",
+              "音乐声音",
+              "互动游戏",
+              "Agent自动化",
+              "个性化体验",
+              "教学应用"
+            ]
+          }
+        },
+        "educationLevelOrder": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "学前教育",
+              "小学教育",
+              "初中教育",
+              "高中阶段教育",
+              "高等教育"
+            ]
+          }
+        },
+        "audienceTypeOrder": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "职业教育",
+              "成人与继续教育",
+              "教育工作者"
+            ]
+          }
+        },
+        "scopeTagOrder": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "跨学段",
+              "未限定"
+            ]
+          }
+        }
+      },
+      "description": "所有期刊共用的累计创意库；稳定 ID 去重，保留首次收录信息。选择期刊或筛选不得删除累计条目。"
+    },
+    "issue": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "id",
+        "number",
+        "date",
+        "title",
+        "window",
+        "cutoff",
+        "education",
+        "publicFigures",
+        "newIdeaIds",
+        "revisionNote"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 2
+        },
+        "id": {
+          "type": "string"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "window": {
+          "type": "object",
+          "required": [
+            "start",
+            "end"
+          ]
+        },
+        "education": {
+          "type": "object",
+          "required": [
+            "items",
+            "summaries"
+          ],
+          "properties": {
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/educationItem"
+              },
+              "description": "完整教育文章，是本期关注分布表的唯一计数来源。"
+            },
+            "summaries": {
+              "type": "array",
+              "description": "本期预览摘要，不作为分布表重复计数。"
+            },
+            "watchlist": {
+              "type": "array",
+              "deprecated": true,
+              "description": "既有研究溯源记录，可保留；不渲染到周刊，新期非必填。"
+            }
+          }
+        },
+        "publicFigures": {
+          "type": "array",
+          "minItems": 10,
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "title",
+              "summary",
+              "date",
+              "verification"
+            ]
+          }
+        },
+        "newIdeaIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          },
+          "description": "该期首次收录的累计库稳定 ID，用于库内本期新增筛选，不渲染为周刊创意索引。"
+        },
+        "creativeSnapshots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "title",
+              "summary",
+              "originalDate"
+            ]
+          },
+          "description": "可选的历史创意摘要溯源字段。保留既有原文，不在周刊渲染；新期无需生成。",
+          "deprecated": true
+        },
+        "revisionNote": {
+          "type": "string"
+        },
+        "creativeWatchlist": {
+          "type": "array",
+          "deprecated": true,
+          "description": "可选的历史创意追踪记录，仅保留溯源，不在周刊渲染。"
+        }
+      },
+      "description": "每期教育与人物正文的独立快照；追加真实新期，纠错保留日期和原因。"
+    },
+    "educationItem": {
+      "type": "object",
+      "description": "单篇教育条目；原始内容、事实和证据字段完整保留。id 须在该期唯一，校验器负责检查。",
+      "required": [
+        "id",
+        "category",
+        "educationLevels",
+        "audienceTypes",
+        "scopeTags",
+        "date",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1,
+          "description": "原始主题名称，直接作为关注分布表行；不得为布局调整重分类。"
+        },
+        "educationLevels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "学前教育",
+              "小学教育",
+              "初中教育",
+              "高中阶段教育",
+              "高等教育"
+            ]
+          },
+          "description": "学段标签；多于一项时文章在分布表只计入跨学段一次。"
+        },
+        "audienceTypes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          },
+          "description": "对象标签独立统计，可含教育工作者、职业教育、成人与继续教育、家长、青少年等，不作为矩阵学段列。"
+        },
+        "scopeTags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "跨学段",
+              "未限定"
+            ]
+          },
+          "description": "跨学段优先于具体学段归桶；未限定仅在无具体学段且未标跨学段时作为兜底桶。"
+        },
+        "date": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "label": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "profileCatalog": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "asOf",
+        "items",
+        "publicationStatus"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "asOf": {
+          "type": "string",
+          "format": "date"
+        },
+        "publicationStatus": {
+          "const": "public-edition"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/personProfile"
+          }
+        }
+      }
+    },
+    "personProfile": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "identity",
+        "bio",
+        "contributions",
+        "followReason",
+        "profileUpdatedAt",
+        "profileSources",
+        "portrait"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^person-"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bio": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "contributions": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "text",
+              "source"
+            ],
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "object",
+                "required": [
+                  "title",
+                  "url"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https://"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "followReason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "profileUpdatedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "profileSources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              }
+            }
+          }
+        },
+        "portrait": {
+          "type": "object",
+          "required": [
+            "path",
+            "sourcePage",
+            "imageUrl",
+            "credit",
+            "alt",
+            "rightsStatus"
+          ],
+          "properties": {
+            "path": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "sourcePage": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "imageUrl": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "credit": {
+              "type": "string"
+            },
+            "alt": {
+              "type": "string"
+            },
+            "rightsStatus": {
+              "type": "string",
+              "minLength": 1
+            },
+            "missingReason": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "path": {
+                    "type": "string"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "path": {
+                    "pattern": "^assets/portraits/[^/]+$"
+                  },
+                  "sourcePage": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https://"
+                  },
+                  "imageUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "format": "uri",
+                    "pattern": "^https://"
+                  },
+                  "credit": {
+                    "minLength": 1
+                  },
+                  "alt": {
+                    "minLength": 1
+                  }
+                }
+              },
+              "else": {
+                "required": [
+                  "missingReason"
+                ],
+                "properties": {
+                  "missingReason": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "editorialCatalog": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "issues"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "issues": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "$ref": "#/$defs/issueEditorial"
+          }
+        }
+      }
+    },
+    "issueEditorial": {
+      "type": "object",
+      "required": [
+        "experiments",
+        "changes",
+        "revisionLog",
+        "factCorrections"
+      ],
+      "properties": {
+        "experiments": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "title",
+              "audience",
+              "estimatedMinutes",
+              "steps",
+              "verificationGoal",
+              "sourceIds",
+              "status"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "audience": {
+                "type": "string",
+                "minLength": 1
+              },
+              "estimatedMinutes": {
+                "type": "string",
+                "minLength": 1
+              },
+              "steps": {
+                "type": "string",
+                "minLength": 1
+              },
+              "verificationGoal": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sourceIds": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "status": {
+                "const": "编辑建议，未实测"
+              }
+            }
+          }
+        },
+        "changes": {
+          "type": "object",
+          "required": [
+            "status",
+            "baselineIssue",
+            "baselineDate",
+            "items",
+            "note"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "baseline",
+                "compared",
+                "no-verified-change"
+              ]
+            },
+            "baselineIssue": {
+              "type": "string",
+              "minLength": 1
+            },
+            "baselineDate": {
+              "type": "string",
+              "format": "date"
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "title",
+                  "previous",
+                  "current",
+                  "changeType",
+                  "sourceDate",
+                  "sources",
+                  "firstIssue",
+                  "firstItemId",
+                  "previousIssue",
+                  "previousItemId"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "previous": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "current": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "changeType": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "firstIssue": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "firstItemId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "previousIssue": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "previousItemId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sourceDate": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "sources": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "title",
+                        "url"
+                      ],
+                      "properties": {
+                        "title": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri",
+                          "pattern": "^https://"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "baseline",
+                      "no-verified-change"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "items": {
+                    "maxItems": 0
+                  }
+                }
+              },
+              "else": {
+                "properties": {
+                  "items": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "revisionLog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "date",
+              "version",
+              "type",
+              "summary"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "summary": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "factCorrections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "itemId",
+              "date",
+              "before",
+              "after",
+              "reason",
+              "sources"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "itemId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "before": {
+                "type": "string",
+                "minLength": 1
+              },
+              "after": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sources": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri",
+                      "pattern": "^https://"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "evidenceUpdates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "date",
+              "itemId",
+              "kind",
+              "before",
+              "after",
+              "reason",
+              "sources"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "itemId": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "before": {
+                "type": "object"
+              },
+              "after": {
+                "type": "object"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "sources": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri",
+                      "pattern": "^https://"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$comment": "布局调整不改写事实、引述、来源、图像或历史原始字段。只收录真实期刊；当前只有 001。",
+  "x-uiContract": {
+    "default": "无有效路由时打开 manifest.latestIssueId 的 preview 页面。",
+    "weeklyPages": [
+      {
+        "id": "preview",
+        "label": "本期预览",
+        "content": "简明摘要、本期关注分布表、三个有来源的尝试建议与有据可查的跨期变化（首期建立基线）。"
+      },
+      {
+        "id": "education",
+        "label": "AI教育前沿",
+        "content": "该期 education.items 的完整教育内容"
+      },
+      {
+        "id": "people",
+        "label": "公众人物言论",
+        "content": "该期 publicFigures 的完整动态；上方附独立人物资料、真实肖像或占位与可折叠代表成果，日期各自标注。"
+      },
+      {
+        "id": "updates",
+        "label": "更新须知",
+        "content": "内容范围、保存方式、人物资料及每周更新标准，证据类型、版本修订和事实更正。"
+      }
+    ],
+    "weeklyNavigation": "仅四个页面菜单；期号下拉、上一期、下一期、回到最新一期仅在周刊显示；首期相邻按钮禁用。",
+    "libraryNavigation": "右上角小按钮“全部创意”打开独立累计库；库内不显示切期控件，返回恢复所选期号和页面。",
+    "weeklyRouteExample": "#issue=001&page=preview",
+    "libraryRouteExample": "#issue=001&page=preview&view=library",
+    "excludedFromWeekly": [
+      "本期周报入口按钮",
+      "独立归档区",
+      "本期创意索引或预览",
+      "创意卡片",
+      "持续追踪清单"
+    ],
+    "sharedLibrary": "所有期刊使用同一catalog.items，15个既有案例及14张原作效果图完整保留；来源与许可状态分别标注。",
+    "historicalEvidence": "creativeSnapshots保留历史摘要；公开包不包含未发布选题队列。",
+    "release": "静态公开版：仅包含出版内容、必要源文件与来源图像；保留出处、署名及许可核验状态。"
+  },
+  "x-distributionContract": {
+    "title": "本期关注分布表",
+    "source": "当前所选期号的 issue.education.items；每篇 id 唯一。",
+    "rows": "按 category 原值与首次出现顺序排列，不重命名、合并或新增分类。",
+    "columns": [
+      "学前教育",
+      "小学教育",
+      "初中教育",
+      "高中阶段教育",
+      "高等教育",
+      "跨学段",
+      "未限定"
+    ],
+    "stageBucket": [
+      "scopeTags 包含“跨学段”，或 educationLevels 去重后多于一项：跨学段。",
+      "否则，educationLevels 恰有一项：该学段。",
+      "否则：未限定。"
+    ],
+    "counting": "每篇只增加其 category 与唯一学段桶的交叉格一次。所有行、列与总计由条目自动计算，总计等于唯一教育文章数；不手写计数。",
+    "audienceTypes": "对象标签独立保留，同篇可有多个对象；职业教育、成人与继续教育、教育工作者等不作为矩阵学段列，不可重复加入文章总计。",
+    "interpretation": "只呈现本期选文分布；不代表全球热度、代表性总体或跨期趋势。",
+    "currentIssueCheck": {
+      "issueId": "001",
+      "totalArticles": 13,
+      "stageTotals": {
+        "学前教育": 0,
+        "小学教育": 1,
+        "初中教育": 0,
+        "高中阶段教育": 0,
+        "高等教育": 3,
+        "跨学段": 7,
+        "未限定": 2
+      }
+    }
+  },
+  "x-personProfileContract": {
+    "data": "data/people.json，以人物 id 关联 issue.publicFigures；绝不替代本期动态。",
+    "order": [
+      "真实小肖像或文字占位与姓名身份",
+      "两句简介",
+      "持续关注理由（编辑判断）",
+      "默认折叠的代表成果及证据和图片完整归属",
+      "人物资料更新时间",
+      "本期动态及其原始日期、来源、事实观点边界"
+    ],
+    "photos": "仅身份可核验的公开官方真实照片；公开可见不等于授权。不能生成或套用通用头像；无图明示占位。",
+    "dates": "profileUpdatedAt 单独记录资料核验日，和 date/event_date 区分。"
+  },
+  "x-editorialContract": {
+    "source": "data/editorial.json，按真实期号关联原始内容，不改写数据快照。",
+    "experiments": "每期3项；源于当期有据内容，写清对象、估计投入、验证目标，均为未实测编辑建议，不自动执行。",
+    "changes": "首期只有001，使用baseline和空items。未来变化需原文日期、新旧事实证据、首次收录及上次对照定位，无可靠变化时no-verified-change。",
+    "corrections": "版本/布局增补与事实更正分开；只有真实错误可写factCorrections，记录原值、更正值、日期、原因、来源。"
+  }
+}

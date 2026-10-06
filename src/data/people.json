@@ -1,0 +1,1079 @@
+{
+  "checkedAt": "2026-10-06",
+  "title": "公众人物档案",
+  "rightsNotice": "人物肖像随专业背景介绍展示，保留原始来源及署名。图像版权归原权利人；除另行注明外，公开转载许可未确认。",
+  "editorialNotice": "简介记录专业身份；代表成果包括研究、著作、项目和教学实践，未按名气排序。关注理由为编者判断。",
+  "items": [
+    {
+      "id": "person-sal-khan",
+      "name": "Sal Khan",
+      "identity": "Khan Academy 创始人兼首席执行官",
+      "bio": [
+        "可汗学院创始人兼首席执行官，长期推动免费在线学习与掌握式教学，也创办同伴辅导平台 Schoolhouse.world。",
+        "近年关注人工智能辅导与教师支持如何融入日常教学。"
+      ],
+      "contributions": [
+        {
+          "title": "Khanmigo 教育AI试点（2023）",
+          "text": "其领导的可汗学院推出 Khanmigo 试点，探索面向学习者的个性化辅导和面向教师的辅助支持；这是机构项目，并非其个人独立开发。",
+          "period": null,
+          "source": {
+            "title": "Khan Academy：Khanmigo试点介绍（2023-03-28）",
+            "url": "https://support.khanacademy.org/hc/en-us/articles/14394953976333--Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "Khan Academy：Khanmigo试点介绍（2023-03-28）",
+              "url": "https://support.khanacademy.org/hc/en-us/articles/14394953976333--Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        },
+        {
+          "title": "《Brave New Words》（2024）",
+          "text": "出版讨论AI与教育的著作，面向教师、家长及学习者介绍个性化学习、教学支持及伦理议题。",
+          "period": null,
+          "source": {
+            "title": "Penguin Random House：Brave New Words",
+            "url": "https://www.penguinrandomhouse.com/books/740806/brave-new-words-by-salman-khan/9780593656952/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "Penguin Random House：Brave New Words",
+              "url": "https://www.penguinrandomhouse.com/books/740806/brave-new-words-by-salman-khan/9780593656952/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        }
+      ],
+      "followReason": "适合跟进AI辅导从产品愿景到学校实际使用的变化，同时关注学习效果、教师负担与安全边界。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Khan Academy：领导团队",
+          "url": "https://www.khanacademy.org/about/leadership",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "title": "Khan Academy：Khanmigo试点介绍",
+          "url": "https://support.khanacademy.org/hc/en-us/articles/14394953976333--Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-sal-khan.jpg",
+        "sourcePage": "https://www.penguinrandomhouse.com/authors/2293798/salman-khan/",
+        "credit": "© Khan Academy（出版社作者页明示）",
+        "alt": "Sal Khan的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-ethan-mollick",
+      "name": "Ethan Mollick",
+      "identity": "沃顿商学院管理学副教授；Generative AI Labs at Wharton 联合主任",
+      "bio": [
+        "宾夕法尼亚大学沃顿商学院管理学副教授、生成式人工智能实验室联合主任。",
+        "研究人工智能对工作、创业和教育的影响，并把研究与课堂教学实验、面向公众的写作相结合。"
+      ],
+      "contributions": [
+        {
+          "title": "《Co-Intelligence》（2024）",
+          "text": "讨论如何把AI用于协作、教学及教练式支持，并提醒读者理解工具的能力和局限。",
+          "period": null,
+          "source": {
+            "title": "Penguin Random House：Co-Intelligence",
+            "url": "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "Penguin Random House：Co-Intelligence",
+              "url": "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        },
+        {
+          "title": "Instructors as Innovators（2024）",
+          "text": "与 Lilach Mollick 合著工作论文，为教学模拟、指导、辅导及共同创作提供可调整的提示词与风险说明；属于教学设计探索，不能当成效果已获验证的结论。",
+          "period": null,
+          "source": {
+            "title": "SSRN：Instructors as Innovators",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4802463",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "SSRN：Instructors as Innovators",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4802463",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "arXiv：Instructors as Innovators",
+              "url": "https://arxiv.org/abs/2407.05181",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        }
+      ],
+      "followReason": "适合寻找可亲自试验的AI教学设计，也可观察他如何区分模型能力、使用方法与学习证据。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Wharton 管理系：Ethan Mollick 教师主页",
+          "url": "https://mgmt.wharton.upenn.edu/profile/emollick/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-ethan-mollick.jpg",
+        "sourcePage": "https://mgmt.wharton.upenn.edu/profile/emollick/",
+        "credit": "来源：宾夕法尼亚大学沃顿商学院；页面未注明摄影者",
+        "alt": "Ethan Mollick的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-dan-fitzpatrick",
+      "name": "Dan Fitzpatrick",
+      "identity": "The AI Educator 作者、演讲者及AI培训与战略顾问（依据本人官网）",
+      "bio": [
+        "人工智能教育作者、演讲者与培训顾问，以 The AI Educator 开展教师培训及学校人工智能战略支持。",
+        "其工作聚焦课堂应用、教育领导力与技术采用中的安全治理。"
+      ],
+      "contributions": [
+        {
+          "title": "合著《The AI Classroom》",
+          "text": "与 Amanda Fox、Brad Weinstein 合著，整理教育者可用的AI策略、工具与应用框架。",
+          "period": null,
+          "source": {
+            "title": "作者官网：The Books 栏目",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "作者官网：The Books 栏目",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "The AI Classroom 官方书站",
+              "url": "https://www.theaiclassroom.net/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        },
+        {
+          "title": "《Infinite Education》",
+          "text": "面向教育领导者提出AI时代推动学校变革的四步策略，重点是组织与教学转变，而非仅罗列新工具。",
+          "period": null,
+          "source": {
+            "title": "作者官网：Infinite Education 介绍",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "作者官网：Infinite Education 介绍",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "作者官网：Infinite Education 书籍介绍文件",
+              "url": "https://www.theaieducator.io/_files/ugd/28e2c0_40c9f1ea90a44108a2b824c93118da03.pdf",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        }
+      ],
+      "followReason": "适合跟进一线教师能理解的AI实践与学校采用建议；具体成效仍需结合独立证据判断。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Dan Fitzpatrick 官方网站",
+          "url": "https://theaieducator.io/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-dan-fitzpatrick.jpg",
+        "sourcePage": "https://www.theaiclassroom.net/",
+        "credit": "来源：The AI Classroom 官方团队页；页面未注明摄影者",
+        "alt": "Dan Fitzpatrick的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-mosa-moshabela",
+      "name": "Mosa Moshabela",
+      "identity": "南非开普敦大学校长、公共卫生教授",
+      "bio": [
+        "南非开普敦大学校长、公共卫生教授，2024年8月上任，此前任夸祖鲁-纳塔尔大学研究与创新副校长。",
+        "研究关注卫生系统、实施科学与资源不足地区的服务公平。"
+      ],
+      "contributions": [
+        {
+          "title": "领导QuEST南非研究中心",
+          "text": "领导QuEST南非研究中心，与哈佛大学公共卫生学院合作，围绕医疗质量与卫生系统改进开展研究。",
+          "period": null,
+          "source": {
+            "title": "UCT官方个人简介",
+            "url": "https://uct.ac.za/contacts/mosa-moshabela",
+            "supports": "明确列出其领导QuEST南非中心，以及与Harvard T.H. Chan School of Public Health合作"
+          },
+          "sources": [
+            {
+              "title": "UCT官方个人简介",
+              "url": "https://uct.ac.za/contacts/mosa-moshabela",
+              "supports": "明确列出其领导QuEST南非中心，以及与Harvard T.H. Chan School of Public Health合作"
+            },
+            {
+              "title": "QuEST South Africa at UKZN",
+              "url": "https://www.questnetwork.org/research-centers/quest-south-africa-at-ukzn",
+              "supports": "项目方列其为Principal Investigator，说明研究旨在建立卫生系统质量改进的证据基础"
+            }
+          ],
+          "evidenceNote": "项目官网保留旧UKZN职衔，不据此判断当前大学任职；项目目标不等于已验证成效。"
+        },
+        {
+          "title": "共同研究南非医学院的初级卫生保健教学",
+          "text": "与Langalibalele Honey Mabuza合著2024年定性研究，访谈四所南非医学院的学生与教师，分析初级卫生保健教学的经验和困难。",
+          "period": 2024,
+          "source": {
+            "title": "Frontiers in Medicine原始研究",
+            "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1337140/full",
+            "supports": "2024-06-18发表，列两位作者；16组焦点小组与27次教师深度访谈；已直接读取摘要和方法"
+          },
+          "sources": [
+            {
+              "title": "Frontiers in Medicine原始研究",
+              "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1337140/full",
+              "supports": "2024-06-18发表，列两位作者；16组焦点小组与27次教师深度访谈；已直接读取摘要和方法"
+            }
+          ],
+          "evidenceNote": "定性教学研究，属于其教育与公共卫生背景；并非AI教学效果研究。"
+        }
+      ],
+      "followReason": "他把AI素养、大学治理与非洲技术可及性联系起来，值得继续观察宣布的培训安排如何落地。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "UCT官方个人简介",
+          "url": "https://uct.ac.za/contacts/mosa-moshabela",
+          "source_type": "大学官网",
+          "supports": "现职、上任时间、前职和研究领域；已直接读取"
+        },
+        {
+          "title": "UCT管理层",
+          "url": "https://uct.ac.za/about-us/management",
+          "source_type": "大学官网",
+          "supports": "当前Vice-Chancellor & Principal身份"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-mosa-moshabela.jpg",
+        "sourcePage": "https://uct.ac.za/contacts/mosa-moshabela",
+        "credit": "图源：University of Cape Town；该资料页未标摄影者",
+        "alt": "Mosa Moshabela的真实人物照片（官方来源）",
+        "processing": "仅等比缩小、JPEG压缩，无裁切或生成替代人物",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-marc-watkins",
+      "name": "Marc Watkins",
+      "identity": "密西西比大学写作与修辞高级讲师、学术创新助理主任",
+      "bio": [
+        "美国密西西比大学写作与修辞高级讲师、学术创新助理主任，主持教师AI研究院。",
+        "关注批判性AI素养、生成式AI与写作教学，也为高校和中小学教师开展培训。"
+      ],
+      "contributions": [
+        {
+          "title": "教师AI培训项目",
+          "text": "参与创建并领导Mississippi AI Institute for Teachers，自2023年开展教师培训，并将工作坊扩展至区域中小学教育者。",
+          "period": 2023,
+          "source": {
+            "title": "Ole Miss官方项目报道（2024-09-30）",
+            "url": "https://olemiss.edu/news/2024/09/mississippi-ai-institute-training/index.html",
+            "supports": "机构2023年春成立，Watkins任主任；2024年团队为80余位田纳西独立学校教师举办工作坊"
+          },
+          "sources": [
+            {
+              "title": "Ole Miss官方项目报道（2024-09-30）",
+              "url": "https://olemiss.edu/news/2024/09/mississippi-ai-institute-training/index.html",
+              "supports": "机构2023年春成立，Watkins任主任；2024年团队为80余位田纳西独立学校教师举办工作坊"
+            },
+            {
+              "title": "Ole Miss AI for Teachers",
+              "url": "https://olemiss.edu/innovation/events/ai-for-teachers/",
+              "supports": "项目由写作与修辞系创建，提供应用AI培训和开放课程资源"
+            }
+          ],
+          "evidenceNote": "项目是团队工作，不将创建或培训成效全部归功于个人；培训人次不等于学习效果。"
+        },
+        {
+          "title": "合著《The Norton Guide to AI-Aware Teaching》",
+          "text": "与Annette Vee、Derek Bruff合著2026年教学指南，提供课程目标、作业和AI使用边界的实用设计建议。",
+          "period": 2026,
+          "source": {
+            "title": "W. W. Norton出版社官方书目",
+            "url": "https://wwnorton.co.uk/books/9781324127673-the-norton-guide-to-ai-aware-teaching",
+            "supports": "核对三位作者、书名、第一版和纸版发布日期2026-09-24；已直接读取"
+          },
+          "sources": [
+            {
+              "title": "W. W. Norton出版社官方书目",
+              "url": "https://wwnorton.co.uk/books/9781324127673-the-norton-guide-to-ai-aware-teaching",
+              "supports": "核对三位作者、书名、第一版和纸版发布日期2026-09-24；已直接读取"
+            },
+            {
+              "title": "Ole Miss官方新书报道",
+              "url": "https://olemiss.edu/news/2026/06/new-national-publication-gives-guidance-to-teachers-on-ai/index.html",
+              "supports": "确认合著与面向高等教育教师的目的"
+            }
+          ],
+          "evidenceNote": "教学建议与资源，不宣称书中所有策略都已有因果效果验证。"
+        }
+      ],
+      "followReason": "他把写作课堂与教师培训的经验转化为具体AI教学取舍，适合跟进如何保留学生思考和师生信任。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Ole Miss官方教职工档案",
+          "url": "https://olemiss.edu/profiles/mwatkins.php",
+          "source_type": "大学官网",
+          "supports": "页面标题列Senior Lecturer in Composition and Rhetoric and Assistant Director of Academic Innovation；正文列AI Institute for Teachers主任与研究方向；已直接读取"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-marc-watkins.jpg",
+        "sourcePage": "https://olemiss.edu/profiles/mwatkins.php",
+        "credit": "图源：University of Mississippi；个人档案未标摄影者",
+        "alt": "Marc Watkins的真实人物照片（官方来源）",
+        "processing": "仅等比缩小、JPEG压缩，无裁切或生成替代人物",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-ellen-mandinach",
+      "name": "Ellen Mandinach",
+      "identity": "教育数据素养研究者、WestEd荣休高级研究科学家",
+      "bio": [
+        "教育数据素养研究者、WestEd荣休高级研究科学家，长期研究教师如何理解与使用数据。",
+        "著作涵盖师资培养、数据伦理和文化回应式实践，并任决策教育联盟教育顾问。"
+      ],
+      "contributions": [
+        {
+          "title": "合著《Data Literacy for Educators》",
+          "text": "与Edith Gummer合著2016年《Data Literacy for Educators》，梳理教师数据素养的知识技能，并为师资培养课程提供实施路径。",
+          "period": 2016,
+          "source": {
+            "title": "WestEd官方书目：Data Literacy for Educators",
+            "url": "https://www.wested.org/resource/data-literacy-for-educators/",
+            "supports": "作者、2016年版权、Teachers College Press出版社、内容与师资培养用途；已直接读取"
+          },
+          "sources": [
+            {
+              "title": "WestEd官方书目：Data Literacy for Educators",
+              "url": "https://www.wested.org/resource/data-literacy-for-educators/",
+              "supports": "作者、2016年版权、Teachers College Press出版社、内容与师资培养用途；已直接读取"
+            }
+          ],
+          "evidenceNote": "这里指已出版的2016年版；其第二版预定2026-10-23出版，截至本期不可写成已出版。"
+        },
+        {
+          "title": "共同主编《The Ethical Use of Data in Education》",
+          "text": "与Edith Gummer共同主编2021年《The Ethical Use of Data in Education》，讨论数据责任、认知偏误、问责压力与教育公平。",
+          "period": 2021,
+          "source": {
+            "title": "WestEd官方书目：The Ethical Use of Data in Education",
+            "url": "https://www.wested.org/resource/ethical-use-of-data-in-education/",
+            "supports": "共同主编、2021年出版信息和核心议题；已直接读取"
+          },
+          "sources": [
+            {
+              "title": "WestEd官方书目：The Ethical Use of Data in Education",
+              "url": "https://www.wested.org/resource/ethical-use-of-data-in-education/",
+              "supports": "共同主编、2021年出版信息和核心议题；已直接读取"
+            }
+          ],
+          "evidenceNote": "为多人参与的编辑文集；准确标作共同主编，不写成独著。"
+        }
+      ],
+      "followReason": "她把数据解读、伦理与学生处境放在一起，能为AI评价和自动评分提供持续的专业判断视角。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Alliance for Decision Education官方个人页",
+          "url": "https://alliancefordecisioneducation.org/learn/about-the-alliance/team/ellen-b-mandinach-ph-d/",
+          "source_type": "本人参与机构官网",
+          "supports": "现列Senior Research Scientist Emeritus, WestEd"
+        },
+        {
+          "title": "Alliance官方Education Advisory Council名单",
+          "url": "https://alliancefordecisioneducation.org/learn/about-the-alliance/councils/",
+          "source_type": "本人参与机构官网",
+          "supports": "列于Education Advisory Council，现职标荣休"
+        },
+        {
+          "title": "Bloomsbury出版社作者简介",
+          "url": "https://www.bloomsbury.com/US/author/ellen-b-mandinach/",
+          "source_type": "本人著作出版社",
+          "supports": "研究与出版领域；该页较旧的普通高级研究科学家表述不用作现职依据"
+        },
+        {
+          "title": "本人2026-09-29合著文章作者介绍",
+          "url": "https://resources.leapinnovations.org/articles/data-literacy-ethics-and-the-human-side-of-education",
+          "source_type": "本人署名文章",
+          "supports": "Senior research scientist emeritus formerly at WestEd；已直接读取"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-ellen-mandinach.jpg",
+        "sourcePage": "https://alliancefordecisioneducation.org/learn/about-the-alliance/team/ellen-b-mandinach-ph-d/",
+        "credit": "图源：Alliance for Decision Education；个人页未标摄影者",
+        "alt": "Ellen Mandinach的真实人物照片（官方来源）",
+        "processing": "从官网响应式版本等比缩小、JPEG压缩，无裁切或生成替代人物",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-kian-katanforoosh",
+      "name": "Kian Katanforoosh",
+      "identity": "Workera 联合创始人兼CEO；斯坦福大学计算机科学系 Adjunct Lecturer（兼任讲师）",
+      "bio": [
+        "Workera 联合创始人兼首席执行官、斯坦福大学计算机科学系兼任讲师，参与深度学习课程设计与教学。",
+        "关注用技能评估和个性化学习路径支持人工智能人才发展。"
+      ],
+      "contributions": [
+        {
+          "title": "Deep Learning Specialization 共同创作者",
+          "text": "与 Andrew Ng、Younes Bensouda Mourri 共同创建 DeepLearning.AI 的深度学习专项课程，内容覆盖神经网络基础及应用。",
+          "period": null,
+          "source": {
+            "title": "DeepLearning.AI：Deep Learning Specialization",
+            "url": "https://www.deeplearning.ai/specializations/deep-learning",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "DeepLearning.AI：Deep Learning Specialization",
+              "url": "https://www.deeplearning.ai/specializations/deep-learning",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        },
+        {
+          "title": "创办 Workera 技能学习平台",
+          "text": "共同创办 Workera，将技能评估与个性化学习路径结合，为学习者和组织识别能力差距提供工具。",
+          "period": null,
+          "source": {
+            "title": "Workera：About Us",
+            "url": "https://www.workera.ai/company/about-us",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "Workera：About Us",
+              "url": "https://www.workera.ai/company/about-us",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "Stanford Profiles：Kian Katanforoosh",
+              "url": "https://profiles.stanford.edu/kian-katanforoosh",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        }
+      ],
+      "followReason": "适合跟进AI技能如何评估、学习路径如何个性化，以及课程学习如何与真实职业能力连接。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Stanford Profiles：Kian Katanforoosh",
+          "url": "https://profiles.stanford.edu/kian-katanforoosh",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "title": "Workera：About Us",
+          "url": "https://www.workera.ai/company/about-us",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-kian-katanforoosh.jpg",
+        "sourcePage": "https://profiles.stanford.edu/kian-katanforoosh",
+        "credit": "来源：Stanford Profiles；页面未注明摄影者",
+        "alt": "Kian Katanforoosh的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-yuichiro-wajima",
+      "name": "和嶋雄一郎",
+      "identity": "日本北陆大学国際コミュニケーション学部心理社会学科教授、学长助理",
+      "bio": [
+        "日本北陆大学教授、学长助理，任职于国際コミュニケーション学部心理社会学科。",
+        "研究认知科学、知识工程与院校研究，讲授信息素养和数据科学，并关注教师与AI协作。"
+      ],
+      "contributions": [
+        {
+          "title": "检验AI辅助院校研究的边界",
+          "text": "作为共同研究者参加日本科研费项目，检验AI自动生成教学院校研究报告的可行性；团队用模拟数据及访谈、问卷文本试验，结项明确仍需人工解释与核查。",
+          "period": "2021–2024",
+          "source": {
+            "title": "KAKEN项目21H00878及结项摘要",
+            "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21H00878/",
+            "source_type": "一手官网／机构资料",
+            "directly_read": true,
+            "note": "和嶋列为共同研究者，主持人为川嶋太津夫；旧任职不是现职"
+          },
+          "sources": [
+            {
+              "title": "KAKEN项目21H00878及结项摘要",
+              "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21H00878/",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true,
+              "note": "和嶋列为共同研究者，主持人为川嶋太津夫；旧任职不是现职"
+            }
+          ],
+          "evidenceNote": "属于共同研究成果；不写为个人独立成果，也不声称已实现可靠全自动化。"
+        },
+        {
+          "title": "把教师福祉纳入AI教育研究",
+          "text": "参与“教师与AI：以AI支持教师福祉”研究，梳理教师业务与AI代替的边界；2026年3月在共同研究研讨会上分享教育现场生成式AI的实践方法。",
+          "period": "2025–2026",
+          "source": {
+            "title": "教师与AI研究介绍",
+            "url": "https://www.hokuriku-u.ac.jp/well-being/research/14/",
+            "source_type": "一手官网／机构资料",
+            "directly_read": true
+          },
+          "sources": [
+            {
+              "title": "教师与AI研究介绍",
+              "url": "https://www.hokuriku-u.ac.jp/well-being/research/14/",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true
+            },
+            {
+              "title": "北陆大学研讨会官方报道",
+              "url": "https://www.hokuriku-u.ac.jp/sptopics/202603271627.html",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true
+            }
+          ],
+          "evidenceNote": "研究目标和已举行的实践分享可核验；未见该项目量化效果结果，不把预期效益当成已证实成果。"
+        }
+      ],
+      "followReason": "值得跟进他如何把认知科学、院校数据与教师福祉结合，形成可审查的AI任务设计，而不只讨论工具效率。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "北陆大学教师介绍",
+          "url": "https://www.hokuriku-u.ac.jp/about/teacher/y-wajima.html",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "专业与教学科目"
+        },
+        {
+          "title": "北陆大学教育研究信息",
+          "url": "https://gyoseki.acoffice.jp/hruhp/KgApp/k03/resid/S000391",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "页面最后更新2026-05-08；院系、教授职称与研究者编号20572093"
+        },
+        {
+          "title": "北陆大学：教师与AI共同研究研讨会",
+          "url": "https://www.hokuriku-u.ac.jp/sptopics/202603271627.html",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "2026-03-27报道，列明学长助理（新学科设置、IR负责）"
+        }
+      ],
+      "profileCaveats": [
+        "截至2026-10-06仍使用国際コミュニケーション学部现职；不提前采用网站为2027年招生宣传的新院系名称。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-yuichiro-wajima.jpg",
+        "sourcePage": "https://www.hokuriku-u.ac.jp/well-being/members/14/",
+        "credit": "北陆大学 Well-being Research Team 官方教师介绍；未注明摄影者",
+        "alt": "和嶋雄一郎的真实人物照片（官方来源）",
+        "processing": "仅等比缩小与JPEG压缩，未裁切、换脸或生成。",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      },
+      "identityEvidence": "北陆大学具名教师页、学校研究信息页与早稻田2026-10-05活动报道交叉一致。研究者编号20572093连接KAKEN历史项目。"
+    },
+    {
+      "id": "person-zhang-bo",
+      "name": "张博",
+      "identity": "西安交通大学生命科学与技术学院高级工程师",
+      "bio": [
+        "西安交通大学生命科学与技术学院高级工程师，研究医学影像智能分析及医疗、教学实验设备研发。",
+        "她将生物医学工程实践教学与创新创业课程结合，探索知识图谱、AI助教和课赛融合。"
+      ],
+      "contributions": [
+        {
+          "title": "建设AI辅助实验教学案例",
+          "text": "校方列其为陕西省本科教学“人工智能+”典型案例负责人，实践入选校内首批智慧课程建设案例；她在实验教学中展示知识图谱与AI助教的使用。",
+          "period": "截至2026年5月",
+          "source": {
+            "title": "教师教学发展中心主讲人简介",
+            "url": "https://ctld.xjtu.edu.cn/info/1006/6037.htm",
+            "source_type": "一手官网／机构资料",
+            "directly_read": true,
+            "note": "2026-05-09"
+          },
+          "sources": [
+            {
+              "title": "教师教学发展中心主讲人简介",
+              "url": "https://ctld.xjtu.edu.cn/info/1006/6037.htm",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true,
+              "note": "2026-05-09"
+            },
+            {
+              "title": "实验教学改革分享报道",
+              "url": "https://news.xjtu.edu.cn/info/1007/232022.htm",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true
+            }
+          ],
+          "evidenceNote": "校方介绍与活动记录可核验；没有独立学习成效数据，不据此声称提高成绩。"
+        },
+        {
+          "title": "自制生物医学工程教学设备",
+          "text": "面向生物医学工程交叉学科自主研发轻量化教学设备，并在教师研讨中分享自制设备、实践任务及课赛融合的教学安排。",
+          "period": "截至2026年5月",
+          "source": {
+            "title": "西安交大实验教学改革专题报道",
+            "url": "https://news.xjtu.edu.cn/info/1007/232022.htm",
+            "source_type": "一手官网／机构资料",
+            "directly_read": true
+          },
+          "sources": [
+            {
+              "title": "西安交大实验教学改革专题报道",
+              "url": "https://news.xjtu.edu.cn/info/1007/232022.htm",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true
+            }
+          ],
+          "evidenceNote": "报道确认研发及分享；未提供具体设备型号、开放设计文件或对照评测，不扩写产品性能。"
+        }
+      ],
+      "followReason": "值得跟进她如何让AI辅助回到实体实验、项目落地与答辩训练，尤其是成本、学生独立思考和可复用教案。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "西安交大张博教师主页：研究领域",
+          "url": "https://faculty.xjtu.edu.cn/bo_zhang/zh_CN/zdylm/987387/list/index.htm",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "明确列性别女、生命科学与技术学院、高级工程师、生物医学工程"
+        },
+        {
+          "title": "西安交大实验教学改革专题报道",
+          "url": "https://news.xjtu.edu.cn/info/1007/232022.htm",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "2026-05-17"
+        }
+      ],
+      "profileCaveats": [
+        "不与西安交大其他院系的张博或同名教授合并；不引用无法精确匹配的论文和奖项总数。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-zhang-bo.jpg",
+        "sourcePage": "https://faculty.xjtu.edu.cn/bo_zhang/zh_CN/zdylm/987387/list/index.htm",
+        "credit": "西安交通大学张博教师主页；未注明摄影者",
+        "alt": "张博的真实人物照片（官方来源）",
+        "processing": "转换为JPEG并压缩，保留原始241×290像素和完整画面。",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      },
+      "identityEvidence": "使用faculty.xjtu.edu.cn/bo_zhang/这一明确标注女性、生命学院高级工程师的个人页，并与2026年5月及9月校方活动报道交叉核验。"
+    },
+    {
+      "id": "person-yang-bei",
+      "name": "杨蓓",
+      "identity": "湖南第一师范学院美术与设计学院副教授、硕士生导师",
+      "bio": [
+        "湖南第一师范学院美术与设计学院副教授、硕士生导师，教育学博士。",
+        "研究视觉传达、数字与交互设计，主讲交互设计和数字图像处理等课程，近年将AIGC、数字伦理与真实项目引入教学。"
+      ],
+      "contributions": [
+        {
+          "title": "从线上PS课程走向AI辅助创作",
+          "text": "2017年建设《数字图像处理Photoshop》线上课，2020年获省级一流课程认定；近年结合AI生图、PS精修与数字伦理讨论，面向非艺术专业学生开展创作教学。",
+          "period": "2017年至今",
+          "source": {
+            "title": "校方教学专访：数智融合，让课堂与时代同频共振",
+            "url": "https://www.hnfnu.edu.cn/info/1043/32518.htm",
+            "source_type": "一手官网／机构资料",
+            "directly_read": true
+          },
+          "sources": [
+            {
+              "title": "校方教学专访：数智融合，让课堂与时代同频共振",
+              "url": "https://www.hnfnu.edu.cn/info/1043/32518.htm",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true
+            }
+          ],
+          "evidenceNote": "课程建设、认定与教学流程为校方报道；不把报道中的积极评价当成独立因果证据。"
+        },
+        {
+          "title": "以真实场馆项目研究交互设计",
+          "text": "主持“数字化赋能下红色场馆互动体验与情感设计研究”，带学生围绕“青年毛泽东成长之路”主题APP，探索沉浸式叙事和情感化交互设计。",
+          "period": "截至2025年7月",
+          "source": {
+            "title": "校方教学专访：科研与交互设计项目",
+            "url": "https://www.hnfnu.edu.cn/info/1043/32518.htm",
+            "source_type": "一手官网／机构资料",
+            "directly_read": true
+          },
+          "sources": [
+            {
+              "title": "校方教学专访：科研与交互设计项目",
+              "url": "https://www.hnfnu.edu.cn/info/1043/32518.htm",
+              "source_type": "一手官网／机构资料",
+              "directly_read": true
+            }
+          ],
+          "evidenceNote": "校方确认省教育厅科学研究重点项目与参与方式；未称该APP已经公开上线或已有量化使用成效。"
+        }
+      ],
+      "followReason": "值得跟进她如何把生成工具、传统美学、数字伦理和企业真实任务放进同一课堂，观察学生的构思与判断能否保留。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "美术与设计学院：视觉传达设计系杨蓓",
+          "url": "https://msy.hnfnu.edu.cn/info/1022/2520.htm",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "具名教师页列任职、研究方向、博士学位及课程"
+        },
+        {
+          "title": "湖南第一师范学院研究生导师名单",
+          "url": "https://xkc.hnfnu.edu.cn/info/1143/3983.htm",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "2026-01-08名单第99项：杨蓓，女，副教授，博士，硕导，美术与设计学院"
+        },
+        {
+          "title": "校方杨蓓教学专访",
+          "url": "https://www.hnfnu.edu.cn/info/1043/32518.htm",
+          "source_type": "一手官网／机构资料",
+          "directly_read": true,
+          "note": "2025-07-09，列AIGC及数字伦理教学做法"
+        }
+      ],
+      "profileCaveats": [
+        "官方教师页面标示原发布日期2022-04-11，但内容含随后更新的信息；现职另以2026-01-08导师名单核实。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-yang-bei.jpg",
+        "sourcePage": "https://msy.hnfnu.edu.cn/info/1022/2520.htm",
+        "credit": "湖南第一师范学院美术与设计学院杨蓓教师页；未注明摄影者",
+        "alt": "杨蓓的真实人物照片（官方来源）",
+        "processing": "仅等比缩小为232×300并转JPEG压缩，未裁切、换脸或生成。",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      },
+      "identityEvidence": "9月报道本身未列单位，但同校同学院具名教师页和2026年研究生导师名单均列杨蓓为美术与设计学院副教授；2025年官方专访内容同属AI设计教育。"
+    },
+    {
+      "id": "person-eni-wulandari",
+      "name": "Eni Wulandari",
+      "identity": "印度尼西亚日惹SLBN 2 Gunungkidul特殊教育教师",
+      "bio": [
+        "印度尼西亚日惹特殊教育教师，任教于SLBN 2 Gunungkidul，教学涵盖小学至高中。",
+        "她把计算思维、视觉支架与语音工具用于个别化教学，关注学生理解步骤与自主表达。"
+      ],
+      "contributions": [
+        {
+          "title": "把计算思维融入特殊教育的生活任务",
+          "text": "在2025年教育部论坛分享教学实践：把洗手、进入教室等活动分解成可视化步骤，并将编程思维与AI用于特殊教育的生活技能学习。",
+          "period": "2025–2026",
+          "source": {
+            "title": "教育部：2025年12月17日论坛回顾",
+            "url": "https://pkplk.kemendikdasmen.go.id/gelar-wicara-gelar-karya-vokasi-pkplk-2025-soroti-koding-dan-ka-untuk-semua-anak/"
+          },
+          "sources": [
+            {
+              "title": "教育部：2025年12月17日论坛回顾",
+              "url": "https://pkplk.kemendikdasmen.go.id/gelar-wicara-gelar-karya-vokasi-pkplk-2025-soroti-koding-dan-ka-untuk-semua-anak/"
+            },
+            {
+              "title": "教育部：2026年1月26日教学案例",
+              "url": "https://pkplk.kemendikdasmen.go.id/koding-untuk-abk-ini-beberapa-manfaatnya-menurut-guru-slbn-2-gunungkidul/"
+            }
+          ],
+          "evidenceNote": "官方报道中的教师经验；未提供独立对照研究，不宣称证明AI改善学习成效。"
+        }
+      ],
+      "followReason": "她把AI的价值落在学生能否看懂步骤、表达意图和参与课堂，适合跟进无障碍学习设计。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Google：教师署名案例与任职",
+          "url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/"
+        },
+        {
+          "title": "印尼教育部：特殊教育编程实践",
+          "url": "https://pkplk.kemendikdasmen.go.id/koding-untuk-abk-ini-beberapa-manfaatnya-menurut-guru-slbn-2-gunungkidul/"
+        }
+      ],
+      "profileCaveats": [
+        "现职以2026-10-05署名文章为依据。人物图片使用教育部论坛报道中的发言者局部，不含学生肖像。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-eni-wulandari.jpg",
+        "sourcePage": "https://pkplk.kemendikdasmen.go.id/gelar-wicara-gelar-karya-vokasi-pkplk-2025-soroti-koding-dan-ka-untuk-semua-anak/",
+        "credit": "图源：印度尼西亚教育部PKPLK，2025年12月论坛报道（局部）；未注明摄影者",
+        "alt": "Eni Wulandari的真实人物照片（官方来源）",
+        "processing": "仅为人物卡进行裁切、等比缩小和JPEG压缩，未生成、修饰或改变人物",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-tori-engel",
+      "name": "Tori Engel",
+      "identity": "美国Carriel Junior High计算机科学与技术教师",
+      "bio": [
+        "美国伊利诺伊州Carriel Junior High计算机科学与技术教师。",
+        "曾在圣路易斯华盛顿大学管理Code.org地区合作，并参与K–8科学课程教师培训，将计算机科学融入学科教学。"
+      ],
+      "contributions": [
+        {
+          "title": "推动Code.org课程教师培训",
+          "text": "在圣路易斯华盛顿大学任首席教学专员期间管理Code.org地区合作，并主持Computer Science Principles教师工作坊。",
+          "period": "2024年前的四年任职期",
+          "source": {
+            "title": "伊利诺伊州立大学：Tori Engel讲者简介",
+            "url": "https://cemast.illinoisstate.edu/teachers/noyce-conference/speakers/"
+          },
+          "sources": [
+            {
+              "title": "伊利诺伊州立大学：Tori Engel讲者简介",
+              "url": "https://cemast.illinoisstate.edu/teachers/noyce-conference/speakers/"
+            }
+          ],
+          "evidenceNote": "官方会议简介确认工作范围；不将合作项目全部归功于个人。"
+        },
+        {
+          "title": "参与mySci科学课程专业发展",
+          "text": "参与开发、修订并主持面向K–8 mySci课程的教师培训，将计算机科学概念融入科学教学。",
+          "period": "2024年前",
+          "source": {
+            "title": "伊利诺伊州立大学：Tori Engel讲者简介",
+            "url": "https://cemast.illinoisstate.edu/teachers/noyce-conference/speakers/"
+          },
+          "sources": [
+            {
+              "title": "伊利诺伊州立大学：Tori Engel讲者简介",
+              "url": "https://cemast.illinoisstate.edu/teachers/noyce-conference/speakers/"
+            }
+          ],
+          "evidenceNote": "项目参与和培训职责可核验；未取得独立效果评估。"
+        }
+      ],
+      "followReason": "她兼有课程开发、教师培训与初中项目课经验，适合观察AI怎样进入学生合作、修改和成品展示的真实流程。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Google：教师署名案例与任职",
+          "url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/"
+        },
+        {
+          "title": "伊利诺伊州立大学：2024年Noyce会议讲者",
+          "url": "https://cemast.illinoisstate.edu/teachers/noyce-conference/speakers/"
+        }
+      ],
+      "profileCaveats": [
+        "不把2024年简介中的博士在读状态或教龄作为2026年已更新事实；现职另用本周署名文章核对。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-tori-engel.jpg",
+        "sourcePage": "https://cemast.illinoisstate.edu/teachers/noyce-conference/speakers/",
+        "credit": "图源：Illinois State University CeMaST；未注明摄影者",
+        "alt": "Tori Engel的真实人物照片（官方来源）",
+        "processing": "仅为人物卡进行裁切、等比缩小和JPEG压缩，未生成、修饰或改变人物",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-cheryl-graff",
+      "name": "Cheryl Graff",
+      "identity": "美国芝加哥Lake View High School特殊教育教师",
+      "bio": [
+        "美国芝加哥Lake View High School特殊教育教师，开展英语与生活技能教学。",
+        "她结合语音转文字、图示组织工具和分步任务，为不同学习需要的学生提供阅读、写作及线下活动支持。"
+      ],
+      "contributions": [
+        {
+          "title": "让写作支持适配不同学习需要",
+          "text": "在个人作文课中组合语音转文字、句式开头、图示组织工具及分步目标，按学生需要混用屏幕和纸面材料；相关做法由Verizon课堂采访记录。",
+          "period": "2025",
+          "source": {
+            "title": "Verizon：Diverse learners，2025-10-07",
+            "url": "https://www.verizon.com/about/news/diverse-learners"
+          },
+          "sources": [
+            {
+              "title": "Verizon：Diverse learners，2025-10-07",
+              "url": "https://www.verizon.com/about/news/diverse-learners"
+            }
+          ],
+          "evidenceNote": "机构案例采访，不是独立效果研究；不把一节课的观察推广为普遍因果结论。"
+        },
+        {
+          "title": "把生活技能变成可操作的课堂活动",
+          "text": "在生活技能课程中用AI辅助准备果昔食谱和营养情境，让学生实际混合材料、练习有意识的饮食选择。",
+          "period": "2026年10月前已开展",
+          "source": {
+            "title": "Google：教师署名课堂案例",
+            "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/"
+          },
+          "sources": [
+            {
+              "title": "Google：教师署名课堂案例",
+              "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/"
+            }
+          ],
+          "evidenceNote": "来自本周发布的教师自述，具体实施日期未披露；不能作为营养或健康建议。"
+        }
+      ],
+      "followReason": "她持续把技术支持带回写作过程与动手任务，适合跟进AI备课如何兼顾参与机会、个别需要和教师判断。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-06",
+      "profileSources": [
+        {
+          "title": "Lake View High School：教师目录",
+          "url": "https://www.lakeviewhs.com/apps/pages/index.jsp?type=u&uREC_ID=1517175"
+        },
+        {
+          "title": "Google：教师署名案例与任职",
+          "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/"
+        },
+        {
+          "title": "Verizon：课堂案例采访",
+          "url": "https://www.verizon.com/about/news/diverse-learners"
+        }
+      ],
+      "profileCaveats": [
+        "没有沿用任何同名地区督学资料；简介只使用与Lake View High School明确关联的教育工作信息。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-cheryl-graff.jpg",
+        "sourcePage": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/",
+        "credit": "图源：Google The Keyword，Cheryl Graff署名文章；未注明摄影者",
+        "alt": "Cheryl Graff的真实人物照片（官方来源）",
+        "processing": "仅为人物卡进行裁切、等比缩小和JPEG压缩，未生成、修饰或改变人物",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "asOf": "2026-10-06",
+  "publicationStatus": "public-edition"
+}

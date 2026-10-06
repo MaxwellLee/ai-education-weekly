@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "latestIssueId": "001",
+  "libraryAsOf": "2026-10-06",
+  "issues": [
+    {
+      "id": "001",
+      "number": 1,
+      "date": "2026-10-06",
+      "title": "全球 AI 教育与创意观察",
+      "file": "issues/001.json"
+    }
+  ]
+}

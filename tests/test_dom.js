@@ -1,0 +1,36 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict'),path=require('path');
+const ROOT=(fs.existsSync(path.resolve(__dirname,'../data'))?path.resolve(__dirname,'..'):path.resolve(__dirname,'../src')),raw=JSON.parse(fs.readFileSync(__dirname+'/dom.json'));
+class El{
+ constructor(o={}){Object.assign(this,o);this.dataset=o.dataset||{};this.listeners={};this.attrs=o.attrs||{};this.hidden='hidden' in this.attrs;this.value='';this.textContent='';this.classes=new Set();this.classList={toggle:(v,b)=>b?this.classes.add(v):this.classes.delete(v)};}
+ setAttribute(k,v){this.attrs[k]=v}removeAttribute(k){delete this.attrs[k]}addEventListener(k,cb){this.listeners[k]=cb}scrollIntoView(){this.scrolled=true}focus(){this.focused=true}replaceChildren(c){this.content=c}closest(){return this}
+ trigger(type,event={}){this.listeners[type]?.({target:this,preventDefault(){},...event})}
+}
+function setup(input=raw,initial=''){
+ const lists={'.facet':input.facets.map(x=>new El(x)),'.scope-button':input.scope.map(x=>new El(x)),'.nav [data-page]':input.nav.map(x=>new El(x)),'[data-weekly-page]':input.pages.map(x=>new El(x)),'.creative-card':input.cards.map(x=>new El(x))};
+ const ids={};for(const id of input.ids)ids[id]=new El({id});for(const list of Object.values(lists))for(const e of list)if(e.id)ids[e.id]=e;
+ ids['app-data'].textContent=JSON.stringify(input.app);
+ for(const issue of input.app.manifest.issues){ids['issue-template-'+issue.id]=new El();ids['issue-template-'+issue.id].content={cloneNode(){return {issue:issue.id}}};}
+ const docListeners={},winListeners={};const document={querySelector(s){return ids[s.slice(1)]},querySelectorAll(s){return lists[s]||[]},getElementById(s){return ids[s]},addEventListener(k,cb){docListeners[k]=cb}};
+ let position=0;const stack=[initial],win={location:{hash:initial},addEventListener(k,cb){winListeners[k]=cb;}};
+ win.history={pushState(o,t,hash){stack.splice(position+1);stack.push(hash);position++;win.location.hash=hash},replaceState(o,t,hash){stack[position]=hash;win.location.hash=hash},back(){if(position){win.location.hash=stack[--position];winListeners.popstate();}},forward(){if(position<stack.length-1){win.location.hash=stack[++position];winListeners.popstate();}}};
+ const context={window:win,document,Set,JSON,URLSearchParams};vm.runInNewContext(fs.readFileSync(ROOT+'/core.js','utf8'),context);vm.runInNewContext(fs.readFileSync(ROOT+'/interactions.js','utf8'),context);
+ return {ids,lists,win,document,visible:()=>lists['.creative-card'].filter(x=>!x.hidden).length,click:(e)=>docListeners.click({target:e,preventDefault(){}}),hash(hash){win.location.hash=hash;winListeners.hashchange();}};
+}
+let h=setup(),{ids,lists,win}=h;
+assert.equal(h.visible(),15);assert.equal(ids['weekly-panel'].hidden,false);assert.equal(ids['library-panel'].hidden,true);assert.equal(ids['previous-issue'].disabled,true);assert.equal(ids['next-issue'].disabled,true);assert.equal(ids['latest-issue'].disabled,true);assert.equal(win.location.hash,'#issue=001&page=preview');
+for(const a of lists['.nav [data-page]']){h.click(a);assert.equal(lists['[data-weekly-page]'].filter(x=>!x.hidden).length,1);assert.equal(lists['[data-weekly-page]'].find(x=>!x.hidden).dataset.weeklyPage,a.dataset.page);assert.equal(a.attrs['aria-current'],'page');}
+h.click(lists['.nav [data-page]'][2]);h.click(new El({dataset:{openLibrary:''}}));assert.equal(ids['library-panel'].hidden,false);assert.equal(ids['weekly-panel'].hidden,true);assert.equal(ids['weekly-navigation'].hidden,true);assert.equal(ids['issue-toolbar'].hidden,true);assert.match(ids['return-weekly'].textContent,/公众人物言论/);
+const preschool=lists['.facet'].find(x=>x.dataset.value==='学前教育'),primary=lists['.facet'].find(x=>x.dataset.value==='小学教育');preschool.trigger('click');let n=h.visible();assert(n>0&&n<15);primary.trigger('click');assert(h.visible()>=n);assert.equal(primary.attrs['aria-pressed'],'true');
+ids['idea-query'].value='none8831782';ids['idea-query'].trigger('input');assert.equal(h.visible(),0);assert.equal(ids['empty-filter'].hidden,false);
+h.click(new El({dataset:{returnWeekly:''}}));assert.equal(ids['weekly-panel'].hidden,false);assert.equal(lists['[data-weekly-page]'].find(x=>!x.hidden).dataset.weeklyPage,'people');
+win.history.back();assert.equal(ids['library-panel'].hidden,false);assert.equal(h.visible(),0);assert.equal(ids['idea-query'].value,'none8831782');win.history.forward();assert.equal(ids['weekly-panel'].hidden,false);win.history.back();
+ids['reset-filters'].trigger('click');assert.equal(h.visible(),15);assert.equal(ids['empty-filter'].hidden,true);assert.equal(ids['idea-query'].value,'');
+h.hash('#issue=001&page=education&focus=edu06');assert.equal(ids['edu06'].focused,true);assert.equal(ids['library-panel'].hidden,true);assert.equal(lists['[data-weekly-page]'].find(x=>!x.hidden).dataset.weeklyPage,'education');
+h.hash('#issue=001&page=updates&view=library&q=impossible88318892');assert.equal(h.visible(),0);assert.match(ids['return-weekly'].textContent,/更新须知/);
+console.log('PASS: actual DOM controller: default issue, four views, isolated library, selected-page return, browser back/forward and hash restoration, facets/ARIA, empty state, clearing and article focus.');
+const multi=JSON.parse(JSON.stringify(raw));multi.app.manifest.issues.push({id:'fixture-a',date:'2099-01-01',title:'TEST ONLY A'},{id:'fixture-b',date:'2099-01-08',title:'TEST ONLY B'});multi.app.manifest.latestIssueId='fixture-b';
+for(const key of ['a','b']){multi.app.ideas.push({id:'fixture-'+key,title:'fixture',firstIssue:'fixture-'+key,categories:[],educationLevels:[],audienceTypes:[],scopeTags:[],difficultyGroup:'入门'});multi.cards.push({dataset:{ideaId:'fixture-'+key}});}
+h=setup(multi);({ids,lists,win}=h);assert.equal(h.visible(),17);assert.equal(ids['issue-content'].content.issue,'fixture-b');ids['previous-issue'].trigger('click');assert.equal(ids['issue-content'].content.issue,'fixture-a');assert.equal(h.visible(),17);
+h.click(lists['.nav [data-page]'][1]);h.click(new El({dataset:{openLibrary:''}}));lists['.scope-button'].find(x=>x.dataset.scope==='issue').trigger('click');assert.equal(h.visible(),1);h.click(new El({dataset:{returnWeekly:''}}));assert.equal(ids['issue-content'].content.issue,'fixture-a');assert.equal(lists['[data-weekly-page]'].find(x=>!x.hidden).dataset.weeklyPage,'education');
+ids['previous-issue'].trigger('click');assert.equal(ids['issue-content'].content.issue,'001');assert.equal(h.visible(),17);h.click(new El({dataset:{openLibrary:''}}));assert.equal(h.visible(),17);assert.equal(lists['.scope-button'][0].attrs['aria-pressed'],'true');h.click(new El({dataset:{returnWeekly:''}}));ids['latest-issue'].trigger('click');assert.equal(ids['issue-content'].content.issue,'fixture-b');ids['previous-issue'].trigger('click');ids['next-issue'].trigger('click');assert.equal(ids['issue-content'].content.issue,'fixture-b');win.history.back();assert.equal(ids['issue-content'].content.issue,'fixture-a');
+console.log('PASS: actual controller with isolated unpublished fixtures: snapshot swapping, previous/next/latest/back, return to historical issue/page, filter reset on issue change, all 17 cumulative ideas retained.');

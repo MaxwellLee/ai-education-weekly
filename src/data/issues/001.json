@@ -1,0 +1,1415 @@
+{
+  "schemaVersion": 2,
+  "id": "001",
+  "number": 1,
+  "date": "2026-10-06",
+  "title": "全球 AI 教育与创意观察",
+  "window": {
+    "start": "2026-09-29",
+    "end": "2026-10-06",
+    "note": "以截至核验时已发布内容为准；发布日期与事件日期分别记录。"
+  },
+  "cutoff": "2026-10-06T05:16:00Z",
+  "revisionNote": "2026-10-06 修订：扩展全球教育范围、跨平台人物动态，加入独立期刊归档与共享累计创意库。",
+  "education": {
+    "title": "全球 AI + 教育周刊",
+    "issue": "2026-10-06 · 第001期 · 修订预览",
+    "cutoff": "2026-10-06T05:16:00Z",
+    "window": {
+      "start": "2026-09-29",
+      "end": "2026-10-06",
+      "note": "以截至核验时已发布内容为准；发布日期与事件日期分别记录。"
+    },
+    "summaries": [
+      {
+        "title": "全球课堂与职场，都在尝试新路径",
+        "summary": "本周的AI教育实践横跨中小学课堂、高等教育和职场培训：既有学生协作创作与特殊教育支持，也有大学顾问培训、机构知识治理和工程师驻岗学习。",
+        "target": "edu03"
+      },
+      {
+        "title": "参与感不是学习成效的替代指标",
+        "summary": "新研究提示：产品使用、参与感与学习成效要分开看。小学亲子游戏研究没有非AI对照组；高教STEAM研究测量的是学生自报感受，都不能直接证明AI带来因果增益。",
+        "target": "edu12"
+      },
+      {
+        "title": "教师能力与治理，需要同步建设",
+        "summary": "教育者仍是实施的关键：教师发展机会、适龄设计和部署前伦理审查同时出现。窗口外工具与课程另作背景，所有报名、地区和年龄条件单独标明。",
+        "target": "edu01"
+      }
+    ],
+    "items": [
+      {
+        "id": "edu01",
+        "title": "TED × Google面向全球教师征集AI教学实践",
+        "category": "教师发展",
+        "tags": [
+          "教师发展",
+          "全球",
+          "行动机会"
+        ],
+        "date": "2026-10-05",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "summary": "TED与Google启动全球教育者AI教学想法征集。完成免费、异步、约1小时的Idea Workshop后，可获得TED官方公开演讲课程等资源，并提交想法；将选出5位教育者登上TED2027。",
+        "why": "把分散的课堂尝试转化为可解释、可讨论的教学想法，为不同学段的教师提供交流与专业发展机会。",
+        "limits": "官方列明小学、中学及高教教育者，未明确纳入学前教育。想法提交截止为2026-11-15 23:59 ET；所述工作坊和完成后资源免费，差旅资助及额外条款未核实。",
+        "application": "适合有实际AI课堂或课程设计经验的教师梳理教学问题、实施过程与证据，再决定是否报名；也可作为校本教研分享的结构参考。",
+        "sources": [
+          {
+            "label": "TED官方公告",
+            "url": "https://blog.ted.com/ai-is-changing-how-we-teach-and-learn-educators-should-shape-what-comes-next/"
+          },
+          {
+            "label": "Google世界教师日专题",
+            "url": "https://blog.google/products-and-platforms/products/education/world-teachers-day-2026/"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "官方一手页面已打开核验",
+        "metrics": null,
+        "eventDate": "2026-10-05",
+        "evidence": "TED页面日期10月5日；正文明确1小时异步工作坊、5位入选者及11月15日截止。",
+        "availability": {
+          "audience": "小学、中学及高教教育者；幼教资格未确认",
+          "region": "全球征集",
+          "price": "工作坊及所列完成后资源免费",
+          "deadline": "2026-11-15T23:59:00-05:00"
+        },
+        "image": {
+          "url": "https://blog.ted.com/wp-content/uploads/sites/2/2026/10/blog-image-1200-x-600-px.jpg",
+          "sourceUrl": "https://blog.ted.com/ai-is-changing-how-we-teach-and-learn-educators-should-shape-what-comes-next/",
+          "credit": "TED / Google官方配图",
+          "type": "官方宣传图",
+          "verified": "由官方原文图片链接打开；非产品实测截图",
+          "rights": "未核实再发布许可，预览如使用请署名并链接原文"
+        },
+        "educationLevels": [
+          "小学教育",
+          "初中教育",
+          "高中阶段教育",
+          "高等教育"
+        ],
+        "stageGroups": [
+          "小学教育",
+          "初中教育",
+          "高中阶段教育",
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "classificationNote": "原文直接列primary、secondary、higher education，secondary按中国UI拆为初中/高中；未明示学前。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "项目与机会"
+      },
+      {
+        "id": "edu02",
+        "title": "Anthropic投入1亿美元，把企业AI培训做成驻岗实作",
+        "category": "职业与继续教育",
+        "tags": [
+          "职业教育",
+          "Anthropic",
+          "能力认证"
+        ],
+        "date": "2026-10-02",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "summary": "Claude Frontier Academy宣布投入1亿美元，目标于2027年底培养1万名Frontier Deployed Engineers。路径包括多天线下模拟部署、实作考核，以及12周在本单位完成真实Claude项目的驻岗学习。",
+        "why": "值得关注的是评价方式：先完成任务，再用新情境验证能力，最后回到真实工作。证书并非只由看课或选择题取得。",
+        "limits": "首批在旧金山、纽约、伦敦开展；由组织提名，面向具备软件基础及LLM开发经验的工程师。并非向公众开放的免费入门课，个人价格未披露。首批完整认证预计2027年初。",
+        "application": "企业学习负责人可观察“模拟部署—陌生情境实作—本单位真实项目”的培训与认证路径，重点核验项目迁移、主管支持和后续能力表现。",
+        "sources": [
+          {
+            "label": "Anthropic官方公告",
+            "url": "https://www.anthropic.com/news/claude-frontier-academy"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "官方一手页面已打开核验",
+        "metrics": null,
+        "eventDate": "2026-10-02",
+        "evidence": "原文明确1亿美元、1万人目标、组织提名、三地首批、12周驻岗和两次实作评估。",
+        "availability": {
+          "audience": "有经验的软件工程师，组织提名",
+          "region": "首批旧金山、纽约、伦敦",
+          "price": "未披露"
+        },
+        "image": {
+          "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg",
+          "sourceUrl": "https://www.anthropic.com/news/claude-frontier-academy",
+          "credit": "Anthropic官方配图",
+          "type": "官方宣传图",
+          "verified": "URL由官方图片链接解析，检索器不支持SVG，未视觉核验",
+          "rights": "未核实再发布许可"
+        },
+        "educationLevels": [],
+        "stageGroups": [],
+        "audienceTypes": [
+          "职业教育",
+          "成人与继续教育"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "classificationNote": "企业在职实作培训，未对应特定学历层级，不按成年或工程师身份强归高等教育。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "项目与机会"
+      },
+      {
+        "id": "edu03",
+        "title": "中小学课堂实践：特殊教育视觉支持与学生新闻项目",
+        "category": "K–12课堂实践",
+        "tags": [
+          "特殊教育",
+          "项目式学习",
+          "中小学",
+          "印度尼西亚",
+          "美国"
+        ],
+        "date": "2026-10-05",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "summary": "世界教师日案例中，印尼特殊教育教师Eni Wulandari描述学生用语音提示表达想法并生成图像；美国教师Tori Engel介绍八年级学生用Gemini协作校内新闻节目，打磨脚本、安排镜头。",
+        "why": "两个案例分别呈现AI的无障碍支架和项目式学习用途：帮助学习者理解指令、表达想法，或支持团队从构思到作品迭代。",
+        "limits": "Google发布的教师自述，未提供对照实验或量化学习成效；10月5日是报道日期，课堂实施日期未披露。原文未完整说明账户年龄、价格与地区条件，案例不能替代学校的使用许可与隐私审查。",
+        "application": "特殊教育团队可评估视觉指令是否被学生准确理解；项目式课程可比较学生初稿、AI建议与最终作品，观察原创决策、协作过程和学科目标是否真正达成。",
+        "sources": [
+          {
+            "label": "印尼特殊教育教师原文",
+            "url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/"
+          },
+          {
+            "label": "美国八年级新闻播报原文",
+            "url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "官方平台上的教师一手自述；非独立效果研究",
+        "metrics": null,
+        "eventDate": null,
+        "evidence": "两页都标10月5日；原文分别描述语音提示生成图片及学生协作脚本和镜头清单。",
+        "availability": {
+          "audience": "原案例为小学至高中特殊教育学生，以及八年级学生",
+          "region": "案例发生地为印度尼西亚、美国",
+          "price": "原文未披露"
+        },
+        "educationLevels": [
+          "小学教育",
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "stageGroups": [
+          "小学教育",
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "classificationNote": "印尼案例明示elementary、junior、senior high；美国案例明示8th grade。特殊教育是类型而非单独学段。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "课堂案例"
+      },
+      {
+        "id": "edu04",
+        "title": "Google.org把高教AI支持延伸到成人学习与社区学院",
+        "category": "高等教育",
+        "tags": [
+          "成人学习",
+          "社区学院",
+          "职业衔接"
+        ],
+        "date": "2026-09-30",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "summary": "Google.org公布三项高教支持方向：在30所大学测试面向成人学习者的教师与顾问培训；收集10种AI增强的职业相关社区学习模式；支持社区学院重构规划，并计划2027年初启动新一轮州级竞赛。",
+        "why": "关注点是教师、顾问、课程和机构能力如何一起改变，而不只是向学生发放聊天机器人账户。",
+        "limits": "属于资助及实施计划，不能写成已证实的学习成效。面向美国高教体系的项目为主；原文未披露资助总额或面向个人的价格，未来竞赛尚未启动。页面摘要写三项，正文引言误称两项，本条按实际三个章节归纳。",
+        "application": "高教机构可先选定成人学习者、职业衔接或学生咨询中的一个问题，试点教师与顾问工作流，并分别记录服务可及性、坚持就读和任务完成情况。",
+        "sources": [
+          {
+            "label": "Google.org官方公告",
+            "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "官方一手页面已打开核验",
+        "metrics": null,
+        "eventDate": "2026-09-30",
+        "evidence": "正文三个章节分别为成人学习者、职业关联社区学习、社区学院战略规划；30所大学、10种模式和2027年竞赛均明示。",
+        "availability": {
+          "audience": "高教教师、顾问与社区学院管理者",
+          "region": "以美国高教项目为主",
+          "price": "未披露；并非个人付费产品公告"
+        },
+        "educationLevels": [
+          "高等教育"
+        ],
+        "stageGroups": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "成人与继续教育",
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "classificationNote": "高等教育中的成人学习者和社区学院项目，可同时有高等教育及成人与继续教育标签。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "项目与机会"
+      },
+      {
+        "id": "edu05",
+        "title": "UNESCO强调：先定义教育问题，再决定是否使用AI",
+        "category": "教育治理与设计",
+        "tags": [
+          "UNESCO",
+          "产品设计",
+          "教师主导"
+        ],
+        "date": "2026-10-02",
+        "firstSeen": "2026-10-06",
+        "updated": "2026-10-05",
+        "summary": "UNESCO回顾Digital Learning Week上的教育AI设计培训：来自20多个国家的参与者先识别学习与机构问题，再用简化的伦理影响评估设计风险缓解措施。",
+        "why": "它为课程及产品立项提供一道实用检查：AI是否解决具体学习问题，是否有更简单的非技术办法，风险能否在部署前控制。",
+        "limits": "这是培训方法与官方总结，非产品发布或效果实验。原文没有培训实际日期、后续报名、学员年龄或价格；不能将10月2日误作培训举行日。",
+        "application": "学校、大学或教育产品团队可在采购和试点前写清学习问题、受影响群体、非AI替代方案及成效指标，再做数据、偏差、可访问性和人工接管的风险检查。",
+        "sources": [
+          {
+            "label": "UNESCO官方总结",
+            "url": "https://www.unesco.org/en/articles/start-defining-problem-not-algorithm-designing-ai-education"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "官方一手页面已打开核验",
+        "metrics": null,
+        "eventDate": null,
+        "evidence": "原页发布日期10月2日、更新10月5日；两项核心做法是先明确问题、部署前进行伦理评估。",
+        "availability": {
+          "audience": "政策制定者、教育者和产品创新者",
+          "region": "参与者来自20多个国家",
+          "price": "未披露"
+        },
+        "educationLevels": [],
+        "stageGroups": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "classificationNote": "教育设计与治理面向多类机构，不给每个学段强贴适用或产品年龄标签。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "治理与观点"
+      },
+      {
+        "id": "edu11",
+        "title": "Pearson同意收购Workera，布局AI原生技能测评",
+        "category": "公司与职业教育",
+        "tags": [
+          "Pearson",
+          "Workera",
+          "技能测评",
+          "并购"
+        ],
+        "date": "2026-09-29",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "eventDate": "2026-09-29",
+        "freshness": "本周发布",
+        "summary": "Pearson宣布已达成收购Workera的协议，计划把其基于任务情境、自适应测评和技能分析的技术纳入企业学习业务。交易预计2026年下半年完成，仍取决于通常交割条件及必要申报或审批。",
+        "why": "传统教育企业正在把AI技能测评、定向学习和能力验证连接起来。它值得关注的不是证书数量，而是能否持续证明学员“实际会做什么”。",
+        "limits": "截至该公告，收购尚未完成。交易金额、个人订阅价格、覆盖地区未披露；技能测评功效表述来自厂商，未独立复核。",
+        "application": "企业培训与职业教育机构可跟进任务型测评如何与课程和岗位需求衔接，重点核验分数可靠性、跨情境能力迁移及不同学习者群体的公平性。",
+        "sources": [
+          {
+            "label": "Pearson官方收购公告",
+            "url": "https://plc.pearson.com/en-GB/news-and-insights/news/pearson-acquires-workera-pioneer-ai-native-enterprise-assessment-and-skills"
+          }
+        ],
+        "evidenceLevel": "企业官方公告直接打开核验；产品功效未独立验证",
+        "evidence": "原页显示2026-09-29 09:00 BST；正文为agreed to acquire，末段明确预计H2 2026交割及条件。",
+        "availability": {
+          "audience": "企业及政府组织；本文非个人产品发售公告",
+          "region": "未披露具体产品地区限制",
+          "price": "交易金额及产品价未披露"
+        },
+        "metrics": null,
+        "educationLevels": [],
+        "stageGroups": [],
+        "audienceTypes": [
+          "职业教育",
+          "成人与继续教育"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "classificationNote": "企业技能测评与培训，未明示学历层级。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "项目与机会"
+      },
+      {
+        "id": "edu07",
+        "title": "OpenAI Forum讨论青少年AI：学习收益与安全要同时验证",
+        "category": "青少年与安全",
+        "tags": [
+          "青少年",
+          "学习设计",
+          "人机边界"
+        ],
+        "date": "2026-10-05",
+        "firstSeen": "2026-10-06",
+        "updated": "2026-10-06",
+        "summary": "10月5日OpenAI Forum在华盛顿举办Responsible AI for Teens讨论，邀请APA、CDT、everyoneAI与CodeAI代表。官方页面确认活动已结束；回放索引于10月6日发布，讨论适龄设计、隐私、可信成人支持及学习收益。",
+        "why": "对面向未成年人的教育AI，值得追问的不仅是内容是否过滤，还包括能否保护学习自主性、避免过度依赖，以及实际学习收益如何验证。",
+        "limits": "这是论坛讨论，不能写成新功能发布或产品安全认证。活动页面与10月6日发布的官方回放文字稿已直接读取；未实看视频，也未对嘉宾提及的全部研究逐项复核。",
+        "application": "中学和其他服务青少年的教育机构可把“独立完成任务的能力、过度依赖、隐私、求助可信成人的路径”纳入试点评价，并让教师与学习者共同制定使用规则。",
+        "sources": [
+          {
+            "label": "OpenAI Forum活动页",
+            "url": "https://forum.openai.com/public/events/responsible-ai-for-teens-hvzr4wbt49"
+          },
+          {
+            "label": "OpenAI Forum官方回放与文字稿",
+            "url": "https://forum.openai.com/public/videos/event-replay-responsible-ai-for-teens-2026-10-05"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "官方活动页及回放文字稿直接核验；观点不是效果证据",
+        "metrics": null,
+        "eventDate": "2026-10-05",
+        "evidence": "10月5日活动页显示已结束；10月6日回放页面及带时间码文字稿现可直接读取，涉及学习自主性、适龄设计、隐私与可信成人支持。",
+        "availability": {
+          "audience": "教育、政策与青少年安全领域人士",
+          "region": "活动地点美国华盛顿特区",
+          "price": "未披露"
+        },
+        "educationLevels": [],
+        "stageGroups": [],
+        "audienceTypes": [
+          "教育工作者",
+          "家长",
+          "青少年"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "classificationNote": "来源以青少年为对象，没有规定学校年级或统一产品年龄门槛；保留跨学段与青少年标签。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "治理与观点"
+      },
+      {
+        "id": "edu06",
+        "title": "Microsoft高教方案聚焦机构知识、工作流与权限治理",
+        "category": "高等教育",
+        "tags": [
+          "Microsoft",
+          "知识连接",
+          "机构治理"
+        ],
+        "date": "2026-09-29",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "summary": "Microsoft发布高教AI实践文章及新白皮书入口，强调把机构知识、数据和工作流连接起来，并将Microsoft IQ描述为支撑相关AI和代理应用的知识层。",
+        "why": "对教育管理者，关键不只是模型能力，而是AI能否调用可靠课程、政策和服务资料，以及谁有权访问、谁对输出负责。",
+        "limits": "这是厂商观点与案例汇总，不代表Microsoft IQ在本周首次发布。文章所引“仅22%有机构级AI战略”来自2025年EDUCAUSE研究；本条不把它当2026年即时统计。价格、地区和具体部署资格未在此文披露。",
+        "application": "高教机构可从一个已授权的数据域或学生服务流程开始，测试资料出处、过期信息处理、角色权限和人工复核，再决定是否扩大部署。",
+        "sources": [
+          {
+            "label": "Microsoft Education官方文章",
+            "url": "https://www.microsoft.com/en-us/education/blog/2026/09/higher-educations-ai-advantage-is-the-intelligence-institutions-already-hold/"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "厂商官方观点与客户案例汇总；不作因果效果证明",
+        "metrics": null,
+        "eventDate": "2026-09-29",
+        "evidence": "页面显示9月29日，URL为2026/09，正文对应9月29日至10月2日EDUCAUSE；正文明确知识连接、权限与治理。",
+        "availability": {
+          "audience": "高教机构决策者",
+          "region": "本文未披露产品地区限制",
+          "price": "本文未披露"
+        },
+        "educationLevels": [
+          "高等教育"
+        ],
+        "stageGroups": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "classificationNote": "原文明确面向高教机构决策者。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "治理与观点"
+      },
+      {
+        "id": "edu12",
+        "title": "小学亲子AI英语游戏研究：家长支持值得关注，不能只数AI对话",
+        "category": "学习研究",
+        "tags": [
+          "小学英语",
+          "家庭学习",
+          "亲子支持",
+          "研究"
+        ],
+        "date": "2026-10-01",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "eventDate": null,
+        "studyPeriod": "2025年8月暑假；2026年10月1日论文发表",
+        "summary": "研究观察25对7–11岁儿童与家长使用AI英语游戏。两类互动模式的学习者均有前后测提升；控制前测后，两组后测差异不显著。知识任务投入和家长认知支持与后测相关，AI互动类型本身未显著相关。",
+        "why": "这项研究把家庭支持和学习任务放回评价中心，提醒设计者区分“和AI互动”与“产生学习”。",
+        "limits": "单一游戏、便利抽样、25名儿童、无非AI对照组；回归结果探索性强，可能过拟合。不能据此断言AI优于其他教学，也没有长期效果证据。",
+        "application": "小学家庭学习产品可试验更清楚的任务、简短双语反馈和家长提问提示，并另设对照与延迟测验；这些是待验证的设计方向。",
+        "sources": [
+          {
+            "label": "Smart Learning Environments论文与摘要",
+            "url": "https://link.springer.com/article/10.1186/s40561-026-00472-y"
+          },
+          {
+            "label": "开放获取论文全文PDF",
+            "url": "https://link.springer.com/content/pdf/10.1186/s40561-026-00472-y_reference.pdf"
+          }
+        ],
+        "freshness": "本周发表｜研究实施于2025年",
+        "evidenceLevel": "经同行评审的接受稿；全文已核验；小样本非对照研究",
+        "evidence": "论文发布日期10月1日；全文方法与局限分别列出7–11岁、25对亲子、2025年8月实施、无对照组与回归不稳定风险。",
+        "metrics": null,
+        "availability": {
+          "audience": "研究参与者为7–11岁小学生及家长；非公开产品招募",
+          "region": "中国小学英语外语学习情境",
+          "price": "论文开放获取；游戏公众使用条件未披露"
+        },
+        "studyPopulationAge": "7–11岁（研究样本，不是产品年龄限制）",
+        "educationLevels": [
+          "小学教育"
+        ],
+        "stageGroups": [
+          "小学教育"
+        ],
+        "audienceTypes": [
+          "家长"
+        ],
+        "scopeTags": [],
+        "classificationNote": "原文明确小学教育；7–11岁只是实际样本年龄，不代表适用性或准入限制。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "研究"
+      },
+      {
+        "id": "edu13",
+        "title": "高教STEAM与气候教育研究：学生自报收益，尚无因果成效",
+        "category": "学习研究",
+        "tags": [
+          "高等教育",
+          "STEAM",
+          "气候教育",
+          "研究",
+          "阿联酋"
+        ],
+        "date": "2026-10-05",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "eventDate": null,
+        "summary": "阿联酋大学情境的一项混合方法研究收集69名本科生问卷及25名相关人士访谈，讨论AI支持气候解决方案学习。学生普遍报告使用AI，也表达准确性与抄袭顾虑；作者据此提出待验证的教学框架。",
+        "why": "它把AI素养、跨学科真实问题和证据核验连接起来，也清楚区分主观体验与实际能力测量。",
+        "limits": "单校、单课程、横断面调查，以自报感受为主；没有标准化前后测，不能证明批判性思维或气候问题解决能力提升。提出的框架尚待实施与对照验证。",
+        "application": "大学STEAM课程可将原始环境数据核验、AI输出审查和方案论证写进作业量规，同时独立测量学习成果。",
+        "sources": [
+          {
+            "label": "Frontiers in Education原始论文",
+            "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1955487/full"
+          }
+        ],
+        "freshness": "本周发表",
+        "evidenceLevel": "同行评审论文全文已核验；探索性横断面研究",
+        "evidence": "页面标10月5日；方法与局限明确n=69问卷、N=25访谈、单一机构、自报测量与非因果设计。",
+        "metrics": null,
+        "availability": {
+          "audience": "本科生、大学教师及教育研究者",
+          "region": "研究情境为阿联酋大学",
+          "price": "论文开放获取；非产品公告"
+        },
+        "educationLevels": [
+          "高等教育"
+        ],
+        "stageGroups": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "classificationNote": "原文明确本科生课程研究。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": false,
+        "contentType": "研究"
+      },
+      {
+        "id": "edu08",
+        "title": "背景｜Gemini Notebook把笔记延伸到语音与交互练习",
+        "category": "产品背景",
+        "tags": [
+          "学习工具",
+          "语音",
+          "多模态",
+          "背景"
+        ],
+        "date": "2026-09-15",
+        "firstSeen": "2026-10-06",
+        "updated": null,
+        "summary": "9月15日Google宣布Gemini Notebook学习工具更新：与笔记实时语音对话、手机录音、交互式学习概览、新测验题型和短视频概览。各项按不同时间表推出。",
+        "why": "基于指定材料的问答、练习和复盘正在整合成同一学习流程；关键仍是来源准确性、学生能否解释答案，以及功能实际开放范围。",
+        "limits": "原文语音首批为Google AI Ultra订户且18岁以上；其他套餐称稍后推出，本次未逐账户实测。美国合资格大学生可领12个月AI Pro，试用后自动续费19.99美元/月；其他140多个市场的AI Plus优惠另有排除地区和续费条件，不能称全球免费。",
+        "application": "大学教师与自主学习者可用获授权的课程材料测试来源引用、测验质量和错题复盘。录制讲座前遵守授课者与学校规则；订阅前核对所在地区、年龄及试用后续费条件。",
+        "sources": [
+          {
+            "label": "Google官方产品公告",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/"
+          }
+        ],
+        "freshness": "背景资料｜不计入本周新品",
+        "evidenceLevel": "官方一手页面已打开核验",
+        "metrics": null,
+        "eventDate": "2026-09-15",
+        "evidence": "原文脚注明确语音首批18+ Ultra、学习概览/题型未来数周推出，学生优惠到12月31日兑换且需支付方式。",
+        "availability": {
+          "audience": "语音首批18+；学生优惠限合资格大学生",
+          "region": "不同功能及优惠各有地区条件",
+          "price": "美国学生Pro合资格试用12个月，后自动续费19.99美元/月；其他市场条款不同"
+        },
+        "image": {
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-200.format-webp.webp",
+          "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
+          "credit": "Google官方学习工具宣传图",
+          "type": "含产品界面的官方宣传图",
+          "verified": "由官方图片链接解析；检索器不支持返回的媒体类型，未视觉核验",
+          "rights": "未核实再发布许可"
+        },
+        "educationLevels": [
+          "高等教育"
+        ],
+        "stageGroups": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "成人与继续教育"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "classificationNote": "原文有大学生优惠，但工具并不限高教；18+仅对应所述首批语音功能，不可扩为所有功能门槛。",
+        "ageRestriction": "18+：仅公告所述实时语音首批Google AI Ultra订户；其他功能条件不同",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": true,
+        "contentType": "背景资源"
+      },
+      {
+        "id": "edu09",
+        "title": "背景｜Claude教师方案、教学技能与学前至高中AI素养课程",
+        "category": "教师工具背景",
+        "tags": [
+          "教师备课",
+          "教师AI素养",
+          "开源技能",
+          "评价量规",
+          "背景"
+        ],
+        "date": "2026-07-14",
+        "firstSeen": "2026-10-06",
+        "updated": "2026-08-28",
+        "summary": "Claude for Teachers面向经验证的美国K–12教师提供高级功能，配套公开教学技能和评价框架。公告另介绍与Teach For America共建的“AI Fluency for PK–12 Teachers”，覆盖学前至高中教师的AI素养。",
+        "why": "相比泛化提示词，技能内容、课程标准连接与评价量规更接近可复用的教师工作流程；也更容易找到输出为何不合用。",
+        "limits": "教师产品限经核验的美国K–12教育者、18岁以上；2027-06-30前注册可获一年免费。PK–12素养课程与教师产品的适用范围不同。原公告7/14发布、8/28更新，不是本周新品；课程入口此次未成功打开，课程信息据官方公告。开源代码的模型及连接器成本另计。",
+        "application": "教研团队可将教学目标、课程标准、分层支持、形成性评价和资料授权列为检查项；学前教师可关注PK–12素养课程，不应据此推定学前机构符合美国K–12产品资格。",
+        "sources": [
+          {
+            "label": "Anthropic教师方案公告",
+            "url": "https://www.anthropic.com/news/claude-for-teachers"
+          },
+          {
+            "label": "官方K–12技能与评价仓库",
+            "url": "https://github.com/anthropics/k12-teacher-skills"
+          }
+        ],
+        "freshness": "背景资料｜不计入本周新品",
+        "evidenceLevel": "官方一手页面已打开核验",
+        "metrics": null,
+        "eventDate": "2026-07-14",
+        "evidence": "官方公告区分美国K–12教师产品（18+）和PK–12教师素养课程；仓库列教学技能及评价框架。仓库具体更新日未确认，不宣称本周更新。",
+        "availability": {
+          "audience": "教师产品：经核验美国K–12教师，18+；所述素养课程：PK–12（学前至高中）教师",
+          "region": "教师方案美国；代码公开",
+          "price": "符合条件并于2027-06-30前注册可获一年免费；模型/连接器成本未核实"
+        },
+        "educationLevels": [
+          "学前教育",
+          "小学教育",
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "stageGroups": [
+          "学前教育",
+          "小学教育",
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "classificationNote": "学前标签仅依据公告中的PK–12教师素养课程；教师产品资格仍为美国K–12，二者不混同。",
+        "ageRestriction": "18+：Claude教师产品仅供教育者使用",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": true,
+        "contentType": "背景资源"
+      },
+      {
+        "id": "edu10",
+        "title": "近期资源｜UNESCO免费AI与数字公民课程10月12日开课",
+        "category": "教师学习资源",
+        "tags": [
+          "教师发展",
+          "数字公民",
+          "多语言",
+          "背景"
+        ],
+        "date": "2026-09-25",
+        "firstSeen": "2026-10-06",
+        "updated": "2026-09-28",
+        "summary": "UNESCO第三期“AI时代的教育：学校数字公民”在线课程将于10月12日开始，新加葡萄牙语，另有英语与西班牙语。涵盖算法、虚假信息、数字足迹、AI伦理及教学评价。",
+        "why": "这是一个近期可行动的教师基础培训入口，帮助团队把“会用工具”和“能判断技术对学习者的影响”放在一起。",
+        "limits": "9月25日公告、9月28日更新，属于窗口外资源提醒。课程免费；完成至少80%内容及评估可获官方证书资格。网页以教师、教育团队及社会参与者为主要对象，没有声明中文版本。报名流程和个人地区资格未实测。",
+        "application": "教师、学校管理者与教研团队可用于共同学习数字公民议题，再按本地课程和学习者需要设计活动、评价方式与AI使用规范。",
+        "sources": [
+          {
+            "label": "UNESCO官方课程公告",
+            "url": "https://www.unesco.org/en/articles/unesco-opens-third-edition-its-course-digital-citizenship-and-artificial-intelligence-now-also?hub=701"
+          }
+        ],
+        "freshness": "背景资料｜10月12日即将开课",
+        "evidenceLevel": "官方一手页面已打开核验",
+        "metrics": null,
+        "eventDate": "2026-10-12",
+        "evidence": "原文明确9月25日发布、9月28日更新、10月12日开课、三种语言、免费及80%证书条件。",
+        "availability": {
+          "audience": "教师、教育团队及社会参与者",
+          "region": "开放在线课程；英语、西班牙语、葡萄牙语",
+          "price": "免费",
+          "certificate": "至少完成80%内容及评估可获证书资格"
+        },
+        "educationLevels": [],
+        "stageGroups": [],
+        "audienceTypes": [
+          "教育工作者",
+          "成人与继续教育"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "classificationNote": "面向教师与教育团队的专业发展课程，不以受训教师成年为由归入高中或高等学段。",
+        "ageRestriction": null,
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "isBackground": true,
+        "contentType": "背景资源"
+      }
+    ],
+    "methodology": [
+      "正式条目均有官方页面或原始论文直接打开核验；正式公告、研究、教师自述与编辑建议分别标明。",
+      "13条中10条在2026-09-29至10-06窗口内发布，3条为明确标示的窗口外背景。发布日期、事件日期与研究实施期不混用。",
+      "本期范围为全球所有AI与教育领域；按可核验性和教育意义筛选，不为了覆盖表面数量而给每个学段凑热点。",
+      "研究记录设计与局限；无对照的前后测、自报感受、厂商案例、资助计划和论坛观点均不视为因果效果证据。",
+      "实践方向属于编辑建议，保留原学段和场景；不把职业、高教或中学结论硬套到幼儿口才课程。",
+      "学段、教育类型/受众与年龄条件分开；学段及受众支持多选，未明示年龄时留空。",
+      "X候选保持单列，不计为已直读核验的观点或热度排行。社交线索以专门核验结果为准。",
+      "官方配图保留来源与权利说明，不将宣传图标为产品实测截图。"
+    ],
+    "omissions": [
+      "本期不等于全球新闻穷尽或热度排名；当前来源以可直接核验的官方英文页面和开放论文为主。",
+      "学前教育纳入持续选题范围；本期没有为了填满学段而新增未经核验的学前热点。学前相关教师资源明确为背景。",
+      "本期新增的两项研究都不是随机对照或长期效果研究；不宣称已证明AI普遍提升学习效果。",
+      "Claude教师方案、Gemini Notebook 9月更新及UNESCO 9月课程公告均不包装成本周新品。"
+    ],
+    "editorialScope": "全球AI与教育：学前、小学、初中、高中、高等教育，以及职业与成人学习、教师发展、特殊教育、研究、政策与机构治理。按证据和影响选题，不要求每期各学段凑齐条目。",
+    "taxonomy": {
+      "educationLevels": [
+        "学前教育",
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "职业教育",
+        "成人与继续教育",
+        "教育工作者",
+        "家长",
+        "青少年"
+      ],
+      "scopeTags": [
+        "跨学段",
+        "未限定"
+      ],
+      "note": "这是面向阅读筛选的中文教育分类，并非完整复制ISCED统计编码。成人与继续教育是类型/对象，职业教育可发生在多个层级；学段不等同年龄。",
+      "sources": [
+        {
+          "label": "教育部《2025年全国教育事业发展统计公报》",
+          "url": "https://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/202607/t20260706_1442870.html",
+          "verification": "官方搜索结果正文可核验，直接抓取超时"
+        },
+        {
+          "label": "UNESCO-UIS / OECD / Eurostat 2026联合手册，第9–10页与第25页起",
+          "url": "https://ec.europa.eu/eurostat/documents/d/education-and-training/uoe-manual-2026-final",
+          "verification": "官方PDF直接打开核验"
+        },
+        {
+          "label": "UNESCO UIS各国ISCED学制映射",
+          "url": "https://www.uis.unesco.org/en/methods-and-tools/isced/mapping-and-diagrams",
+          "verification": "官方页面直接打开核验"
+        }
+      ]
+    },
+    "researchRevision": {
+      "version": "2.0",
+      "verifiedAt": "2026-10-06T05:16:00Z",
+      "changes": [
+        "去除幼儿口才中心化推论",
+        "采用正式5学段与独立多选教育类型/受众",
+        "加入小学亲子英语学习与高教STEAM两项原始研究",
+        "将Microsoft高教治理条目纳入正文",
+        "论坛回放文字稿现已直接核验",
+        "历史资源独立标记，不宣称本周更新"
+      ],
+      "currentWindowItems": 10,
+      "backgroundItems": 3,
+      "unchangedParts": [
+        "xCandidates",
+        "xExclusions",
+        "xStatus（由社交核验任务继续修订）"
+      ]
+    }
+  },
+  "publicFigures": [
+    {
+      "id": "person-sal-khan",
+      "name": "Sal Khan",
+      "role": "Khan Academy创始人、TED Vision Steward",
+      "platform": "TED官方博客｜活动官宣",
+      "title": "将与TED2027入选教育者进行AI教学问答",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": "2027-03-01/2027-03-04",
+      "date_precision": "公告本周发布；TED2027为未来活动，个人问答具体场次未定",
+      "freshness": "本周官宣｜未来活动",
+      "in_week": true,
+      "region": "全球征集／美国活动",
+      "stages": [
+        "小学",
+        "初中",
+        "高中",
+        "高等教育",
+        "教师发展"
+      ],
+      "tags": [
+        "教育者发声",
+        "公开演讲",
+        "AI教学",
+        "未来活动"
+      ],
+      "summary": "TED与Google本周启动全球AI教学想法征集，将选出5位教育者登上TED2027；官方同时宣布Sal Khan将参与与入选者的访谈式问答。",
+      "why": "把课堂实践者与教育平台领导者放进同一公开讨论，为后续追踪提供明确节点。",
+      "fact_vs_opinion": "事实：本周公布的参与安排。不是已发生演讲，也未将公告内容冒作Khan本人观点。",
+      "source_url": "https://blog.ted.com/ai-is-changing-how-we-teach-and-learn-educators-should-shape-what-comes-next/",
+      "verification": "已直接读取TED官方公告，Khan角色及未来问答安排可见。",
+      "caveat": "TED2027为2027年3月1–4日；截止本期问答尚未举行。",
+      "metrics": null,
+      "heat_note": "未取得可核验互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-ethan-mollick",
+      "role": "沃顿商学院教授、One Useful Thing作者",
+      "title": "重新思考智能体协作：人负责方向与复核",
+      "region": "美国",
+      "stages": [
+        "高等教育",
+        "成人教育",
+        "教师发展"
+      ],
+      "tags": [
+        "AI素养",
+        "智能体协作",
+        "未来工作",
+        "观点"
+      ],
+      "summary": "Mollick在10月1日文章中修正自己对智能体管理的判断：他认为模型越来越能自行组织分工，人更需要负责方向、目标与持续复核。",
+      "why": "为成人AI素养提供邻近信号：目标选择与评价可能比复杂委派模板更重要。这是编者对教育的延伸解读。",
+      "fact_vs_opinion": "事实：本人本周发表文章。自述试验与对工作组织的推论是作者经验及观点，非课堂成效证据。",
+      "caveat": "未复现其试验；不引用文中未经本刊独立核验的其他科技新闻主张。",
+      "date_precision": "日；文中个人试验没有统一事件日期",
+      "freshness": "本周文章｜成人AI素养邻近观察",
+      "verification": "已直接读取本人博客全文、发布日期及作者信息。",
+      "name": "Ethan Mollick",
+      "platform": "One Useful Thing / Substack",
+      "date": "2026-10-01",
+      "published_date": "2026-10-01",
+      "event_date": null,
+      "in_week": true,
+      "source_url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "supporting_urls": [],
+      "metrics": null,
+      "heat_note": "未取得可核验且含明确标签的互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-dan-fitzpatrick",
+      "role": "The AI Educator创始人、教育作家",
+      "title": "AI写学生评语，先追查每句话的来源",
+      "region": "英国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中",
+        "教师发展"
+      ],
+      "tags": [
+        "家校沟通",
+        "学校管理",
+        "教师工作流",
+        "事实核查"
+      ],
+      "summary": "Fitzpatrick提出学生评语的三类来源检查：教师观察、学校记录和模型虚构。AI可协助改写前两类，但不能替孩子编事实；他建议先抽查十份评语。",
+      "why": "为学校明确AI输入、教师复核与最终责任提供具体检查方法。",
+      "fact_vs_opinion": "这是作者提出的实践框架，未证实为经过验证的标准；不把引用的调查数字当作该方法的效果。",
+      "caveat": "官方作者目录可直接读取并核对日期；该篇正文直接抓取失败，内容依据官方页面搜索索引，未完整直读。",
+      "date_precision": "日期由官方作者目录核对；正文以搜索索引读取",
+      "freshness": "本周文章｜正文读取受限",
+      "verification": "作者目录原链与日期已核对；正文仅官方搜索索引可读。",
+      "name": "Dan Fitzpatrick",
+      "platform": "Dan Fitzpatrick Insights / The AI Educator",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "in_week": true,
+      "source_url": "https://blog.theaieducator.io/posts/should-ai-write-school-reports",
+      "supporting_urls": [
+        "https://blog.theaieducator.io/authors/dan-fitzpatrick"
+      ],
+      "metrics": null,
+      "heat_note": "未取得可核验且含明确标签的互动量，不作热度排名。",
+      "original_readable": false,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-mosa-moshabela",
+      "role": "南非开普敦大学校长",
+      "title": "谈全体学生AI培训与停止依赖AI检测的决定",
+      "region": "南非",
+      "stages": [
+        "高等教育",
+        "成人教育",
+        "教师发展"
+      ],
+      "tags": [
+        "AI素养",
+        "大学治理",
+        "教育公平",
+        "评价"
+      ],
+      "summary": "他在世界学术峰会上说明，开普敦大学决定让所有学生接受分层AI培训，并决定关闭AI检测工具，把重点转向指导正确使用；他也强调校外公众的技术可及性。",
+      "why": "呈现大学从检测走向能力培养与公平使用的治理选择，后续值得观察如何实施。",
+      "fact_vs_opinion": "事实：校方报道了校长的决定与发言。AI作为学习伙伴是其立场，培训覆盖率和学习成效尚未核验。",
+      "caveat": "不把宣布决定写成已完成实施；关闭检测工具也不表示取消学术诚信要求。",
+      "date_precision": "报道10月1日；峰会9月29日至10月1日，文章称该场在首日，具体场次日未独立确认",
+      "freshness": "本周峰会与报道",
+      "verification": "已直接读取校方报道与峰会日期来源，具体决定明确归于校长发言。",
+      "name": "Mosa Moshabela",
+      "platform": "UCT News / Times Higher Education World Academic Summit",
+      "date": "2026-10-01",
+      "published_date": "2026-10-01",
+      "event_date": "2026-09-29/2026-10-01",
+      "in_week": true,
+      "source_url": "https://www.news.uct.ac.za/article/-2026-10-01-vc-shares-insights-on-ucts-adoption-of-ai",
+      "supporting_urls": [
+        "https://www.news.uct.ac.za/article/-2026-09-29-uct-puts-africa-at-the-centre-of-global-debate-on-universities-and-ai",
+        "https://www.news.uct.ac.za/article/-2026-09-30-the-times-higher-education-summit-is-under-way"
+      ],
+      "metrics": null,
+      "heat_note": "未取得可核验且含明确标签的互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-marc-watkins",
+      "role": "密西西比大学学术创新教育者、《The Norton Guide to AI-Aware Teaching》合著者",
+      "title": "教学需要AI支持，也需要有价值的思考过程",
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中",
+        "高等教育",
+        "教师发展"
+      ],
+      "tags": [
+        "师生信任",
+        "学习设计",
+        "AI使用边界",
+        "演讲回顾"
+      ],
+      "summary": "Iona大学10月1日发布他的主题演讲回顾：教师应帮助学生理解AI，维护师生信任，并判断何时使用AI、何时保留有助学习的思考难度。",
+      "why": "补充审慎教学视角：是否使用AI应围绕学习需要来决定。",
+      "fact_vs_opinion": "事实：主办方确认演讲与主题；照护责任与教学取舍是专业判断，非因果研究结论。",
+      "caveat": "演讲实际为9月25日，早于本期时间窗；本周新增的是官方报道，未审阅完整演讲稿。",
+      "date_precision": "报道10月1日；官方议程确认演讲9月25日",
+      "freshness": "本周新报道｜演讲发生于9月25日",
+      "verification": "官方完整报道与活动议程均已直接读取。",
+      "name": "Marc Watkins",
+      "platform": "Iona University official conference report",
+      "date": "2026-10-01",
+      "published_date": "2026-10-01",
+      "event_date": "2026-09-25",
+      "in_week": true,
+      "source_url": "https://www.iona.edu/news/ai-aware-education-conference-draws-over-200-educators-iona-university",
+      "supporting_urls": [
+        "https://www.iona.edu/future-teaching-meeting-challenge-ai-aware-education"
+      ],
+      "metrics": null,
+      "heat_note": "未取得可核验且含明确标签的互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-ellen-mandinach",
+      "role": "教育数据素养专家、原WestEd荣休高级研究科学家",
+      "title": "数据与AI评价，需要保留情境、判断与师生关系",
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中",
+        "教师发展"
+      ],
+      "tags": [
+        "数据素养",
+        "教育评价",
+        "AI伦理",
+        "专业判断"
+      ],
+      "summary": "Mandinach与Ed Dieterle在9月29日合著文章中提醒：数据素养包括理解学生处境、判断结论是否成立和审视算法偏差；AI包办出题、答题、评分可能削弱人的思考。",
+      "why": "补充工具使用之外的数据伦理视角，提醒学校评价不能只看分数或仪表盘。",
+      "fact_vs_opinion": "事实：本周署名文章及作者身份已确认。风险判断是专家分析，不是新对照实验或量化效果。",
+      "caveat": "未收听文章所回顾的播客，未把播客当作本周新内容；合著者不再单独列一条凑人数。",
+      "date_precision": "文章9月29日；相关播客的录制与发布日期未核验",
+      "freshness": "本周署名文章",
+      "verification": "完整合著文章、作者介绍及日期已直接读取。",
+      "name": "Ellen Mandinach",
+      "platform": "LEAP Innovations / NGLC resources",
+      "date": "2026-09-29",
+      "published_date": "2026-09-29",
+      "event_date": null,
+      "in_week": true,
+      "source_url": "https://resources.leapinnovations.org/articles/data-literacy-ethics-and-the-human-side-of-education",
+      "supporting_urls": [],
+      "metrics": null,
+      "heat_note": "未取得可核验且含明确标签的互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-kian-katanforoosh",
+      "name": "Kian Katanforoosh",
+      "role": "Workera创始人兼首席执行官",
+      "platform": "Pearson官方新闻稿｜具名声明",
+      "title": "回应Pearson收购协议，强调可验证的职场能力",
+      "date": "2026-09-29",
+      "published_date": "2026-09-29",
+      "event_date": "2026-09-29",
+      "date_precision": "原页标2026-09-29 09:00 BST",
+      "freshness": "本周发布",
+      "in_week": true,
+      "region": "美国／英国",
+      "stages": [
+        "职业教育",
+        "成人教育"
+      ],
+      "tags": [
+        "技能测评",
+        "职场学习",
+        "企业培训",
+        "并购"
+      ],
+      "summary": "Pearson宣布达成收购Workera的协议。Katanforoosh在声明中强调发现个人能力、识别被忽视的人才，并让学习进步可见；交割后他将加入相关业务领导团队。",
+      "why": "观察企业培训如何连接技能基线、针对性学习与能力验证。",
+      "fact_vs_opinion": "事实：已签收购协议；尚待交割。建立职场准备度标杆是双方愿景，非已验证成效。",
+      "source_url": "https://plc.pearson.com/en-GB/news-and-insights/news/pearson-acquires-workera-pioneer-ai-native-enterprise-assessment-and-skills",
+      "verification": "官方公告已直接读取；已核对具名发言及交割条件。",
+      "caveat": "预计2026年下半年完成，仍须满足通常交割条件及必要审批；不能写成已收购完成。",
+      "metrics": null,
+      "heat_note": "未取得可核验互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-yuichiro-wajima",
+      "name": "和嶋雄一郎",
+      "role": "日本北陆大学教授（国際コミュニケーション学部）",
+      "platform": "早稻田大学官网｜主办方活动回顾",
+      "title": "让教师分别扮演“用AI、协作用AI、不用AI”的学生",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": "2026-09-30",
+      "date_precision": "报道日10月5日；工作坊9月30日",
+      "freshness": "本周活动与报道",
+      "in_week": true,
+      "region": "日本",
+      "stages": [
+        "高等教育",
+        "教师发展"
+      ],
+      "tags": [
+        "任务设计",
+        "教师培训",
+        "AI使用边界",
+        "学习过程"
+      ],
+      "summary": "他在早稻田大学主持生成式AI时代的任务设计工作坊。约30位教师按不同AI使用角色完成同题任务，再讨论过程；他还介绍部分固定学生提示词的做法。",
+      "why": "把“哪些思考应留给学生”变成可比较的教学设计问题。",
+      "fact_vs_opinion": "事实：主办方确认活动与流程。可用于课堂的判断来自活动总结，未报告学习实验结果。",
+      "source_url": "https://www.waseda.jp/inst/ches/news/2026/10/05/7176/",
+      "verification": "已直接读取主办大学报道，姓名、职称、活动日与发布日期均可核对。",
+      "caveat": "原文为简要回顾，未提供完整讲稿、固定提示词模板或长期效果。",
+      "metrics": null,
+      "heat_note": "约30名参加者是活动规模，不是网络热度。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-zhang-bo",
+      "name": "张博",
+      "role": "西安交通大学生命科学与技术学院高级工程师",
+      "platform": "西安交通大学新闻网｜主办方教学活动报道",
+      "title": "分享项目评测与答辩辅导智能体的课程实践",
+      "date": "2026-09-30",
+      "published_date": "2026-09-30",
+      "event_date": "2026-09-29",
+      "date_precision": "报道日9月30日；分享9月29日",
+      "freshness": "本周活动与报道",
+      "in_week": true,
+      "region": "中国",
+      "stages": [
+        "高等教育",
+        "教师发展"
+      ],
+      "tags": [
+        "创新创业",
+        "混合式教学",
+        "智能体",
+        "答辩训练"
+      ],
+      "summary": "她在教师教学研讨会分享AI与创新创业混合课程：介绍项目评测、PPT生成和答辩提升智能体，以及线上学习、课堂研讨、课后辅导的安排。",
+      "why": "为高教项目课提供从作品到答辩的具体AI使用场景，也提出算力成本等实施问题。",
+      "fact_vs_opinion": "事实：校方确认专题分享及所介绍的实践。关于教学提升的表述未有独立评价支持。",
+      "source_url": "https://news.xjtu.edu.cn/info/1003/235165.htm",
+      "verification": "已直接读取校方报道，主讲人身份、日期与课程内容可见。",
+      "caveat": "原文未附可直接试用的智能体、成本或效果数据；不等于已核验开放产品。",
+      "metrics": null,
+      "heat_note": "报道提及23名教师参加；不视为线上热度。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-yang-bei",
+      "name": "杨蓓",
+      "role": "设计教育领域副教授；湖南第一师范学院专题讲座分享者",
+      "platform": "湖南第一师范学院美术与设计学院官网｜活动报道",
+      "title": "设计教育中的人机协同：人构思，也由人判断",
+      "date": "2026-09-30",
+      "published_date": "2026-09-30",
+      "event_date": "2026-09-29",
+      "date_precision": "页面发布9月30日；讲座9月29日，文末署名日亦为9月29日",
+      "freshness": "本周活动与报道",
+      "in_week": true,
+      "region": "中国",
+      "stages": [
+        "高等教育",
+        "教师发展"
+      ],
+      "tags": [
+        "设计教育",
+        "美育",
+        "人机协作",
+        "判断力"
+      ],
+      "summary": "她在AI赋能美育课堂专题讲座中，讨论人机协同时代的设计教育价值与边界，提出由人构思、机器生成画面、再由人作判断的创作模式。",
+      "why": "把设计学习的重点从生成速度转向构思与审美判断，便于明确课堂中由谁作决定。",
+      "fact_vs_opinion": "事实：校方确认分享及主题。协同模式是讲者主张，未提供其优于其他教学法的证据。",
+      "source_url": "https://msy.hnfnu.edu.cn/info/1013/9302.htm",
+      "verification": "已直接读取学院原文；姓名、职称、发言内容和活动日可见。",
+      "caveat": "原文未明确她的任职单位，故不补写；报道非完整演讲文字稿。",
+      "metrics": null,
+      "heat_note": "未取得可核验互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-eni-wulandari",
+      "name": "Eni Wulandari",
+      "role": "印度尼西亚日惹SLB Negeri 2 Gunungkidul特殊教育教师",
+      "platform": "Google官方博客｜教师署名自述",
+      "title": "用语音与视觉支架，让无法书写的学生表达想法",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "日；课堂实施日期未披露",
+      "freshness": "本周发布",
+      "in_week": true,
+      "region": "印度尼西亚",
+      "stages": [
+        "小学",
+        "初中",
+        "高中",
+        "特殊教育",
+        "教师发展"
+      ],
+      "tags": [
+        "特殊教育",
+        "视觉支架",
+        "语音表达",
+        "教师实践"
+      ],
+      "summary": "她分享用Gemini制作简单视觉指引，以及让无法书写的学生以语音描述想法、生成图片；还在与同事开发整合特殊教育计划的应用。",
+      "why": "提供表达与无障碍支持的具体课堂思路，重点是学生能否表达自己的意图。",
+      "fact_vs_opinion": "事实：署名案例本周发布。实践与感受均为教师自述，未给出独立学习成效研究。",
+      "source_url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/",
+      "verification": "已直接读取官方原文，作者、角色、发布日期及正文均可见。",
+      "caveat": "未说明学生账户安排、语音数据保护和实施日期；不据此推定适合幼儿独立使用。",
+      "metrics": null,
+      "heat_note": "未取得可核验互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-tori-engel",
+      "name": "Tori Engel",
+      "role": "美国伊利诺伊州Carriel Junior High计算机科学与技术教师",
+      "platform": "Google官方博客｜教师署名自述",
+      "title": "八年级学生从零建立校园新闻节目",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "日；课堂实施日期未披露",
+      "freshness": "本周发布",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "初中",
+        "教师发展"
+      ],
+      "tags": [
+        "项目学习",
+        "新闻播报",
+        "协作创作",
+        "媒介素养"
+      ],
+      "summary": "她介绍八年级学生制作“The Cougar Rumble”：结合Gemini、Docs与Slides整理标志草图的共同主题，之后继续打磨周播脚本和镜头清单。",
+      "why": "AI进入面向真实观众的创作流程，可观察学生怎样协作、修改与呈现。",
+      "fact_vs_opinion": "事实：本周发布该署名案例。有关创造力的判断为教师观点，未提供对照数据。",
+      "source_url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/",
+      "verification": "已直接读取官方原文，作者、教学岗位、日期和具体流程可见。",
+      "caveat": "未独立观看全部学生节目或核验学习成效；案例对象为八年级。",
+      "metrics": null,
+      "heat_note": "未取得可核验互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    },
+    {
+      "id": "person-cheryl-graff",
+      "name": "Cheryl Graff",
+      "role": "美国芝加哥Lake View High School特殊教育教师",
+      "platform": "Google官方博客｜教师署名自述",
+      "title": "先体验再阅读：用AI准备多站点角色扮演",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "日；课堂实施日期未披露",
+      "freshness": "本周发布",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "高中",
+        "特殊教育",
+        "教师发展"
+      ],
+      "tags": [
+        "文学教学",
+        "角色扮演",
+        "具身学习",
+        "教师备课"
+      ],
+      "summary": "她分享在复杂文学阅读前，用Gemini协助设计气候与人权主题的多站点模拟活动，让学生走动、扮演角色并解决问题。",
+      "why": "展示AI辅助教师设计线下活动的路径，值得研究抽象概念如何变为可体验任务。",
+      "fact_vs_opinion": "事实：本周发布教师自述。参与感与同理心的提升为其观察，非因果结论。",
+      "source_url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/",
+      "verification": "已直接读取官方原文，作者、角色、日期和活动形式可见。",
+      "caveat": "没有公开完整教案、量规或效果数据；教师仍需审核情境与材料。",
+      "metrics": null,
+      "heat_note": "未取得可核验互动量，不作热度排名。",
+      "original_readable": true,
+      "source_level": "一手署名文章／官方具名报道"
+    }
+  ],
+  "newIdeaIds": [
+    "ldraw",
+    "garments",
+    "tinbox",
+    "nanostoryboard",
+    "storybook",
+    "whisk",
+    "gentype",
+    "foodmood",
+    "musicalcanvas",
+    "poemportraits",
+    "blobopera",
+    "comicfactory",
+    "poem1",
+    "infinite-craft",
+    "animated-drawings"
+  ],
+  "creativeSnapshots": [
+    {
+      "id": "ldraw",
+      "title": "把一句话变成可编辑的积木模型",
+      "summary": "LDraw Nova让AI写出真正的积木CAD文件。作者演示了庭院、建筑和机械等模型，能旋转检查，也能继续改零件。",
+      "originalDate": "2026-10-02",
+      "freshness": "本周新发现"
+    },
+    {
+      "id": "garments",
+      "title": "一次试穿整套衣服，连腰带顺序也写清",
+      "summary": "Garments2Look最新发布的适配模型，把人物照和整套单品拼图配对生成穿搭。官方给出了六件衣服/配件的输入输出对照。",
+      "originalDate": "2026-10-04",
+      "freshness": "本周有更新"
+    },
+    {
+      "id": "tinbox",
+      "title": "人生铁盒：把自己的故事装进一个容器",
+      "summary": "已有网友把兴趣、职业和日常记忆变成打开铁盒中的小物件。结果像一张象征性的个人展览，也能检查AI对自己的理解是否准确。",
+      "originalDate": "2026-09-21",
+      "freshness": "近月线索 · 非本周首发"
+    },
+    {
+      "id": "nanostoryboard",
+      "title": "把脑内电影先画成分镜卡",
+      "summary": "官方用宇航员场景展示了从参考图到黑白分镜：远景、中景、特写和主观镜头摆在同一张板上。",
+      "originalDate": "2025-11-20",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "storybook",
+      "title": "把一个生活道理做成可朗读的绘本",
+      "summary": "Gemini Storybook把一个主题变成带插画和朗读的十页故事。官方演示了不爱刷牙的小象，能看到完整跨页效果。",
+      "originalDate": "2025-08-04",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "whisk",
+      "title": "用照片混搭一枚自己的珐琅徽章",
+      "summary": "Whisk官方展示把甜甜圈照片和徽章风格混合，生成一枚粉色糖霜珐琅徽章。创意来自参考图的组合，而不是一长串文字。",
+      "originalDate": "2024-12-16",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "gentype",
+      "title": "把名字拼成吐司、果酱或瓢虫字母",
+      "summary": "GenType把一种物件材质扩展为26个字母。官方示例用吐司上的葡萄果酱写出A，让文字像可触摸的小物件。",
+      "originalDate": "2024-06-10",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "foodmood",
+      "title": "让两国菜系碰撞出一张实验菜谱",
+      "summary": "Food Mood选择两国风味，生成菜谱和设想成品图。官方作品包括融合风味海鲜饭、花瓣华夫饼和枫糖麻糬。",
+      "originalDate": "2024-03-27",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "musicalcanvas",
+      "title": "画一张涂鸦，让它长出配乐",
+      "summary": "Musical Canvas根据涂鸦生成音乐，并说明音乐和画面的关联。官方演示从一个简单的苹果图开始，也能用视觉滤镜改变声音方向。",
+      "originalDate": "2024-03-27",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "poemportraits",
+      "title": "用一个词做一张诗歌肖像",
+      "summary": "POEMPORTRAITS让参与者贡献一个词，AI写成诗句，再把文字投射到自己的肖像上。创作者Es Devlin公开展示了她的成品。",
+      "originalDate": "2019-05-02",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "blobopera",
+      "title": "拖动四颗软糖，录一段自己的合唱",
+      "summary": "Blob Opera把四个歌唱声部做成可拉伸的小团子。拖动时，模型实时配和声，最后可录下一小段作品。",
+      "originalDate": "2020-12-15",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "comicfactory",
+      "title": "把一句故事梗概变成漫画分格",
+      "summary": "AI Comic Factory把文本故事接到图像模型上，生成漫画页面。作者的官方教程展示了真实应用及漫画画面，并开放部署说明。",
+      "originalDate": "2023-10-02",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "poem1",
+      "title": "Poem/1：让时钟每分钟写一首诗",
+      "summary": "Matt Webb把报时变成了一场微型文学表演：电子纸时钟每分钟接收一首包含当前时间的AI短诗，让书架上的小物件持续产生新鲜感。项目已从个人原型走向实物交付；截至2026年8月，作者称已寄出700多台。它适合启发“只做一件小事”的AI设计，也能用来讨论押韵与事实准确性之间的冲突。",
+      "originalDate": "原型：2023-03；Poem/1众筹：2024-01-30",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "infinite-craft",
+      "title": "Infinite Craft：把两个词碰出一个新世界",
+      "summary": "Neal Agarwal把语言模型的联想能力变成拖拽式合成游戏：从水、火、风、土出发，把两个词合在一起，再用新结果继续探索。简单界面能长出越来越离奇的概念网络。它给教育者的启发是把“提出假设—尝试组合—解释结果”做成可玩的过程，但词语之间的联想不能被当成科学规律。",
+      "originalDate": "2024-01-31（网页版；作者发布帖由公开报道嵌入佐证）",
+      "freshness": "灵感库补充"
+    },
+    {
+      "id": "animated-drawings",
+      "title": "Animated Drawings：让纸上的小人跳起来",
+      "summary": "Meta FAIR的Animated Drawings能把手绘人形角色从纸上提取出来，识别轮廓与关节，再套用动作让它奔跑、跳跃或跳舞。官方代码展示了多个涂鸦与真人同场起舞的成品。这个项目把孩子熟悉的画画接到动画制作上，适合讨论骨架与动作，但画得太密、肢体重叠或角色不完整时，识别容易出错。",
+      "originalDate": "演示首发：2021-12-16；代码开源：2023-04-13",
+      "freshness": "灵感库补充"
+    }
+  ]
+}
