@@ -10,8 +10,8 @@ ids=d.xpath('//*[@id]/@id');assert len(ids)==len(set(ids))
 byclass=lambda c:d.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," '+c+' ")]')
 assert len(byclass('news-card'))==13 and len(byclass('x-card'))==13 and len(byclass('creative-card'))==15
 assert d.xpath('count(//select[@id="issue-select"]/option)')==1
-assert d.xpath('//nav/a/text()')==['本期预览','AI教育前沿','公众人物言论','更新须知']
-assert len(d.xpath('//*[@data-weekly-page]'))==4
+assert d.xpath('//nav/a/text()')==['本期预览','AI教育前沿','公众人物言论','深圳专题','更新须知']
+assert len(d.xpath('//*[@data-weekly-page]'))==5
 assert len(d.xpath('//*[@data-weekly-page and not(@hidden)]'))==1
 assert d.xpath('//*[@data-weekly-page and not(@hidden)]')[0].get('data-weekly-page')=='preview'
 weekly=d.get_element_by_id('weekly-panel');library=d.get_element_by_id('library-panel')
@@ -26,7 +26,7 @@ for a in d.xpath('//a[starts-with(@href,"#")]'):
  target=a.get('href')[1:]
  if target.startswith('issue='):
   from urllib.parse import parse_qs
-  q=parse_qs(target);assert q['issue']==['001'];assert q['page'][0] in ['preview','education','people','updates']
+  q=parse_qs(target);assert q['issue']==['001'];assert q['page'][0] in ['preview','education','people','shenzhen','updates']
   if q.get('focus'):assert q['focus'][0] in ids
  else:assert target in ids,target
 for img in d.xpath('//img'):
@@ -73,7 +73,7 @@ editorial=json.loads((S/'data/editorial.json').read_text())['issues']['001']
 assert len(byclass('experiment-card'))==3
 assert len(d.xpath('//*[@data-changes-status="baseline"]'))==1
 assert not byclass('change-card')
-assert len(d.xpath('//ol[@class="revision-log"]/li'))==3
+assert len(d.xpath('//ol[@class="revision-log"]/li'))==4
 assert len(byclass('no-corrections'))==1
 assert not editorial['factCorrections']
 preview=d.get_element_by_id('page-preview');updates=d.get_element_by_id('page-updates')
@@ -92,5 +92,16 @@ def info(e):return {'id':e.get('id'),'dataset':{camel(k[5:]):v for k,v in e.attr
 extract=lambda xp:[info(e) for e in d.xpath(xp)]
 out={'app':json.loads(d.get_element_by_id('app-data').text),'ids':ids,'facets':[info(e) for e in byclass('facet')],'scope':[info(e) for e in byclass('scope-button')],'nav':extract('//nav/a'),'pages':extract('//*[@data-weekly-page]'),'cards':[info(e) for e in byclass('creative-card')]}
 (ROOT/'tests/dom.json').write_text(json.dumps(out,ensure_ascii=False))
-report={'passed':True,'issues':1,'pages':4,'education':13,'publicFigures':13,'creative':15,'creativeImages':creative_count,'portraitImages':portrait_count,'portraitPlaceholders':13-portrait_count,'collapsedProfileDetails':13,'htmlBytes':len(raw.encode()),'matrixTotal':13,'matrixStageTotals':counts,'allOriginalArticlesRetained':True,'onlyLibraryHasCreativeCards':True,'sourceLinkedUntestedSuggestions':3,'changeStatus':'baseline','versionRevisions':3,'factCorrections':0,'brokenLinks':0,'duplicateActiveIds':0,'externalRuntimeDependencies':0}
+report={'passed':True,'issues':1,'pages':5,'education':13,'publicFigures':13,'creative':15,'creativeImages':creative_count,'portraitImages':portrait_count,'portraitPlaceholders':13-portrait_count,'collapsedProfileDetails':13,'htmlBytes':len(raw.encode()),'matrixTotal':13,'matrixStageTotals':counts,'allOriginalArticlesRetained':True,'onlyLibraryHasCreativeCards':True,'sourceLinkedUntestedSuggestions':3,'changeStatus':'baseline','versionRevisions':4,'factCorrections':0,'brokenLinks':0,'duplicateActiveIds':0,'externalRuntimeDependencies':0}
 (ROOT/'tests/static-results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(report)
+local=json.loads((S/'data/shenzhen/001.json').read_text());sz=d.get_element_by_id('page-shenzhen')
+assert len(sz.xpath('.//article[@class="shenzhen-card"]'))==len(local['items'])==7
+assert len([x for x in local['items'] if x['freshness']=='current'])==3
+assert len([x for x in local['items'] if x['freshness']=='baseline'])==4
+from shenzhen import render_shenzhen
+missing=render_shenzhen({'id':'unpublished-test'},S)
+assert '尚无已核验' in missing and 'sz001' not in missing
+base=ROOT.parent/'public-release/src/data'
+for name in ['issues/001.json','issues.json','ideas.json','people.json']:
+ if base.exists():assert (S/'data'/name).read_bytes()==(base/name).read_bytes(),('Unrelated source changed',name)
+print('PASS: 7 Shenzhen cards, 3 current/4 baseline; unpublished future issue does not inherit news; original catalogs and issue unchanged.')

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "AI 教育周刊数据契约",
-  "description": "按文件使用 manifest、catalog、issue 或 profileCatalog 定义。界面沿用四页周刊与独立累计创意库；人物背景在 data/people.json 独立维护，不改写本期动态事实和日期。",
+  "description": "按文件使用 manifest、catalog、issue 或 profileCatalog 定义。界面沿用五页周刊与独立累计创意库；人物背景在 data/people.json 独立维护，不改写本期动态事实和日期。",
   "oneOf": [
     {
       "$ref": "#/$defs/manifest"
@@ -1105,7 +1105,7 @@
         "content": "内容范围、保存方式、人物资料及每周更新标准，证据类型、版本修订和事实更正。"
       }
     ],
-    "weeklyNavigation": "仅四个页面菜单；期号下拉、上一期、下一期、回到最新一期仅在周刊显示；首期相邻按钮禁用。",
+    "weeklyNavigation": "仅五个页面菜单；期号下拉、上一期、下一期、回到最新一期仅在周刊显示；首期相邻按钮禁用。",
     "libraryNavigation": "右上角小按钮“全部创意”打开独立累计库；库内不显示切期控件，返回恢复所选期号和页面。",
     "weeklyRouteExample": "#issue=001&page=preview",
     "libraryRouteExample": "#issue=001&page=preview&view=library",

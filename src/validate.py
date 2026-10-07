@@ -107,3 +107,18 @@ for p in profiles['items']:
   assert p['portrait'].get('publicReuseCleared') is False
   assert '未确认' in p['portrait']['rightsStatus']
 print('PASS: evidence supplements retain exact prior values; all portrait sources and unconfirmed reuse-permission status are explicit.')
+
+for index in issues:
+ issue=load(ROOT/'data'/index['file']);p=ROOT/'data/shenzhen'/f'{issue["id"]}.json'
+ if not p.exists():continue
+ local=load(p);assert local['issueId']==issue['id'] and local['schemaVersion']==1
+ assert re.fullmatch(r'\d{4}-\d{2}-\d{2}',local['verifiedAt'])
+ assert len({n['id'] for n in local['items']})==len(local['items'])
+ for n in local['items']:
+  for key in ['id','districts','type','stage','title','publishedDate','eventDate','organizations','peopleCompanies','summary','relevance','limits','sources','freshness']:assert n.get(key),(n.get('id'),key)
+  assert n['freshness'] in ['current','baseline']
+  assert all(z['url'].startswith('https://') for z in n['sources'])
+  assert n['publishedDate']<=local['verifiedAt']
+  if n['freshness']=='current':assert issue['window']['start']<=n['publishedDate']<=issue['window']['end']
+  else:assert n['publishedDate']<issue['window']['start']
+print('PASS: Shenzhen dates, issue isolation, freshness labels and required evidence fields.')

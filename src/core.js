@@ -1,7 +1,7 @@
-/* Pure state operations: four weekly pages and one independent cumulative library. */
+/* Pure state operations: five weekly pages and one independent cumulative library. */
 (function(root){
  'use strict';
- const pages=['preview','education','people','updates'];
+ const pages=['preview','education','people','shenzhen','updates'];
  const dimensions=['categories','educationLevels','audienceTypes','scopeTags'];
  const emptyFilters=()=>({scope:'all',categories:[],educationLevels:[],audienceTypes:[],scopeTags:[],difficulty:'all',query:''});
  function createState(manifest){return {issueId:manifest.latestIssueId,view:'weekly',page:'preview',focus:'',filters:emptyFilters()};}

@@ -4,7 +4,7 @@
  const data=JSON.parse(document.getElementById('app-data').textContent),manifest=data.manifest,ideas=data.ideas;
  let state=C.fromHash(window.location.hash,manifest),renderedIssue=null,rememberedFilters=C.emptyFilters();
  const $=s=>document.querySelector(s),$$=s=>Array.from(document.querySelectorAll(s));
- const pageLabels={preview:'本期预览',education:'AI教育前沿',people:'公众人物言论',updates:'更新须知'};
+ const pageLabels={preview:'本期预览',education:'AI教育前沿',people:'公众人物言论',shenzhen:'深圳专题',updates:'更新须知'};
  function applyFilters(){
   const visible=new Set(C.matchingIdeas(ideas,state).map(x=>x.id));
   $$('.creative-card').forEach(card=>{card.hidden=!visible.has(card.dataset.ideaId);});
