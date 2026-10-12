@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "issueId": "002",
+  "verifiedAt": "2026-10-12",
+  "coverageNote": "本期深圳专题共6条：1条本周政府访谈新披露，4条历史背景新收录，1条旧项目复查（无已核实新变化）。涉及龙华、罗湖、福田、南山、龙岗。检索未获得足够本周各区学校新项目，不以旧闻补足热点；不代表其他区没有进展。",
+  "items": [
+    {
+      "id": "sz002-01",
+      "districts": [
+        "龙华"
+      ],
+      "type": "区级AI教育基础设施",
+      "stage": "政府访谈披露建设情况",
+      "title": "龙华：教育管理、教学与评价纳入统一AI支撑底座",
+      "publishedDate": "2026-10-09",
+      "eventDate": "2026-10-09 15:00–16:00",
+      "organizations": "深圳市龙华区人民政府",
+      "peopleCompanies": "副区长马冰",
+      "summary": "10月9日官方政民通访谈介绍“1+N”人工智能建设框架，并称教育领域已打造覆盖管理、教学、评价与心理健康的AI支撑底座，服务管理者、教师、学生和家长。",
+      "relevance": "后续重点查具体学校接入、教师工作流与数据治理，而不只看区域平台名目。",
+      "limits": "政府一手访谈的搜索索引完整相关段落可读；页面直开仅返回动态壳。属官员建设情况陈述，未披露各校清单、使用量或独立成效，也不能把心理健康工具视为临床支持。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://www.sz.gov.cn/hdjl/zxft/zqt/fthg/2026/zmt/content/post_13011885.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-12",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "001",
+        "firstItemId": "sz007",
+        "change": "相对第001期年初种子教师基线，本周新增区政府对教育AI底座的具体披露；未核验此前教师培养或标杆校规划完成度。"
+      }
+    },
+    {
+      "id": "sz002-02",
+      "districts": [
+        "罗湖",
+        "福田"
+      ],
+      "type": "校本教学与区域教研",
+      "stage": "已举办论坛；历史背景新收录",
+      "title": "罗湖东晓论坛：把AI落到阅读、STEAM和体育课",
+      "publishedDate": "2026-09-21",
+      "eventDate": "2026-09-19至2026-09-20",
+      "organizations": "罗湖区教育科学研究院；东晓实验学校；韩山师范学院教师发展中心",
+      "peopleCompanies": "李春娥、刘锐娟、宗艳、黄文源等",
+      "summary": "官方教研报道记录AI与课堂教学、主题式深度阅读论坛。案例包括小学语文人机协同、英语阅读、初中社区空间微改造STEAM项目及体育个性化训练。",
+      "relevance": "可为小学到初中课程开发寻找本地案例与教研联系人，先追踪课例和评价方式。",
+      "limits": "9月活动，非本周新闻；来自区域教育平台的活动自述，未提供独立课堂效果评估。福田教师参与罗湖活动，不应写成两个区新上线同一项目。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://luohuedu.net/html5/news/127763-127-330176"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-12",
+      "relatedGlobalIds": []
+    },
+    {
+      "id": "sz002-03",
+      "districts": [
+        "南山"
+      ],
+      "type": "职业技能培养",
+      "stage": "竞赛方案已发布；历史背景新收录",
+      "title": "南山发布人工智能训练师竞赛方案与技术文件",
+      "publishedDate": "2026-09-08",
+      "eventDate": "2026-09-08通知；具体赛程须查附件",
+      "organizations": "南山区人力资源局",
+      "peopleCompanies": "人工智能训练师职业技能竞赛组织方",
+      "summary": "官方通知公布2026年深圳技能大赛南山区人工智能训练师竞赛实施方案与技术文件，定位技能人才培养。",
+      "relevance": "可从职业任务与技术考核要求反推成人AI训练课程，而不只教授提示词。",
+      "limits": "通知正文可读，但本轮未解析附件；不承诺报名仍开放，不补写赛程、资格和技能等级。不是本周新发布。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12971912.html"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [],
+      "audienceTypes": [
+        "职业教育",
+        "成人与继续教育"
+      ],
+      "checkedAt": "2026-10-12",
+      "relatedGlobalIds": []
+    },
+    {
+      "id": "sz002-04",
+      "districts": [
+        "龙岗"
+      ],
+      "type": "区级学校应用",
+      "stage": "历史项目后续跟踪；本周未核实新变化",
+      "title": "AI龙老师：保留140校应用基线，不把旧数字写成新扩张",
+      "publishedDate": "2026-09-08",
+      "eventDate": "2026-09-04调研",
+      "organizations": "龙岗区；悦澜山实验小学",
+      "peopleCompanies": "AI龙老师项目；原文未明确商业供应商归属",
+      "summary": "政府原文记录AI龙老师专属模型在140所学校开启应用，并展示课堂反馈、AI智习室和墨水屏学伴等。",
+      "relevance": "下一步需追踪实际活跃使用、教师体验和学业评价变化。",
+      "limits": "本周复查未取得新增覆盖或效果数据；140校仍是9月8日披露的历史口径。开启应用不等于持续使用或学习增益。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12971406.html"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-12",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "001",
+        "firstItemId": "sz004",
+        "change": "无已核实新进展；沿用原日期的140校基线，明确不是本周增长。"
+      },
+      "priorIssue": "001",
+      "priorItemId": "sz004"
+    },
+    {
+      "id": "sz002-05",
+      "districts": [
+        "龙岗"
+      ],
+      "type": "社区科创教育",
+      "stage": "暑期服务结束后的官方总结；历史背景新收录",
+      "title": "流动少年宫：AI生图与绘本创作走进社区",
+      "publishedDate": "2026-09-11",
+      "eventDate": "截至2026-08-29的项目总结",
+      "organizations": "龙岗区团委与社区服务体系",
+      "peopleCompanies": "平湖、吉华等街道；原文未确认AI工具厂商",
+      "summary": "官方总结披露项目面向6至18岁青少年，暑期覆盖11街道31社区。部分课程涉及AI创意生图、童话绘本、短视频和无人机等。",
+      "relevance": "适合作为校外普惠课程的组织与活动形式参考，不局限固定教室。",
+      "limits": "总项目111场、5000余人次涵盖多类公益内容，不能全算AI课规模；年龄6–18来自原文。9月报道不包装为本周成果。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12977423.html"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [],
+      "checkedAt": "2026-10-12",
+      "relatedGlobalIds": [],
+      "ageRestriction": "原项目服务年龄6–18岁；不等于所有工具允许儿童独立注册。"
+    },
+    {
+      "id": "sz002-06",
+      "districts": [
+        "南山"
+      ],
+      "type": "高校人才培养",
+      "stage": "开学典礼已披露；历史背景新收录",
+      "title": "深大人工智能学院：本硕博培养与腾讯云教育人才团队同场",
+      "publishedDate": "2026-09-14",
+      "eventDate": "2026-09-08",
+      "organizations": "深圳大学人工智能学院（粤海校区）",
+      "peopleCompanies": "院长李坚强；腾讯云教育人才培养负责人王才荣",
+      "summary": "学院官方新闻索引记载2026级新生开学典礼，370名本硕博新生参加，腾讯云教育人才培养负责人出席。",
+      "relevance": "提供深圳高校AI人才培养与产业教育交流的跟踪入口。",
+      "limits": "本轮可读取官方新闻索引，正文直开失败；出席活动不证明新签合作或课程共建，更不能代表就业及学习成效。非本周发布。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://ai.szu.edu.cn/xyxw.htm"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [],
+      "checkedAt": "2026-10-12",
+      "relatedGlobalIds": []
+    }
+  ]
+}

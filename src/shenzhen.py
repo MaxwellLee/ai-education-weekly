@@ -10,6 +10,7 @@ def render_shenzhen(issue, root):
  def card(x):
   labels=' · '.join(x['districts'])+' / '+x['type']+' / '+x['stage']
   details=''.join(H.detail(label,x[key]) for label,key in [('学校与机构','organizations'),('人物与企业','peopleCompanies'),('发生了什么','summary'),('为什么值得关注 · 编辑判断','relevance'),('证据边界','limits')])
+  if x.get('priorIssue'):details+='<p><a href="#issue='+E(x['priorIssue'])+'&amp;page=shenzhen&amp;focus='+E(x['priorItemId'])+'">首次收录与旧基线：第 '+E(x['priorIssue'])+' 期</a></p>'
   return f'<article class="shenzhen-card" id="{E(x["id"])}" tabindex="-1"><p class="section-kicker">{E(labels)}</p><h3>{E(x["title"])}</h3><p class="criteria-note">原文发布日期：{E(x["publishedDate"])}<br>事件时间：{E(x["eventDate"])}<br>收录核验：{E(data["verifiedAt"])}</p>{details}{H.sources(x)}</article>'
  body=f'<section class="section" id="shenzhen"><div class="section-head"><div><p class="section-kicker">SHENZHEN / LOCAL FIELDNOTES</p><h2>深圳专题</h2></div><p class="section-note">区、校、项目、人物与企业的本地观察</p></div><p class="scope-note">专题增补核验：{E(data["verifiedAt"])}。沿用本期观察窗口 {E(issue["window"]["start"])} 至 {E(issue["window"]["end"])}；增补时间不改变原期刊日期。</p><p>{E(data["coverageNote"])}</p>'
  for key,title,note in [('current','观察窗口内动态','按原文发布日期进入本期；事件发生时间另外标注。'),('baseline','历史背景 · 首次建档','以下资料早于观察窗口，仅为追踪项目与机构建立基线，不计作本周新闻。')]:

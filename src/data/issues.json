@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "latestIssueId": "001",
-  "libraryAsOf": "2026-10-06",
+  "latestIssueId": "002",
+  "libraryAsOf": "2026-10-12",
   "issues": [
     {
       "id": "001",
@@ -9,6 +9,13 @@
       "date": "2026-10-06",
       "title": "全球 AI 教育与创意观察",
       "file": "issues/001.json"
+    },
+    {
+      "id": "002",
+      "number": 2,
+      "date": "2026-10-12",
+      "title": "从AI辅助到独立学习",
+      "file": "issues/002.json"
     }
   ]
 }

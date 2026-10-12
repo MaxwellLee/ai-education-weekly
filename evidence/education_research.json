@@ -1,0 +1,528 @@
+{
+  "issue": "002",
+  "cutoff": "2026-10-12T09:00:00+08:00",
+  "window": {
+    "start": "2026-10-05T09:00:00+08:00",
+    "end": "2026-10-12T09:00:00+08:00"
+  },
+  "summaries": [
+    "核心转向是撤去AI后还能否独立完成：坚持性实验与两项AI导师训练研究提供不同层次证据。",
+    "青少年产品进展与独立安全测评出现分歧，应分别记录厂商承诺、使用指标和风险测试。",
+    "教师发展覆盖师范生、高校、成人教育和人文学科；活动议程与实际成效严格分开。"
+  ],
+  "items": [
+    {
+      "id": "e002-01",
+      "title": "撤去AI后还会做吗？伯克利报道三项坚持性实验",
+      "date": "2026-10-09",
+      "eventDate": "2026-10-07",
+      "category": "学习科学",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "tags": [
+        "学习科学"
+      ],
+      "summary": "伯克利报道一项共1,222名在线参与者的随机实验研究：分数题和阅读任务中，先使用AI的组在辅助撤去后准确率与坚持性下降。该研究早期稿于春季已公开，本周报道的是更新论文与会议传播。",
+      "why": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
+      "limits": "不能把短时在线实验扩大为所有学生、所有AI用法的长期因果结论；新闻标题比实验适用范围更宽。",
+      "sources": [
+        {
+          "label": "UC Berkeley研究报道",
+          "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/"
+        },
+        {
+          "label": "研究论文",
+          "url": "https://arxiv.org/pdf/2604.04721"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "学习科学",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-02",
+      "title": "Sherpa：用模拟学生的学习结果训练自适应AI教师",
+      "date": "2026-10-06",
+      "eventDate": "2026-10-06",
+      "category": "模型与教学技术",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "tags": [
+        "模型与教学技术"
+      ],
+      "summary": "Sherpa使用多轮强化学习与不同偏好的模拟学生原型训练教师模型。论文报告模拟学生表现平均提升20.5个百分点，人类两两偏好评估中训练后教师获79.6%的偏好。",
+      "why": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
+      "limits": "预印本；20.5个百分点主要是模拟学生结果，不是真实课堂学生提分；人类偏好也不等于长期学习成效。",
+      "sources": [
+        {
+          "label": "Sherpa原论文",
+          "url": "https://arxiv.org/abs/2610.08778"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "模型与教学技术",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-03",
+      "title": "Eduardo：遮掉教师答案后，再测近迁移",
+      "date": "2026-10-05",
+      "eventDate": "2026-10-05",
+      "category": "模型与教学技术",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "tags": [
+        "模型与教学技术"
+      ],
+      "summary": "The Assistance Dilemma提出遮蔽教师话语的近迁移后测，并配合事实正确、不给完整答案的奖励门槛，训练多种规模的辅导模型；开放8,671道近迁移题数据与训练环境。",
+      "why": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
+      "limits": "预印本且主要在模拟对话和基准上验证；论文明确学习收益奖励本身不足以区分教学和直接告知，也报告小模型泄露答案等局限。",
+      "sources": [
+        {
+          "label": "Eduardo原论文",
+          "url": "https://arxiv.org/abs/2610.06446"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "模型与教学技术",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-04",
+      "title": "华中师大团队：多智能体微格教学用于师范生练习",
+      "date": "2026-10-07",
+      "eventDate": "2026-10-07",
+      "category": "教师发展",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "tags": [
+        "教师发展"
+      ],
+      "summary": "MAMS将有差异的虚拟学生、标准化课堂挑战和Dean Agent提示组合，研究数学师范生在多智能体模拟课堂中的互动路径。",
+      "why": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
+      "limits": "期刊OnlineFirst；仅依据公开摘要、作者与发表信息，不声称已完整核验受限全文的效果量，也不等同真实课堂成效。",
+      "sources": [
+        {
+          "label": "Journal of Educational Computing Research",
+          "url": "https://journals.sagepub.com/doi/10.1177/07356331261494349"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "期刊公开摘要与发表信息已读；全文受限",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "教师发展",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-05",
+      "title": "OpenAI公布青少年学习工具进展及大学规划工具",
+      "date": "2026-10-07",
+      "eventDate": "2026-10-07",
+      "category": "公司产品",
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "公司产品"
+      ],
+      "summary": "OpenAI公布ChatGPT for Teens的早期使用情况，并介绍College Planner和青少年AI委员会等计划。",
+      "why": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
+      "limits": "厂商自报与产品计划；学习类消息增加不证明学习增益。各地区、账户开放和适龄条件需逐项确认；应与独立风险测评合读。",
+      "sources": [
+        {
+          "label": "OpenAI产品公告",
+          "url": "https://openai.com/index/teens-learn-and-plan/"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "公司产品",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-06",
+      "title": "Common Sense独立评测质疑青少年模式保护效果",
+      "date": "2026-10-07",
+      "eventDate": "2026-10-07",
+      "category": "治理与安全",
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "治理与安全"
+      ],
+      "summary": "Youth AI Safety Institute公布ChatGPT for Teens风险评估，描述发布前后超过4,000条提示测试，并给出Unacceptable Risk评级；其报告认为部分保护有效，部分家长控制与学习保护不足。",
+      "why": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
+      "limits": "独立机构测试评级，非监管裁决；测试账户、版本、时间和压力测试方法限定结果范围，不能当成所有日常使用的风险发生率。",
+      "sources": [
+        {
+          "label": "Common Sense一手测评",
+          "url": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "治理与安全",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-07",
+      "title": "佛州LEAP-AI将教师培养、读写教学与AI素养联动",
+      "date": "2026-10-08",
+      "eventDate": "2026-10-08",
+      "category": "教育项目",
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "教育项目"
+      ],
+      "summary": "佛州教育局与FAU等公布三年570万美元LEAP-AI项目，聚焦Broward的18所高需求学校，包含校领导培养、AI与读写微证书及教师学徒路径。",
+      "why": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
+      "limits": "官方项目公告；至少100名教育者完成微证书等均为目标，不是已实现的学习成效。",
+      "sources": [
+        {
+          "label": "Florida Department of Education",
+          "url": "https://www.fldoe.org/newsroom/latest-news/icymi-florida-department-of-education-and-fau-partner-to-boost-literacy-and-prepare-educators-for-ai.stml"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "教育项目",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-08",
+      "title": "WestEd在AIME聚焦生成内容偏差与AI测评议程",
+      "date": "原发布日期未标明",
+      "eventDate": "2026-10-05至2026-10-07",
+      "category": "教育测评",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "tags": [
+        "教育测评"
+      ],
+      "summary": "WestEd公布AIME会议议程：比较Claude、GPT和Gemini在不同提示及减偏量规条件下生成教育内容；另分享跨研究者、实践者与政策人员形成的AI测评研发议程。",
+      "why": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
+      "limits": "官方会议日程证明议题与计划，不提供完整研究结果；不宣称减偏量规已经有效。页面未明示首次发布日期。",
+      "sources": [
+        {
+          "label": "WestEd会议页面",
+          "url": "https://www.wested.org/event/join-wested-at-the-2026-ai-in-measurement-and-education-conference/"
+        }
+      ],
+      "freshness": "本周列定日程｜未核验执行结果",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "教育测评",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-09",
+      "title": "COABE成人教育AI峰会：从了解工具走向教学与服务",
+      "date": "原发布日期未标明",
+      "eventDate": "2026-10-06",
+      "category": "成人教育",
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "职业教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "tags": [
+        "成人教育"
+      ],
+      "summary": "COABE的10月6日AI线上峰会议程覆盖教学、行政、就业准备和学习者服务，强调负责任的实际应用。",
+      "why": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
+      "limits": "主办方日程，未核验完整录像和实际实施成果；会员免费不代表向所有公众免费，首次公告日期未明示。",
+      "sources": [
+        {
+          "label": "COABE主办方",
+          "url": "https://www.coabe.org/ai-virtual-summit"
+        }
+      ],
+      "freshness": "本周列定日程｜未核验执行结果",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "成人教育",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-10",
+      "title": "人文学科AI素养：把权力、责任与伦理放进课堂",
+      "date": "原发布日期未标明",
+      "eventDate": "2026-10-08",
+      "category": "AI素养",
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "AI素养"
+      ],
+      "summary": "National Humanities Center的10月8日研修由Kathryn Conrad与Sean Kamperman带领，讨论AI所处社会文化体系，以及教师怎样带学生提出伦理与权力问题。",
+      "why": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
+      "limits": "依据主办方课程介绍，未将宣传目标当成学习效果；仅核实活动日程，首次发布日期未明示。",
+      "sources": [
+        {
+          "label": "National Humanities Center",
+          "url": "https://nationalhumanitiescenter.org/event/webinars/critical-ai-literacy-humanities/"
+        }
+      ],
+      "freshness": "本周列定日程｜未核验执行结果",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "AI素养",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-11",
+      "title": "西班牙AInnovaLAB讨论AI、教育与公民参与",
+      "date": "原发布日期未标明",
+      "eventDate": "2026-10-08至2026-10-09",
+      "category": "AI素养",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "tags": [
+        "AI素养"
+      ],
+      "summary": "萨拉曼卡大学域名下的AInnovaLAB会议议程将生成式AI教育创新、教师培训差距、艺术教育和知识民主化放在共同框架中，采用数字报告与讨论空间。",
+      "why": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
+      "limits": "会议日程而非会议结果报道；不据议程推断演讲已按原计划完成或产生有效成果。",
+      "sources": [
+        {
+          "label": "AInnovaLAB官方会议站",
+          "url": "https://ainnovalab.usal.es/en/"
+        }
+      ],
+      "freshness": "本周列定日程｜未核验执行结果",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "AI素养",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-12",
+      "title": "MIT Rakhlin讨论研究生教育如何面对AI能力变化",
+      "date": "2026-10-08",
+      "eventDate": "2026-10-08",
+      "category": "高教治理",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "tags": [
+        "高教治理"
+      ],
+      "summary": "MIT采访Sasha Rakhlin，围绕研究、研究生培养和大学如何调整面对AI的工作方式提出问题。",
+      "why": "院系层面需要区分AI承担任务与学生必须亲自掌握的研究判断。",
+      "limits": "专家访谈与前瞻观点，不是实证研究；文中模型能力预测与数学进展判断不作独立确认。",
+      "sources": [
+        {
+          "label": "MIT News",
+          "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925"
+        }
+      ],
+      "freshness": "本周发布",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "高教治理",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "院系层面需要区分AI承担任务与学生必须亲自掌握的研究判断。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    },
+    {
+      "id": "e002-13",
+      "title": "Butler把Gemini与Canvas结合开展个性化学习研修",
+      "date": "原发布日期未标明",
+      "eventDate": "2026-10-09",
+      "category": "教学工具实践",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "tags": [
+        "教学工具实践"
+      ],
+      "summary": "Butler大学10月9日教师研修介绍在Canvas中使用Gemini LTI、学习空间和Gems，对阅读材料、作业指令与反馈做差异化处理。",
+      "why": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
+      "limits": "校方培训描述；未实测集成，不推断所有学校套餐均已开放，也未核实其节省时间或改善学习的效果。",
+      "sources": [
+        {
+          "label": "Butler大学教学支持",
+          "url": "https://www.butler.edu/oeet/artificial-intelligence/pillar-1-faculty-education-community/"
+        }
+      ],
+      "freshness": "本周列定日程｜未核验执行结果",
+      "evidenceLevel": "一手正文已读取",
+      "firstSeen": "2026-10-12",
+      "updated": null,
+      "isBackground": false,
+      "contentType": "教学工具实践",
+      "metrics": null,
+      "ageRestriction": null,
+      "checkedAt": "2026-10-12",
+      "application": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
+      "applicationLabel": "可关注的实践方向｜编辑建议",
+      "image": null
+    }
+  ]
+}

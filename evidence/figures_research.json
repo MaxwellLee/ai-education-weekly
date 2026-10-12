@@ -1,0 +1,1097 @@
+{
+  "checkedAt": "2026-10-12",
+  "cutoff": "2026-10-12T09:00:00+08:00",
+  "window": {
+    "start": "2026-10-05",
+    "end": "2026-10-12"
+  },
+  "counts": {
+    "distinct_people": 10,
+    "direct_readable_statement_sources": 10,
+    "in_week_publications": 10
+  },
+  "editorial_notes": [
+    "10位不同人物均有本周可读具体观点；原讲话或课堂实践并非均在本周发生。",
+    "Sal Khan节目摘要可读，未试听全片；其他条目读取原文章正文。",
+    "Flower Darby原站返回403，仅搜索可见，不计入这10位。",
+    "新人物肖像许可不足，使用明确缺图与原资料链接；Sal Khan与Dan Fitzpatrick可沿用既有私人预览肖像，公开许可仍未确认。",
+    "不以热度排名；不将教育作者观点或机构产品宣传作为已验证学习效果。",
+    "Dan Fitzpatrick与001同文，标为补充全文证据的后续追踪；其余9条为本期新增来源。"
+  ],
+  "publicFigures": [
+    {
+      "id": "person-002-sal-khan",
+      "name": "Sal Khan",
+      "role": "Khan Academy创始人兼CEO",
+      "platform": "Trending in Education 原播客节目页",
+      "title": "从被动答疑转向主动辅导，同时保留人的学习过程",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Khan在访谈中谈到，被动提供AI家教并不意味着学生会使用；他解释向更主动支持的转向，并讨论能呈现学生推理的评估及长期有用的能力。",
+      "why": "跟进AI辅导从有工具到真正参与学习的变化。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://trendingineducation.com/2026/10/sal-khan-on-ai-tutors-durable-skills-and-the-khan-ted-institute/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "播客原站摘要可读，未听完整录音；使用率和学位成本等数字是受访者或节目方陈述，本刊未独立审计。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-leon-furze",
+      "name": "Leon Furze",
+      "role": "生成式AI教育顾问、作者",
+      "platform": "本人博客",
+      "title": "AI素养要认识工具权限与责任，而不只会聊天",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "澳大利亚",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "高等教育",
+        "职业教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Furze认为，把AI看成聊天窗口会掩盖其调用工具与访问数据的能力。教育者应追问系统如何执行、由谁授权、能访问什么，并审视部署者责任。",
+      "why": "为学校采购、教师培训补上智能体权限和责任这一层。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://leonfurze.com/2026/10/08/beyond-chatbots-convenient-costume/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "原文含对科技公司的严重指控；本刊这里只概括其教育与治理主张，不将相关指控作为已独立核实事实。文章10月9日有更新。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-maya-bialik",
+      "name": "Maya Bialik",
+      "role": "教育作者、QuestionWell共同创建者",
+      "platform": "Harvard Graduate School of Education 原采访",
+      "title": "先分清学习助手与代做助手",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "初中",
+        "高中阶段",
+        "教育工作者"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Bialik建议依据学习目标决定何时用AI：辅助研究、备课与反馈；对学生则区分促进理解的辅导与完成非核心任务的协助，并让学生解释自己的使用选择。",
+      "why": "把抽象的允许或禁止AI，转为具体任务设计。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "大学杂志采访属于本人观点；产品用户数和效果未独立审计。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-sasha-rakhlin",
+      "name": "Alexander (Sasha) Rakhlin",
+      "role": "MIT统计与数据科学中心主任、教授",
+      "platform": "MIT News 原问答",
+      "title": "博士培养要评价贡献、复核和解释能力",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Rakhlin提出，流畅论文越来越难单独证明研究能力；博士生需练习提出问题、复核模型输出、复现结果和为选择辩护，院系也应明确AI辅助工作的贡献与责任。",
+      "why": "对高等教育评价和研究训练有直接启发。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "其对未来模型能力的判断是预测，不是保证；原文数学新闻例子未在本刊复核。URL末尾0925不能替代页面明确的10月8日日期。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-panayiota-kendeou",
+      "name": "Panayiota Kendeou",
+      "role": "明尼苏达大学教育心理学教授",
+      "platform": "University of Minnesota 原具名报道",
+      "title": "先识别AI影响哪些学习过程，再谈整体成效",
+      "date": "2026-10-06",
+      "published_date": "2026-10-06",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Kendeou解释，由于现有AI学习效果证据仍不充分，专家团队结合学习、记忆与教育知识形成共识，逐项梳理AI可能增强或破坏的学习过程。",
+      "why": "帮助读者区别专家共识、产品宣称和实验效果证据。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://edpsych.umn.edu/kendeou-lead-author-gen-ai-report-additional-ed-psych-faculty-contributing-authors-expert-consensus",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "共识报告不是随机对照试验，也不证明所有工具对所有学生有效。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-paul-shore",
+      "name": "Paul Shore",
+      "role": "曼彻斯特大学教授、灵活与数字教育副院长",
+      "platform": "Elsevier 原活动回顾",
+      "title": "AI可以减轻琐碎负担，不能绕过理解所需的思考",
+      "date": "2026-10-06",
+      "published_date": "2026-10-06",
+      "event_date": "2026-09-24",
+      "date_precision": "原页面公布日；未公布具体时刻。报道的是较早活动，活动日另列。",
+      "freshness": "本周发布｜较早活动回顾",
+      "in_week": true,
+      "region": "英国",
+      "stages": [
+        "高等教育",
+        "职业教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Shore把个人准备、团队讨论与解释责任结合起来：AI可协助整理笔记或语法，但学生仍须形成判断并辩护；评价应检验这种过程。",
+      "why": "医学及专业教育中的团队学习案例，可迁移到需要解释与讨论的课程。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://facultyhub.elsevier.com/en/designing-the-modern-curriculum",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "文章10月6日发布，讲座实际发生于9月24日；规模与调查关联为演讲方陈述，不作AI因果效果证据。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-christine-elgersma",
+      "name": "Christine Elgersma",
+      "role": "Common Sense Education学习内容战略高级编辑",
+      "platform": "Common Sense Education署名文章",
+      "title": "学校AI素养要覆盖同意、隐私和核查",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Elgersma建议学校主动讨论深度伪造、偏见和数据隐私，讲清使用他人影像前的同意，并教学生核查AI给出的来源。AI素养不只是操作工具。",
+      "why": "把课堂教学与儿童数字安全、家校沟通连接起来。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://www.commonsense.org/education/articles/chatgpt-and-beyond-how-to-handle-ai-in-schools",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "页面显示日期为10月5日，未确认这是初发还是更新；属于教育建议，不把其他司法辖区规则直接套用国内。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-cammie-kannekens",
+      "name": "Cammie Kannekens",
+      "role": "教师与教学教练",
+      "platform": "本人博客",
+      "title": "在教师设计和监控下，用AI反馈发现写作薄弱点",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "加拿大",
+      "stages": [
+        "高中阶段",
+        "教育工作者"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Kannekens介绍教师用短时、聚焦的AI写作练习诊断学生困难，再据此调整全班教学；她主张关注教师设定任务和查看反馈的能力。",
+      "why": "提供可试的小型课堂设计，同时提醒核验反馈准确性与学生隐私。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://cammiekannekensblog.wordpress.com/2026/10/05/the-ai-feedback-debate/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "为本人及同事实践自述，不是AI优于同伴互评的对照证据；个人简介包含较早信息，不把计划中的认证当成已取得。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-kristyn-muller-mirasol",
+      "name": "Kristyn Muller Mirasol",
+      "role": "Packback产品经理、教育研究者",
+      "platform": "Packback原研讨会回顾",
+      "title": "成品不等于学习证据：让过程可见",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。报道的是较早活动，活动日另列。",
+      "freshness": "本周发布｜较早活动回顾",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Mirasol以登山作比：能够直接到达终点，不代表经历了学习。她建议收集规划、草稿、修改和反思，让教师判断学生实际思考了什么。",
+      "why": "适合改造AI时代的作业与过程评价。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://packback.co/resources/blog/webinar-recap-packback-ai-integrated-assignments/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "原主办方文章可读，活动日期未直接确认；该公司LinkedIn索引称9月30日，未纳入确定日期。主办方有产品商业立场，不当作独立效果研究。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-dan-fitzpatrick",
+      "name": "Dan Fitzpatrick",
+      "role": "The AI Educator作者、AI教育顾问",
+      "platform": "本人博客",
+      "title": "AI可以润色评语，但不能编造学生细节",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "窗口内旧条目追踪｜补充全文证据",
+      "in_week": true,
+      "region": "英国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "教育工作者"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Fitzpatrick提出逐句检查评语来源：教师观察、学校记录、还是模型猜测。前两类可让AI辅助表达；对孩子的具体表现不能由模型补写。",
+      "why": "适合教师报告、学生作品评价和家长反馈的质量检查。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://blog.theaieducator.io/posts/should-ai-write-school-reports",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "这是作者提出的诊断方法，作者明确说并非经测试标准；本刊不沿用未独立核验调查比例或法律解释。 第001期已收录相同文章；本期新增全文可读及方法限制核对，不是新发表。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12",
+      "first_seen_issue": "001",
+      "followup_change": "上一期只有搜索索引证据；本次读取全文，确认三来源检验是作者建议而非已测试标准。"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "person-002-sal-khan",
+      "name": "Sal Khan",
+      "identity": "Khan Academy 创始人兼首席执行官",
+      "bio": [
+        "可汗学院创始人兼首席执行官，长期推动免费在线学习与掌握式教学，也创办同伴辅导平台 Schoolhouse.world。",
+        "近年关注人工智能辅导与教师支持如何融入日常教学。"
+      ],
+      "contributions": [
+        {
+          "title": "Khanmigo 教育AI试点（2023）",
+          "text": "其领导的可汗学院推出 Khanmigo 试点，探索面向学习者的个性化辅导和面向教师的辅助支持；这是机构项目，并非其个人独立开发。",
+          "period": null,
+          "source": {
+            "title": "Khan Academy：Khanmigo试点介绍（2023-03-28）",
+            "url": "https://support.khanacademy.org/hc/en-us/articles/14394953976333--Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "Khan Academy：Khanmigo试点介绍（2023-03-28）",
+              "url": "https://support.khanacademy.org/hc/en-us/articles/14394953976333--Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        },
+        {
+          "title": "《Brave New Words》（2024）",
+          "text": "出版讨论AI与教育的著作，面向教师、家长及学习者介绍个性化学习、教学支持及伦理议题。",
+          "period": null,
+          "source": {
+            "title": "Penguin Random House：Brave New Words",
+            "url": "https://www.penguinrandomhouse.com/books/740806/brave-new-words-by-salman-khan/9780593656952/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "Penguin Random House：Brave New Words",
+              "url": "https://www.penguinrandomhouse.com/books/740806/brave-new-words-by-salman-khan/9780593656952/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        }
+      ],
+      "followReason": "适合跟进AI辅导从产品愿景到学校实际使用的变化，同时关注学习效果、教师负担与安全边界。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "Khan Academy：领导团队",
+          "url": "https://www.khanacademy.org/about/leadership",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "title": "Khan Academy：Khanmigo试点介绍",
+          "url": "https://support.khanacademy.org/hc/en-us/articles/14394953976333--Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "title": "本期发声及身份核对",
+          "url": "https://trendingineducation.com/2026/10/sal-khan-on-ai-tutors-durable-skills-and-the-khan-ted-institute/",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-sal-khan.jpg",
+        "sourcePage": "https://www.penguinrandomhouse.com/authors/2293798/salman-khan/",
+        "credit": "© Khan Academy（出版社作者页明示）",
+        "alt": "Sal Khan的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-002-leon-furze",
+      "name": "Leon Furze",
+      "identity": "生成式AI教育顾问、作者",
+      "bio": [
+        "长期从事中学、高等教育及领导工作，2026年完成有关生成式AI与写作教学的博士研究。"
+      ],
+      "contributions": [
+        {
+          "title": "Practical AI Strategies 系列",
+          "text": "出版面向教育者的AI实践著作。",
+          "period": null,
+          "source": {
+            "title": "Practical AI Strategies 系列",
+            "url": "https://leonfurze.com/about/",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "Practical AI Strategies 系列",
+              "url": "https://leonfurze.com/about/",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        }
+      ],
+      "followReason": "为学校采购、教师培训补上智能体权限和责任这一层。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "本人或机构专业简介",
+          "url": "https://leonfurze.com/about/",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "title": "本期具名观点",
+          "url": "https://leonfurze.com/2026/10/08/beyond-chatbots-convenient-costume/",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://leonfurze.com/about/",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Leon Furze：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-maya-bialik",
+      "name": "Maya Bialik",
+      "identity": "教育作者、QuestionWell共同创建者",
+      "bio": [
+        "曾任初中科学教师，并研究AI如何支持教师能动性。"
+      ],
+      "contributions": [
+        {
+          "title": "Irreplaceable",
+          "text": "与Peter Nilsson合著有关AI、教学与学习的著作。",
+          "period": null,
+          "source": {
+            "title": "Irreplaceable",
+            "url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "Irreplaceable",
+              "url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        },
+        {
+          "title": "QuestionWell",
+          "text": "参与创建教师教学材料生成工具；属于共同项目。",
+          "period": null,
+          "source": {
+            "title": "QuestionWell",
+            "url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "QuestionWell",
+              "url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        }
+      ],
+      "followReason": "把抽象的允许或禁止AI，转为具体任务设计。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "本人或机构专业简介",
+          "url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "title": "本期具名观点",
+          "url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Maya Bialik：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-sasha-rakhlin",
+      "name": "Alexander (Sasha) Rakhlin",
+      "identity": "MIT统计与数据科学中心主任、教授",
+      "bio": [
+        "研究机器学习的统计与计算基础，关注在线预测理论与算法。"
+      ],
+      "contributions": [
+        {
+          "title": "在线学习研究",
+          "text": "开展在线预测理论与算法研究，曾获NSF CAREER及COLT最佳论文奖等，依据MIT个人简介。",
+          "period": null,
+          "source": {
+            "title": "在线学习研究",
+            "url": "https://idss.mit.edu/staff/alexander-sasha-rakhlin/",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "在线学习研究",
+              "url": "https://idss.mit.edu/staff/alexander-sasha-rakhlin/",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        }
+      ],
+      "followReason": "对高等教育评价和研究训练有直接启发。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "本人或机构专业简介",
+          "url": "https://idss.mit.edu/staff/alexander-sasha-rakhlin/",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "title": "本期具名观点",
+          "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://idss.mit.edu/staff/alexander-sasha-rakhlin/",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Alexander (Sasha) Rakhlin：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-panayiota-kendeou",
+      "name": "Panayiota Kendeou",
+      "identity": "明尼苏达大学教育心理学教授",
+      "bio": [
+        "研究阅读理解、学习过程及错误信息，主持Reading + Learning Lab。"
+      ],
+      "contributions": [
+        {
+          "title": "ED-AI Lit（2024）",
+          "text": "与Laura Allen合著教育AI素养跨学科框架。",
+          "period": null,
+          "source": {
+            "title": "ED-AI Lit（2024）",
+            "url": "https://edpsych.umn.edu/panayiota-kendeou",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "ED-AI Lit（2024）",
+              "url": "https://edpsych.umn.edu/panayiota-kendeou",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        },
+        {
+          "title": "阅读与错误信息研究",
+          "text": "著有教育错误信息相关书籍，并将阅读理论用于教学技术研究。",
+          "period": null,
+          "source": {
+            "title": "阅读与错误信息研究",
+            "url": "https://edpsych.umn.edu/panayiota-kendeou",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "阅读与错误信息研究",
+              "url": "https://edpsych.umn.edu/panayiota-kendeou",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        }
+      ],
+      "followReason": "帮助读者区别专家共识、产品宣称和实验效果证据。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "本人或机构专业简介",
+          "url": "https://edpsych.umn.edu/panayiota-kendeou",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "title": "本期具名观点",
+          "url": "https://edpsych.umn.edu/kendeou-lead-author-gen-ai-report-additional-ed-psych-faculty-contributing-authors-expert-consensus",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://edpsych.umn.edu/panayiota-kendeou",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Panayiota Kendeou：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-paul-shore",
+      "name": "Paul Shore",
+      "identity": "曼彻斯特大学教授、灵活与数字教育副院长",
+      "bio": [
+        "生物化学教授，同时从事数字教育和课程领导工作。"
+      ],
+      "contributions": [
+        {
+          "title": "团队式学习实践",
+          "text": "在健康与生命科学课程推动结构化团队学习；机构实践不是个人独立产品。",
+          "period": null,
+          "source": {
+            "title": "团队式学习实践",
+            "url": "https://facultyhub.elsevier.com/en/designing-the-modern-curriculum",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "团队式学习实践",
+              "url": "https://facultyhub.elsevier.com/en/designing-the-modern-curriculum",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        }
+      ],
+      "followReason": "医学及专业教育中的团队学习案例，可迁移到需要解释与讨论的课程。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "本人或机构专业简介",
+          "url": "https://research.manchester.ac.uk/en/persons/paul.shore/",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "title": "本期具名观点",
+          "url": "https://facultyhub.elsevier.com/en/designing-the-modern-curriculum",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://research.manchester.ac.uk/en/persons/paul.shore/",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Paul Shore：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-christine-elgersma",
+      "name": "Christine Elgersma",
+      "identity": "Common Sense Education学习内容战略高级编辑",
+      "bio": [
+        "曾从事高中、社区学院教学及特殊教育支持，现编辑学习相关内容。"
+      ],
+      "contributions": [
+        {
+          "title": "K–12英语语言艺术课程",
+          "text": "在加入Common Sense前参与K–12应用的ELA课程开发，依据本人机构简介。",
+          "period": null,
+          "source": {
+            "title": "K–12英语语言艺术课程",
+            "url": "https://www.commonsense.org/education/user/2656321",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "K–12英语语言艺术课程",
+              "url": "https://www.commonsense.org/education/user/2656321",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        }
+      ],
+      "followReason": "把课堂教学与儿童数字安全、家校沟通连接起来。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "本人或机构专业简介",
+          "url": "https://www.commonsense.org/education/user/2656321",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "title": "本期具名观点",
+          "url": "https://www.commonsense.org/education/articles/chatgpt-and-beyond-how-to-handle-ai-in-schools",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.commonsense.org/education/user/2656321",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Christine Elgersma：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-cammie-kannekens",
+      "name": "Cammie Kannekens",
+      "identity": "教师与教学教练",
+      "bio": [
+        "具有长期高中英语与社会学科教学经历，个人简介记录曾教授职前教师教育技术课程。"
+      ],
+      "contributions": [
+        {
+          "title": "职前教师教育技术教学",
+          "text": "曾教授MHC的EDTS 325课程，依据个人简介。",
+          "period": null,
+          "source": {
+            "title": "职前教师教育技术教学",
+            "url": "https://cammiekannekensblog.wordpress.com/about/",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "职前教师教育技术教学",
+              "url": "https://cammiekannekensblog.wordpress.com/about/",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        },
+        {
+          "title": "课堂与教练实践写作",
+          "text": "持续公开记录教学技术及教学教练实践，提供可核对案例。",
+          "period": null,
+          "source": {
+            "title": "课堂与教练实践写作",
+            "url": "https://cammiekannekensblog.wordpress.com/2026/10/05/the-ai-feedback-debate/",
+            "source_type": "本人或机构一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "课堂与教练实践写作",
+              "url": "https://cammiekannekensblog.wordpress.com/2026/10/05/the-ai-feedback-debate/",
+              "source_type": "本人或机构一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "作品或公开实践记录；不把本人或机构宣传转为已证实学习成效。"
+        }
+      ],
+      "followReason": "提供可试的小型课堂设计，同时提醒核验反馈准确性与学生隐私。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "本人或机构专业简介",
+          "url": "https://cammiekannekensblog.wordpress.com/about/",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "title": "本期具名观点",
+          "url": "https://cammiekannekensblog.wordpress.com/2026/10/05/the-ai-feedback-debate/",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://cammiekannekensblog.wordpress.com/about/",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Cammie Kannekens：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": "https://cammiekannekensblog.wordpress.com/wp-content/uploads/2013/09/mrsk.png?h=252&w=252",
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-kristyn-muller-mirasol",
+      "name": "Kristyn Muller Mirasol",
+      "identity": "Packback产品经理、教育研究者",
+      "bio": [
+        "Packback产品经理，本期主办方文章核实其博士头衔和产品职务；个人职业页面读取受限。"
+      ],
+      "contributions": [
+        {
+          "title": "学习过程可见化的公开培训",
+          "text": "在Packback研讨会讲解如何让规划、草稿、修改与反思成为学习证据；属于教学设计传播，非效果实验。",
+          "period": null,
+          "source": {
+            "title": "Packback具名研讨会回顾",
+            "url": "https://packback.co/resources/blog/webinar-recap-packback-ai-integrated-assignments/",
+            "source_type": "活动主办方一手来源",
+            "checked_on": "2026-10-12"
+          },
+          "sources": [
+            {
+              "title": "Packback具名研讨会回顾",
+              "url": "https://packback.co/resources/blog/webinar-recap-packback-ai-integrated-assignments/",
+              "source_type": "活动主办方一手来源",
+              "checked_on": "2026-10-12"
+            }
+          ],
+          "evidenceNote": "本期可直接核实的公开专业工作；更早个人成果资料未完成直接核验，不补写。"
+        }
+      ],
+      "followReason": "适合改造AI时代的作业与过程评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "Packback具名研讨会回顾",
+          "url": "https://packback.co/resources/blog/webinar-recap-packback-ai-integrated-assignments/",
+          "source_type": "活动主办方一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [
+        "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。",
+        "LinkedIn直接读取受限；未用搜索摘要中的论文经历作为已直接核实成果。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.linkedin.com/in/kristynmuller",
+        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
+        "alt": "Kristyn Muller Mirasol：本期未嵌入肖像，原人物资料见链接",
+        "processing": "未生成或替代真人肖像",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
+        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。"
+      }
+    },
+    {
+      "id": "person-002-dan-fitzpatrick",
+      "name": "Dan Fitzpatrick",
+      "identity": "The AI Educator 作者、演讲者及AI培训与战略顾问（依据本人官网）",
+      "bio": [
+        "人工智能教育作者、演讲者与培训顾问，以 The AI Educator 开展教师培训及学校人工智能战略支持。",
+        "其工作聚焦课堂应用、教育领导力与技术采用中的安全治理。"
+      ],
+      "contributions": [
+        {
+          "title": "合著《The AI Classroom》",
+          "text": "与 Amanda Fox、Brad Weinstein 合著，整理教育者可用的AI策略、工具与应用框架。",
+          "period": null,
+          "source": {
+            "title": "作者官网：The Books 栏目",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "作者官网：The Books 栏目",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "The AI Classroom 官方书站",
+              "url": "https://www.theaiclassroom.net/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        },
+        {
+          "title": "《Infinite Education》",
+          "text": "面向教育领导者提出AI时代推动学校变革的四步策略，重点是组织与教学转变，而非仅罗列新工具。",
+          "period": null,
+          "source": {
+            "title": "作者官网：Infinite Education 介绍",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "作者官网：Infinite Education 介绍",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "作者官网：Infinite Education 书籍介绍文件",
+              "url": "https://www.theaieducator.io/_files/ugd/28e2c0_40c9f1ea90a44108a2b824c93118da03.pdf",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        }
+      ],
+      "followReason": "适合跟进一线教师能理解的AI实践与学校采用建议；具体成效仍需结合独立证据判断。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-12",
+      "profileSources": [
+        {
+          "title": "Dan Fitzpatrick 官方网站",
+          "url": "https://theaieducator.io/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "title": "本期发声及身份核对",
+          "url": "https://blog.theaieducator.io/posts/should-ai-write-school-reports",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": "assets/portraits/person-dan-fitzpatrick.jpg",
+        "sourcePage": "https://www.theaiclassroom.net/",
+        "credit": "来源：The AI Classroom 官方团队页；页面未注明摄影者",
+        "alt": "Dan Fitzpatrick的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    }
+  ]
+}

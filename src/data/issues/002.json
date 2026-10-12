@@ -1,0 +1,1773 @@
+{
+  "schemaVersion": 2,
+  "id": "002",
+  "number": 2,
+  "date": "2026-10-12",
+  "title": "从AI辅助到独立学习",
+  "window": {
+    "start": "2026-10-05",
+    "end": "2026-10-12",
+    "note": "截至10月12日09:00北京时间。无原发布日期的条目按活动时间列入，明确为日程而非成果。"
+  },
+  "cutoff": "2026-10-12T09:00:00+08:00",
+  "revisionNote": "第002期私人预览；保留001原始数据与整页快照。",
+  "education": {
+    "issue": "002",
+    "cutoff": "2026-10-12T09:00:00+08:00",
+    "window": {
+      "start": "2026-10-05T09:00:00+08:00",
+      "end": "2026-10-12T09:00:00+08:00"
+    },
+    "summaries": [
+      {
+        "title": "作品完成之后，能力留下了吗？",
+        "summary": "坚持性实验与AI导师研究提示：评估不应止于有AI时的正确率，要看撤去帮助后的独立表现。",
+        "target": "e002-01"
+      },
+      {
+        "title": "青少年保护，需要对照独立测试",
+        "summary": "厂商本周公布保护与学习功能进展，第三方风险评测提出不同观察；功能公告与实际效果分开看。",
+        "target": "e002-05"
+      },
+      {
+        "title": "教师发展，进入学科与工作流",
+        "summary": "师范生模拟练习、成人教育和人文学科研修共同出现。会议与培训日程只证明安排，不代表已验证效果。",
+        "target": "e002-04"
+      }
+    ],
+    "items": [
+      {
+        "id": "e002-01",
+        "title": "撤去AI后还会做吗？伯克利报道三项坚持性实验",
+        "date": "2026-10-09",
+        "eventDate": "2026-10-07",
+        "category": "学习科学",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "学习科学"
+        ],
+        "summary": "伯克利报道一项共1,222名在线参与者的随机实验研究：分数题和阅读任务中，先使用AI的组在辅助撤去后准确率与坚持性下降。该研究早期稿于春季已公开，本周报道的是更新论文与会议传播。",
+        "why": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
+        "limits": "不能把短时在线实验扩大为所有学生、所有AI用法的长期因果结论；新闻标题比实验适用范围更宽。 事件/计划时间：2026-10-07。",
+        "sources": [
+          {
+            "label": "UC Berkeley研究报道",
+            "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/"
+          },
+          {
+            "label": "研究论文",
+            "url": "https://arxiv.org/pdf/2604.04721"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "学习科学",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-02",
+        "title": "Sherpa：用模拟学生的学习结果训练自适应AI教师",
+        "date": "2026-10-06",
+        "eventDate": "2026-10-06",
+        "category": "模型与教学技术",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "模型与教学技术"
+        ],
+        "summary": "Sherpa使用多轮强化学习与不同偏好的模拟学生原型训练教师模型。论文报告模拟学生表现平均提升20.5个百分点，人类两两偏好评估中训练后教师获79.6%的偏好。",
+        "why": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
+        "limits": "预印本；20.5个百分点主要是模拟学生结果，不是真实课堂学生提分；人类偏好也不等于长期学习成效。 事件/计划时间：2026-10-06。",
+        "sources": [
+          {
+            "label": "Sherpa原论文",
+            "url": "https://arxiv.org/abs/2610.08778"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "模型与教学技术",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-03",
+        "title": "Eduardo：遮掉教师答案后，再测近迁移",
+        "date": "2026-10-05",
+        "eventDate": "2026-10-05",
+        "category": "模型与教学技术",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "模型与教学技术"
+        ],
+        "summary": "The Assistance Dilemma提出遮蔽教师话语的近迁移后测，并配合事实正确、不给完整答案的奖励门槛，训练多种规模的辅导模型；开放8,671道近迁移题数据与训练环境。",
+        "why": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
+        "limits": "预印本且主要在模拟对话和基准上验证；论文明确学习收益奖励本身不足以区分教学和直接告知，也报告小模型泄露答案等局限。 事件/计划时间：2026-10-05。",
+        "sources": [
+          {
+            "label": "Eduardo原论文",
+            "url": "https://arxiv.org/abs/2610.06446"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "模型与教学技术",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-04",
+        "title": "华中师大团队：多智能体微格教学用于师范生练习",
+        "date": "2026-10-07",
+        "eventDate": "2026-10-07",
+        "category": "教师发展",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "tags": [
+          "教师发展"
+        ],
+        "summary": "MAMS将有差异的虚拟学生、标准化课堂挑战和Dean Agent提示组合，研究数学师范生在多智能体模拟课堂中的互动路径。",
+        "why": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
+        "limits": "期刊OnlineFirst；仅依据公开摘要、作者与发表信息，不声称已完整核验受限全文的效果量，也不等同真实课堂成效。 事件/计划时间：2026-10-07。",
+        "sources": [
+          {
+            "label": "Journal of Educational Computing Research",
+            "url": "https://journals.sagepub.com/doi/10.1177/07356331261494349"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "期刊公开摘要与发表信息已读；全文受限",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "教师发展",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-05",
+        "title": "OpenAI公布青少年学习工具进展及大学规划工具",
+        "date": "2026-10-07",
+        "eventDate": "2026-10-07",
+        "category": "公司产品",
+        "educationLevels": [
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "tags": [
+          "公司产品"
+        ],
+        "summary": "OpenAI公布ChatGPT for Teens的早期使用情况，并介绍College Planner和青少年AI委员会等计划。",
+        "why": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
+        "limits": "厂商自报与产品计划；学习类消息增加不证明学习增益。各地区、账户开放和适龄条件需逐项确认；应与独立风险测评合读。 事件/计划时间：2026-10-07。",
+        "sources": [
+          {
+            "label": "OpenAI产品公告",
+            "url": "https://openai.com/index/teens-learn-and-plan/"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "公司产品",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-06",
+        "title": "Common Sense独立评测质疑青少年模式保护效果",
+        "date": "2026-10-07",
+        "eventDate": "2026-10-07",
+        "category": "治理与安全",
+        "educationLevels": [
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "tags": [
+          "治理与安全"
+        ],
+        "summary": "Youth AI Safety Institute公布ChatGPT for Teens风险评估，描述发布前后超过4,000条提示测试，并给出Unacceptable Risk评级；其报告认为部分保护有效，部分家长控制与学习保护不足。",
+        "why": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
+        "limits": "独立机构测试评级，非监管裁决；测试账户、版本、时间和压力测试方法限定结果范围，不能当成所有日常使用的风险发生率。 事件/计划时间：2026-10-07。",
+        "sources": [
+          {
+            "label": "Common Sense一手测评",
+            "url": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "治理与安全",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-07",
+        "title": "佛州LEAP-AI将教师培养、读写教学与AI素养联动",
+        "date": "2026-10-08",
+        "eventDate": "2026-10-08",
+        "category": "教育项目",
+        "educationLevels": [
+          "小学教育",
+          "初中教育",
+          "高中阶段教育",
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "tags": [
+          "教育项目"
+        ],
+        "summary": "佛州教育局与FAU等公布三年570万美元LEAP-AI项目，聚焦Broward的18所高需求学校，包含校领导培养、AI与读写微证书及教师学徒路径。",
+        "why": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
+        "limits": "官方项目公告；至少100名教育者完成微证书等均为目标，不是已实现的学习成效。 事件/计划时间：2026-10-08。",
+        "sources": [
+          {
+            "label": "Florida Department of Education",
+            "url": "https://www.fldoe.org/newsroom/latest-news/icymi-florida-department-of-education-and-fau-partner-to-boost-literacy-and-prepare-educators-for-ai.stml"
+          }
+        ],
+        "freshness": "本周发布",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "教育项目",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-08",
+        "title": "WestEd在AIME聚焦生成内容偏差与AI测评议程",
+        "date": "原发布日期未标明",
+        "eventDate": "2026-10-05至2026-10-07",
+        "category": "教育测评",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "教育测评"
+        ],
+        "summary": "WestEd公布AIME会议议程：比较Claude、GPT和Gemini在不同提示及减偏量规条件下生成教育内容；另分享跨研究者、实践者与政策人员形成的AI测评研发议程。",
+        "why": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
+        "limits": "官方会议日程证明议题与计划，不提供完整研究结果；不宣称减偏量规已经有效。页面未明示首次发布日期。 事件/计划时间：2026-10-05至2026-10-07。",
+        "sources": [
+          {
+            "label": "WestEd会议页面",
+            "url": "https://www.wested.org/event/join-wested-at-the-2026-ai-in-measurement-and-education-conference/"
+          }
+        ],
+        "freshness": "本周活动日程",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "教育测评",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-09",
+        "title": "COABE成人教育AI峰会：从了解工具走向教学与服务",
+        "date": "原发布日期未标明",
+        "eventDate": "2026-10-06",
+        "category": "成人教育",
+        "educationLevels": [],
+        "audienceTypes": [
+          "成人与继续教育",
+          "职业教育",
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "成人教育"
+        ],
+        "summary": "COABE的10月6日AI线上峰会议程覆盖教学、行政、就业准备和学习者服务，强调负责任的实际应用。",
+        "why": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
+        "limits": "主办方日程，未核验完整录像和实际实施成果；会员免费不代表向所有公众免费，首次公告日期未明示。 事件/计划时间：2026-10-06。",
+        "sources": [
+          {
+            "label": "COABE主办方",
+            "url": "https://www.coabe.org/ai-virtual-summit"
+          }
+        ],
+        "freshness": "本周活动日程",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "成人教育",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-10",
+        "title": "人文学科AI素养：把权力、责任与伦理放进课堂",
+        "date": "原发布日期未标明",
+        "eventDate": "2026-10-08",
+        "category": "AI素养",
+        "educationLevels": [
+          "初中教育",
+          "高中阶段教育",
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "tags": [
+          "AI素养"
+        ],
+        "summary": "National Humanities Center的10月8日研修由Kathryn Conrad与Sean Kamperman带领，讨论AI所处社会文化体系，以及教师怎样带学生提出伦理与权力问题。",
+        "why": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
+        "limits": "依据主办方课程介绍，未将宣传目标当成学习效果；仅核实活动日程，首次发布日期未明示。 事件/计划时间：2026-10-08。",
+        "sources": [
+          {
+            "label": "National Humanities Center",
+            "url": "https://nationalhumanitiescenter.org/event/webinars/critical-ai-literacy-humanities/"
+          }
+        ],
+        "freshness": "本周活动日程",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "AI素养",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-11",
+        "title": "西班牙AInnovaLAB讨论AI、教育与公民参与",
+        "date": "原发布日期未标明",
+        "eventDate": "2026-10-08至2026-10-09",
+        "category": "AI素养",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "AI素养"
+        ],
+        "summary": "萨拉曼卡大学域名下的AInnovaLAB会议议程将生成式AI教育创新、教师培训差距、艺术教育和知识民主化放在共同框架中，采用数字报告与讨论空间。",
+        "why": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
+        "limits": "会议日程而非会议结果报道；不据议程推断演讲已按原计划完成或产生有效成果。 事件/计划时间：2026-10-08至2026-10-09。",
+        "sources": [
+          {
+            "label": "AInnovaLAB官方会议站",
+            "url": "https://ainnovalab.usal.es/en/"
+          }
+        ],
+        "freshness": "本周活动日程",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "AI素养",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      },
+      {
+        "id": "e002-13",
+        "title": "Butler把Gemini与Canvas结合开展个性化学习研修",
+        "date": "原发布日期未标明",
+        "eventDate": "2026-10-09",
+        "category": "教学工具实践",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "tags": [
+          "教学工具实践"
+        ],
+        "summary": "Butler大学10月9日教师研修介绍在Canvas中使用Gemini LTI、学习空间和Gems，对阅读材料、作业指令与反馈做差异化处理。",
+        "why": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
+        "limits": "校方培训描述；未实测集成，不推断所有学校套餐均已开放，也未核实其节省时间或改善学习的效果。 事件/计划时间：2026-10-09。",
+        "sources": [
+          {
+            "label": "Butler大学教学支持",
+            "url": "https://www.butler.edu/oeet/artificial-intelligence/pillar-1-faculty-education-community/"
+          }
+        ],
+        "freshness": "本周活动日程",
+        "evidenceLevel": "一手正文已读取",
+        "firstSeen": "2026-10-12",
+        "updated": null,
+        "isBackground": false,
+        "contentType": "教学工具实践",
+        "metrics": null,
+        "ageRestriction": null,
+        "checkedAt": "2026-10-12",
+        "application": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
+        "applicationLabel": "可关注的实践方向｜编辑建议",
+        "image": null,
+        "lastVerified": "2026-10-12"
+      }
+    ],
+    "title": "全球 AI 教育观察"
+  },
+  "publicFigures": [
+    {
+      "id": "person-002-sal-khan",
+      "name": "Sal Khan",
+      "role": "Khan Academy创始人兼CEO",
+      "platform": "Trending in Education 原播客节目页",
+      "title": "从被动答疑转向主动辅导，同时保留人的学习过程",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Khan在访谈中谈到，被动提供AI家教并不意味着学生会使用；他解释向更主动支持的转向，并讨论能呈现学生推理的评估及长期有用的能力。",
+      "why": "跟进AI辅导从有工具到真正参与学习的变化。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://trendingineducation.com/2026/10/sal-khan-on-ai-tutors-durable-skills-and-the-khan-ted-institute/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "播客原站摘要可读，未听完整录音；使用率和学位成本等数字是受访者或节目方陈述，本刊未独立审计。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-leon-furze",
+      "name": "Leon Furze",
+      "role": "生成式AI教育顾问、作者",
+      "platform": "本人博客",
+      "title": "AI素养要认识工具权限与责任，而不只会聊天",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "澳大利亚",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "高等教育",
+        "职业教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Furze认为，把AI看成聊天窗口会掩盖其调用工具与访问数据的能力。教育者应追问系统如何执行、由谁授权、能访问什么，并审视部署者责任。",
+      "why": "为学校采购、教师培训补上智能体权限和责任这一层。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://leonfurze.com/2026/10/08/beyond-chatbots-convenient-costume/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "原文含对科技公司的严重指控；本刊这里只概括其教育与治理主张，不将相关指控作为已独立核实事实。文章10月9日有更新。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-maya-bialik",
+      "name": "Maya Bialik",
+      "role": "教育作者、QuestionWell共同创建者",
+      "platform": "Harvard Graduate School of Education 原采访",
+      "title": "先分清学习助手与代做助手",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "初中",
+        "高中阶段",
+        "教育工作者"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Bialik建议依据学习目标决定何时用AI：辅助研究、备课与反馈；对学生则区分促进理解的辅导与完成非核心任务的协助，并让学生解释自己的使用选择。",
+      "why": "把抽象的允许或禁止AI，转为具体任务设计。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://www.gse.harvard.edu/ideas/ed-magazine/26/10/chatgpteach",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "大学杂志采访属于本人观点；产品用户数和效果未独立审计。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-sasha-rakhlin",
+      "name": "Alexander (Sasha) Rakhlin",
+      "role": "MIT统计与数据科学中心主任、教授",
+      "platform": "MIT News 原问答",
+      "title": "博士培养要评价贡献、复核和解释能力",
+      "date": "2026-10-08",
+      "published_date": "2026-10-08",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Rakhlin提出，流畅论文越来越难单独证明研究能力；博士生需练习提出问题、复核模型输出、复现结果和为选择辩护，院系也应明确AI辅助工作的贡献与责任。",
+      "why": "对高等教育评价和研究训练有直接启发。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "其对未来模型能力的判断是预测，不是保证；原文数学新闻例子未在本刊复核。URL末尾0925不能替代页面明确的10月8日日期。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-panayiota-kendeou",
+      "name": "Panayiota Kendeou",
+      "role": "明尼苏达大学教育心理学教授",
+      "platform": "University of Minnesota 原具名报道",
+      "title": "先识别AI影响哪些学习过程，再谈整体成效",
+      "date": "2026-10-06",
+      "published_date": "2026-10-06",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Kendeou解释，由于现有AI学习效果证据仍不充分，专家团队结合学习、记忆与教育知识形成共识，逐项梳理AI可能增强或破坏的学习过程。",
+      "why": "帮助读者区别专家共识、产品宣称和实验效果证据。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://edpsych.umn.edu/kendeou-lead-author-gen-ai-report-additional-ed-psych-faculty-contributing-authors-expert-consensus",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "共识报告不是随机对照试验，也不证明所有工具对所有学生有效。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-paul-shore",
+      "name": "Paul Shore",
+      "role": "曼彻斯特大学教授、灵活与数字教育副院长",
+      "platform": "Elsevier 原活动回顾",
+      "title": "AI可以减轻琐碎负担，不能绕过理解所需的思考",
+      "date": "2026-10-06",
+      "published_date": "2026-10-06",
+      "event_date": "2026-09-24",
+      "date_precision": "原页面公布日；未公布具体时刻。报道的是较早活动，活动日另列。",
+      "freshness": "本周发布｜较早活动回顾",
+      "in_week": true,
+      "region": "英国",
+      "stages": [
+        "高等教育",
+        "职业教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Shore把个人准备、团队讨论与解释责任结合起来：AI可协助整理笔记或语法，但学生仍须形成判断并辩护；评价应检验这种过程。",
+      "why": "医学及专业教育中的团队学习案例，可迁移到需要解释与讨论的课程。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://facultyhub.elsevier.com/en/designing-the-modern-curriculum",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "文章10月6日发布，讲座实际发生于9月24日；规模与调查关联为演讲方陈述，不作AI因果效果证据。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-christine-elgersma",
+      "name": "Christine Elgersma",
+      "role": "Common Sense Education学习内容战略高级编辑",
+      "platform": "Common Sense Education署名文章",
+      "title": "学校AI素养要覆盖同意、隐私和核查",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Elgersma建议学校主动讨论深度伪造、偏见和数据隐私，讲清使用他人影像前的同意，并教学生核查AI给出的来源。AI素养不只是操作工具。",
+      "why": "把课堂教学与儿童数字安全、家校沟通连接起来。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://www.commonsense.org/education/articles/chatgpt-and-beyond-how-to-handle-ai-in-schools",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "页面显示日期为10月5日，未确认这是初发还是更新；属于教育建议，不把其他司法辖区规则直接套用国内。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-cammie-kannekens",
+      "name": "Cammie Kannekens",
+      "role": "教师与教学教练",
+      "platform": "本人博客",
+      "title": "在教师设计和监控下，用AI反馈发现写作薄弱点",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "本周发布｜具体观点",
+      "in_week": true,
+      "region": "加拿大",
+      "stages": [
+        "高中阶段",
+        "教育工作者"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Kannekens介绍教师用短时、聚焦的AI写作练习诊断学生困难，再据此调整全班教学；她主张关注教师设定任务和查看反馈的能力。",
+      "why": "提供可试的小型课堂设计，同时提醒核验反馈准确性与学生隐私。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://cammiekannekensblog.wordpress.com/2026/10/05/the-ai-feedback-debate/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "为本人及同事实践自述，不是AI优于同伴互评的对照证据；个人简介包含较早信息，不把计划中的认证当成已取得。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-kristyn-muller-mirasol",
+      "name": "Kristyn Muller Mirasol",
+      "role": "Packback产品经理、教育研究者",
+      "platform": "Packback原研讨会回顾",
+      "title": "成品不等于学习证据：让过程可见",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。报道的是较早活动，活动日另列。",
+      "freshness": "本周发布｜较早活动回顾",
+      "in_week": true,
+      "region": "美国",
+      "stages": [
+        "高等教育"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Mirasol以登山作比：能够直接到达终点，不代表经历了学习。她建议收集规划、草稿、修改和反思，让教师判断学生实际思考了什么。",
+      "why": "适合改造AI时代的作业与过程评价。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://packback.co/resources/blog/webinar-recap-packback-ai-integrated-assignments/",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "原主办方文章可读，活动日期未直接确认；该公司LinkedIn索引称9月30日，未纳入确定日期。主办方有产品商业立场，不当作独立效果研究。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12"
+    },
+    {
+      "id": "person-002-dan-fitzpatrick",
+      "name": "Dan Fitzpatrick",
+      "role": "The AI Educator作者、AI教育顾问",
+      "platform": "本人博客",
+      "title": "AI可以润色评语，但不能编造学生细节",
+      "date": "2026-10-05",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "date_precision": "原页面公布日；未公布具体时刻。采访、录制或课堂试用日期未另行确认。",
+      "freshness": "窗口内旧条目追踪｜补充全文证据",
+      "in_week": true,
+      "region": "英国",
+      "stages": [
+        "小学",
+        "初中",
+        "高中阶段",
+        "教育工作者"
+      ],
+      "tags": [
+        "教育工作者",
+        "观点",
+        "学习与评价"
+      ],
+      "summary": "Fitzpatrick提出逐句检查评语来源：教师观察、学校记录、还是模型猜测。前两类可让AI辅助表达；对孩子的具体表现不能由模型补写。",
+      "why": "适合教师报告、学生作品评价和家长反馈的质量检查。",
+      "fact_vs_opinion": "已核实本人署名或原采访方具名归属；以下是观点、实践自述或机构解释，不能当作独立因果效果证据。",
+      "source_url": "https://blog.theaieducator.io/posts/should-ai-write-school-reports",
+      "verification": "直接读取原站正文及原发布日期；未用人物简介或未来出席安排代替本期发声。",
+      "caveat": "这是作者提出的诊断方法，作者明确说并非经测试标准；本刊不沿用未独立核验调查比例或法律解释。 第001期已收录相同文章；本期新增全文可读及方法限制核对，不是新发表。",
+      "metrics": null,
+      "heat_note": "没有核验热度指标，不按流量排序。",
+      "original_readable": true,
+      "source_level": "一手署名文章／原采访与活动主办方具名报道",
+      "checked_at": "2026-10-12",
+      "first_seen_issue": "001",
+      "followup_change": "上一期只有搜索索引证据；本次读取全文，确认三来源检验是作者建议而非已测试标准。"
+    }
+  ],
+  "newIdeaIds": [
+    "playground-board",
+    "tiny-sorter",
+    "semantris",
+    "say-what-you-see",
+    "autodraw",
+    "musicfx-dj",
+    "marble-world",
+    "gaugan2",
+    "word-cam",
+    "ai-duet",
+    "scribbling-speech",
+    "haiku-imagined"
+  ],
+  "creativeSnapshots": [
+    {
+      "id": "playground-board",
+      "title": "同一句提示生成四版设计，开一场小小评审会",
+      "category": "图像设计",
+      "tags": [
+        "本周新进展"
+      ],
+      "date": "2026-10-06",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Playground",
+      "summary": "官方10月6日发布Board：一次提示可生成最多四个设计变体，后台生成，支持并排比较及后续去背景、放大。",
+      "play": "给同一张海报四次机会，先比较构图再挑选。",
+      "tools": [
+        "Playground Board"
+      ],
+      "reproduce": "写一条班级活动海报要求，固定比例生成四版；先按信息完整、视觉层级、辨识度评分，再修改优胜稿。",
+      "education": "设计课练评审标准，避免把“第一张看起来漂亮”当完成。",
+      "limits": "官方功能公告，不是独立测试；账号、地区、额度以实际页面为准；生成文字仍需核对。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://playgroundai.com/design/whats-new"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": "https://images.playgroundai.com/user-uploads/public/cmuwf2xlo003u01s63v3y7iu7.png?c=1",
+        "alt": "四个生成设计变体的官方Board界面",
+        "credit": "Playground官方展示",
+        "sourcePage": "https://playgroundai.com/design/whats-new",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "本周新进展",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2026-10-06",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "设计课练评审标准，避免把“第一张看起来漂亮”当完成。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "tiny-sorter",
+      "title": "给纸做的小机器装上一双AI眼睛",
+      "category": "教学应用",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2019-11",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google Creative Lab",
+      "summary": "Tiny Sorter用纸结构、Arduino与Teachable Machine把摄像头识别结果变成实际分拣动作。官方案例分拣麦片、糖果等小物体。",
+      "play": "自己提供分类样本，看机器把物品送进哪个小桶。",
+      "tools": [
+        "Teachable Machine",
+        "Arduino Leonardo",
+        "SG90舵机",
+        "p5.js"
+      ],
+      "reproduce": "按官方模板折纸安装舵机；先训练两类外观差别明显的物品，留出未训练样本测试，再更换光照观察错误。",
+      "education": "把数据、预测和机械动作连接起来，解释“识别正确”与“机构不卡住”是两种验收。",
+      "limits": "硬件和浏览器接口需课堂前测试；小零件、工具和摄像头由教师管理；不把演示准确率当泛化能力。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/tiny-sorter"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": "https://lh3.googleusercontent.com/SapyPmmBFeaecb8WdvT2kz0EIC8ys0Bya_KnPIj8IVl12kpXM_Cuv_y9ttPVms_2-dvcLWz6cM7Ol-oB8rC3wOAYz13CSHM",
+        "alt": "纸制分拣机构的官方照片",
+        "credit": "Google Creative Lab官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/tiny-sorter",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2019-11",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "把数据、预测和机械动作连接起来，解释“识别正确”与“机构不卡住”是两种验收。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "semantris",
+      "title": "用联想词清掉方块，而不是直接报答案",
+      "category": "互动游戏",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2018-04-13",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google Research",
+      "summary": "Semantris把语义关联模型做成文字游戏：玩家输入相关词或描述，让系统匹配目标词。",
+      "play": "想办法让AI从提示联想到目标概念。",
+      "tools": [
+        "Semantris"
+      ],
+      "reproduce": "先用日常名词试玩，再用解释、场景或反义线索表达同一个词；记下哪些线索有效、哪些引起误解。",
+      "education": "练英语释义和概念关联，同时观察模型联想与人的推理差异。",
+      "limits": "属于2018年实验；原服务当前完整运行未实测。回答相似度不等同理解，中文支持不作保证。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://research.google/blog/introducing-semantic-experiences-with-talk-to-books-and-semantris/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "官方语义游戏演示图",
+        "credit": "Google Research官方展示",
+        "sourcePage": "https://research.google/blog/introducing-semantic-experiences-with-talk-to-books-and-semantris/",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2018-04-13",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "练英语释义和概念关联，同时观察模型联想与人的推理差异。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "say-what-you-see",
+      "title": "看图写提示，反向挑战AI还原画面",
+      "category": "互动游戏",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2023-11",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Jack Wild / Google Arts & Culture Lab",
+      "summary": "Say What You See让用户描述给定AI图片，再用生成图的相似程度闯关，官方规则每张图有三次机会。",
+      "play": "先观察主体、位置、颜色，再只修改一个遗漏特征。",
+      "tools": [
+        "Say What You See"
+      ],
+      "reproduce": "教师选择一张简单示例，学生先口述后补充空间关系；保存三轮描述，比较哪里变得更精确。",
+      "education": "把提示练习变成观察与表达训练，讨论评分为何不等于唯一正确答案。",
+      "limits": "相似度阈值是该游戏规则；不是通用提示能力测评。地区访问与当前生成服务未实测。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/say-what-you-see"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": "https://storage.googleapis.com/gweb-experiments.appspot.com/7516-SayWhatYouSee_Experiment_01%20%282%29.jpg",
+        "alt": "Say What You See官方界面截图",
+        "credit": "Jack Wild / Google Arts & Culture Lab官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/say-what-you-see",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2023-11",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "把提示练习变成观察与表达训练，讨论评分为何不等于唯一正确答案。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "autodraw",
+      "title": "把歪歪扭扭的草图变成清楚的小图标",
+      "category": "图像设计",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2017-04-11",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google Creative Lab / Dan Motzenbecker及合作艺术家",
+      "summary": "AutoDraw识别用户想画的物体，并建议由艺术家制作的图形；官方用途包括生日卡和邀请函。",
+      "play": "画个轮廓，选建议图形，再自行排版。",
+      "tools": [
+        "AutoDraw"
+      ],
+      "reproduce": "用同一主题做三枚图标；保留原草图与选择理由，再组合为海报。",
+      "education": "区分AI识别建议、艺术家图形与自己的设计取舍。",
+      "limits": "不是凭空生成任意原创图像；图形和原作截图的授权需分别核验。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://blog.google/innovation-and-ai/products/fast-drawing-everyone/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "官方AutoDraw草图到图形动图",
+        "credit": "Google Creative Lab / Dan Motzenbecker及合作艺术家官方展示",
+        "sourcePage": "https://blog.google/innovation-and-ai/products/fast-drawing-everyone/",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2017-04-11",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "区分AI识别建议、艺术家图形与自己的设计取舍。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "musicfx-dj",
+      "title": "像推调音台一样混合音乐概念",
+      "category": "音乐声音",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2024-10-23",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google DeepMind / Google Labs，与Jacob Collier合作",
+      "summary": "MusicFX DJ将多条音乐概念提示按权重实时混合，连续生成声音；官方演示可调整乐器、速度与音乐质感。",
+      "play": "让“爵士”“木琴”“雨天”成为可推拉的旋钮。",
+      "tools": [
+        "MusicFX DJ",
+        "Lyria RealTime（官方2025-05-01更新说明）"
+      ],
+      "reproduce": "准备三组不涉及模仿具体歌手的风格和乐器词；每次只改一个权重，记录节奏、音色变化。",
+      "education": "音乐课比较语言描述与听觉感受，练变量控制。",
+      "limits": "本文案例来自2024年，模型更新注为2025年；当前账号、入口、输出权利与额度需另查，未实际生成。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://deepmind.google/blog/new-generative-ai-tools-open-the-doors-of-music-creation/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "官方实时音乐控制演示视频",
+        "credit": "Google DeepMind / Google Labs，与Jacob Collier合作官方展示",
+        "sourcePage": "https://deepmind.google/blog/new-generative-ai-tools-open-the-doors-of-music-creation/",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "音乐声音",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2024-10-23",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "音乐课比较语言描述与听觉感受，练变量控制。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "marble-world",
+      "title": "把一张想象中的房间图变成能走进去的世界",
+      "category": "互动游戏",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2025-11-12",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "World Labs",
+      "summary": "Marble官方展示把文本、图片或粗3D布局变成可漫游场景，并可编辑、扩展、组合与导出。发布页含厨房、庭院、图书馆等生成演示。",
+      "play": "先画/描述一个空间，再从不同角度走进去检查。",
+      "tools": [
+        "Marble",
+        "可选Spark或Three.js"
+      ],
+      "reproduce": "从一个单室空间开始；列明入口、家具和通道，生成后逐项检查前后视角，再讨论模型补出的未知区域。",
+      "education": "空间设计、叙事场景与证据边界：生成的背面不是现场测量。",
+      "limits": "案例为官方演示，不是本刊实测；可能付费，生成几何不能当建筑施工或安全依据。",
+      "difficulty": "中阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://www.worldlabs.ai/blog/marble-world-model"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "官方生成3D空间视频与输入图",
+        "credit": "World Labs官方展示",
+        "sourcePage": "https://www.worldlabs.ai/blog/marble-world-model",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2025-11-12",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "空间设计、叙事场景与证据边界：生成的背面不是现场测量。"
+      ],
+      "difficultyGroup": "中阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "gaugan2",
+      "title": "先涂天空河流色块，再长出一幅风景",
+      "category": "图像设计",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2021-11-22",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "NVIDIA Research",
+      "summary": "GauGAN2把文字、语义分区、草图和风格控制结合生成景观，官方展示先文字出图、再改山川位置的迭代。",
+      "play": "把“这里是树、那里是河”画出来，控制空间而不只堆形容词。",
+      "tools": [
+        "GauGAN2",
+        "NVIDIA AI Demos"
+      ],
+      "reproduce": "先绘制三块地貌区域，生成后只改变河流宽度或山的高度，保留前后对照。",
+      "education": "美术构图与地理表达，说明视觉逼真不代表生态/地质真实。",
+      "limits": "历史研究演示，当前入口/硬件情况未实测；不是可验证的实景照片。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://blogs.nvidia.com/blog/gaugan2-ai-art-demo/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "官方文字与分区图生成景观演示",
+        "credit": "NVIDIA Research官方展示",
+        "sourcePage": "https://blogs.nvidia.com/blog/gaugan2-ai-art-demo/",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2021-11-22",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "美术构图与地理表达，说明视觉逼真不代表生态/地质真实。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "word-cam",
+      "title": "拍桌面，把身边物品变成外语词汇卡",
+      "category": "个性化体验",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2025-04-29",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Aaron Wade及Google团队",
+      "summary": "Little Language Lessons中的Word Cam用相机图像识别身边物品并辅助学习目标语言，系列还整合文字转语音。",
+      "play": "先拍自己的普通物品，再拿词汇描述位置与用途。",
+      "tools": [
+        "Word Cam",
+        "Gemini",
+        "文字转语音"
+      ],
+      "reproduce": "拍摄不含人脸、地址和文件的桌面；选五个物品，核对词义及发音，再各造一句短句。",
+      "education": "让词汇学习紧贴真实环境；可迁移到成人初学外语练习。",
+      "limits": "不要上传儿童人像或私人文件；识别、翻译与发音仍需教师/词典核对，不能替代系统学习。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://developers.googleblog.com/en/how-its-made-little-language-lessons-to-personalize-learning/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "官方Word Cam界面示例",
+        "credit": "Aaron Wade及Google团队官方展示",
+        "sourcePage": "https://developers.googleblog.com/en/how-its-made-little-language-lessons-to-personalize-learning/",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "个性化体验",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者",
+        "成人与继续教育"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2025-04-29",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "让词汇学习紧贴真实环境；可迁移到成人初学外语练习。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "ai-duet",
+      "title": "弹三颗音符，等AI接下一句",
+      "category": "音乐声音",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2017-05",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Yotam Mann / Google Magenta与Creative Lab",
+      "summary": "AI Duet让用户用屏幕、电脑键或MIDI键盘弹短旋律，由机器回应。",
+      "play": "人一句、机器一句，把音乐变成轮流对话。",
+      "tools": [
+        "AI Duet",
+        "TensorFlow",
+        "Tone.js",
+        "MIDI可选"
+      ],
+      "reproduce": "先固定三音动机，听不同回应；再只改变节奏，记录延续还是对比。",
+      "education": "低门槛体验动机、节奏与人机共同创作；不要求先会完整曲目。",
+      "limits": "官方归档页标2017年5月；历史服务依赖可能失效，未运行实测。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/ai-duet"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "官方钢琴互动界面图",
+        "credit": "Yotam Mann / Google Magenta与Creative Lab官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/ai-duet",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "音乐声音",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2017-05",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "低门槛体验动机、节奏与人机共同创作；不要求先会完整曲目。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "scribbling-speech",
+      "title": "一边讲故事，画面一边长出来",
+      "category": "故事视频",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2018-09",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Xinyue Yang",
+      "summary": "Scribbling Speech是将自由语音变为动态涂鸦的创作实验，结合语音输入、机器学习与图像生成。",
+      "play": "说出角色与动作，让图画跟随叙述改变。",
+      "tools": [
+        "Scribbling Speech",
+        "Google Cloud Speech API",
+        "项目开源代码"
+      ],
+      "reproduce": "先看作者演示，再把故事拆成角色、动作、场景三类短句；若重建项目，先验证语音转写，再接图像动画。",
+      "education": "比较口头叙述和视觉表达，讨论系统误听如何改变故事。",
+      "limits": "2018年项目，运行依赖及API可用性未验证；不能承诺开箱即用，麦克风与录音需明确授权。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/scribbling-speech"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": null,
+        "alt": "作者语音变动态涂鸦演示图",
+        "credit": "Xinyue Yang官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/scribbling-speech",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "故事视频",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2018-09",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "比较口头叙述和视觉表达，讨论系统误听如何改变故事。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "haiku-imagined",
+      "title": "让一首短诗同时拥有字体、动画与配乐",
+      "category": "故事视频",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2023-05-03",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Lynn Cherny、Christine Sugrue / Google Arts & Culture Lab",
+      "summary": "Haiku Imagined为传统和现代俳句配上AI生成字体、视频与音乐，官方玫瑰示例展示多模态诗歌体验。",
+      "play": "同一首诗的不同意象分别决定文字、运动与声音。",
+      "tools": [
+        "Haiku Imagined",
+        "可替代图像、视频、音乐工具"
+      ],
+      "reproduce": "使用自写或已获许可的短诗，圈出两种感官意象；分别设计画面和配乐，再解释每个选择。",
+      "education": "文学、美术与音乐跨学科赏析，讨论AI是否过度解释原诗。",
+      "limits": "原项目是策展体验，不保证开放用户自定义生成；复现步骤是编辑迁移建议，非原站功能。",
+      "difficulty": "中阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Haiku_Rose_reduced_in_size.gif",
+        "alt": "官方玫瑰俳句动画",
+        "credit": "Lynn Cherny、Christine Sugrue / Google Arts & Culture Lab官方展示",
+        "sourcePage": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/",
+        "publicReuseCleared": false,
+        "rightsStatus": "已核查来源页，未找到该效果图明确公开转载许可；本期不内嵌，仅链接原作。",
+        "evidenceNote": "来源页包含原作效果展示。图片不代表本刊实测；公开展示不等于复用授权。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "故事视频",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2023-05-03",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "文学、美术与音乐跨学科赏析，讨论AI是否过度解释原诗。"
+      ],
+      "difficultyGroup": "中阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    }
+  ]
+}

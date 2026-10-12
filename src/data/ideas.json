@@ -1,8 +1,8 @@
 {
-  "cutoff": "2026-10-06 04:15 UTC",
+  "cutoff": "2026-10-12T09:00:00+08:00",
   "title": "有趣实用AI创意精选",
-  "editorialNote": "本期区分本周新进展、近月转载线索和历史灵感库；未声称15项均为本周热门。来源与展示图已核验，复现和教育迁移为编辑建议，未逐项运行实测。",
-  "imageRightsNote": "保留14张原作效果图，随具体作品介绍与评论展示；图像版权归原权利人。已确认的许可单独标注，其他图像公开转载许可未确认。原作图不代表本刊实测或自行生成。",
+  "editorialNote": "第002期新增12项：1项本周进展、11项历史灵感。全部未实测；来源原始日期、首次收录与核验日期分开。",
+  "imageRightsNote": "累计25项有内嵌原作图，其中002新增11张低清来源缩略图，仅随私人预览评论展示，公开复用许可未确认。Playground Board原图403，保留缺图提示。",
   "items": [
     {
       "id": "ldraw",
@@ -94,7 +94,10 @@
         "空间建模、任务分解与验证"
       ],
       "difficultyGroup": "进阶",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "garments",
@@ -170,7 +173,10 @@
         "服装设计、叠穿约束与视觉表达"
       ],
       "difficultyGroup": "进阶",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "tinbox",
@@ -241,7 +247,10 @@
         "主题叙事、阅读证据与个人策展"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "nanostoryboard",
@@ -313,7 +322,10 @@
         "分镜、视角与视觉叙事"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "storybook",
@@ -384,7 +396,10 @@
         "教师辅助绘本、类比与朗读"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "whisk",
@@ -460,7 +475,10 @@
         "材质实验、视觉语义与设计迭代"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "gentype",
@@ -534,7 +552,10 @@
         "教师制作字母材料、拼读与可读性观察"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "foodmood",
@@ -610,7 +631,10 @@
         "饮食文化、地理与信息核验"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "musicalcanvas",
@@ -687,7 +711,10 @@
         "美术音乐联动、跨感官表达"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "poemportraits",
@@ -764,7 +791,10 @@
         "诗歌策展、共同创作与作者选择"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "blobopera",
@@ -840,7 +870,10 @@
         "教师演示和声、旋律与听辨"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "comicfactory",
@@ -917,7 +950,10 @@
         "四格叙事、信息取舍与过程表达"
       ],
       "difficultyGroup": "入门",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "poem1",
@@ -1007,7 +1043,10 @@
         "诗歌比较、时间校验与环境式交互"
       ],
       "difficultyGroup": "分层",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "infinite-craft",
@@ -1095,7 +1134,10 @@
         "词汇联想、隐喻与错误类比辨析"
       ],
       "difficultyGroup": "分层",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
     },
     {
       "id": "animated-drawings",
@@ -1180,11 +1222,911 @@
         "教师辅助手绘动画、关节与动作观察"
       ],
       "difficultyGroup": "分层",
-      "ageRestriction": null
+      "ageRestriction": null,
+      "relatedIssues": [
+        "001"
+      ]
+    },
+    {
+      "id": "playground-board",
+      "title": "同一句提示生成四版设计，开一场小小评审会",
+      "category": "图像设计",
+      "tags": [
+        "本周新进展"
+      ],
+      "date": "2026-10-06",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Playground",
+      "summary": "官方10月6日发布Board：一次提示可生成最多四个设计变体，后台生成，支持并排比较及后续去背景、放大。",
+      "play": "给同一张海报四次机会，先比较构图再挑选。",
+      "tools": [
+        "Playground Board"
+      ],
+      "reproduce": "写一条班级活动海报要求，固定比例生成四版；先按信息完整、视觉层级、辨识度评分，再修改优胜稿。",
+      "education": "设计课练评审标准，避免把“第一张看起来漂亮”当完成。",
+      "limits": "官方功能公告，不是独立测试；账号、地区、额度以实际页面为准；生成文字仍需核对。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://playgroundai.com/design/whats-new"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "relativePath": null,
+        "url": "https://images.playgroundai.com/user-uploads/public/cmuwf2xlo003u01s63v3y7iu7.png?c=1",
+        "alt": "四个生成设计变体的官方Board界面",
+        "credit": "Playground官方展示",
+        "sourcePage": "https://playgroundai.com/design/whats-new",
+        "publicReuseCleared": false,
+        "rightsStatus": "原作图下载返回HTTP403，未绕过访问限制；公开转载许可未确认。",
+        "evidenceNote": "可从官方更新页查看原作效果；本预览不以其他图片冒充Board效果。"
+      },
+      "freshness": "本周新进展",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2026-10-06",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "设计课练评审标准，避免把“第一张看起来漂亮”当完成。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "tiny-sorter",
+      "title": "给纸做的小机器装上一双AI眼睛",
+      "category": "教学应用",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2019-11",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google Creative Lab",
+      "summary": "Tiny Sorter用纸结构、Arduino与Teachable Machine把摄像头识别结果变成实际分拣动作。官方案例分拣麦片、糖果等小物体。",
+      "play": "自己提供分类样本，看机器把物品送进哪个小桶。",
+      "tools": [
+        "Teachable Machine",
+        "Arduino Leonardo",
+        "SG90舵机",
+        "p5.js"
+      ],
+      "reproduce": "按官方模板折纸安装舵机；先训练两类外观差别明显的物品，留出未训练样本测试，再更换光照观察错误。",
+      "education": "把数据、预测和机械动作连接起来，解释“识别正确”与“机构不卡住”是两种验收。",
+      "limits": "硬件和浏览器接口需课堂前测试；小零件、工具和摄像头由教师管理；不把演示准确率当泛化能力。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/tiny-sorter"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-tiny-sorter.jpg",
+        "relativePath": "assets/creative-tiny-sorter.jpg",
+        "url": "https://lh3.googleusercontent.com/SapyPmmBFeaecb8WdvT2kz0EIC8ys0Bya_KnPIj8IVl12kpXM_Cuv_y9ttPVms_2-dvcLWz6cM7Ol-oB8rC3wOAYz13CSHM",
+        "alt": "官方照片：纸制AI分拣器安装在电脑摄像头上",
+        "credit": "Google Creative Lab官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/tiny-sorter",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2019-11",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "把数据、预测和机械动作连接起来，解释“识别正确”与“机构不卡住”是两种验收。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "semantris",
+      "title": "用联想词清掉方块，而不是直接报答案",
+      "category": "互动游戏",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2018-04-13",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google Research",
+      "summary": "Semantris把语义关联模型做成文字游戏：玩家输入相关词或描述，让系统匹配目标词。",
+      "play": "想办法让AI从提示联想到目标概念。",
+      "tools": [
+        "Semantris"
+      ],
+      "reproduce": "先用日常名词试玩，再用解释、场景或反义线索表达同一个词；记下哪些线索有效、哪些引起误解。",
+      "education": "练英语释义和概念关联，同时观察模型联想与人的推理差异。",
+      "limits": "属于2018年实验；原服务当前完整运行未实测。回答相似度不等同理解，中文支持不作保证。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://research.google/blog/introducing-semantic-experiences-with-talk-to-books-and-semantris/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-semantris.jpg",
+        "relativePath": "assets/creative-semantris.jpg",
+        "url": "https://1.bp.blogspot.com/-D0OmFEmQKRw/Ws_uKdHNZjI/AAAAAAAACkA/HOiI3dyP5vMp_kic_LdGQp7GYi1KXbIDwCLcBGAs/s640/image1.gif",
+        "alt": "官方Semantris演示动图静帧：词语与方块界面",
+        "credit": "Google Research官方展示",
+        "sourcePage": "https://research.google/blog/introducing-semantic-experiences-with-talk-to-books-and-semantris/",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2018-04-13",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "练英语释义和概念关联，同时观察模型联想与人的推理差异。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "say-what-you-see",
+      "title": "看图写提示，反向挑战AI还原画面",
+      "category": "互动游戏",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2023-11",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Jack Wild / Google Arts & Culture Lab",
+      "summary": "Say What You See让用户描述给定AI图片，再用生成图的相似程度闯关，官方规则每张图有三次机会。",
+      "play": "先观察主体、位置、颜色，再只修改一个遗漏特征。",
+      "tools": [
+        "Say What You See"
+      ],
+      "reproduce": "教师选择一张简单示例，学生先口述后补充空间关系；保存三轮描述，比较哪里变得更精确。",
+      "education": "把提示练习变成观察与表达训练，讨论评分为何不等于唯一正确答案。",
+      "limits": "相似度阈值是该游戏规则；不是通用提示能力测评。地区访问与当前生成服务未实测。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/say-what-you-see"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-say-what-you-see.jpg",
+        "relativePath": "assets/creative-say-what-you-see.jpg",
+        "url": "https://storage.googleapis.com/gweb-experiments.appspot.com/4019-SayWhatYouSee_Experiment_02.jpg",
+        "alt": "官方第一关示例：根据画面写出描述",
+        "credit": "Jack Wild / Google Arts & Culture Lab官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/say-what-you-see",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2023-11",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "把提示练习变成观察与表达训练，讨论评分为何不等于唯一正确答案。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "autodraw",
+      "title": "把歪歪扭扭的草图变成清楚的小图标",
+      "category": "图像设计",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2017-04-11",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google Creative Lab / Dan Motzenbecker及合作艺术家",
+      "summary": "AutoDraw识别用户想画的物体，并建议由艺术家制作的图形；官方用途包括生日卡和邀请函。",
+      "play": "画个轮廓，选建议图形，再自行排版。",
+      "tools": [
+        "AutoDraw"
+      ],
+      "reproduce": "用同一主题做三枚图标；保留原草图与选择理由，再组合为海报。",
+      "education": "区分AI识别建议、艺术家图形与自己的设计取舍。",
+      "limits": "不是凭空生成任意原创图像；图形和原作截图的授权需分别核验。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://blog.google/innovation-and-ai/products/fast-drawing-everyone/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-autodraw.jpg",
+        "relativePath": "assets/creative-autodraw.jpg",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AutoDraw_1.gif",
+        "alt": "官方AutoDraw演示动图静帧：用户绘制草图的过程",
+        "credit": "Google Creative Lab / Dan Motzenbecker及合作艺术家官方展示",
+        "sourcePage": "https://blog.google/innovation-and-ai/products/fast-drawing-everyone/",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2017-04-11",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "区分AI识别建议、艺术家图形与自己的设计取舍。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "musicfx-dj",
+      "title": "像推调音台一样混合音乐概念",
+      "category": "音乐声音",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2024-10-23",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Google DeepMind / Google Labs，与Jacob Collier合作",
+      "summary": "MusicFX DJ将多条音乐概念提示按权重实时混合，连续生成声音；官方演示可调整乐器、速度与音乐质感。",
+      "play": "让“爵士”“木琴”“雨天”成为可推拉的旋钮。",
+      "tools": [
+        "MusicFX DJ",
+        "Lyria RealTime（官方2025-05-01更新说明）"
+      ],
+      "reproduce": "准备三组不涉及模仿具体歌手的风格和乐器词；每次只改一个权重，记录节奏、音色变化。",
+      "education": "音乐课比较语言描述与听觉感受，练变量控制。",
+      "limits": "本文案例来自2024年，模型更新注为2025年；当前账号、入口、输出权利与额度需另查，未实际生成。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://deepmind.google/blog/new-generative-ai-tools-open-the-doors-of-music-creation/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-musicfx-dj.jpg",
+        "relativePath": "assets/creative-musicfx-dj.jpg",
+        "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/Mixing_prompts.mp4",
+        "alt": "官方MusicFX DJ混合提示演示视频静帧",
+        "credit": "Google DeepMind / Google Labs，与Jacob Collier合作官方展示",
+        "sourcePage": "https://deepmind.google/blog/new-generative-ai-tools-open-the-doors-of-music-creation/",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "音乐声音",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2024-10-23",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "音乐课比较语言描述与听觉感受，练变量控制。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "marble-world",
+      "title": "把一张想象中的房间图变成能走进去的世界",
+      "category": "互动游戏",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2025-11-12",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "World Labs",
+      "summary": "Marble官方展示把文本、图片或粗3D布局变成可漫游场景，并可编辑、扩展、组合与导出。发布页含厨房、庭院、图书馆等生成演示。",
+      "play": "先画/描述一个空间，再从不同角度走进去检查。",
+      "tools": [
+        "Marble",
+        "可选Spark或Three.js"
+      ],
+      "reproduce": "从一个单室空间开始；列明入口、家具和通道，生成后逐项检查前后视角，再讨论模型补出的未知区域。",
+      "education": "空间设计、叙事场景与证据边界：生成的背面不是现场测量。",
+      "limits": "案例为官方演示，不是本刊实测；可能付费，生成几何不能当建筑施工或安全依据。",
+      "difficulty": "中阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://www.worldlabs.ai/blog/marble-world-model"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-marble-world.jpg",
+        "relativePath": "assets/creative-marble-world.jpg",
+        "url": "https://wlt-ai-cdn.art/videos/2025-11-12-clean-720p-24crf/i2w-living-room.mp4",
+        "alt": "官方Marble图生世界演示视频静帧：可漫游客厅",
+        "credit": "World Labs官方展示",
+        "sourcePage": "https://www.worldlabs.ai/blog/marble-world-model",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2025-11-12",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "空间设计、叙事场景与证据边界：生成的背面不是现场测量。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "gaugan2",
+      "title": "先涂天空河流色块，再长出一幅风景",
+      "category": "图像设计",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2021-11-22",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "NVIDIA Research",
+      "summary": "GauGAN2把文字、语义分区、草图和风格控制结合生成景观，官方展示先文字出图、再改山川位置的迭代。",
+      "play": "把“这里是树、那里是河”画出来，控制空间而不只堆形容词。",
+      "tools": [
+        "GauGAN2",
+        "NVIDIA AI Demos"
+      ],
+      "reproduce": "先绘制三块地貌区域，生成后只改变河流宽度或山的高度，保留前后对照。",
+      "education": "美术构图与地理表达，说明视觉逼真不代表生态/地质真实。",
+      "limits": "历史研究演示，当前入口/硬件情况未实测；不是可验证的实景照片。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://blogs.nvidia.com/blog/gaugan2-ai-art-demo/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-gaugan2.jpg",
+        "relativePath": "assets/creative-gaugan2.jpg",
+        "url": "https://blogs.nvidia.com/wp-content/uploads/2021/11/gaugan2-corp-blog-128-adaptive-1280x680-1.gif",
+        "alt": "官方GauGAN2演示动图静帧：生成海浪图像",
+        "credit": "NVIDIA Research官方展示",
+        "sourcePage": "https://blogs.nvidia.com/blog/gaugan2-ai-art-demo/",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2021-11-22",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "美术构图与地理表达，说明视觉逼真不代表生态/地质真实。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "word-cam",
+      "title": "拍桌面，把身边物品变成外语词汇卡",
+      "category": "个性化体验",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2025-04-29",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Aaron Wade及Google团队",
+      "summary": "Little Language Lessons中的Word Cam用相机图像识别身边物品并辅助学习目标语言，系列还整合文字转语音。",
+      "play": "先拍自己的普通物品，再拿词汇描述位置与用途。",
+      "tools": [
+        "Word Cam",
+        "Gemini",
+        "文字转语音"
+      ],
+      "reproduce": "拍摄不含人脸、地址和文件的桌面；选五个物品，核对词义及发音，再各造一句短句。",
+      "education": "让词汇学习紧贴真实环境；可迁移到成人初学外语练习。",
+      "limits": "不要上传儿童人像或私人文件；识别、翻译与发音仍需教师/词典核对，不能替代系统学习。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://developers.googleblog.com/en/how-its-made-little-language-lessons-to-personalize-learning/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-word-cam.jpg",
+        "relativePath": "assets/creative-word-cam.jpg",
+        "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/03_WordCam_BLOG_250418a.mp4",
+        "alt": "官方Word Cam演示视频静帧：物品相关法语词汇与例句",
+        "credit": "Aaron Wade及Google团队官方展示",
+        "sourcePage": "https://developers.googleblog.com/en/how-its-made-little-language-lessons-to-personalize-learning/",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "个性化体验",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者",
+        "成人与继续教育"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2025-04-29",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "让词汇学习紧贴真实环境；可迁移到成人初学外语练习。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "ai-duet",
+      "title": "弹三颗音符，等AI接下一句",
+      "category": "音乐声音",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2017-05",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Yotam Mann / Google Magenta与Creative Lab",
+      "summary": "AI Duet让用户用屏幕、电脑键或MIDI键盘弹短旋律，由机器回应。",
+      "play": "人一句、机器一句，把音乐变成轮流对话。",
+      "tools": [
+        "AI Duet",
+        "TensorFlow",
+        "Tone.js",
+        "MIDI可选"
+      ],
+      "reproduce": "先固定三音动机，听不同回应；再只改变节奏，记录延续还是对比。",
+      "education": "低门槛体验动机、节奏与人机共同创作；不要求先会完整曲目。",
+      "limits": "官方归档页标2017年5月；历史服务依赖可能失效，未运行实测。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/ai-duet"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-ai-duet.jpg",
+        "relativePath": "assets/creative-ai-duet.jpg",
+        "url": "https://lh3.googleusercontent.com/d611EJks9kvxp83g5InrI1-bQfX-zNDTe_n3S4uFCupegqE1SB4_YR7BtbpxVjd3RJ94pgarKjOE_VnkI_tV18vbVpzsKlk",
+        "alt": "官方AI Duet演示照片：键盘演奏与机器回应",
+        "credit": "Yotam Mann / Google Magenta与Creative Lab官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/ai-duet",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "音乐声音",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2017-05",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "低门槛体验动机、节奏与人机共同创作；不要求先会完整曲目。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "scribbling-speech",
+      "title": "一边讲故事，画面一边长出来",
+      "category": "故事视频",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2018-09",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Xinyue Yang",
+      "summary": "Scribbling Speech是将自由语音变为动态涂鸦的创作实验，结合语音输入、机器学习与图像生成。",
+      "play": "说出角色与动作，让图画跟随叙述改变。",
+      "tools": [
+        "Scribbling Speech",
+        "Google Cloud Speech API",
+        "项目开源代码"
+      ],
+      "reproduce": "先看作者演示，再把故事拆成角色、动作、场景三类短句；若重建项目，先验证语音转写，再接图像动画。",
+      "education": "比较口头叙述和视觉表达，讨论系统误听如何改变故事。",
+      "limits": "2018年项目，运行依赖及API可用性未验证；不能承诺开箱即用，麦克风与录音需明确授权。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://experiments.withgoogle.com/scribbling-speech"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-scribbling-speech.jpg",
+        "relativePath": "assets/creative-scribbling-speech.jpg",
+        "url": "https://lh3.googleusercontent.com/aTci2a2bb32h0_0iN6FTag_tqFQsZsbcPMT94c0ESnph6f9o3PrMsYZZNPRmsLTUU59S1k6rx3loZsHdpyDnm9CIQfGCDAI",
+        "alt": "作者Scribbling Speech动态涂鸦作品示例",
+        "credit": "Xinyue Yang官方展示",
+        "sourcePage": "https://experiments.withgoogle.com/scribbling-speech",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "故事视频",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2018-09",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "比较口头叙述和视觉表达，讨论系统误听如何改变故事。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
+    },
+    {
+      "id": "haiku-imagined",
+      "title": "让一首短诗同时拥有字体、动画与配乐",
+      "category": "故事视频",
+      "tags": [
+        "历史灵感新增"
+      ],
+      "date": "2023-05-03",
+      "dateNote": "原文标注的发布日期；月粒度日期未推断具体日。",
+      "firstSeen": "2026-10-12",
+      "author": "Lynn Cherny、Christine Sugrue / Google Arts & Culture Lab",
+      "summary": "Haiku Imagined为传统和现代俳句配上AI生成字体、视频与音乐，官方玫瑰示例展示多模态诗歌体验。",
+      "play": "同一首诗的不同意象分别决定文字、运动与声音。",
+      "tools": [
+        "Haiku Imagined",
+        "可替代图像、视频、音乐工具"
+      ],
+      "reproduce": "使用自写或已获许可的短诗，圈出两种感官意象；分别设计画面和配乐，再解释每个选择。",
+      "education": "文学、美术与音乐跨学科赏析，讨论AI是否过度解释原诗。",
+      "limits": "原项目是策展体验，不保证开放用户自定义生成；复现步骤是编辑迁移建议，非原站功能。",
+      "difficulty": "中阶",
+      "sources": [
+        {
+          "label": "官方原文、效果展示与日期",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-haiku-imagined.jpg",
+        "relativePath": "assets/creative-haiku-imagined.jpg",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Haiku_Rose_reduced_in_size.gif",
+        "alt": "官方Haiku Imagined玫瑰诗歌动画静帧",
+        "credit": "Lynn Cherny、Christine Sugrue / Google Arts & Culture Lab官方展示",
+        "sourcePage": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随本次私下预览展示低分辨率原作图；公开转载许可尚未确认。",
+        "evidenceNote": "从官方来源页直接取得的原图或演示视频/动图静帧；未合成效果，不代表本刊运行实测。",
+        "displayContext": "私下预览用于介绍与评论；保留来源及署名，未经进一步许可核验不得视为已获公开发布授权。",
+        "changes": "缩小至不超过800×500并转为JPEG；动图/视频仅截取静帧。"
+      },
+      "freshness": "历史灵感新增",
+      "popularity": {
+        "status": "未核验跨平台热度，不声称本周热门"
+      },
+      "reproductionStatus": "编辑提出复现与教学迁移建议，未运行实测",
+      "lastVerified": "2026-10-12",
+      "categories": [
+        "故事视频",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑建议，非产品适龄或学生账号许可；教师先行试用。",
+      "firstIssue": "002",
+      "originalDate": "2023-05-03",
+      "updatedAt": "2026-10-12",
+      "uses": [
+        "文学、美术与音乐跨学科赏析，讨论AI是否过度解释原诗。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "002"
+      ]
     }
   ],
   "schemaVersion": 2,
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-12",
   "editionNote": "累计创意库；切换期刊不更换或清空此数据。离线版本截至此日期，不联网自动更新。",
   "categoryOrder": [
     "图像设计",
