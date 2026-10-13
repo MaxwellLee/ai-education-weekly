@@ -1,0 +1,371 @@
+[
+  {
+    "id": "industry-tal",
+    "shortName": "好未来 / 学而思",
+    "entity": "好未来 / 学而思",
+    "region": "中国",
+    "title": "学而思 T6 系列 + 培优AI家教 / 九章爱学老师版",
+    "summary": "把既有教研内容装进AI学习机，同时把大模型扩展到教师备课与教学工具。",
+    "audience": "中小学生及家庭；国际版另面向小学国际英语学习需求；中小学教师",
+    "sourceDate": "学而思发布培优AI家教及T6系列：2026-07-02；九章爱学老师版升级，170+智能体助力教师教学全场景：2026-01-09；TAL FY2026 Form 20-F：2026-06-12；TAL FY2027 Q1 unaudited results：2026-07-30",
+    "stage": "学而思 T6 系列 + 培优AI家教：已发布/销售；老机型部分升级仍属公告计划；九章爱学老师版：已上线并迭代",
+    "progress": "学而思 T6 系列 + 培优AI家教：拍作业或试卷形成学情诊断与动态学习规划；录播主讲与AI老师组成双师课堂，提供督学、答疑及AI笔记。T6国际版、T6 Max含“国际学院”，结合Hello English、RAZ/牛津树阅读、AI口语练习。 2026-06-30发布；公告称2026-07-09全平台正式售卖。；九章爱学老师版：备课、组卷、作文批改、班级管理和家校沟通；可用自然语言生成可交互的图文音视频课件，并与学生端作业学情联动。 2025-03推出；2026-01官方介绍已有170多个智能体。",
+    "businessModel": "家庭购买硬件及其配套数字学习内容；教师工具的独立收费方式在所核实材料中未明确披露。 学习机、融合数字资源的书籍等归入“Learning content solutions（学习内容解决方案）”；另有课程服务收入。",
+    "pricingCosts": "T6标准版 / 国际版 / Max 的2026年7月首发价分别为人民币6,899 / 8,699 / 11,999元。这是历史发布价，不是2026-10-12实时成交价。 单一AI产品单位服务成本未单独披露。",
+    "financials": [
+      "FY2026：2025-03-01至2026-02-28｜学习内容解决方案业务｜学习内容解决方案净收入：10.6195亿美元（已披露财年收入）；包括学习设备和数字化书籍等，不能全部称作AI教育收入或学习机收入。",
+      "FY2027 Q1：2026-03-01至2026-05-31｜好未来集团合并口径｜集团净收入：7.58377亿美元（未经审计 GAAP）",
+      "FY2027 Q1：2026-03-01至2026-05-31｜好未来集团合并口径｜集团营业利润：1.37204亿美元（未经审计 GAAP）",
+      "FY2027 Q1：2026-03-01至2026-05-31｜好未来集团｜归属于好未来的净利润：4.08007亿美元（未经审计 GAAP）；本季其他收益4.05213亿美元，变动主要受部分投资公允价值影响；该净利不等于AI产品经营利润。"
+    ],
+    "financialBoundary": "未核实到T6或九章老师单独收入、利润、获客成本、现金消耗或融资额披露；不据集团利润推断项目盈利。",
+    "limits": "2026年9月起向老机型推送诊断规划、年底向部分旗舰推送其他功能是发布时计划，不能写成全部已完成。；官方产品功能描述，非独立教学成效证据。",
+    "followup": "T6老机型升级是否实际开放、学习内容业务能否单列利润与留存。",
+    "sources": [
+      {
+        "label": "学而思发布培优AI家教及T6系列 · 2026-07-02",
+        "url": "https://www.tal.com/zh-cn/news/detail/3039"
+      },
+      {
+        "label": "九章爱学老师版升级，170+智能体助力教师教学全场景 · 2026-01-09",
+        "url": "https://www.tal.com/zh-cn/news/detail/3022"
+      },
+      {
+        "label": "TAL FY2026 Form 20-F · 2026-06-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1499620/000110465926073410/tal-20260228x20f.htm"
+      },
+      {
+        "label": "TAL FY2027 Q1 unaudited results · 2026-07-30",
+        "url": "https://ir.tal.com/2026-07-30-TAL-Education-Group-Announces-Unaudited-Financial-Results-for-the-First-Fiscal-Quarter-Ended-May-31,-2026"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-new-oriental",
+    "shortName": "新东方",
+    "entity": "新东方",
+    "region": "中国",
+    "title": "智能学习系统与设备 / 智慧伴学、智慧督学 / 新东方 AI 1对1 / Sure Chinese",
+    "summary": "以内容、教师后台服务和智能设备结合，向家庭提供个性化学习；同时布局AI语言学习和校端数字化。",
+    "audience": "学生家庭；官网中学智慧学习方案明确面向中学生；个性化学习用户；Sure Chinese面向全球中文学习者；地方政府、教育主管部门、中小学及高校，覆盖K16",
+    "sourceDate": "New Oriental FY2026 Form 20-F：2026-09-22；New Oriental FY2026 Q4 and full-year results：2026-07-29；新东方中学智慧学习推广管理中心：页面未标发布日期；新东方入选“人民匠心品牌”案例：2026-01；新东方智慧教育：页面未标发布日期",
+    "stage": "智能学习系统与设备 / 智慧伴学、智慧督学：规模化收费运营；新东方 AI 1对1 / Sure Chinese：已推出；独立收入和用户规模未披露；新东方智慧教育：机构解决方案",
+    "progress": "智能学习系统与设备 / 智慧伴学、智慧督学：用设备连接学生、教师与内容；采集学习过程数据、识别学情，动态规划习题、视频及动画资源，教师在后台监测和评估进度。 2021年推出；FY2026已在约60个城市采用，全年去重活跃付费用户59.8万。；新东方 AI 1对1 / Sure Chinese：AI 1对1使用互动问答AI教师；Sure Chinese为AI中文学习平台。 新东方2026-01公司文章确认两项产品均于2025年推出。；新东方智慧教育：科技教育、智慧教学和数字内容；Kids+、东方创科、东方慧教等品牌提供机构解决方案。 官网列为现行业务板块。",
+    "businessModel": "家庭为智能学习产品和服务付费；校端方案面向学校、教育主管部门及地方政府采购。 智能设备与内容、教师后台支持结合；集团披露活跃付费用户，不能直接当作纯软件订阅人数。",
+    "pricingCosts": "未在核实的现行官方材料中找到全国统一价目或可验证的独立AI 1对1收费表。不要以传统留学/考试培训课程价格替代AI产品价格。 单一AI产品单位服务成本未单独披露。",
+    "financials": [
+      "FY2026：2025-06-01至2026-05-31｜新东方集团合并口径｜集团净收入：56.61294亿美元（GAAP年度报告）",
+      "FY2026：2025-06-01至2026-05-31｜新东方集团合并口径｜集团营业利润：6.43251亿美元（GAAP年度报告）",
+      "FY2026：2025-06-01至2026-05-31｜新东方集团｜归属于新东方的净利润：4.75172亿美元（GAAP财年业绩披露）"
+    ],
+    "financialBoundary": "以上集团财务包含考试培训、留学咨询、东方甄选等业务；没有独立AI教育或智能学习业务收入、利润披露。新教育业务增长率也不等于AI产品增速。",
+    "limits": "官方产品功能描述，非独立教学成效证据。；官方产品功能描述，非独立教学成效证据。；官方产品功能描述，非独立教学成效证据。",
+    "followup": "智能学习付费用户的续费与服务成本，以及AI 1对1和Sure Chinese的实际使用进展。",
+    "sources": [
+      {
+        "label": "New Oriental FY2026 Form 20-F · 2026-09-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1372920/000119312526397192/d157159d20f.htm"
+      },
+      {
+        "label": "New Oriental FY2026 Q4 and full-year results · 2026-07-29",
+        "url": "https://investor.neworiental.org/index.php/news-releases/news-release-details/new-oriental-announces-results-fourth-fiscal-quarter-and-9"
+      },
+      {
+        "label": "新东方中学智慧学习推广管理中心 · 日期未标",
+        "url": "https://www.neworiental.org/system/pxyw/202108/8625126.html"
+      },
+      {
+        "label": "新东方入选“人民匠心品牌”案例 · 2026-01",
+        "url": "https://www.xdf.cn/info/202601/15068417.html"
+      },
+      {
+        "label": "新东方智慧教育 · 日期未标",
+        "url": "https://www.neworiental.org/system/subsidiary/202108/8625128.html"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-iflytek",
+    "shortName": "科大讯飞",
+    "entity": "科大讯飞",
+    "region": "中国",
+    "title": "讯飞AI学习机 T90 系列 / 星火智能批阅机",
+    "summary": "既向家庭销售AI学习机，也向学校出售作业批阅硬件、批改服务和区域因材施教方案。",
+    "audience": "K12学生及家长；学校、教师及学生；官网注明小学覆盖4—6年级，并覆盖初高中；教育主管部门、区域学校体系",
+    "sourceDate": "科大讯飞AI学习机T90系列发布：2026-02-28；星火智能批阅机：页面未标发布日期；科大讯飞股份有限公司2026年半年度报告全文：2026-08-21",
+    "stage": "讯飞AI学习机 T90 系列：已发布与销售，部分功能分机型迭代；星火智能批阅机：学校商业化部署；区域因材施教解决方案：区域项目规模化部署",
+    "progress": "讯飞AI学习机 T90 系列：AI精准学将诊断、微课、练习串联；T90 Pro的AI老师“晓悦”定位错因并用板书启发讲解，支持打断提问；同时提供阅读、作文和英语练习。 2026-02-28发布T90 Pro及T90 Lite；2026半年报记载上半年推出T90和S90。；星火智能批阅机：扫描、AI批改、打印一体；支持主观题和中英作文分步骤批改，生成学情报告及讲评材料，并汇集错题形成练习闭环。 2026半年报称累计覆盖5000余所学校，2026年春季学期日均批改超过360万份。；区域因材施教解决方案：整合管理、教研、课堂教学与学情诊断。 2026半年报披露累计服务130多个市区县，并参与13个国家级智慧教育示范区建设。",
+    "businessModel": "家庭购机；学校和教育主管部门采购硬件、系统与批改服务。 T90以线上及线下硬件销售为主，内容和软件持续升级；校端存在批改服务续费、数智化作业服务等采购模式。",
+    "pricingCosts": "核实的官方发布和半年报未给出当前统一T90零售价；不用“高端学习机”统计门槛当作机型售价。 单一AI产品单位服务成本未单独披露。",
+    "financials": [
+      "2026 H1：2026-01-01至2026-06-30｜智慧教育产品分类｜智慧教育产品收入：34.9014亿元人民币（半年报财务数据）；占集团收入30.03%；涵盖教育软硬件及方案，不是单独学习机收入。",
+      "2026 H1：2026-01-01至2026-06-30｜科大讯飞集团合并口径｜集团营业收入：116.2277亿元人民币（半年报财务数据）",
+      "2026 H1：2026-01-01至2026-06-30｜科大讯飞集团｜集团归母净利润：亏损2.0384亿元人民币（半年报财务数据）",
+      "2026 H1：2026-01-01至2026-06-30｜科大讯飞集团｜集团经营活动现金流量净额：净流出9.4503亿元人民币（半年报财务数据）；为集团期间现金流，不是AI教育项目“烧钱额”，也不是融资额。"
+    ],
+    "financialBoundary": "智慧教育收入比集团更接近教育业务，但仍不等于生成式AI收入。学习机、智能批阅机各自利润和现金消耗未单列；集团半年亏损不能证明教育业务亏损。",
+    "limits": "发布公告原定3月下旬起逐步升级晓悦功能，部分适用学段/题型有限；不可宣称全部题目、所有机型均支持。；官网产品页的学校数量与页数指标可能为较早口径；这里优先用带期间的半年报“5000余所/360万份”，不要把份数、页数混用。；官方产品功能描述，非独立教学成效证据。",
+    "followup": "智慧教育收入变化、批阅服务续费与回款；等待更细产品利润和现金流披露。",
+    "sources": [
+      {
+        "label": "科大讯飞AI学习机T90系列发布 · 2026-02-28",
+        "url": "https://edu.iflytek.com/about-us/news/company-news/2665"
+      },
+      {
+        "label": "星火智能批阅机 · 日期未标",
+        "url": "https://edu.iflytek.com/solution/school/the-spark-ai-grader"
+      },
+      {
+        "label": "科大讯飞股份有限公司2026年半年度报告全文 · 2026-08-21",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485550.PDF"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-codemao",
+    "shortName": "编程猫",
+    "entity": "深圳点猫科技有限公司",
+    "region": "中国 · 深圳",
+    "title": "编程猫：家庭编程课程与点猫AI教育平台",
+    "summary": "用自研编程工具连接家庭课程与学校教学，再把大模型能力加入教师备课和日常工作。",
+    "audience": "家庭侧主要面向6—18岁青少年；学校侧服务中小学、信息科技教师及地区教育主管部门。",
+    "sourceDate": "官网规模截至2026-05；产品历程为2025年至今；教师手册未标发布日期。2026-10-12核验现行产品页。",
+    "stage": "家庭课程、编程工具及校园平台已提供；AI双师须开通。",
+    "progress": "Kitten N支持跨设备创作和AI功能；教师平台涵盖备课、出题、家校沟通、报告与PPT生成。官网自报截至2026年5月服务7万余所中小学，属于累计覆盖，不能当作付费学校数。",
+    "businessModel": "家庭为课程付费；学校、教育主管部门与机构为校园方案的采购/合作对象。具体采购主体及付款安排须看合同。 免费编程创作工具配合付费课程和教学服务，另提供校园课程、平台、教师培训及定制服务。免费工具与收费服务边界按具体课包/合同确认。",
+    "pricingCosts": "中国区App Store下载免费、含内购；列表中的“编程自学课”为人民币198元，仅能作为该单项内购标价，未标注课时/期限，不能视为完整课程年费或AI课程价。 教师手册称社区和点猫编程平台的创作工具免费使用；AI双师须另行开通。 统一完整课程价、校园项目报价、AI平台独立订阅价与厂商单位服务成本未找到可核验的公开统一披露。",
+    "financials": [
+      "深圳点猫科技有限公司集团/公司营收与净利润，以及编程猫AI课程或AI教育平台单独收入、成本与利润，均无可用于本卡的公开最新数据。"
+    ],
+    "financialBoundary": "不以融资额、用户量、覆盖学校数或合作方财报推断利润；不将合作方、投资方净利润归给点猫。",
+    "limits": "公司自述覆盖量非独立审计。工具功能、AI双师服务与独立AI课程的收费和成果不可混为一谈。",
+    "followup": "其看点是工具、课程和学校渠道结合；判断AI业务增量，应追踪付费转化、续费、交付成本与AI功能实际使用，而非只看累计覆盖量。",
+    "sources": [
+      {
+        "label": "点猫科技（编程猫）官方网站",
+        "url": "https://codingcat.com/"
+      },
+      {
+        "label": "点猫科技（编程猫）简介",
+        "url": "https://www.codemao.cn/gocodemao"
+      },
+      {
+        "label": "点猫编程平台使用手册（教师版）",
+        "url": "https://teacher-edu.codemao.cn/documents"
+      },
+      {
+        "label": "点猫校园编程",
+        "url": "https://edu.codemao.cn/"
+      },
+      {
+        "label": "编程猫在线：中国区App Store官方应用页",
+        "url": "https://apps.apple.com/cn/app/id1382569039"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-duolingo",
+    "shortName": "Duolingo",
+    "entity": "Duolingo",
+    "region": "美国 · 全球语言学习市场",
+    "title": "Duolingo Max / Video Call",
+    "summary": "AI 口语练习从高阶订阅向大众套餐扩展",
+    "audience": "希望在低压力环境练习外语对话的个人学习者；功能覆盖随语言、设备及套餐调整。",
+    "sourceDate": "2026-08-05；2026-06-30。公开产品和价格页于2026-10-12核验，未标日期的页面不计本周新闻。",
+    "stage": "Video Call 已发布；向 Super 分阶段扩展，非所有用户已获得。",
+    "progress": "Video Call 让学习者与 Lily 进行实时口语对话，保留会话记忆并提供通话文字记录；Roleplay 围绕点餐、旅行等情境练习交流。 Falstaff 引导式通话按语言水平提问，提供短语与翻译提示，并用学习者的母语给即时反馈。 2026-08-05：Q2 股东信称，大多数新 Super 订阅者已能使用 Video Call，计划在 2026 年稍晚扩展至现有 Super 用户。应写为分阶段下放，不能写成所有用户均已获得。 2026-06-30：平台 Q2 日活跃用户平均 5,870 万；期末付费订阅者 1,270 万。两者均为 Duolingo 全平台指标，非 Max 或 Video Call 的用户量。",
+    "businessModel": "个人学习者购买订阅；公司另外取得广告、英语测试和应用内购买收入。 AI 练习作为订阅套餐权益参与变现。2026 Q2 公司订阅收入 2.58035 亿美元，占总收入约 86.5%（按公开数字计算）。",
+    "pricingCosts": "本次未核得可统一引用的最新 Max 官方公开价目，不沿用网上旧报价；以当地账户实际套餐页面为准。 公司称 Q2 毛利率 72.6%，优于其预期，受 AI 功能扩展节奏及 AI 成本效率影响；未单列每次通话成本或 Max 毛利。",
+    "financials": [
+      "2026-04-01 至 2026-06-30（Q2）｜Duolingo, Inc. 及子公司（合并）｜收入：2.98454 亿美元（GAAP；未经审计季度披露）",
+      "2026-04-01 至 2026-06-30（Q2）｜Duolingo, Inc. 及子公司（合并）｜净利润：3,315.8 万美元（GAAP；未经审计季度披露）",
+      "2026-04-01 至 2026-06-30（Q2）｜Duolingo, Inc. 及子公司（合并）｜经营活动现金净流入：8,826.0 万美元（GAAP 现金流；未经审计季度披露）"
+    ],
+    "financialBoundary": "不能把公司净利润或正现金流归因于 Max 单个产品；也不能把 1,270 万全平台付费人数当成 Max 付费人数。",
+    "limits": "公开产品与机构自述不等于独立教学成效证据。",
+    "followup": "可借鉴的是把 AI 对话嵌入高频练习和成熟订阅体系；观察点是功能下放后，学习效果、续订和推理成本能否同时改善。此为分析判断。",
+    "sources": [
+      {
+        "label": "Duolingo 官方：Duolingo Max 产品说明 · 2023-03（页面持续更新）",
+        "url": "https://blog.duolingo.com/duolingo-max/"
+      },
+      {
+        "label": "Duolingo 官方：Video Call with Falstaff · 页面未标日期",
+        "url": "https://blog.duolingo.com/beginner-video-call-with-falstaff/"
+      },
+      {
+        "label": "Duolingo Q2 2026 股东信与合并财务报表（SEC） · 2026-08-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/q2fy26duolingo6-30x26share.htm"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-khan-academy",
+    "shortName": "Khan Academy",
+    "entity": "Khan Academy",
+    "region": "美国非营利机构 · 全球教师工具 / 美国学区市场",
+    "title": "Khanmigo / Writing Coach",
+    "summary": "从旁置聊天工具变成嵌入练习的 AI 导师",
+    "audience": "学生、家长与教师；校内版本通过学区部署，个人家长/学习者订阅主要面向美国。",
+    "sourceDate": "SY25–26 年报（2026 年 9 月公布文件）；2026-07/08。公开产品和价格页于2026-10-12核验，未标日期的页面不计本周新闻。",
+    "stage": "课程内AI导师、教师工具与学区部署已提供，持续迭代。",
+    "progress": "Khanmigo 嵌入人工编写的课程与练习，引导学生解释思路、发现错误；教师可获得学习进度信息。Writing Coach 支持写作过程中的反馈。 2026 年 8 月增加 Gemini 支持的交互式数学/科学图示；教师的 Practice My Knowledge 可生成选择题，审核、修改后再布置，并查看结构化报告。 SY25–26 年报（2026 年 9 月公布文件）：400 万+人曾获得 Khanmigo 访问权限，其中美国学区学生约 130 万、免费教师工具覆盖约 200 万教师。产品重点是把提示与反馈直接放进做题流程。 2026-07/08：Sal Khan 公开承认第一版 AI 整合带来的学习改善未达预期，强调继续用课堂数据迭代。2026 年交互图示的学习成效仍是初步迹象，不能当成独立、全面验证。",
+    "businessModel": "慈善捐赠者与企业资助方、采购学区、个人家长或成年学习者共同承担成本；教师工具可免费使用。 非营利资助加机构授权/个人订阅。SY25–26 披露 earned income 约 1,700 万美元，属于全机构收入分类，未单列 Khanmigo。",
+    "pricingCosts": "个人方案公开价 4 美元/月或 44 美元/年（不含销售税）；美国学区 Enterprise Starter 为 10 美元/学生/年，页面面向 1,000 个及以下学生授权，含 Khanmigo 与 Writing Coach；更大部署询价。 官方说明模型调用、研发测试及安全维护带来额外成本，但未公开 Khanmigo 独立成本/毛利。公益补贴与采购合同共同影响可持续性。",
+    "financials": [
+      "SY25–26（官方学年年报口径）｜Khan Academy 机构整体（非营利）｜总收入（含投资收益与其他收入）：约 9,700 万美元（学年年报，未审计；未经审计、可能调整；金额由年报取整）",
+      "SY25–26（官方学年年报口径）｜Khan Academy 机构整体（非营利）｜总支出：约 1.06 亿美元（学年年报，未审计；未经审计、可能调整；金额由年报取整）",
+      "SY25–26（官方学年年报口径）｜Khan Academy 机构整体（非营利）｜收入减支出：约 -900 万美元（按取整后的年报总额计算；非独立披露净利润，非现金流；未经审计、可能调整；金额由年报取整）"
+    ],
+    "financialBoundary": "年报解释，本期项目与运营使用了 SY24–25 收到的资助结余。上述差额不等于 Khanmigo 项目亏损，也不等于现金消耗；捐款不是商业利润，项目单独盈亏未披露。",
+    "limits": "公开产品与机构自述不等于独立教学成效证据。最新年报总额按SY25–26正文说明采用；收入图中心残留SY24–25标签，应等待审计版确认。",
+    "followup": "可借鉴的是内容、教师监督与 AI 引导的整合；衡量成效应看真实练习与掌握程度，不能用访问人数或捐款规模替代。此为分析判断。",
+    "sources": [
+      {
+        "label": "Khan Academy 官方年报目录 · 页面未标日期",
+        "url": "https://www.khanacademy.org/about/annual-report"
+      },
+      {
+        "label": "Khan Academy SY25–26 年报，印刷页 9、17 · 2026-09（PDF 创建/更新日期）",
+        "url": "https://drive.google.com/file/d/1gD9K0h-XxlwxmASNyJ7USYS3Pt5Miqsj/view"
+      },
+      {
+        "label": "Khan Academy 官方：交互图示与教师定向练习新功能 · 2026-08-27",
+        "url": "https://blog.khanacademy.org/new-ai-tools-bring-interactive-diagrams-and-targeted-practice-thanks-to-khan-academys-partnership-with-google-org/"
+      },
+      {
+        "label": "Sal Khan：Khanmigo’s First Chapter Changed How I Think About AI · 2026-07-15（页面亦列 2026-08-27 更新）",
+        "url": "https://blog.khanacademy.org/khanmigos-first-chapter-changed-how-i-think-about-ai-a-note-from-sal-khan/"
+      },
+      {
+        "label": "Khanmigo 官方个人学习者方案 · 页面未标日期",
+        "url": "https://www.khanmigo.ai/es/learners"
+      },
+      {
+        "label": "Khan Academy 帮助中心：学习者、家长和教师方案 · 2025-03-13 更新",
+        "url": "https://support.khanacademy.org/hc/en-us/articles/25921448458893-What-features-are-available-in-the-Learner-Parent-and-Teacher-Khanmigo-subscription-plans"
+      },
+      {
+        "label": "Khan Academy Districts 官方价格 · 页面未标日期",
+        "url": "https://www.khanacademy.org/schools/pricing?view=Schedule"
+      },
+      {
+        "label": "Khan Academy 帮助中心：为何 Khanmigo 收费 · 2024-06-04 更新",
+        "url": "https://support.khanacademy.org/hc/en-us/articles/14583967053069-Why-do-I-need-to-pay-to-use-Khanmigo"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-coursera",
+    "shortName": "Coursera",
+    "entity": "Coursera",
+    "region": "美国 · 全球成人学习与企业培训市场",
+    "title": "Coursera Coach / Role Play / Project Helix",
+    "summary": "把课程问答、情景练习和技能验证连接起来",
+    "audience": "在线课程学习者、转岗和职业提升人群，以及为员工采购培训的企业。",
+    "sourceDate": "2026-05-11；2026-09-09。公开产品和价格页于2026-10-12核验，未标日期的页面不计本周新闻。",
+    "stage": "Coach与Role Play已提供；Helix仍处选定客户阶段，预计2027上半年普遍开放。",
+    "progress": "Coach 以课程内容为依据解释概念、总结重点、生成练习并联系职业情境；当前产品页将其列为 Coursera Plus 与部分 Professional Certificate 订阅权益。 Role Play 用 AI 角色模拟职场对话；2026 年 7 月公司披露已支持语音交互，并试点以 AI 评价实验与角色扮演任务。 2026-05-11：与 Udemy 的全股票合并完成，后续财务与产品路线需考虑整合影响。 2026-09-09：预告 AI 原生技能平台 Project Helix：围绕企业目标生成与调整学习路径、实践考核、可携带技能记录与工作流程整合。正与选定客户合作，预计 2027 年上半年广泛开放，尚不能写成全面商用。",
+    "businessModel": "个人购买课程/证书与 Plus 订阅；企业、学校和政府为学习者采购平台授权。 Coach 作为课程或平台订阅的一部分变现，不披露独立 AI 助教收入。合并后 Q2 企业收入 1.400 亿美元、消费者收入 1.586 亿美元，均不等于 AI 收入。",
+    "pricingCosts": "官方美元页面：Plus 59 美元/月或 399 美元/年；Coursera for Teams 年付公开标价 399 美元/席位/年，包含 AI 学习引导及管理功能。并非单独购买 Coach 的价格。 Q2 公司收入成本 1.252 亿美元；AI 推理成本、Coach 毛利和 Helix 投入未单列。并购、整合及重组费用也不能全部算作 AI 成本。",
+    "financials": [
+      "2026-04-01 至 2026-06-30（Q2）｜Coursera, Inc. 合并口径；自 2026-05-11 起纳入 Udemy 经营结果｜收入：2.986 亿美元（GAAP；未经审计季度披露；百万美元取整精度）",
+      "2026-04-01 至 2026-06-30（Q2）｜Coursera, Inc. 合并口径；自 2026-05-11 起纳入 Udemy 经营结果｜净亏损：8,040 万美元亏损（GAAP；未经审计季度披露；百万美元取整精度）",
+      "2026-04-01 至 2026-06-30（Q2）｜Coursera, Inc. 合并口径；自 2026-05-11 起纳入 Udemy 经营结果｜经营活动现金净流出：1,980 万美元流出（GAAP 现金流；未经审计季度披露；百万美元取整精度）"
+    ],
+    "financialBoundary": "Q2 经营现金流含并购/整合付款 3,910 万美元及并购相关人员/遣散付款 1,810 万美元；GAAP 亏损并不等于现金流出。Coach、Role Play 与 Helix 的单独收入、成本和利润未披露。",
+    "limits": "公开产品与机构自述不等于独立教学成效证据。",
+    "followup": "可借鉴的是让 AI 依托有结构的课程内容，并用练习和技能证据服务企业采购；下一步需要验证产品整合与新平台兑现。此为分析判断。",
+    "sources": [
+      {
+        "label": "Coursera Coach 官方产品页 · 页面未标日期",
+        "url": "https://www.coursera.org/explore/coach/"
+      },
+      {
+        "label": "Coursera 官方：合并后的产品与平台创新 · 2026-07-08",
+        "url": "https://blog.coursera.org/accelerating-product-and-platform-innovations-across-coursera-and-udemy/"
+      },
+      {
+        "label": "Coursera 官方：Announcing Project Helix · 2026-09-09",
+        "url": "https://blog.coursera.org/announcing-project-helix/"
+      },
+      {
+        "label": "Coursera Plus 官方价格 · 页面未标日期",
+        "url": "https://www.coursera.org/courseraplus"
+      },
+      {
+        "label": "Coursera for Teams 官方价格与功能 · 页面未标日期",
+        "url": "https://www.coursera.org/business/teams"
+      },
+      {
+        "label": "Coursera Q2 2026 财务业绩与报表 · 2026-07-29",
+        "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Reports-Second-Quarter-2026-Financial-Results/default.aspx"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-fabarta",
+    "shortName": "枫清科技",
+    "entity": "枫清科技（Fabarta）",
+    "region": "中国",
+    "title": "高校Agent实训平台与小学AIGC公益课",
+    "summary": "把AI实训平台与教学机构的组织能力结合：高校侧练习Agent开发，小学侧用表情包创作体验生成与迭代。",
+    "audience": "高校学生、教师；与思考乐合作的公益活动面向文中称K6的小学段儿童。两个场景分别看。",
+    "sourceDate": "公益课文章：2026-08-18；实训平台产品页未标发布日期。2026-10-12核验。",
+    "stage": "高校实训平台已有官方产品介绍；小学表情包课已开展公益活动，不能据此称作规模化付费少儿培训。",
+    "progress": "官网介绍与思考乐教育在社区开展AIGC表情包公益课：整理素材与描述创意，生成作品，判断并迭代，再展示投票。思考乐负责教学组织，枫清提供AI实训平台、模型调用与技术支持。该文自报累计注册用户超过240、模型调用6000余次、作品4700余张，仅为活动使用量。另有面向高校的Agent实训平台，支持课程编排、智能体作答、自动评测和教师复核。",
+    "businessModel": "官网证据确认平台提供方与教学机构合作分工。高校和教学机构是产品服务对象，但具体付费方、按席位/调用/项目收费方式及商业合同尚未核实。小学案例为公益课，不假定家庭付费。",
+    "pricingCosts": "平台公开统一价格、合同金额、模型调用单价及单位服务成本未披露。6000余次调用不等于6000个付费用户，也不能据此估算成本或收入。",
+    "financials": [
+      "截至2026-10-12核验材料，未取得可核验的公司营收、净利润或经营现金流，以及少儿课程/实训平台独立财务数据。"
+    ],
+    "financialBoundary": "活动注册、调用和作品数量不是招生收入或利润。公司融资即使另有披露，也不能替代收入、利润与现金流；不推断盈利或烧钱。",
+    "limits": "产品页和活动报道均为公司自述，能支持功能与活动安排，不能独立证明教学成效、付费转化或规模化经营。活动文章未清楚给出精确举办日，保留原文发布日期。",
+    "followup": "后续核验实训平台的收费结构、实际院校合同与持续使用；小学公益活动是否发展为公开定价课程，并检查独立学习成果证据。",
+    "sources": [
+      {
+        "label": "枫清科技：与思考乐合作AIGC公益课 · 2026-08-18",
+        "url": "https://fabarta.com/news/detail/e2f385cb-43d7-4908-ac18-98c1af3db5b8"
+      },
+      {
+        "label": "枫清科技：AI实训平台产品页 · 日期未标",
+        "url": "https://fabarta.com/products/ai-training-platform/"
+      }
+    ],
+    "freshness": "baseline"
+  },
+  {
+    "id": "industry-qinghe",
+    "shortName": "青禾致知少儿AI课",
+    "entity": "青禾致知少儿AI课（小红书账号/课程品牌；法律运营主体待核实）",
+    "region": "中国 · 帖子显示陕西，不据此确定注册地",
+    "title": "青禾致知：少儿AI创作课程与自述创作平台",
+    "summary": "品牌原帖介绍6–13岁小班直播AI创作课。课时口径待核实：封面宣传37节（5录播＋32直播），分站图合计19节（2录播＋17直播），并有编号重复。",
+    "audience": "原帖最后一图标明6–13岁；宣传6–8人小班直播互动，学生自备电脑。年龄与班型属于招生宣传，不是已验证学员构成。",
+    "sourceDate": "原帖显示“编辑于09-17”，年份未明。2026-10-12直接核验正文及7张配图；不按缺少年份的日期归入本周新闻。",
+    "stage": "已有课程宣传与试听/招生入口；自研平台为品牌自述。未实测课程或平台，未核实实际开班、付费人数和法律主体。",
+    "progress": "配图展示AI基础知识与素养、AIGC单项创作、Agent综合项目、AI编程思维、Vibe Coding互动创作等方向；品牌称有“青禾致知儿童AI创作平台/青禾Coding”，提供自适应学习、编程、多模态工具箱及项目式成长。封面五站名称与详细五站也不完全一致，课程路径和最终课表需要向提供方确认。",
+    "businessModel": "可观察的获客路径为小红书内容→“立即咨询”领取试听→首批创始学员报名，并宣传永久课程折扣。可据此确认咨询招生流程，不能推定已有收入、固定课包成交价或订阅制。",
+    "pricingCosts": "原帖未公开数字价格；评论问价得到作者“私您啦”的回复。试听条件、正式课费、折扣适用范围/期限、退费规则与平台服务成本均未核实。",
+    "financials": [
+      "截至2026-10-12所读品牌原帖，未公开课程收入、利润、现金流、付费转化率、续费率或经营规模；法律运营主体尚未核实。"
+    ],
+    "financialBoundary": "招生文案、试听咨询、班级容量与课程数量都不能替代实际付费人数、营收或利润。账号品牌不等于已核实的公司法人主体。",
+    "limits": "课时口径待核实：封面为37节＝5节录播＋32节直播；详细五站依次为2录播＋4直播、4直播、2直播、4直播、3直播，总计19节＝2录播＋17直播；编号11–14重复。可能存在不同版本或统计口径，现有材料不能确定原因，也不能定论为虚假宣传。上述功能与课程承诺仅为品牌自述，非实测或教育效果证据。",
+    "followup": "优先索取最终逐节课表，澄清37节与19节差异、编号及五站名称；再核验运营主体、正式价格、试听和退费条款、教师资质及平台实际功能。",
+    "sources": [
+      {
+        "label": "青禾致知少儿AI课：原帖正文与7张课程配图 · 编辑于09-17（年份未明）",
+        "url": "https://www.xiaohongshu.com/discovery/item/6a6ca9040000000008010051?source=webshare&xhsshare=pc_web&xsec_token=ABTA5geqDOD09Z4XUa9OWlKhbA4AuRakhJXom2ehdCDFc=&xsec_source=pc_share"
+      }
+    ],
+    "freshness": "baseline"
+  }
+]

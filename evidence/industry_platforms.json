@@ -1,0 +1,186 @@
+{
+  "as_of": "2026-10-12",
+  "language": "zh-CN",
+  "scope": "中国AI教育课程与平台；编程猫已核实，另两项用户提及名称待核实",
+  "cards": [
+    {
+      "id": "codemao-platform",
+      "name": "编程猫 / 点猫科技",
+      "legal_entity": "深圳点猫科技有限公司；编程猫在线App提供者为广东省探月线上非学科培训学校有限公司（公司官网列为旗下主体）",
+      "geography": "中国 · 深圳",
+      "category": "青少年编程与AI课程 / 校园教学平台",
+      "verification_status": "verified",
+      "display_strategy": "全国行业板块用简卡，交叉链接已有深圳编程猫条目；不要重复计算为两家公司。",
+      "existing_shenzhen_crosslink": {
+        "label": "查看深圳板块的编程猫详情",
+        "href": null,
+        "instruction": "由整合者填入已有编程猫条目的真实锚点，不能猜测链接。"
+      },
+      "one_liner": "用自研编程工具连接家庭课程与学校教学，再把大模型能力加入教师备课和日常工作。",
+      "audience": "家庭侧主要面向6—18岁青少年；学校侧服务中小学、信息科技教师及地区教育主管部门。",
+      "products": [
+        {
+          "name": "编程猫在线与课程体系",
+          "what_it_does": "图形化编程、Python、C++、机器人及AI创作课程，配合线上学习、答疑和线下服务。",
+          "source_ids": [
+            "codemao-profile",
+            "codemao-app"
+          ]
+        },
+        {
+          "name": "Kitten工具矩阵",
+          "what_it_does": "Kitten N打通手机、平板和电脑，并提供AI绘画、人脸/手势识别、AI tutor；另有Python、C++与CoCo应用创作工具。",
+          "source_ids": [
+            "codemao-home"
+          ]
+        },
+        {
+          "name": "点猫编程平台 / AI双师",
+          "what_it_does": "班级与课程管理、作品提交和学情报告；AI双师由线上主讲教师、现场教师与AI引擎协同，支持个性化学习、识别及智能批改。",
+          "source_ids": [
+            "codemao-teacher-manual"
+          ]
+        },
+        {
+          "name": "点猫AI教育平台",
+          "what_it_does": "教师可生成备课材料、家校沟通文本、试题、工作报告和PPT；手册注明可使用DeepSeek通用能力。",
+          "source_ids": [
+            "codemao-teacher-manual"
+          ]
+        }
+      ],
+      "recent_progress": [
+        {
+          "date": "2025年至今（官方发展历程区间，未披露精确上线日）",
+          "fact": "官网记载发布点猫人工智能教育平台，并与北京大学共建人工智能教育联合实验室。",
+          "evidence_status": "公司官方披露，未把区间改写成精确发布日期",
+          "source_ids": [
+            "codemao-profile"
+          ]
+        },
+        {
+          "date": "2026-05",
+          "fact": "公司自报累计用户超过4300万，累计编程作品超过2.6亿，服务7万余所中小学及25万余名信息科技教师。",
+          "evidence_status": "公司内部累计口径；不是独立审计、活跃用户或付费客户数",
+          "source_ids": [
+            "codemao-profile"
+          ]
+        },
+        {
+          "date": "2026-05-14",
+          "fact": "编程猫在线5.1.5版本新增C++在线代码编辑能力；2026-09-09版本记录继续升级直播系统。",
+          "evidence_status": "官方App Store版本记录；最新2026年份由连续版本日期与前一年度2025/12记录核对",
+          "source_ids": [
+            "codemao-app"
+          ]
+        }
+      ],
+      "business_model": {
+        "who_pays": "家庭为课程付费；学校、教育主管部门与机构为校园方案的采购/合作对象。具体采购主体及付款安排须看合同。",
+        "revenue_mechanism": "免费编程创作工具配合付费课程和教学服务，另提供校园课程、平台、教师培训及定制服务。免费工具与收费服务边界按具体课包/合同确认。",
+        "evidence_level": "家庭内购已由官方商店确认；校园侧商业对象由官网确认，收费周期和合同价格未公开，不能假定统一按人头订阅。",
+        "source_ids": [
+          "codemao-app",
+          "codemao-teacher-manual",
+          "codemao-campus",
+          "codemao-profile"
+        ]
+      },
+      "pricing_and_costs": {
+        "public_price": "中国区App Store下载免费、含内购；列表中的“编程自学课”为人民币198元，仅能作为该单项内购标价，未标注课时/期限，不能视为完整课程年费或AI课程价。",
+        "free_scope": "教师手册称社区和点猫编程平台的创作工具免费使用；AI双师须另行开通。",
+        "unavailable": "统一完整课程价、校园项目报价、AI平台独立订阅价与厂商单位服务成本未找到可核验的公开统一披露。",
+        "cost_drivers_inference": "从服务结构判断，成本主要涉及教研、教师服务、获客、软件维护与模型调用；这是业务分析，不是公司已披露的成本金额。",
+        "source_ids": [
+          "codemao-app",
+          "codemao-teacher-manual"
+        ]
+      },
+      "profit_and_loss": {
+        "status": "未找到可核验的公开最新财务披露",
+        "exact_scope": "深圳点猫科技有限公司集团/公司营收与净利润，以及编程猫AI课程或AI教育平台单独收入、成本与利润，均无可用于本卡的公开最新数据。",
+        "guardrails": "不以融资额、用户量、覆盖学校数或合作方财报推断利润；不将合作方、投资方净利润归给点猫。"
+      },
+      "implications": "其看点是工具、课程和学校渠道结合；判断AI业务增量，应追踪付费转化、续费、交付成本与AI功能实际使用，而非只看累计覆盖量。",
+      "compact_display_copy": "编程猫（深圳点猫科技）面向6—18岁家庭提供编程与AI创作课程，也为学校提供课程管理、AI双师和教师工具。Kitten N支持跨设备创作和AI功能；点猫AI教育平台已覆盖备课、出题、家校沟通、报告及PPT生成。公司自报截至2026年5月覆盖7万余所中小学，这不是付费学校数。家庭课程付费、校园方案合作采购；公开可见内购“编程自学课”¥198仅为单项商品，完整课包与学校合同价需另核。集团及AI业务独立盈亏暂无可核验公开数据。",
+      "source_ids": [
+        "codemao-home",
+        "codemao-profile",
+        "codemao-teacher-manual",
+        "codemao-campus",
+        "codemao-app"
+      ]
+    }
+  ],
+  "pending_entities": [
+    {
+      "user_supplied_name": "风清科技",
+      "status": "待用户提供官网或课程平台链接核实",
+      "display_text": "风清科技：用户提及的课程平台，主体及官方产品尚待核实。",
+      "do_not_claim": "不能把沈阳风清科技有限公司、海蓝风清科技或任何同音公司直接当作该教育平台；没有核实产品、商业模式、收费或盈亏。"
+    },
+    {
+      "user_supplied_name": "清和智知",
+      "status": "口述名称待核实",
+      "display_text": "清和智知（口述名称）：待确认正式名称或官网。",
+      "do_not_claim": "不能替换成清华智谱、清禾智、清小搭或其他相近名称，不能填入产品、融资、收费与利润数字。"
+    }
+  ],
+  "clarification_for_parent": "你提到的“风清科技”和“清和智知”，方便发一下官网/课程链接或公司名称截图吗？我想核对正式主体，避免把同音公司写进去。",
+  "sources": [
+    {
+      "id": "codemao-home",
+      "title": "点猫科技（编程猫）官方网站",
+      "url": "https://codingcat.com/",
+      "type": "公司官方产品页",
+      "accessed": "2026-10-12",
+      "supports": "面向年龄、课程范围、Kitten工具矩阵与AI功能"
+    },
+    {
+      "id": "codemao-profile",
+      "title": "点猫科技（编程猫）简介",
+      "url": "https://www.codemao.cn/gocodemao",
+      "type": "公司官方简介与发展历程",
+      "accessed": "2026-10-12",
+      "supports": "主体名称、深圳、业务体系、2026年5月累计规模、发布AI教育平台、北京大学实验室合作、探月旗下主体"
+    },
+    {
+      "id": "codemao-teacher-manual",
+      "title": "点猫编程平台使用手册（教师版）",
+      "url": "https://teacher-edu.codemao.cn/documents",
+      "type": "官方用户手册",
+      "accessed": "2026-10-12",
+      "supports": "AI双师实际构成、点猫AI教育平台场景与DeepSeek能力、免费创作工具范围、须开通的双师服务"
+    },
+    {
+      "id": "codemao-campus",
+      "title": "点猫校园编程",
+      "url": "https://edu.codemao.cn/",
+      "type": "公司官方校园产品页",
+      "accessed": "2026-10-12",
+      "supports": "学校教程、教学管理、教师培训、赛事与AI双师服务，机构/渠道合作入口"
+    },
+    {
+      "id": "codemao-app",
+      "title": "编程猫在线：中国区App Store官方应用页",
+      "url": "https://apps.apple.com/cn/app/id1382569039",
+      "type": "开发者官方商店上架信息",
+      "accessed": "2026-10-12",
+      "supports": "开发者主体、免费加内购模式、198元单项自学课、2026年版本更新"
+    }
+  ],
+  "editorial_notes": [
+    "只核实到一个目标主体，未为了满足卡片数量加入猜测公司；如需要2张产品卡，可将同主体的家庭课程与校园平台拆开，但统计中仍为1家公司。",
+    "价格仅选择官方商店可核验条目，未采用媒体软文中的2680—7999元区间。",
+    "未使用搜索命中的可疑第三方2025营收、利润率和授权收入数字。",
+    "官网排名、赛事保送宣传与教学效果并非本卡重点，未据此断言学习成效。"
+  ],
+  "nameCorrection": {
+    "date": "2026-10-12",
+    "correctNames": [
+      "枫清科技",
+      "青禾致知少儿AI课"
+    ],
+    "note": "下列早先检索名来自未确认口述转写，已由用户确认更正；最新证据见named_courses_verified.json。"
+  }
+}

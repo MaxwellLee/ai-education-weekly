@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-10-12",
+  "rows": [
+    {
+      "name": "枫清科技（Fabarta）",
+      "country": "中国",
+      "identity_confidence": "High for Fabarta brand and its documented education activity; specific Xiaohongshu account unverified",
+      "category": "AI 教学平台与机构合作实践",
+      "audience": "已核实社区公益课面向 K6/小学段；公开 AI 实训平台产品页面向高校，两者须分开表述",
+      "curriculum": "K6 公益课以 AIGC 表情包创作为入口，含创意描述、图像生成、观察判断、迭代优化、作品展示及投票。高校平台含课程编排、Agent/Workflow 作答、自测、自动评测、教师复核和学情分析。",
+      "delivery": "思考乐负责教学组织，枫清提供实训平台、多模态模型及课堂技术支持。",
+      "business_model": "公开证据支持平台与教学机构合作路径；具体收费方式、合同金额、分成机制未披露。",
+      "pricing": "已核实案例为公益课；商业课程/平台价格未核实。",
+      "traction": "截至 2026-08-18，官网自报该系列公益课累计平台注册用户超过240人，模型调用6000余次，生成作品4700余张。这些不是付费用户或收入数据。",
+      "financials": "未找到课程业务收入、利润、毛利、付费转化率、续费率等可核实披露；不能由活动使用量判断盈利。",
+      "source_urls": [
+        "https://fabarta.com/news/detail/e2f385cb-43d7-4908-ac18-98c1af3db5b8",
+        "https://fabarta.com/products/ai-training-platform/"
+      ],
+      "source_verification": "First article directly opened and read in cloud browser; date 2026-08-18. Product page directly opened via web tool; no publication date visible."
+    },
+    {
+      "name": "青禾致知少儿AI课",
+      "country": "待核验",
+      "identity_confidence": "Pending; spelling confirmed by user, public account/operator not uniquely established",
+      "category": "用户指定的少儿 AI 课程线索，待核验",
+      "audience": "少儿（仅用户给出的名称，年龄范围未核实）",
+      "curriculum": "待账号或笔记原文核验",
+      "delivery": "未核实",
+      "business_model": "未核实",
+      "pricing": "未核实",
+      "traction": "未核实",
+      "financials": "未核实；不得推断盈利",
+      "source_urls": [],
+      "caution": "检索找到同名商标聚合页，申请人西安青禾致知信息科技有限公司，但无证据把该主体与用户所指课程/小红书账号连接，不能作为运营主体写入。"
+    }
+  ],
+  "accessLimits": "青禾致知小红书搜索结果需登录，本次未读取账号、笔记、价格或互动数据。未核实同名商标主体与课程的联系。",
+  "laterUpdate": {
+    "date": "2026-10-12",
+    "note": "用户提供青禾具体分享帖后已直接读取正文与7图，详见qinghe_course_verified.json；原站内搜索需登录的记录仅为先前访问边界，不再表示课程原帖无法核验。"
+  }
+}

@@ -122,3 +122,13 @@ for index in issues:
   if n['freshness']=='current':assert issue['window']['start']<=n['publishedDate']<=issue['window']['end']
   else:assert n['publishedDate']<issue['window']['start']
 print('PASS: Shenzhen dates, issue isolation, freshness labels and required evidence fields.')
+
+for path in (ROOT/'data/industry').glob('*.json'):
+ data=load(path)
+ assert data['issue'] in issue_ids
+ assert len({x['id'] for x in data['items']})==len(data['items'])
+ for x in data['items']:
+  assert all(x.get(k) for k in ['entity','title','sourceDate','audience','stage','businessModel','pricingCosts','financials','financialBoundary','sources','limits','followup'])
+  assert x['freshness'] in ['current','baseline']
+  assert all(s['url'].startswith('https://') for s in x['sources'])
+print('PASS: industry identity, evidence dates, model and financial boundaries.')

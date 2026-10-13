@@ -10,7 +10,7 @@
     "note": "截至10月12日09:00北京时间。无原发布日期的条目按活动时间列入，明确为日程而非成果。"
   },
   "cutoff": "2026-10-12T09:00:00+08:00",
-  "revisionNote": "第002期私人预览；保留001原始数据与整页快照。",
+  "revisionNote": "第002期行业动态增补私人预览；保留001原始数据及002已发布整页与JSON快照。",
   "education": {
     "issue": "002",
     "cutoff": "2026-10-12T09:00:00+08:00",
@@ -77,7 +77,8 @@
         "application": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "技术与研究"
       },
       {
         "id": "e002-02",
@@ -116,7 +117,8 @@
         "application": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "技术与研究"
       },
       {
         "id": "e002-03",
@@ -155,7 +157,8 @@
         "application": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "技术与研究"
       },
       {
         "id": "e002-04",
@@ -194,7 +197,8 @@
         "application": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "教学实践"
       },
       {
         "id": "e002-05",
@@ -234,7 +238,8 @@
         "application": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "技术与研究"
       },
       {
         "id": "e002-06",
@@ -276,7 +281,8 @@
         "application": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "政策与评价"
       },
       {
         "id": "e002-07",
@@ -320,7 +326,8 @@
         "application": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "教学实践"
       },
       {
         "id": "e002-08",
@@ -359,7 +366,8 @@
         "application": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "政策与评价"
       },
       {
         "id": "e002-09",
@@ -400,7 +408,8 @@
         "application": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "教学实践"
       },
       {
         "id": "e002-10",
@@ -443,7 +452,8 @@
         "application": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "教学实践"
       },
       {
         "id": "e002-11",
@@ -482,7 +492,8 @@
         "application": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "教学实践"
       },
       {
         "id": "e002-13",
@@ -521,7 +532,8 @@
         "application": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "image": null,
-        "lastVerified": "2026-10-12"
+        "lastVerified": "2026-10-12",
+        "frontierCategory": "教学实践"
       }
     ],
     "title": "全球 AI 教育观察"

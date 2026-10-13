@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "AI 教育周刊数据契约",
-  "description": "按文件使用 manifest、catalog、issue 或 profileCatalog 定义。界面沿用五页周刊与独立累计创意库；人物背景在 data/people.json 独立维护，不改写本期动态事实和日期。",
+  "description": "按文件使用 manifest、catalog、issue 或 profileCatalog 定义。界面沿用六页周刊与独立累计创意库；人物背景在 data/people.json 独立维护，不改写本期动态事实和日期。",
   "oneOf": [
     {
       "$ref": "#/$defs/manifest"

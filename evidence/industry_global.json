@@ -1,0 +1,503 @@
+{
+  "as_of": "2026-10-12",
+  "language": "zh-CN",
+  "scope": "国际 AI 教育企业与机构；仅使用公司、机构及监管披露等一手来源",
+  "editorial_rules": [
+    "公司/机构整体财务不等于 AI 产品财务；未披露的产品利润与成本不推算。",
+    "会计利润、非 GAAP 指标、经营现金流、自由现金流和现金余额分别标注。",
+    "历史数据与最新进展分开；规划或试点不写成全面上线。",
+    "价格为截至检索日的官方公开美元报价，实际税费、地区及账户报价可能不同。"
+  ],
+  "cards": [
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "product": "Duolingo Max / Video Call",
+      "region": "美国 · 全球语言学习市场",
+      "category": "AI 口语陪练与订阅学习",
+      "headline": "AI 口语练习从高阶订阅向大众套餐扩展",
+      "audience": "希望在低压力环境练习外语对话的个人学习者；功能覆盖随语言、设备及套餐调整。",
+      "product_details": [
+        {
+          "text": "Video Call 让学习者与 Lily 进行实时口语对话，保留会话记忆并提供通话文字记录；Roleplay 围绕点餐、旅行等情境练习交流。",
+          "source_ids": [
+            "duo_product"
+          ]
+        },
+        {
+          "text": "Falstaff 引导式通话按语言水平提问，提供短语与翻译提示，并用学习者的母语给即时反馈。",
+          "source_ids": [
+            "duo_falstaff"
+          ]
+        }
+      ],
+      "historical": [
+        {
+          "date": "2023 / 2024",
+          "text": "Max 于 2023 年推出；2024 年加入 Video Call，作为较高阶订阅的口语功能。此为产品沿革，不代表 2026 年仍由 Max 独占。",
+          "source_ids": [
+            "duo_research"
+          ]
+        }
+      ],
+      "latest_progress": [
+        {
+          "date": "2026-08-05",
+          "text": "Q2 股东信称多数新 Super 订阅者已可用 Video Call，预计年内扩至现有 Super 用户；尚非全面覆盖。",
+          "source_ids": [
+            "duo_q2"
+          ]
+        },
+        {
+          "date": "2026-06-30",
+          "text": "Q2 平均日活 5,870 万、期末付费订阅者 1,270 万，均为全平台口径。",
+          "source_ids": [
+            "duo_q2"
+          ]
+        }
+      ],
+      "business_model": {
+        "who_pays": "个人订阅为主，另有广告、测试与应用内购买。",
+        "revenue_mechanism": "AI 作为套餐权益。Q2 公司订阅收入 2.58035 亿美元，约占总收入 86.5%（计算值）。",
+        "pricing": "本次未核得可统一引用的最新 Max 官方公开价目，不沿用网上旧报价；以当地账户实际套餐页面为准。",
+        "costs": "公司称 AI 成本效率及推广节奏助力 Q2 毛利率达 72.6%；未披露每次通话成本。",
+        "source_ids": [
+          "duo_q2",
+          "duo_product"
+        ]
+      },
+      "financial_status": {
+        "label": "公司整体盈利、经营现金流为正；AI 项目单独盈亏未披露",
+        "entity": "Duolingo, Inc. 及子公司（合并）",
+        "period": "2026-04-01 至 2026-06-30（Q2）",
+        "currency": "USD",
+        "audit_status": "未经审计季度披露",
+        "metrics": [
+          {
+            "metric": "收入",
+            "value": 298454000,
+            "display": "2.98454 亿美元",
+            "basis": "GAAP"
+          },
+          {
+            "metric": "净利润",
+            "value": 33158000,
+            "display": "3,315.8 万美元",
+            "basis": "GAAP"
+          },
+          {
+            "metric": "经营活动现金净流入",
+            "value": 88260000,
+            "display": "8,826.0 万美元",
+            "basis": "GAAP 现金流"
+          },
+          {
+            "metric": "自由现金流",
+            "value": 78630000,
+            "display": "7,863.0 万美元",
+            "basis": "公司定义的非 GAAP 流动性指标"
+          },
+          {
+            "metric": "现金及现金等价物",
+            "value": 1180887000,
+            "display": "11.80887 亿美元",
+            "as_of": "2026-06-30",
+            "basis": "资产负债表存量；不含短期投资"
+          }
+        ],
+        "boundary": "公司财务与全平台用户量不能归属 Max；产品单独盈亏未披露。",
+        "source_ids": [
+          "duo_q2"
+        ]
+      },
+      "takeaway": "可借鉴的是把 AI 对话嵌入高频练习和成熟订阅体系；观察点是功能下放后，学习效果、续订和推理成本能否同时改善。此为分析判断。",
+      "sources": [
+        {
+          "id": "duo_product",
+          "title": "Duolingo 官方：Duolingo Max 产品说明",
+          "url": "https://blog.duolingo.com/duolingo-max/",
+          "published": "2023-03（页面持续更新）",
+          "accessed": "2026-10-12",
+          "supports": "Video Call、Roleplay 功能；本次不以该旧页的 Max 排他表述覆盖较新财报"
+        },
+        {
+          "id": "duo_falstaff",
+          "title": "Duolingo 官方：Video Call with Falstaff",
+          "url": "https://blog.duolingo.com/beginner-video-call-with-falstaff/",
+          "accessed": "2026-10-12",
+          "supports": "引导式口语通话功能"
+        },
+        {
+          "id": "duo_research",
+          "title": "Duolingo 研究白皮书：Video Call improves Japanese English learners’ speaking skills（2025）",
+          "url": "https://duolingo-papers.s3.amazonaws.com/reports/Duolingo_whitepaper_language_video_call_improves_speaking_2025.pdf",
+          "published": "2025",
+          "accessed": "2026-10-12",
+          "supports": "Max 2023、Video Call 2024 产品沿革"
+        },
+        {
+          "id": "duo_q2",
+          "title": "Duolingo Q2 2026 股东信与合并财务报表（SEC）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/q2fy26duolingo6-30x26share.htm",
+          "published": "2026-08-05",
+          "accessed": "2026-10-12",
+          "supports": "Super 下放进展、平台用户量、订阅收入、AI 成本趋势及季度公司财务"
+        }
+      ]
+    },
+    {
+      "id": "khan-academy",
+      "name": "Khan Academy",
+      "product": "Khanmigo / Writing Coach",
+      "region": "美国非营利机构 · 全球教师工具 / 美国学区市场",
+      "category": "课堂 AI 导师与教师助手",
+      "headline": "从旁置聊天工具变成嵌入练习的 AI 导师",
+      "audience": "学生、家长与教师；校内版本通过学区部署，个人家长/学习者订阅主要面向美国。",
+      "product_details": [
+        {
+          "text": "Khanmigo 嵌入人工编写的课程与练习，引导学生解释思路、发现错误；教师可获得学习进度信息。Writing Coach 支持写作过程中的反馈。",
+          "source_ids": [
+            "khan_reflection",
+            "khan_district_price"
+          ]
+        },
+        {
+          "text": "2026 年 8 月增加 Gemini 支持的交互式数学/科学图示；教师的 Practice My Knowledge 可生成选择题，审核、修改后再布置，并查看结构化报告。",
+          "source_ids": [
+            "khan_gemini"
+          ]
+        }
+      ],
+      "historical": [
+        {
+          "date": "SY24–25",
+          "text": "上一学年 Khanmigo 获得访问权限的人数约 200 万；这是年度覆盖口径，并非付费订阅或持续活跃人数。",
+          "source_ids": [
+            "khan_annual_2425"
+          ]
+        },
+        {
+          "date": "截至 2025-06-30 的财政年度",
+          "text": "历史审计报表：机构总支持与收入 1.27953098 亿美元，总费用 9,519.3594 万美元，净资产增加 3,273.9018 万美元；经营现金净流入 2,455.4320 万美元。",
+          "source_ids": [
+            "khan_audit_2025"
+          ]
+        }
+      ],
+      "latest_progress": [
+        {
+          "date": "SY25–26 年报（2026 年 9 月公布文件）",
+          "text": "SY25–26 有 400 万+人获得访问权限，包括约 130 万美国学区学生和 200 万免费工具教师；非活跃或付费人数。",
+          "source_ids": [
+            "khan_annual_2526"
+          ]
+        },
+        {
+          "date": "2026-07/08",
+          "text": "Sal Khan 公开承认第一版 AI 整合带来的学习改善未达预期，强调继续用课堂数据迭代。2026 年交互图示的学习成效仍是初步迹象，不能当成独立、全面验证。",
+          "source_ids": [
+            "khan_reflection",
+            "khan_gemini"
+          ]
+        }
+      ],
+      "business_model": {
+        "who_pays": "慈善捐赠者与企业资助方、采购学区、个人家长或成年学习者共同承担成本；教师工具可免费使用。",
+        "revenue_mechanism": "资助加授权/订阅。SY25–26 全机构 earned income 约 1,700 万美元，未单列 Khanmigo。",
+        "pricing": "个人方案公开价 4 美元/月或 44 美元/年（不含销售税）；美国学区 Enterprise Starter 为 10 美元/学生/年，页面面向 1,000 个及以下学生授权，含 Khanmigo 与 Writing Coach；更大部署询价。",
+        "costs": "官方说明模型调用、研发测试及安全维护带来额外成本，但未公开 Khanmigo 独立成本/毛利。公益补贴与采购合同共同影响可持续性。",
+        "source_ids": [
+          "khan_personal_price",
+          "khan_teacher_price",
+          "khan_district_price",
+          "khan_cost",
+          "khan_annual_2526"
+        ]
+      },
+      "financial_status": {
+        "label": "最新机构收入低于支出；未审计，不能据此判定 AI 产品烧钱",
+        "entity": "Khan Academy 机构整体（非营利）",
+        "period": "SY25–26（官方学年年报口径）",
+        "currency": "USD",
+        "audit_status": "未经审计、可能调整；金额由年报取整",
+        "metrics": [
+          {
+            "metric": "总收入（含投资收益与其他收入）",
+            "value": 97000000,
+            "display": "约 9,700 万美元",
+            "basis": "学年年报，未审计"
+          },
+          {
+            "metric": "总支出",
+            "value": 106000000,
+            "display": "约 1.06 亿美元",
+            "basis": "学年年报，未审计"
+          },
+          {
+            "metric": "收入减支出",
+            "value": -9000000,
+            "display": "约 -900 万美元",
+            "basis": "按取整后的年报总额计算；非独立披露净利润，非现金流"
+          }
+        ],
+        "cash_context": "最新学年年报未给出同期经营现金流。最近核验的审计年度（截至 2025-06-30）经营现金净流入 24,554,320 美元，期末现金及现金等价物 6,026,341 美元；另有经营性投资 100,375,655 美元，不应把现金余额当成全部流动资源。",
+        "boundary": "年报称本期使用上学年资助结余。收入支出差额并非现金流或 Khanmigo 项目亏损；项目盈亏未披露。",
+        "source_ids": [
+          "khan_annual_2526",
+          "khan_audit_2025"
+        ]
+      },
+      "takeaway": "可借鉴的是内容、教师监督与 AI 引导的整合；衡量成效应看真实练习与掌握程度，不能用访问人数或捐款规模替代。此为分析判断。",
+      "sources": [
+        {
+          "id": "khan_annual_index",
+          "title": "Khan Academy 官方年报目录",
+          "url": "https://www.khanacademy.org/about/annual-report",
+          "accessed": "2026-10-12",
+          "supports": "最新及历史年报的官方来源链"
+        },
+        {
+          "id": "khan_annual_2526",
+          "title": "Khan Academy SY25–26 年报，印刷页 9、17",
+          "url": "https://drive.google.com/file/d/1gD9K0h-XxlwxmASNyJ7USYS3Pt5Miqsj/view",
+          "published": "2026-09（PDF 创建/更新日期）",
+          "accessed": "2026-10-12",
+          "supports": "最新访问覆盖、产品整合、全机构未审计收入和支出；由官方年报目录链接，已下载并核验第 21 个 PDF 页财务图表"
+        },
+        {
+          "id": "khan_annual_2425",
+          "title": "Khan Academy SY24–25 年报",
+          "url": "https://drive.google.com/file/d/19b3lJznVaLWvEzOKM69XClpFcRoLo6Dm/view",
+          "accessed": "2026-10-12",
+          "supports": "历史 200 万访问覆盖；官方目录和官方历史年报网页交叉核验"
+        },
+        {
+          "id": "khan_audit_2025",
+          "title": "Khan Academy, Inc. and Subsidiaries：截至 2025-06-30 财年的审计合并报表，页 3–6",
+          "url": "https://drive.google.com/file/d/19hSuPAIJ_9ykFErvqmmvsFQlZqO-HXZ3/view",
+          "accessed": "2026-10-12",
+          "supports": "历史机构收入、费用、净资产变化、现金与投资、经营现金流；来自最新官方年报中的审计报表链接"
+        },
+        {
+          "id": "khan_gemini",
+          "title": "Khan Academy 官方：交互图示与教师定向练习新功能",
+          "url": "https://blog.khanacademy.org/new-ai-tools-bring-interactive-diagrams-and-targeted-practice-thanks-to-khan-academys-partnership-with-google-org/",
+          "published": "2026-08-27",
+          "accessed": "2026-10-12",
+          "supports": "Gemini 新功能和初步成效边界"
+        },
+        {
+          "id": "khan_reflection",
+          "title": "Sal Khan：Khanmigo’s First Chapter Changed How I Think About AI",
+          "url": "https://blog.khanacademy.org/khanmigos-first-chapter-changed-how-i-think-about-ai-a-note-from-sal-khan/",
+          "published": "2026-07-15（页面亦列 2026-08-27 更新）",
+          "accessed": "2026-10-12",
+          "supports": "第一版成效有限与深度整合方向"
+        },
+        {
+          "id": "khan_personal_price",
+          "title": "Khanmigo 官方个人学习者方案",
+          "url": "https://www.khanmigo.ai/es/learners",
+          "accessed": "2026-10-12",
+          "supports": "4 美元/月、44 美元/年、不含税、美国个人订阅限制"
+        },
+        {
+          "id": "khan_teacher_price",
+          "title": "Khan Academy 帮助中心：学习者、家长和教师方案",
+          "url": "https://support.khanacademy.org/hc/en-us/articles/25921448458893-What-features-are-available-in-the-Learner-Parent-and-Teacher-Khanmigo-subscription-plans",
+          "published": "2025-03-13 更新",
+          "accessed": "2026-10-12",
+          "supports": "免费教师工具与个人方案区别"
+        },
+        {
+          "id": "khan_district_price",
+          "title": "Khan Academy Districts 官方价格",
+          "url": "https://www.khanacademy.org/schools/pricing?view=Schedule",
+          "accessed": "2026-10-12",
+          "supports": "Enterprise Starter 10 美元/学生/年、套餐内容及采购对象"
+        },
+        {
+          "id": "khan_cost",
+          "title": "Khan Academy 帮助中心：为何 Khanmigo 收费",
+          "url": "https://support.khanacademy.org/hc/en-us/articles/14583967053069-Why-do-I-need-to-pay-to-use-Khanmigo",
+          "published": "2024-06-04 更新",
+          "accessed": "2026-10-12",
+          "supports": "模型、内部开发测试及安全资源成本；为历史成本解释，不当成 2026 年独家模型供应关系"
+        }
+      ]
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "product": "Coursera Coach / Role Play / Project Helix",
+      "region": "美国 · 全球成人学习与企业培训市场",
+      "category": "课程内 AI 导师与职场技能训练",
+      "headline": "把课程问答、情景练习和技能验证连接起来",
+      "audience": "在线课程学习者、转岗和职业提升人群，以及为员工采购培训的企业。",
+      "product_details": [
+        {
+          "text": "Coach 以课程内容为依据解释概念、总结重点、生成练习并联系职业情境；当前产品页将其列为 Coursera Plus 与部分 Professional Certificate 订阅权益。",
+          "source_ids": [
+            "cour_coach"
+          ]
+        },
+        {
+          "text": "Role Play 用 AI 角色模拟职场对话；2026 年 7 月公司披露已支持语音交互，并试点以 AI 评价实验与角色扮演任务。",
+          "source_ids": [
+            "cour_july"
+          ]
+        }
+      ],
+      "historical": [
+        {
+          "date": "2024-09-17",
+          "text": "公司当时披露 Coach 累计支持超过 100 万学习者，并开始让教师配置目标、教学方式与评价标准。这是历史自报数据，不代表 2026 年用户规模。",
+          "source_ids": [
+            "cour_coach_2024"
+          ]
+        }
+      ],
+      "latest_progress": [
+        {
+          "date": "2026-05-11",
+          "text": "2026-05-11 完成与 Udemy 的全股票合并，Q2 纳入收购后 Udemy 业绩。",
+          "source_ids": [
+            "cour_q2"
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "text": "预告 AI 原生技能平台 Project Helix：围绕企业目标生成与调整学习路径、实践考核、可携带技能记录与工作流程整合。正与选定客户合作，预计 2027 年上半年广泛开放，尚不能写成全面商用。",
+          "source_ids": [
+            "cour_helix"
+          ]
+        }
+      ],
+      "business_model": {
+        "who_pays": "个人购买课程/证书与 Plus 订阅；企业、学校和政府为学习者采购平台授权。",
+        "revenue_mechanism": "个人课程/订阅与机构授权变现；Coach 为套餐权益，未披露独立 AI 收入。",
+        "pricing": "官方美元页面：Plus 59 美元/月或 399 美元/年；Coursera for Teams 年付公开标价 399 美元/席位/年，包含 AI 学习引导及管理功能。并非单独购买 Coach 的价格。",
+        "costs": "未单列 Coach 推理成本、毛利或 Helix 投入；并购费用不能都归于 AI。",
+        "source_ids": [
+          "cour_coach",
+          "cour_plus_price",
+          "cour_teams_price",
+          "cour_q2"
+        ]
+      },
+      "financial_status": {
+        "label": "合并公司 GAAP 亏损、季度经营现金流为负；不能归因于 Coach",
+        "entity": "Coursera, Inc. 合并口径；自 2026-05-11 起纳入 Udemy 经营结果",
+        "period": "2026-04-01 至 2026-06-30（Q2）",
+        "currency": "USD",
+        "audit_status": "未经审计季度披露；百万美元取整精度",
+        "metrics": [
+          {
+            "metric": "收入",
+            "value": 298600000,
+            "display": "2.986 亿美元",
+            "basis": "GAAP"
+          },
+          {
+            "metric": "净亏损",
+            "value": -80400000,
+            "display": "8,040 万美元亏损",
+            "basis": "GAAP"
+          },
+          {
+            "metric": "净利润（调整后）",
+            "value": 40400000,
+            "display": "4,040 万美元",
+            "basis": "公司非 GAAP，不能替代 GAAP 净亏损"
+          },
+          {
+            "metric": "经营活动现金净流出",
+            "value": -19800000,
+            "display": "1,980 万美元流出",
+            "basis": "GAAP 现金流"
+          },
+          {
+            "metric": "自由现金流",
+            "value": -32600000,
+            "display": "-3,260 万美元",
+            "basis": "公司定义的非 GAAP 流动性指标"
+          },
+          {
+            "metric": "现金及现金等价物",
+            "value": 871700000,
+            "display": "8.717 亿美元",
+            "as_of": "2026-06-30",
+            "basis": "资产负债表存量；另列有价证券 1.105 亿美元"
+          }
+        ],
+        "boundary": "Q2 经营现金流含并购/整合款 3,910 万美元、相关人员/遣散款 1,810 万美元。AI 产品独立财务未披露。",
+        "source_ids": [
+          "cour_q2"
+        ]
+      },
+      "takeaway": "可借鉴的是让 AI 依托有结构的课程内容，并用练习和技能证据服务企业采购；下一步需要验证产品整合与新平台兑现。此为分析判断。",
+      "sources": [
+        {
+          "id": "cour_coach",
+          "title": "Coursera Coach 官方产品页",
+          "url": "https://www.coursera.org/explore/coach/",
+          "accessed": "2026-10-12",
+          "supports": "用户、功能和订阅权益"
+        },
+        {
+          "id": "cour_coach_2024",
+          "title": "Coursera 官方：Coach 教学功能扩展",
+          "url": "https://blog.coursera.org/announcing-ai-powered-capabilities-enabling-educators-to-use-coursera-coach-to-deliver-interactive-personalized-instruction/",
+          "published": "2024-09-17",
+          "accessed": "2026-10-12",
+          "supports": "历史用户覆盖和教师配置"
+        },
+        {
+          "id": "cour_july",
+          "title": "Coursera 官方：合并后的产品与平台创新",
+          "url": "https://blog.coursera.org/accelerating-product-and-platform-innovations-across-coursera-and-udemy/",
+          "published": "2026-07-08",
+          "accessed": "2026-10-12",
+          "supports": "Role Play 语音、AI 实操评价试点"
+        },
+        {
+          "id": "cour_helix",
+          "title": "Coursera 官方：Announcing Project Helix",
+          "url": "https://blog.coursera.org/announcing-project-helix/",
+          "published": "2026-09-09",
+          "accessed": "2026-10-12",
+          "supports": "Helix 目标、选定客户参与与 2027 上半年广泛开放计划"
+        },
+        {
+          "id": "cour_plus_price",
+          "title": "Coursera Plus 官方价格",
+          "url": "https://www.coursera.org/courseraplus",
+          "accessed": "2026-10-12",
+          "supports": "个人订阅 59 美元/月或 399 美元/年"
+        },
+        {
+          "id": "cour_teams_price",
+          "title": "Coursera for Teams 官方价格与功能",
+          "url": "https://www.coursera.org/business/teams",
+          "accessed": "2026-10-12",
+          "supports": "企业席位授权、公开年付价格及 AI 引导"
+        },
+        {
+          "id": "cour_q2",
+          "title": "Coursera Q2 2026 财务业绩与报表",
+          "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+          "published": "2026-07-29",
+          "accessed": "2026-10-12",
+          "supports": "合并日期和边界、季度财务、业务收入分类、并购现金支出"
+        }
+      ]
+    }
+  ],
+  "verification_notes": [
+    "Khan 最新年报 PDF 已从官方年报目录下载，财务图表已视觉核验；年度标题与说明为 SY25–26，但收入圆环中心残留 SY24–25 标签，因此采用外层明确总额与说明，不采用图心旧标签。",
+    "Khan SY25–26 年报收入/支出取整，未将约 900 万美元差额写成审计净亏损或现金消耗。",
+    "未将 Coursera 对 LearnVector 的投资或公司融资、回购金额当作教育 AI 产品收入、利润或研发现金消耗。",
+    "Duolingo 旧产品页与最新股东信存在套餐表述时差；以 2026 Q2 股东信为最新套餐推广事实。",
+    "主要公开指标为公司自报；不将商业推广中的学习效果比较当成独立随机实验结论。"
+  ]
+}

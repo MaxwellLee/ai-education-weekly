@@ -18,7 +18,7 @@ for key,snap in snapshots.items():
  ids=snap.xpath('.//*[@id]/@id'); assert len(ids)==len(set(ids)),('duplicate snapshot IDs',key)
  issue=issues[key]; people=issue['publicFigures']; assert len(people)>=10
  assert len({x.get('name',x.get('person')) for x in people})==len(people)
- assert len(snap.xpath('.//*[@data-weekly-page]'))==5
+ assert len(snap.xpath('.//*[@data-weekly-page]'))==6
  assert len(snap.xpath('.//*[@data-weekly-page and not(@hidden)]'))==1
  assert not snap.xpath('.//*[@data-idea-id]')
  assert len(snap.xpath('.//article[contains(@class,"news-card")]'))==len(issue['education']['items'])
@@ -39,8 +39,8 @@ d=H.fromstring(raw)
 for t in d.xpath('//template'):t.getparent().remove(t)
 ids=d.xpath('//*[@id]/@id'); assert len(ids)==len(set(ids))
 assert set(d.xpath('//select[@id="issue-select"]/option/@value'))==set(issues)
-assert set(d.xpath('//nav/a/text()'))=={'本期预览','AI教育前沿','深圳专题','公众人物言论','更新须知'}
-assert len(d.xpath('//nav/a'))==5
+assert set(d.xpath('//nav[@aria-label="周报页面"]/a/text()'))=={'本期预览','AI教育前沿','深圳专题','行业动态','公众人物言论','更新须知'}
+assert len(d.xpath('//nav[@aria-label="周报页面"]/a'))==6
 library=d.get_element_by_id('library-panel'); assert 'hidden' in library.attrib
 assert len(library.xpath('.//*[@data-idea-id]'))==len(ideas)
 assert not d.get_element_by_id('weekly-panel').xpath('.//*[@data-idea-id]')
@@ -52,13 +52,13 @@ for img in full.xpath('//img'):
 for a in full.xpath('//a[@href]'):
  href=a.get('href');assert href not in ['#','https://','http://']
  if href.startswith('#issue='):
-  q=parse_qs(href[1:]);assert q['issue'][0] in issues;assert q['page'][0] in ['preview','education','people','shenzhen','updates']
+  q=parse_qs(href[1:]);assert q['issue'][0] in issues;assert q['page'][0] in ['preview','education','people','shenzhen','industry','updates']
   if q.get('focus'):assert q['focus'][0] in snapshots[q['issue'][0]].xpath('.//*[@id]/@id'),href
 assert 'fixture-' not in raw
 camel=lambda x:x.split('-')[0]+''.join(p.title() for p in x.split('-')[1:])
 def info(e):return {'id':e.get('id'),'dataset':{camel(k[5:]):v for k,v in e.attrib.items() if k.startswith('data-')},'attrs':dict(e.attrib)}
 extract=lambda xp:[info(e) for e in d.xpath(xp)]
-out={'app':json.loads(d.get_element_by_id('app-data').text),'ids':ids,'facets':[info(e) for e in byclass(d,'facet')],'scope':[info(e) for e in byclass(d,'scope-button')],'nav':extract('//nav/a'),'pages':extract('//*[@data-weekly-page]'),'cards':[info(e) for e in byclass(d,'creative-card')]}
+out={'app':json.loads(d.get_element_by_id('app-data').text),'ids':ids,'facets':[info(e) for e in byclass(d,'facet')],'scope':[info(e) for e in byclass(d,'scope-button')],'nav':extract('//nav[@aria-label="周报页面"]/a'),'pages':extract('//*[@data-weekly-page]'),'cards':[info(e) for e in byclass(d,'creative-card')]}
 (ROOT/'tests/dom.json').write_text(json.dumps(out,ensure_ascii=False))
 report={'passed':True,'issues':reports,'latest':latest,'cumulativeIdeas':len(ideas),'newIdeas':sum(x['firstIssue']==latest for x in ideas),'decodedImageElementsIncludingTemplates':image_count,'htmlBytes':len(raw.encode()),'duplicateActiveIds':0,'brokenInternalRoutes':0,'browserVisualQA':'not covered by this script'}
 (ROOT/'tests/static-results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False))

@@ -1,0 +1,134 @@
+{
+  "verifiedAt": "2026-10-12",
+  "sources": "官方产品与招生页面；价格可能变化，未进行报名或购买。",
+  "items": [
+    {
+      "id": "industry-shijihaihang",
+      "shortName": "海航信奥社",
+      "entity": "海航信奥社 / 世纪海航",
+      "region": "中国",
+      "title": "AI少年创造营：小班带学生做网页作品",
+      "summary": "以WorkBuddy教学Agent支持项目式创作，课程覆盖互动故事、游戏、学科工具与个人知识库。",
+      "audience": "9–16岁；无需编程基础，需掌握基础电脑浏览器操作。",
+      "delivery": "线上直播1–2人；另有线下4–6人班。12次×120分钟，合计24小时。",
+      "sourceDate": "官方招生文章：2026-09-04；本次核验：2026-10-12。",
+      "stage": "官网称首期已开课并展示作品，秋季班开放咨询；非独立教学效果验证。",
+      "progress": "12次课分AI与我、AI与学习、AI与生活、综合探索；用WorkBuddy独立教学账号完成网页项目和结业展示。文章含线上及线下课堂示例，不能称作仅线上机构。",
+      "businessModel": "家庭咨询报名课程，也提供学校课后服务/社团合作入口；老师微信承接咨询与报名。具体付费合同、分成和成交规模未公开。",
+      "pricingCosts": "公开页面未列学费；需咨询。教师、平台及招生服务成本未披露，不由24小时课时推算成本或利润。",
+      "followup": "核验班期、学费和取消/补课规则，再比较教师反馈、独立完成作品的能力及学校合作方式。",
+      "limits": "功能、课堂与成果均为机构自述；不采用“效果已验证”等营销判断作为独立证据。",
+      "sources": [
+        {
+          "label": "世纪海航：AI少年创造营秋季招生 · 2026-09-04",
+          "url": "https://www.shijihaihang.com/news/info/549"
+        }
+      ],
+      "comparisonPrice": "学费未公开，微信咨询",
+      "comparisonModel": "课包招生＋学校合作",
+      "freshness": "baseline",
+      "financials": [
+        "截至2026-10-12所核实公开材料，未取得该AI课程独立收入、利润或现金流披露。"
+      ],
+      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。"
+    },
+    {
+      "id": "industry-create-learn",
+      "shortName": "Create & Learn",
+      "entity": "Create & Learn",
+      "region": "美国 · 在线课程",
+      "title": "Create with ChatGPT：短课包与进阶AI创作路径",
+      "summary": "初阶从ChatGPT使用、创作和伦理入手；另有要求Python基础的AI Creators进阶课程。",
+      "audience": "Create with ChatGPT为4–8年级；AI Creators为6–12年级，要求Python for AI前置基础。年级不直接换算为统一年龄。",
+      "delivery": "初阶线上直播2–5人、5次×55分钟；进阶2–3人、12次×70分钟。",
+      "sourceDate": "产品页未标原始发布日期；课程与标价于2026-10-12核验。",
+      "stage": "官网显示选时段和报名入口；实际余位、时区及开班需进入对应班次确认。",
+      "progress": "初阶探索生成式AI的用途、局限与伦理，并尝试创作聊天机器人；进阶结合Python与AI接口制作应用。两种产品和前置要求分别列示，不拼成同一课包。",
+      "businessModel": "家庭按课程/课包付费，通过官网选择班次报名。高阶课程是另一个付费产品，不包含在初阶5次课中。",
+      "pricingCosts": "截至2026-10-12：初阶页面促销价US$116.10，划线价US$129（5次课）；进阶促销价US$485.55，划线价US$585（12次课）。优惠、税费和结账总价可能变化；师资及AI调用单位成本未披露。",
+      "followup": "跟踪促销后定价、班级满班情况及前置课衔接；核验工具账户的未成年人使用条件。",
+      "limits": "网页标价不等于实际成交价或营收，学校/合作方标志不构成教学效果证明；未实测课堂。",
+      "sources": [
+        {
+          "label": "Create with ChatGPT · 2026-10-12价格核验",
+          "url": "https://www.create-learn.us/ai-for-kids/create-with-chatgpt"
+        },
+        {
+          "label": "AI Creators进阶课程 · 2026-10-12价格核验",
+          "url": "https://www.create-learn.us/ai-for-kids/ai-creators"
+        }
+      ],
+      "comparisonPrice": "初阶US$116.10促销 / 5次课",
+      "comparisonModel": "按课包付费；进阶另购",
+      "freshness": "baseline",
+      "financials": [
+        "截至2026-10-12所核实公开材料，未取得该AI课程独立收入、利润或现金流披露。"
+      ],
+      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。"
+    },
+    {
+      "id": "industry-codakid",
+      "shortName": "CodaKid",
+      "entity": "CodaKid",
+      "region": "美国 · 在线课程",
+      "title": "CodaKid：把AI创作课纳入自学订阅库",
+      "summary": "录播项目课配合教师线上支持，AI内容与其他编程课程共用订阅库。",
+      "audience": "AI目录多数单课标8岁以上，AI网页开发等标9岁以上；按具体课程难度选择，不统一写成所有8岁儿童均适用。",
+      "delivery": "以录播自学为主，可暂停、创作、测试；配教师在线支持，不等于固定小班直播课。",
+      "sourceDate": "官网课程/订阅页未标发布日期；2026-10-12核验。",
+      "stage": "官网有试用与订阅入口；机构另提供私教和营地，本卡价格仅适用自学方案。",
+      "progress": "AI目录涵盖提示词、卡通创作、伦理游戏、网页开发及Gemini API项目。自学路径看视频再实践，遇到问题可通过平台或邮件向教师求助。",
+      "businessModel": "家庭订阅整套自学课程库。Solo个人方案按月或按年收费，库中包含AI及其他编程主题，不是AI单课价格。",
+      "pricingCosts": "2026-10-12页面：Solo个人方案US$29/月或US$199/年（一次年付）。官网有14天试用，继续使用会自动续费；正式注册前应核对当前付款周期和取消条款。教师支持、研发和模型成本未单列。",
+      "followup": "跟踪学生自学完成率、教师响应和续订情况，区分内容库数量与真正完成的项目数量。",
+      "limits": "不能把全平台学生量算作AI课付费人数；教师支持不等于一对一持续授课。未披露独立AI课财务，也未实测课程。",
+      "sources": [
+        {
+          "label": "CodaKid AI课程目录 · 2026-10-12核验",
+          "url": "https://codakid.com/ai-classes-for-kids/"
+        },
+        {
+          "label": "CodaKid自学方案及价格 · 2026-10-12核验",
+          "url": "https://codakid.com/self-paced-online-coding-classes/"
+        }
+      ],
+      "comparisonPrice": "US$29/月或US$199/年，整库",
+      "comparisonModel": "个人订阅，非AI单课",
+      "freshness": "baseline",
+      "financials": [
+        "截至2026-10-12所核实公开材料，未取得该AI课程独立收入、利润或现金流披露。"
+      ],
+      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。"
+    },
+    {
+      "id": "industry-juniorcodes",
+      "shortName": "JuniorCodes",
+      "entity": "JuniorCodes",
+      "region": "印度及国际在线市场（官网报价分区）",
+      "title": "AI Explorers：直播课加一年练习平台",
+      "summary": "通过视觉化工具学习AI和机器学习，并把课后自学练习纳入课程包。",
+      "audience": "6–16岁入门者；官网称无需编程经验，宽年龄区间的分组和任务难度仍需确认。",
+      "delivery": "Zoom直播14次，每次约1小时；称小班但未披露人数上限。",
+      "sourceDate": "页面未标发布日期；2026-10-12核验。页面所列2026-10-11班期已过，不据此认定新班余位或已实际开班。",
+      "stage": "有免费演示与报名入口，实际班期/时段和名额需再确认。",
+      "progress": "使用Teachable Machine、Scratch机器学习扩展及受指导的ChatGPT活动，开展图像/声音模型和游戏项目；包含12个月Wonderwild自学平台及课堂页面访问。",
+      "businessModel": "家庭购买完整直播课包，免费演示承接咨询；一年练习平台为课包附带权益，期满条件和续费未核实。",
+      "pricingCosts": "2026-10-12官网：印度₹5,999（印度卢比）；国际价仅写“$119”，未明确具体币种，不能标成美元。14次直播和12个月平台权益按页面说明；教师及平台成本未公开。",
+      "followup": "先确认国际价币种、税费、班级人数上限、当前班期以及一年平台期满后的安排。",
+      "limits": "价格与招生入口不能证明营收、满班率或利润；教师资历、学习成效及儿童安全措辞均为机构自述，未独立实测。",
+      "sources": [
+        {
+          "label": "JuniorCodes AI Explorers官方课程页 · 2026-10-12核验",
+          "url": "https://juniorcodes.com/courses/ai-course-for-kids"
+        }
+      ],
+      "comparisonPrice": "印度₹5,999；国际$119币种未明",
+      "comparisonModel": "直播课包＋12个月平台",
+      "freshness": "baseline",
+      "financials": [
+        "截至2026-10-12所核实公开材料，未取得该AI课程独立收入、利润或现金流披露。"
+      ],
+      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。"
+    }
+  ]
+}

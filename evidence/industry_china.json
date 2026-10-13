@@ -1,0 +1,435 @@
+{
+  "as_of": "2026-10-12",
+  "language": "zh-CN",
+  "methodology": "以公司官网、投资者关系公告、SEC 20-F及巨潮资讯上市公司原始报告为主。财报期与自然年分开；销售额、收入、净利润、经营现金流及融资不能混用。产品成效为公司表述，非独立因果验证。",
+  "companies": [
+    {
+      "id": "tal",
+      "name": "好未来 / 学而思",
+      "geography": "中国",
+      "type": "上市教育集团｜内容与AI硬件",
+      "thesis": "把既有教研内容装进AI学习机，同时把大模型扩展到教师备课与教学工具。",
+      "projects": [
+        {
+          "name": "学而思 T6 系列 + 培优AI家教",
+          "audience": "中小学生及家庭；国际版另面向小学国际英语学习需求",
+          "features": "拍作业或试卷形成学情诊断与动态学习规划；录播主讲与AI老师组成双师课堂，提供督学、答疑及AI笔记。T6国际版、T6 Max含“国际学院”，结合Hello English、RAZ/牛津树阅读、AI口语练习。",
+          "progress": "2026-06-30发布；公告称2026-07-09全平台正式售卖。",
+          "stage": "已发布/销售；老机型部分升级仍属公告计划",
+          "caveat": "2026年9月起向老机型推送诊断规划、年底向部分旗舰推送其他功能是发布时计划，不能写成全部已完成。",
+          "source_ids": [
+            "tal_t6"
+          ]
+        },
+        {
+          "name": "九章爱学老师版",
+          "audience": "中小学教师",
+          "features": "备课、组卷、作文批改、班级管理和家校沟通；可用自然语言生成可交互的图文音视频课件，并与学生端作业学情联动。",
+          "progress": "2025-03推出；2026-01官方介绍已有170多个智能体。",
+          "stage": "已上线并迭代",
+          "source_ids": [
+            "tal_teacher"
+          ]
+        }
+      ],
+      "business_model": {
+        "payer": "家庭购买硬件及其配套数字学习内容；教师工具的独立收费方式在所核实材料中未明确披露。",
+        "revenue_logic": "学习机、融合数字资源的书籍等归入“Learning content solutions（学习内容解决方案）”；另有课程服务收入。",
+        "pricing": "T6标准版 / 国际版 / Max 的2026年7月首发价分别为人民币6,899 / 8,699 / 11,999元。这是历史发布价，不是2026-10-12实时成交价。",
+        "source_ids": [
+          "tal_t6",
+          "tal_20f"
+        ]
+      },
+      "traction": [
+        {
+          "metric": "学习设备周活跃台数",
+          "value": 2000000,
+          "unit": "台",
+          "period": "2026年2月最后一个自然周",
+          "scope": "好未来学习设备",
+          "note": "上年同期110万台；是去重活跃设备，不是当期销量、学生人数或付费订阅数。",
+          "source_id": "tal_20f"
+        }
+      ],
+      "financials": [
+        {
+          "metric": "学习内容解决方案净收入",
+          "value": 1061950000,
+          "currency": "USD",
+          "display": "10.6195亿美元",
+          "period": "FY2026：2025-03-01至2026-02-28",
+          "scope": "学习内容解决方案业务",
+          "basis": "已披露财年收入",
+          "yoy": "+48.4%",
+          "note": "包括学习设备和数字化书籍等，不能全部称作AI教育收入或学习机收入。",
+          "source_id": "tal_20f"
+        },
+        {
+          "metric": "集团净收入",
+          "value": 758377000,
+          "currency": "USD",
+          "display": "7.58377亿美元",
+          "period": "FY2027 Q1：2026-03-01至2026-05-31",
+          "scope": "好未来集团合并口径",
+          "basis": "未经审计 GAAP",
+          "source_id": "tal_q1"
+        },
+        {
+          "metric": "集团营业利润",
+          "value": 137204000,
+          "currency": "USD",
+          "display": "1.37204亿美元",
+          "period": "FY2027 Q1：2026-03-01至2026-05-31",
+          "scope": "好未来集团合并口径",
+          "basis": "未经审计 GAAP",
+          "source_id": "tal_q1"
+        },
+        {
+          "metric": "归属于好未来的净利润",
+          "value": 408007000,
+          "currency": "USD",
+          "display": "4.08007亿美元",
+          "period": "FY2027 Q1：2026-03-01至2026-05-31",
+          "scope": "好未来集团",
+          "basis": "未经审计 GAAP",
+          "note": "本季其他收益4.05213亿美元，变动主要受部分投资公允价值影响；该净利不等于AI产品经营利润。",
+          "source_id": "tal_q1"
+        }
+      ],
+      "disclosure_boundary": "未核实到T6或九章老师单独收入、利润、获客成本、现金消耗或融资额披露；不据集团利润推断项目盈利。",
+      "source_ids": [
+        "tal_t6",
+        "tal_teacher",
+        "tal_20f",
+        "tal_q1"
+      ],
+      "card_copy": "学而思将教研内容、学习诊断和AI互动装进T6学习机，并以九章老师拓展教师工具。T6于2026年6月发布，三款历史首发价为6,899 / 8,699 / 11,999元。FY2026学习内容解决方案收入10.62亿美元，含设备及数字化书籍；2026年2月末单周活跃设备200万台。最新FY2027 Q1集团收入7.58亿美元、营业利润1.37亿美元。集团归母净利4.08亿美元受投资公允价值变动影响，不能视为学习机盈利。"
+    },
+    {
+      "id": "new-oriental",
+      "name": "新东方",
+      "geography": "中国",
+      "type": "上市教育集团｜智慧学习服务",
+      "thesis": "以内容、教师后台服务和智能设备结合，向家庭提供个性化学习；同时布局AI语言学习和校端数字化。",
+      "projects": [
+        {
+          "name": "智能学习系统与设备 / 智慧伴学、智慧督学",
+          "audience": "学生家庭；官网中学智慧学习方案明确面向中学生",
+          "features": "用设备连接学生、教师与内容；采集学习过程数据、识别学情，动态规划习题、视频及动画资源，教师在后台监测和评估进度。",
+          "progress": "2021年推出；FY2026已在约60个城市采用，全年去重活跃付费用户59.8万。",
+          "stage": "规模化收费运营",
+          "source_ids": [
+            "edu_20f",
+            "edu_smart_learning"
+          ]
+        },
+        {
+          "name": "新东方 AI 1对1 / Sure Chinese",
+          "audience": "个性化学习用户；Sure Chinese面向全球中文学习者",
+          "features": "AI 1对1使用互动问答AI教师；Sure Chinese为AI中文学习平台。",
+          "progress": "新东方2026-01公司文章确认两项产品均于2025年推出。",
+          "stage": "已推出；独立收入和用户规模未披露",
+          "source_ids": [
+            "edu_ai_products"
+          ]
+        },
+        {
+          "name": "新东方智慧教育",
+          "audience": "地方政府、教育主管部门、中小学及高校，覆盖K16",
+          "features": "科技教育、智慧教学和数字内容；Kids+、东方创科、东方慧教等品牌提供机构解决方案。",
+          "progress": "官网列为现行业务板块。",
+          "stage": "机构解决方案",
+          "source_ids": [
+            "edu_b2g"
+          ]
+        }
+      ],
+      "business_model": {
+        "payer": "家庭为智能学习产品和服务付费；校端方案面向学校、教育主管部门及地方政府采购。",
+        "revenue_logic": "智能设备与内容、教师后台支持结合；集团披露活跃付费用户，不能直接当作纯软件订阅人数。",
+        "pricing": "未在核实的现行官方材料中找到全国统一价目或可验证的独立AI 1对1收费表。不要以传统留学/考试培训课程价格替代AI产品价格。",
+        "source_ids": [
+          "edu_20f",
+          "edu_b2g"
+        ]
+      },
+      "traction": [
+        {
+          "metric": "智能学习系统与设备活跃付费用户",
+          "value": 598000,
+          "unit": "人",
+          "period": "FY2026：2025-06-01至2026-05-31",
+          "scope": "智能学习系统与设备业务",
+          "note": "期内至少登录一次且至少付费一次的去重用户，非订阅存量、设备销量或人次。",
+          "source_id": "edu_20f"
+        },
+        {
+          "metric": "该季活跃付费用户",
+          "value": 326000,
+          "unit": "人",
+          "period": "FY2026 Q4：2026-03-01至2026-05-31",
+          "scope": "智能学习系统与设备业务",
+          "note": "与全年59.8万的统计窗口不同，不能相加或当成用户骤降。",
+          "source_id": "edu_results"
+        }
+      ],
+      "financials": [
+        {
+          "metric": "集团净收入",
+          "value": 5661294000,
+          "currency": "USD",
+          "display": "56.61294亿美元",
+          "period": "FY2026：2025-06-01至2026-05-31",
+          "scope": "新东方集团合并口径",
+          "basis": "GAAP年度报告",
+          "yoy": "+15.5%",
+          "source_id": "edu_20f"
+        },
+        {
+          "metric": "集团营业利润",
+          "value": 643251000,
+          "currency": "USD",
+          "display": "6.43251亿美元",
+          "period": "FY2026：2025-06-01至2026-05-31",
+          "scope": "新东方集团合并口径",
+          "basis": "GAAP年度报告",
+          "source_id": "edu_20f"
+        },
+        {
+          "metric": "归属于新东方的净利润",
+          "value": 475172000,
+          "currency": "USD",
+          "display": "4.75172亿美元",
+          "period": "FY2026：2025-06-01至2026-05-31",
+          "scope": "新东方集团",
+          "basis": "GAAP财年业绩披露",
+          "source_id": "edu_results"
+        }
+      ],
+      "disclosure_boundary": "以上集团财务包含考试培训、留学咨询、东方甄选等业务；没有独立AI教育或智能学习业务收入、利润披露。新教育业务增长率也不等于AI产品增速。",
+      "source_ids": [
+        "edu_20f",
+        "edu_results",
+        "edu_smart_learning",
+        "edu_ai_products",
+        "edu_b2g"
+      ],
+      "card_copy": "新东方把智能设备、个性化内容与教师后台督学结合，形成家庭付费的智慧学习服务。FY2026已覆盖约60城、全年去重活跃付费用户59.8万；Q4的32.6万属于另一统计窗口。另于2025年推出AI 1对1和中文学习平台Sure Chinese。FY2026集团收入56.61亿美元、营业利润6.43亿美元、归母净利4.75亿美元；这些包含留学、考试培训与东方甄选，不能当作AI教育收入或利润。独立AI产品财务及统一价格未披露。"
+    },
+    {
+      "id": "iflytek",
+      "name": "科大讯飞",
+      "geography": "中国",
+      "type": "上市AI集团｜教育软硬件与校区方案",
+      "thesis": "既向家庭销售AI学习机，也向学校出售作业批阅硬件、批改服务和区域因材施教方案。",
+      "projects": [
+        {
+          "name": "讯飞AI学习机 T90 系列",
+          "audience": "K12学生及家长",
+          "features": "AI精准学将诊断、微课、练习串联；T90 Pro的AI老师“晓悦”定位错因并用板书启发讲解，支持打断提问；同时提供阅读、作文和英语练习。",
+          "progress": "2026-02-28发布T90 Pro及T90 Lite；2026半年报记载上半年推出T90和S90。",
+          "stage": "已发布与销售，部分功能分机型迭代",
+          "caveat": "发布公告原定3月下旬起逐步升级晓悦功能，部分适用学段/题型有限；不可宣称全部题目、所有机型均支持。",
+          "source_ids": [
+            "iflytek_t90",
+            "iflytek_h1"
+          ]
+        },
+        {
+          "name": "星火智能批阅机",
+          "audience": "学校、教师及学生；官网注明小学覆盖4—6年级，并覆盖初高中",
+          "features": "扫描、AI批改、打印一体；支持主观题和中英作文分步骤批改，生成学情报告及讲评材料，并汇集错题形成练习闭环。",
+          "progress": "2026半年报称累计覆盖5000余所学校，2026年春季学期日均批改超过360万份。",
+          "stage": "学校商业化部署",
+          "caveat": "官网产品页的学校数量与页数指标可能为较早口径；这里优先用带期间的半年报“5000余所/360万份”，不要把份数、页数混用。",
+          "source_ids": [
+            "iflytek_grader",
+            "iflytek_h1"
+          ]
+        },
+        {
+          "name": "区域因材施教解决方案",
+          "audience": "教育主管部门、区域学校体系",
+          "features": "整合管理、教研、课堂教学与学情诊断。",
+          "progress": "2026半年报披露累计服务130多个市区县，并参与13个国家级智慧教育示范区建设。",
+          "stage": "区域项目规模化部署",
+          "source_ids": [
+            "iflytek_h1"
+          ]
+        }
+      ],
+      "business_model": {
+        "payer": "家庭购机；学校和教育主管部门采购硬件、系统与批改服务。",
+        "revenue_logic": "T90以线上及线下硬件销售为主，内容和软件持续升级；校端存在批改服务续费、数智化作业服务等采购模式。",
+        "pricing": "核实的官方发布和半年报未给出当前统一T90零售价；不用“高端学习机”统计门槛当作机型售价。",
+        "source_ids": [
+          "iflytek_h1"
+        ]
+      },
+      "financials": [
+        {
+          "metric": "智慧教育产品收入",
+          "value": 3490143599.88,
+          "currency": "CNY",
+          "display": "34.9014亿元人民币",
+          "period": "2026 H1：2026-01-01至2026-06-30",
+          "scope": "智慧教育产品分类",
+          "basis": "半年报财务数据",
+          "yoy": "-1.16%",
+          "note": "占集团收入30.03%；涵盖教育软硬件及方案，不是单独学习机收入。",
+          "source_id": "iflytek_h1"
+        },
+        {
+          "metric": "集团营业收入",
+          "value": 11622772994.87,
+          "currency": "CNY",
+          "display": "116.2277亿元人民币",
+          "period": "2026 H1：2026-01-01至2026-06-30",
+          "scope": "科大讯飞集团合并口径",
+          "basis": "半年报财务数据",
+          "yoy": "+6.52%",
+          "source_id": "iflytek_h1"
+        },
+        {
+          "metric": "集团归母净利润",
+          "value": -203840829.1,
+          "currency": "CNY",
+          "display": "亏损2.0384亿元人民币",
+          "period": "2026 H1：2026-01-01至2026-06-30",
+          "scope": "科大讯飞集团",
+          "basis": "半年报财务数据",
+          "source_id": "iflytek_h1"
+        },
+        {
+          "metric": "集团经营活动现金流量净额",
+          "value": -945025869.53,
+          "currency": "CNY",
+          "display": "净流出9.4503亿元人民币",
+          "period": "2026 H1：2026-01-01至2026-06-30",
+          "scope": "科大讯飞集团",
+          "basis": "半年报财务数据",
+          "note": "为集团期间现金流，不是AI教育项目“烧钱额”，也不是融资额。",
+          "source_id": "iflytek_h1"
+        }
+      ],
+      "disclosure_boundary": "智慧教育收入比集团更接近教育业务，但仍不等于生成式AI收入。学习机、智能批阅机各自利润和现金消耗未单列；集团半年亏损不能证明教育业务亏损。",
+      "source_ids": [
+        "iflytek_t90",
+        "iflytek_grader",
+        "iflytek_h1"
+      ],
+      "card_copy": "讯飞同时经营家庭AI学习机与学校AI批阅服务。2026年推出T90；星火智能批阅机把扫描、批改、打印和学情分析连接起来，半年报称覆盖5000余校。商业模式包括家庭硬件销售、学校系统采购及批改服务续费。2026上半年智慧教育收入34.90亿元人民币，同比降1.16%；集团收入116.23亿元、归母亏损2.04亿元、经营现金净流出9.45亿元。集团亏损与现金流不能归为学习机或AI教育项目“烧钱”。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "tal_t6",
+      "title": "学而思发布培优AI家教及T6系列",
+      "publisher": "好未来官网（收录发布活动报道）",
+      "date": "2026-07-02",
+      "url": "https://www.tal.com/zh-cn/news/detail/3039",
+      "type": "官方产品发布",
+      "verified": "已直接抓取该官方URL全文，核验三款首发价6899/8699/11999元和7月9日开售时间；官网首页亦收录相同全文。"
+    },
+    {
+      "id": "tal_teacher",
+      "title": "九章爱学老师版升级，170+智能体助力教师教学全场景",
+      "publisher": "好未来官网",
+      "date": "2026-01-09",
+      "url": "https://www.tal.com/zh-cn/news/detail/3022",
+      "type": "官方产品介绍"
+    },
+    {
+      "id": "tal_20f",
+      "title": "TAL FY2026 Form 20-F",
+      "publisher": "TAL / SEC",
+      "date": "2026-06-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1499620/000110465926073410/tal-20260228x20f.htm",
+      "type": "公司年度报告",
+      "locations": "Learning Content Solutions；Results of Operations"
+    },
+    {
+      "id": "tal_q1",
+      "title": "TAL FY2027 Q1 unaudited results",
+      "publisher": "TAL Investor Relations",
+      "date": "2026-07-30",
+      "url": "https://ir.tal.com/2026-07-30-TAL-Education-Group-Announces-Unaudited-Financial-Results-for-the-First-Fiscal-Quarter-Ended-May-31,-2026",
+      "type": "季度财报"
+    },
+    {
+      "id": "edu_20f",
+      "title": "New Oriental FY2026 Form 20-F",
+      "publisher": "新东方 / SEC",
+      "date": "2026-09-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1372920/000119312526397192/d157159d20f.htm",
+      "type": "公司年度报告",
+      "locations": "p.69 Intelligent Learning Systems and Devices；财务报表"
+    },
+    {
+      "id": "edu_results",
+      "title": "New Oriental FY2026 Q4 and full-year results",
+      "publisher": "新东方 Investor Relations",
+      "date": "2026-07-29",
+      "url": "https://investor.neworiental.org/index.php/news-releases/news-release-details/new-oriental-announces-results-fourth-fiscal-quarter-and-9",
+      "type": "财年业绩"
+    },
+    {
+      "id": "edu_smart_learning",
+      "title": "新东方中学智慧学习推广管理中心",
+      "publisher": "新东方官网",
+      "date": null,
+      "url": "https://www.neworiental.org/system/pxyw/202108/8625126.html",
+      "type": "现行官网业务介绍",
+      "note": "页面路径含202108但内容已更新；不将路径当作内容发布日期。"
+    },
+    {
+      "id": "edu_ai_products",
+      "title": "新东方入选“人民匠心品牌”案例",
+      "publisher": "新东方网",
+      "date": "2026-01",
+      "url": "https://www.xdf.cn/info/202601/15068417.html",
+      "type": "官方产品进展回顾"
+    },
+    {
+      "id": "edu_b2g",
+      "title": "新东方智慧教育",
+      "publisher": "新东方官网",
+      "date": null,
+      "url": "https://www.neworiental.org/system/subsidiary/202108/8625128.html",
+      "type": "现行官网业务介绍"
+    },
+    {
+      "id": "iflytek_t90",
+      "title": "科大讯飞AI学习机T90系列发布",
+      "publisher": "科大讯飞智慧教育",
+      "date": "2026-02-28",
+      "url": "https://edu.iflytek.com/about-us/news/company-news/2665",
+      "type": "官方产品发布"
+    },
+    {
+      "id": "iflytek_grader",
+      "title": "星火智能批阅机",
+      "publisher": "科大讯飞智慧教育",
+      "date": null,
+      "url": "https://edu.iflytek.com/solution/school/the-spark-ai-grader",
+      "type": "官方产品页"
+    },
+    {
+      "id": "iflytek_h1",
+      "title": "科大讯飞股份有限公司2026年半年度报告全文",
+      "publisher": "科大讯飞 / 巨潮资讯",
+      "date": "2026-08-21",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485550.PDF",
+      "type": "公司半年报",
+      "locations": "p.7 财务指标；pp.11—13教育产品；p.29收入构成；研发资本化章节T90商业模式",
+      "verified": "已从原始巨潮PDF下载并用pdftotext全文核验。"
+    }
+  ],
+  "warnings": [
+    "2026-10-12以后尚未披露的季度不能写入；新东方2026-10-28电话会仍在未来。",
+    "品牌学习机功能与效果来源是公司产品说明，不代表独立学习成效评估。",
+    "不同公司财年、币种、业务分类不同，不宜直接按绝对收入作AI教育规模排名。",
+    "融资是资本交易，不能以收入、经营亏损、经营现金净流出替代。"
+  ]
+}
