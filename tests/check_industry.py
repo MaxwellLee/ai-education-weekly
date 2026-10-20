@@ -12,7 +12,7 @@ for x in data['items']:
  assert all(y['url'].startswith('https://') for y in x['sources'])
 assert set(x['frontierCategory'] for x in issue['education']['items'])=={'技术与研究','教学实践','政策与评价'}
 assert len(issue['education']['items'])==12 and len(issue['publicFigures'])==10
-assert len(json.loads((S/'data/ideas.json').read_text())['items'])==27
+assert len([x for x in json.loads((S/'data/ideas.json').read_text())['items'] if x['firstIssue'] in ['001','002']])==27
 assert len(json.loads((S/'data/shenzhen/002.json').read_text())['items'])==6
 raw=html.fromstring((S/'index.html').read_text());snap=raw.get_element_by_id('issue-template-002')
 assert len(snap.xpath('.//article[@class="industry-card"]'))==len(data['items'])

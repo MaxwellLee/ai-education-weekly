@@ -54,3 +54,50 @@
 ## 第002期（2026-10-12）
 
 保留001内嵌媒体与署名，新增人物仅沿用Sal Khan和Dan Fitzpatrick既有低分辨率私人预览照片。另补入5张官方来源真实肖像及11张原作低清缩略图供私人预览。3位人物无可靠可取得照片，1项创意图片403，明确缺失；新增所有媒体公开复用许可仍未确认。具体缺口、出处与权利状态记录于people.json及ideas.json。来源公开不等于授权，代码开源不自动覆盖全部截图或艺术作品。
+
+
+## 第003期新增媒体
+
+私人审阅使用。原始作品及肖像均来自所列来源，公开复用许可未确认；不表示作者或机构背书。
+
+- 让自己画的小怪兽跟着身体动：https://experiments.withgoogle.com/scroobly；Google Partner Innovation 与 bit.studio；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 几笔草图变成漫画人物，再反查相似馆藏：https://experiments.withgoogle.com/giga-manga；Gael Hugo、Caroline Buttet / Google Arts & Culture Lab；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 一张纸箭头，变成贪吃蛇的遥控器：https://experiments.withgoogle.com/teachable-snake；Vince MingPu Shao；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 做一个姿势，找到另一张动作相同的照片：https://experiments.withgoogle.com/move-mirror；Google Creative Lab、PAIR、Research 与 Use All Five；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 把两株植物变成一段不存在的植物生长影像：https://experiments.withgoogle.com/infinite-herbarium；Caroline Rothwell 与 Google Creative Lab；声音 Theodore Wohng；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 识别对了才发糖：做一个有实体反馈的小游戏：https://experiments.withgoogle.com/neuralcandy；Al Bencomo；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 把房间里的电视和收音机变成作曲旋钮：https://magenta.withgoogle.com/lofi-player；Vibert Thio / Magenta；Douglas Eck 合作指导；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 把一声哼唱变成长笛，保留自己的旋律：https://magenta.withgoogle.com/tone-transfer；Google Magenta 与 AIUX；Hanoi Hantrakul 等；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 让自拍进入艺术场景，再追问场景的文化来源：https://blog.google/company-news/outreach-and-initiatives/arts-culture/art-selfie-is-back-this-time-with-generative-ai/；Google Arts & Culture 艺术家驻留项目；Joe Shepherd 发布介绍；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 给虚拟居民一段记忆，看小镇如何约成一场聚会：https://github.com/joonspk-research/generative_agents；Joon Sung Park、Joseph C. O’Brien、Carrie J. Cai、Meredith Ringel Morris、Percy Liang、Michael S. Bernstein；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- 让一张卡通角色图跟着旁白说话：https://kandinskyavatar.github.io/；Nikolay Semenov、Artem Riabinin 等 / Kandinsky Lab；原作/官方展示素材；未找到该图的明确公开复用许可；不视为已获转载授权。
+
+- Sweta Shah：https://www.brookings.edu/people/sweta-shah/；未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。
+
+- Melissa Boteach：https://tspppa.gwu.edu/melissa-boteach；未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。
+
+- Kathy Hirsh-Pasek：https://www.brookings.edu/people/kathy-hirsh-pasek/；未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。
+
+- Jeff Grabill：https://www.buffalo.edu/news/news-releases.host.html/content/shared/university/news/ub-reporter-articles/stories/2026/10/AI-Buffalo-Statement.detail.html；仅随私人预览展示低分辨率来源图；公开复用许可未确认
+
+- Venu Govindaraju：https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html；仅随私人预览展示低分辨率来源图；公开复用许可未确认
+
+- Leon Furze：https://leonfurze.com/about/；仅随私人预览展示既有低分辨率来源图；公开复用许可未确认
+
+- Lisa A. Clark：https://www.blackboard.com/blog/beyond-ai-detection；仅随私人预览展示低分辨率来源图；公开复用许可未确认
+
+- Dan Fitzpatrick：https://www.theaiclassroom.net/；仅随私人预览展示既有低分辨率来源图；公开复用许可未确认
+
+- Amy E. Allen：https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html；仅随私人预览展示低分辨率来源图；公开复用许可未确认
+
+- Radmila “Rada” Stojsin：https://verbalistseducation.com/digital-learning-ai-future-of-education/；仅随私人预览展示低分辨率来源图；公开复用许可未确认

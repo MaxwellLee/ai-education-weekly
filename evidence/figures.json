@@ -1,0 +1,275 @@
+{
+  "issue": "003",
+  "cutoff": "2026-10-19T09:00:00+08:00",
+  "checked_at": "2026-10-19",
+  "count": 10,
+  "editorial_note": "10位不同人物均有本周可追溯署名观点或原始引述；三人共同署名同一文章，不等于三个独立事件。所有观点均为中文转述，非中文原话。7张真实人物头像可嵌入私人预览，未获公共转载授权；其余3张来源已定位但下载403，不得生成替代人脸。Rada仅采用公开作品和教学履历，不包装为获奖专家。",
+  "figures": [
+    {
+      "name": "Sweta Shah",
+      "statement_date": "2026-10-12",
+      "statement_url": "https://www.brookings.edu/articles/as-ai-leaders-call-for-slowdown-children-need-a-voice/",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "Brookings普及教育中心研究员，研究幼儿教育与危机环境下的儿童发展。",
+      "personal_achievements": [
+        "著有《Early Childhood Development in Humanitarian Crises: South Sudanese Refugees in Uganda》",
+        "共同创办ChildArise"
+      ],
+      "biography_sources": [
+        "https://www.brookings.edu/people/sweta-shah/"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "三位作者共同主张：AI治理必须让家长、幼教工作者与发展科学专家实质参与；不能把儿童产品的安全判断全交给家庭。",
+      "why_follow_zh": "从幼儿与弱势群体角度审视AI，而非仅关注中大学生效率。",
+      "evidence_limitations": "共同署名观点，不能拆成三次独立发言。属政策主张，非新实验结论。文末披露Zero to Three向相关项目提供支持。",
+      "portrait": {
+        "source_page": "https://www.brookings.edu/people/sweta-shah/",
+        "image_url": "https://www.brookings.edu/wp-content/uploads/2024/03/Sweta-Shah-sq.jpg?quality=50&w=500",
+        "status": "来源已定位；下载HTTP403，保留明确缺图",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": null
+      }
+    },
+    {
+      "name": "Melissa Boteach",
+      "statement_date": "2026-10-12",
+      "statement_url": "https://www.brookings.edu/articles/as-ai-leaders-call-for-slowdown-children-need-a-voice/",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "ZERO TO THREE首席政策官，长期从事家庭经济保障与托育政策。",
+      "personal_achievements": [
+        "获Harry Truman与George J. Mitchell奖学金",
+        "曾创立Center for American Progress的Poverty to Prosperity项目"
+      ],
+      "biography_sources": [
+        "https://www.zerotothree.org/news/leading-advocate-for-family-well-being-melissa-boteach-joins-zero-to-three-as-chief-policy-officer/",
+        "https://www.zerotothree.org/resource/a-future-built-for-babies-why-im-joining-zero-to-three/"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "共同署名文章要求为儿童AI产品建立共同安全底线，并让家长与专家正式参与标准制定、产品测试和监管审查。",
+      "why_follow_zh": "连接儿童发展与可执行公共政策，补足教学工具讨论。",
+      "evidence_limitations": "同一共同署名文章；并无证据把某个段落单独归属她。组织是本文披露的资助方之一。",
+      "portrait": {
+        "source_page": "https://tspppa.gwu.edu/melissa-boteach",
+        "image_url": "https://www.brookings.edu/wp-content/uploads/2026/10/Melissa-Boteach-ZeroToThree28551-rhkcvz27js2endcxmctqby2zlt1j0b3nsg8s5w1p8g.jpg?quality=50&w=256",
+        "status": "来源已定位；下载HTTP403，保留明确缺图",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": null
+      }
+    },
+    {
+      "name": "Kathy Hirsh-Pasek",
+      "statement_date": "2026-10-12",
+      "statement_url": "https://www.brookings.edu/articles/as-ai-leaders-call-for-slowdown-children-need-a-voice/",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "Temple心理学教授、Brookings高级研究员，关注儿童学习科学。",
+      "personal_achievements": [
+        "2021年当选美国National Academy of Education成员",
+        "共同创办Learning Science Exchange Fellowship"
+      ],
+      "biography_sources": [
+        "https://www.brookings.edu/people/kathy-hirsh-pasek/"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "共同署名文章强调：面向八岁以下儿童、尤其拟人陪伴型AI，应先开展独立发展影响评估，检验其对语言、游戏和关系的影响。",
+      "why_follow_zh": "可帮助区分产品体验与儿童真正的发展收益。",
+      "evidence_limitations": "共同署名，不能作为其单独受访原话。她任Zero to Three董事，文章已披露关系。",
+      "portrait": {
+        "source_page": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
+        "image_url": "https://www.brookings.edu/wp-content/uploads/2016/06/pasekk_portrait1.jpg?quality=50&w=343",
+        "status": "来源已定位；下载HTTP403，保留明确缺图",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": null
+      }
+    },
+    {
+      "name": "Jeff Grabill",
+      "statement_date": "2026-10-16",
+      "statement_url": "https://www.buffalo.edu/news/news-releases.host.html/content/shared/university/news/ub-reporter-articles/stories/2026/10/AI-Buffalo-Statement.detail.html",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "布法罗大学文理学院院长，研究与实践高等教育学习设计。",
+      "personal_achievements": [
+        "与Sarah Gretter、Erik Skogsberg合著《Design for Change in Higher Education》（2022）"
+      ],
+      "biography_sources": [
+        "https://press.jhu.edu/newsroom/design-change-higher-education",
+        "https://arts-sciences.buffalo.edu/college/about-the-college/college-stories.host.html/content/shared/university/news/ub-reporter-articles/stories/2025/08/qa-jeff-grabill.detail.html"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "校方报道引述他：高校应推动面向公众的AI基础设施，追问谁决定AI的发展、AI为谁服务。",
+      "why_follow_zh": "将AI教育的重点从购买应用推进到大学的公共职责。",
+      "evidence_limitations": "10月16日是校方报道发表日；声明源于6月峰会，不能写成10月新举办峰会。书籍署名是共同作者。",
+      "portrait": {
+        "source_page": "https://www.buffalo.edu/news/news-releases.host.html/content/shared/university/news/ub-reporter-articles/stories/2026/10/AI-Buffalo-Statement.detail.html",
+        "image_url": "https://www.buffalo.edu/content/shared/university/news/ub-reporter-articles/stories/2026/10/AI-Buffalo-Statement/_jcr_content/par/assetcolumn/assets/image.img.140.180.jpg/1792067603045.jpg",
+        "status": "已下载并视觉核验真实人物照片；仅私人预览",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": "assets/portraits/person-003-jeff-grabill.jpg"
+      }
+    },
+    {
+      "name": "Venu Govindaraju",
+      "statement_date": "2026-10-16",
+      "statement_url": "https://www.buffalo.edu/news/news-releases.host.html/content/shared/university/news/ub-reporter-articles/stories/2026/10/AI-Buffalo-Statement.detail.html",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "布法罗大学科研、创新及经济发展高级副校长、首席AI官，模式识别研究者。",
+      "personal_achievements": [
+        "2009年成为ACM Fellow",
+        "2010年获IEEE Technical Achievement Award，表彰手写识别贡献"
+      ],
+      "biography_sources": [
+        "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "校方报道引述他：大学的专业知识与公共使命应影响AI演进，让人的判断和责任保持核心地位。",
+      "why_follow_zh": "同时理解AI技术与大学治理，可观察公共算力如何服务教育。",
+      "evidence_limitations": "机构原始引述；不是研究结果。学校五十年AI历史不能当成他的个人成就。",
+      "portrait": {
+        "source_page": "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html",
+        "image_url": "https://www.buffalo.edu/content/shared/www/research/venu-news-articles/Empire-AI-is-already-making-rapid-progress-in-drug-discovery/_jcr_content/par/image_2118092383_cop_1745927290.img.447.auto.jpg/1782746107465.jpg",
+        "status": "已下载并视觉核验真实人物照片；仅私人预览",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": "assets/portraits/person-003-venu-govindaraju.jpg"
+      }
+    },
+    {
+      "name": "Leon Furze",
+      "statement_date": "2026-10-16",
+      "statement_url": "https://leonfurze.com/2026/10/16/beyond-chatbots-writing-policies-about-the-wrong-thing/",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "教育顾问、作者，研究生成式AI与写作教学。",
+      "personal_achievements": [
+        "出版《Practical AI Strategies》（2024）",
+        "参与AI Assessment Scale共同研究"
+      ],
+      "biography_sources": [
+        "https://leonfurze.com/about/",
+        "https://leonfurze.com/2025/08/18/five-principles-for-rethinking-assessment-with-gen-ai/",
+        "https://leonfurze.com/publications/"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "他认为学校仍围绕2023年的聊天机器人写政策，已忽视AI代理操作软件的变化；应审查AI与现有各项政策的交点，并以学校价值和培养目标为锚。",
+      "why_follow_zh": "擅长把评估、写作和治理问题联在一起，也愿意批评AI应用假设。",
+      "evidence_limitations": "个人评论，技术演进判断并非学校学习效果证据。首页记录10月18日更新；文章标注首发10月16日。",
+      "portrait": {
+        "source_page": "https://leonfurze.com/about/",
+        "image_url": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2022/06/facetune_24-06-2022-18-39-23.jpg?resize=300%2C300&ssl=1",
+        "status": "已下载并视觉核验真实人物照片；仅私人预览",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": "assets/portraits/person-002-leon-furze.jpg"
+      }
+    },
+    {
+      "name": "Lisa A. Clark",
+      "statement_date": "2026-10-16",
+      "statement_url": "https://www.blackboard.com/blog/beyond-ai-detection",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "Blackboard学术转型助理副总裁，关注AI时代的学习评估。",
+      "personal_achievements": [
+        "提出Transform Evidence Arc（TEA）学习证据框架",
+        "撰写《Reframing Bloom’s for the Age of AI》白皮书"
+      ],
+      "biography_sources": [
+        "https://www.blackboard.com/blog/beyond-ai-detection",
+        "https://www.blackboard.com/blog/blooms-taxonomy-ai-transform-evidence-arc"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "评估应追问学生在完成任务时学到了什么，保留想法变化、证据选择与反馈修订的过程；最终学习判断仍由教师作出。",
+      "why_follow_zh": "提供从终稿查AI转向学习过程证据的具体视角。",
+      "evidence_limitations": "文章同时推介Blackboard/Cursive，存在商业立场；TEA是作者提出的框架，不应描述为已验证有效的统一标准。",
+      "portrait": {
+        "source_page": "https://www.blackboard.com/blog/beyond-ai-detection",
+        "image_url": "https://backstage.blackboard.com/sites/default/files/migrated/2023-10/lisa-clark-headshot.png?q=75&w=256",
+        "status": "已下载并视觉核验真实人物照片；仅私人预览",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": "assets/portraits/person-003-lisa-clark.jpg"
+      }
+    },
+    {
+      "name": "Dan Fitzpatrick",
+      "statement_date": "2026-10-16",
+      "statement_url": "https://blog.aieducator.tools/posts/ai-tools-a-school-can-approve",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "AI教育作者、顾问，创办The AI Educator与工具目录。",
+      "personal_achievements": [
+        "与Amanda Fox、Brad Weinstein合著《The AI Classroom》",
+        "著有《Infinite Education》"
+      ],
+      "biography_sources": [
+        "https://theaieducator.io/",
+        "https://blog.theaieducator.io/about"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "学校批准AI工具前，应问清数据协议、是否用于训练、年龄限制、保留删除规则与校方可见性，并记录用途、复核人和日期。",
+      "why_follow_zh": "把AI治理压缩成教务与技术团队可执行的检查问题。",
+      "evidence_limitations": "五问是作者编辑判断，非法律标准；文内部分产品依据来自2024年公告，不能当作2026全部产品的现行结论。只采用治理方法，不转述其工具条款表。",
+      "portrait": {
+        "source_page": "https://blog.theaieducator.io/about",
+        "image_url": null,
+        "status": "已下载并视觉核验真实人物照片；仅私人预览",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": "assets/portraits/person-dan-fitzpatrick.jpg"
+      }
+    },
+    {
+      "name": "Amy E. Allen",
+      "statement_date": "2026-10-12",
+      "statement_url": "https://virginiamercury.com/2026/10/12/virginia-teachers-balance-ai-innovation-with-student-creativity-amid-rising-academic-pressure/",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "Virginia Tech小学教育副教授，研究社会科与历史教学、生成式AI和教师培养。",
+      "personal_achievements": [
+        "与David Hicks合著开放教材《Teaching History with Chatty Geeps》",
+        "共同编辑《Beyond Single Stories: Changing Narratives for a Changing World》"
+      ],
+      "biography_sources": [
+        "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+        "https://tpsconsortiumcreatedmaterials.org/organizations/virginia-tech/"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "原采访引述她：教师培训应拓宽教师对AI教学可能性的认识，而非让教师照抄示范；当学生开始使用AI，教师也有责任理解并引导这种使用。",
+      "why_follow_zh": "将学科思维、史料教学与AI结合，关注教师能否形成自己的教学判断。",
+      "evidence_limitations": "10月12日为采访报道发表日，工作坊具体日期未确认；为本人实践观点，并非学习效果实验。官方履历后半段含明确幽默夸张，不采纳其明星、格莱美等玩笑内容。",
+      "portrait": {
+        "source_page": "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+        "image_url": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/departments-and-schools/school-of-education/faculty/amy-allen/_jcr_content/bio-image.transform/m-medium/image.png",
+        "status": "已下载并视觉核验真实人物照片；仅私人预览",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": "assets/portraits/person-003-amy-allen.jpg"
+      }
+    },
+    {
+      "name": "Radmila “Rada” Stojsin",
+      "statement_date": "2026-10-16",
+      "statement_url": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+      "statement_type": "具名公开文章／机构原始引述",
+      "bio": "英语语言文学教师，自2023年任Verbalists青少年语言项目协调员；官方介绍称有十五年以上教学经验。",
+      "personal_achievements": [
+        "署名发表本期《Digital Learning and AI: Why the Future of Education Is Not Simply Digital》",
+        "公开履历记载在多国从事教学与国际教育工作"
+      ],
+      "biography_sources": [
+        "https://verbalistseducation.com/digital-learning-ai-future-of-education/"
+      ],
+      "biography_checked_at": "2026-10-19",
+      "viewpoint_zh": "AI可辅助语言练习，但必须保留学生组织语言、犯错、核查与再尝试的努力；选纸笔还是屏幕，应由学习目的决定。",
+      "why_follow_zh": "提供一线语言教师对认知努力与师生关系的观察。",
+      "evidence_limitations": "个人实践评论；个人成就证据较弱，只核实公开作品和履历，未找到独立奖项证据。所援引OUP调查的百分比未在本人物卡独立复核，因此不采用。",
+      "portrait": {
+        "source_page": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+        "image_url": "https://i0.wp.com/verbalistseducation.com/wp-content/uploads/2026/10/Radmila-Stojsin-Jezicka-mreza-Verbalisti.jpg?resize=150%2C150&ssl=1",
+        "status": "已下载并视觉核验真实人物照片；仅私人预览",
+        "license": "未发现明确开放转载许可；链接展示不代表获准复制，正式刊物需核验许可或获授权",
+        "fallback": "若未取得可用真实头像，明确显示“暂无已核验授权头像”，不得生成替代人脸",
+        "local_path": "assets/portraits/person-003-rada-stojsin.jpg"
+      }
+    }
+  ]
+}

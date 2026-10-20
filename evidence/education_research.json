@@ -1,528 +1,296 @@
 {
-  "issue": "002",
-  "cutoff": "2026-10-12T09:00:00+08:00",
-  "window": {
-    "start": "2026-10-05T09:00:00+08:00",
-    "end": "2026-10-12T09:00:00+08:00"
-  },
-  "summaries": [
-    "核心转向是撤去AI后还能否独立完成：坚持性实验与两项AI导师训练研究提供不同层次证据。",
-    "青少年产品进展与独立安全测评出现分歧，应分别记录厂商承诺、使用指标和风险测试。",
-    "教师发展覆盖师范生、高校、成人教育和人文学科；活动议程与实际成效严格分开。"
-  ],
+  "issue": "003",
+  "cutoff": "2026-10-19T09:00:00+08:00",
+  "window": "2026-10-12—2026-10-19（截至北京时间09:00）",
   "items": [
     {
-      "id": "e002-01",
-      "title": "撤去AI后还会做吗？伯克利报道三项坚持性实验",
-      "date": "2026-10-09",
-      "eventDate": "2026-10-07",
-      "category": "学习科学",
-      "educationLevels": [],
-      "audienceTypes": [
-        "教育工作者"
+      "id": "E01",
+      "category": "技术与研究",
+      "title": "Math ThinkBot：用追问引出五、六年级学生的数学高阶思考",
+      "region": "美国",
+      "published_date": "2026-10-14",
+      "event_date": null,
+      "stage_tags": [
+        "小学高年级",
+        "六年级"
       ],
-      "scopeTags": [
-        "未限定"
-      ],
-      "tags": [
-        "学习科学"
-      ],
-      "summary": "伯克利报道一项共1,222名在线参与者的随机实验研究：分数题和阅读任务中，先使用AI的组在辅助撤去后准确率与坚持性下降。该研究早期稿于春季已公开，本周报道的是更新论文与会议传播。",
-      "why": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
-      "limits": "不能把短时在线实验扩大为所有学生、所有AI用法的长期因果结论；新闻标题比实验适用范围更宽。",
-      "sources": [
-        {
-          "label": "UC Berkeley研究报道",
-          "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/"
-        },
-        {
-          "label": "研究论文",
-          "url": "https://arxiv.org/pdf/2604.04721"
-        }
-      ],
-      "freshness": "本周发布",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "学习科学",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "source": "Journal of Microbiology & Biology Education",
+      "url": "https://journals.asm.org/doi/10.1128/jmbe.00101-26",
+      "summary": "研究让33名五、六年级学生先接受30分钟比例推理教学并完成测评，再与基于GPT-4o、通过Playlab构建的Math ThinkBot讨论解题策略。对话中出现解释、比较等高阶思考话语；机器人与儿童相关提示词频次呈正相关（r=0.52）。",
+      "implication": "可试验让AI追问理由、比较方法，而非直接给答案，并保留学生原始解题和解释记录。",
+      "evidence_type": "同行评议期刊／概念验证",
+      "limits": "小样本、相关性对话分析；互动发生在测评之后，未测得学习增益，也不是随机对照试验。关键词频次仅为高阶思考的粗略代理。",
+      "time_status": "本周论文发表；研究实施时间未明确",
+      "priority": "高"
     },
     {
-      "id": "e002-02",
-      "title": "Sherpa：用模拟学生的学习结果训练自适应AI教师",
-      "date": "2026-10-06",
-      "eventDate": "2026-10-06",
-      "category": "模型与教学技术",
-      "educationLevels": [],
-      "audienceTypes": [
-        "教育工作者"
-      ],
-      "scopeTags": [
-        "未限定"
-      ],
-      "tags": [
-        "模型与教学技术"
-      ],
-      "summary": "Sherpa使用多轮强化学习与不同偏好的模拟学生原型训练教师模型。论文报告模拟学生表现平均提升20.5个百分点，人类两两偏好评估中训练后教师获79.6%的偏好。",
-      "why": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
-      "limits": "预印本；20.5个百分点主要是模拟学生结果，不是真实课堂学生提分；人类偏好也不等于长期学习成效。",
-      "sources": [
-        {
-          "label": "Sherpa原论文",
-          "url": "https://arxiv.org/abs/2610.08778"
-        }
-      ],
-      "freshness": "本周发布",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "模型与教学技术",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
-    },
-    {
-      "id": "e002-03",
-      "title": "Eduardo：遮掉教师答案后，再测近迁移",
-      "date": "2026-10-05",
-      "eventDate": "2026-10-05",
-      "category": "模型与教学技术",
-      "educationLevels": [],
-      "audienceTypes": [
-        "教育工作者"
-      ],
-      "scopeTags": [
-        "未限定"
-      ],
-      "tags": [
-        "模型与教学技术"
-      ],
-      "summary": "The Assistance Dilemma提出遮蔽教师话语的近迁移后测，并配合事实正确、不给完整答案的奖励门槛，训练多种规模的辅导模型；开放8,671道近迁移题数据与训练环境。",
-      "why": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
-      "limits": "预印本且主要在模拟对话和基准上验证；论文明确学习收益奖励本身不足以区分教学和直接告知，也报告小模型泄露答案等局限。",
-      "sources": [
-        {
-          "label": "Eduardo原论文",
-          "url": "https://arxiv.org/abs/2610.06446"
-        }
-      ],
-      "freshness": "本周发布",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "模型与教学技术",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
-    },
-    {
-      "id": "e002-04",
-      "title": "华中师大团队：多智能体微格教学用于师范生练习",
-      "date": "2026-10-07",
-      "eventDate": "2026-10-07",
-      "category": "教师发展",
-      "educationLevels": [
+      "id": "E02",
+      "category": "技术与研究",
+      "title": "291份高校问卷研究AI使用、知识分享与创新行为的关系",
+      "region": "中国／马来西亚合作研究",
+      "published_date": "2026-10-16",
+      "event_date": null,
+      "stage_tags": [
         "高等教育"
       ],
-      "audienceTypes": [
-        "教育工作者"
+      "source": "Humanities and Social Sciences Communications",
+      "url": "https://www.nature.com/articles/s41599-026-09524-7",
+      "summary": "研究使用中国高校Z世代学生291份有效在线问卷，以PLS-SEM及人工神经网络分析AI采用因素、知识分享、创造性自我效能和创新行为之间的关系。论文报告AI使用与创新行为的正向关系，并识别两项中介因素。",
+      "implication": "高校评估AI课程时，可同时观察知识交流和创造自信，而不只统计工具使用率。",
+      "evidence_type": "同行评议、提前上线论文／在线问卷与建模",
+      "limits": "不是教学干预实验；统计路径不能直接证明AI导致创新能力提升。当前是已接收的提前版本，尚可能编辑。",
+      "time_status": "本周发表；知情同意记录为2025年2—3月，不是本周采集数据",
+      "priority": "中"
+    },
+    {
+      "id": "E03",
+      "category": "政策与评价",
+      "title": "医学本科AI治理框架：把能力与共同责任纳入规则",
+      "region": "国际／医学教育",
+      "published_date": "2026-10-14",
+      "event_date": null,
+      "stage_tags": [
+        "医学本科"
       ],
-      "scopeTags": [],
-      "tags": [
+      "source": "npj Digital Medicine",
+      "url": "https://www.nature.com/articles/s41746-026-03390-y",
+      "summary": "评论文章提出面向医学本科教育的多层次AI治理框架，强调院校、教师和学生的问责、能力与共同责任；建议区分可以借助AI的能力与必须独立保持的能力，并将课程目标转化为发展里程碑和评价指标。",
+      "implication": "专业教育需要把允许使用AI的任务、必须独立完成的能力考核和教师培训放在同一设计中。",
+      "evidence_type": "期刊Comment／治理框架建议",
+      "limits": "不是实施效果研究，也不是已生效的教育法规；不能称为已经证明有效的改革方案。",
+      "time_status": "本周发表",
+      "priority": "高"
+    },
+    {
+      "id": "E04",
+      "category": "教学实践",
+      "title": "OpenAI发布K–12 Skills Jam复盘：教师产出可复用材料与工具",
+      "region": "美国",
+      "published_date": "2026-10-15",
+      "event_date": "2026年夏季至秋季（活动非本周新举办）",
+      "stage_tags": [
+        "小学",
+        "初中",
+        "高中",
         "教师发展"
       ],
-      "summary": "MAMS将有差异的虚拟学生、标准化课堂挑战和Dean Agent提示组合，研究数学师范生在多智能体模拟课堂中的互动路径。",
-      "why": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
-      "limits": "期刊OnlineFirst；仅依据公开摘要、作者与发表信息，不声称已完整核验受限全文的效果量，也不等同真实课堂成效。",
-      "sources": [
-        {
-          "label": "Journal of Educational Computing Research",
-          "url": "https://journals.sagepub.com/doi/10.1177/07356331261494349"
-        }
+      "source": "OpenAI活动复盘报告",
+      "url": "https://openai.com/index/k-12-educators-practical-skills/",
+      "additional_urls": [
+        "https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf"
       ],
-      "freshness": "本周发布",
-      "evidenceLevel": "期刊公开摘要与发表信息已读；全文受限",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "教师发展",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "summary": "10月15日更新链接的复盘称，九地活动有超过1600名教师和学校管理者参与。802份反馈中，741人表示带走可复用成果。案例涉及四年级差异化备课、高中科学可视化、七至九年级戏剧制作管理；教师负责目标设定与内容审核。",
+      "implication": "教师培训可要求现场完成一个可复用成果，并在后续核查是否真正使用，而非只做工具演示。",
+      "evidence_type": "服务商自报／活动反馈与案例",
+      "limits": "满意度和使用意向不等同于课堂学习增益；802为反馈数，不是总参与人数。5.9小时节省值来自另一个Gallup调查，不可写成本活动实测。",
+      "time_status": "本周复盘更新；原公告2026-07-08",
+      "priority": "高"
     },
     {
-      "id": "e002-05",
-      "title": "OpenAI公布青少年学习工具进展及大学规划工具",
-      "date": "2026-10-07",
-      "eventDate": "2026-10-07",
-      "category": "公司产品",
-      "educationLevels": [
-        "初中教育",
-        "高中阶段教育"
+      "id": "E05",
+      "category": "教学实践",
+      "title": "Logan学校让中学生参与AI课程共创",
+      "region": "美国",
+      "published_date": "2026-10-13",
+      "event_date": null,
+      "stage_tags": [
+        "初中",
+        "六年级",
+        "八年级"
       ],
-      "audienceTypes": [],
-      "scopeTags": [
-        "跨学段"
-      ],
-      "tags": [
-        "公司产品"
-      ],
-      "summary": "OpenAI公布ChatGPT for Teens的早期使用情况，并介绍College Planner和青少年AI委员会等计划。",
-      "why": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
-      "limits": "厂商自报与产品计划；学习类消息增加不证明学习增益。各地区、账户开放和适龄条件需逐项确认；应与独立风险测评合读。",
-      "sources": [
-        {
-          "label": "OpenAI产品公告",
-          "url": "https://openai.com/index/teens-learn-and-plan/"
-        }
-      ],
-      "freshness": "本周发布",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "公司产品",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "source": "The Logan School教师第一手博客",
+      "url": "https://www.theloganschool.org/post/logan-students-help-shape-an-ai-curriculum",
+      "summary": "学校披露，科罗拉多大学Anschutz研究人员为NSF资助的初中AI课程收集两所丹佛地区学校意见。Logan参与者包括六、八年级学生、家长与教师；学生提出学习中需要活动、更自主地使用模型，以及把公平议题纳入课程。",
+      "implication": "AI课程开发可以把学生列为共同设计者，收集学习方式、使用权限与公平关切。",
+      "evidence_type": "学校第一手实践记录",
+      "limits": "仅为小组共创案例；课程尚处设计阶段，未提供学习效果、样本代表性或完整项目评估。",
+      "time_status": "本周报道；会议具体发生日期未注明",
+      "priority": "中"
     },
     {
-      "id": "e002-06",
-      "title": "Common Sense独立评测质疑青少年模式保护效果",
-      "date": "2026-10-07",
-      "eventDate": "2026-10-07",
-      "category": "治理与安全",
-      "educationLevels": [
-        "初中教育",
-        "高中阶段教育"
+      "id": "E06",
+      "category": "教学实践",
+      "title": "西班牙LearningML演讲：通过建模理解数据与偏差",
+      "region": "西班牙",
+      "published_date": "2026-10-17",
+      "event_date": "2026-10-16",
+      "stage_tags": [
+        "教师发展",
+        "学段未限定"
       ],
-      "audienceTypes": [
-        "教育工作者"
-      ],
-      "scopeTags": [
-        "跨学段"
-      ],
-      "tags": [
-        "治理与安全"
-      ],
-      "summary": "Youth AI Safety Institute公布ChatGPT for Teens风险评估，描述发布前后超过4,000条提示测试，并给出Unacceptable Risk评级；其报告认为部分保护有效，部分家长控制与学习保护不足。",
-      "why": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
-      "limits": "独立机构测试评级，非监管裁决；测试账户、版本、时间和压力测试方法限定结果范围，不能当成所有日常使用的风险发生率。",
-      "sources": [
-        {
-          "label": "Common Sense一手测评",
-          "url": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens"
-        }
-      ],
-      "freshness": "本周发布",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "治理与安全",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "source": "LearningML开发者演讲全文",
+      "url": "https://learningml.org/en/positive-uses-of-ai-in-education-pide-congress-2026/",
+      "summary": "LearningML网站公开10月16日在巴达霍斯PIDE教育大会的演讲与幻灯片。作者倡导通过收集和标注数据、训练简单模型、用新样本测试，理解机器学习局限；并介绍以概率展示下一个词的Glass Parrot。",
+      "implication": "AI素养活动可把“模型为什么失败”转化为数据质量、偏差和模型边界的讨论。",
+      "evidence_type": "实践者第一手演讲／教学主张",
+      "limits": "不是本周发布的新工具，也不是实验结果；未限定具体学段，不应自行贴小学或幼教效果标签。",
+      "time_status": "本周演讲与全文发布",
+      "priority": "中"
     },
     {
-      "id": "e002-07",
-      "title": "佛州LEAP-AI将教师培养、读写教学与AI素养联动",
-      "date": "2026-10-08",
-      "eventDate": "2026-10-08",
-      "category": "教育项目",
-      "educationLevels": [
-        "小学教育",
-        "初中教育",
-        "高中阶段教育",
+      "id": "E07",
+      "category": "教学实践",
+      "title": "UNESCO印度案例：数字渠道拓展青少年全面性教育",
+      "region": "印度",
+      "published_date": "2026-10-16",
+      "event_date": null,
+      "stage_tags": [
+        "青少年",
+        "青年",
+        "中学教育背景"
+      ],
+      "source": "UNESCO人物与项目报道",
+      "url": "https://www.unesco.org/en/articles/how-karishma-india-broadens-access-sexuality-education-ai-and-digital-channels",
+      "summary": "UNESCO介绍印度教育者Karishma Swarup及其与Artika Singh合作的在线全面性教育课程。报道指出，部分参与者进一步创建教育内容和AI相关平台；青少年对敏感问题的求助需求推动数字教育渠道发展。",
+      "implication": "在健康与成长教育中，AI应用需要适龄、可靠的内容与教育者支持；线上触达不能直接等同于有效学习。",
+      "evidence_type": "UNESCO案例报道",
+      "limits": "报道未给出AI平台受控评估或学习成效；课程和平台建立日期未明确，不能称为本周上线。",
+      "time_status": "本周案例发表，既有实践回顾",
+      "priority": "中"
+    },
+    {
+      "id": "E08",
+      "category": "政策与评价",
+      "title": "澳大利亚AERO推出学校AI双指南，强调证据与持续评估",
+      "region": "澳大利亚",
+      "published_date": "2026-10-14",
+      "event_date": null,
+      "stage_tags": [
+        "小学",
+        "初中",
+        "高中"
+      ],
+      "source": "Australian Education Research Organisation",
+      "url": "https://www.edresearch.edu.au/resource-collections/ai-schools",
+      "additional_urls": [
+        "https://www.edresearch.edu.au/summaries-explainers/explainers/ai-schools-considerations-school-leaders-and-teachers",
+        "https://www.edresearch.edu.au/summaries-explainers/explainers/ai-schools-considerations-policymakers"
+      ],
+      "summary": "AERO发布教师／校长与政策制定者两份说明。前者包括优先循证教学、监测学习风险、明确使用预期、调整评价、考虑文化响应性；后者强调证据指导政策、优质工具与能力建设，以及持续研究、监测和评价。",
+      "implication": "学校导入AI时宜同步定义学习目标、风险记录、可接受使用和评价方式，并保留不借助AI的学习证据。",
+      "evidence_type": "教育研究机构证据说明／实践与政策建议",
+      "limits": "机构明确指出学校场景AI学习效果研究仍有限；属于建议而非强制法规，不代表某种产品已获有效性认证。",
+      "time_status": "本周发布并更新",
+      "priority": "高"
+    },
+    {
+      "id": "E09",
+      "category": "政策与评价",
+      "title": "ACE与Ultranauts发布高校AI领导报告",
+      "region": "美国",
+      "published_date": "2026-10-15",
+      "event_date": null,
+      "stage_tags": [
         "高等教育"
       ],
-      "audienceTypes": [
-        "教育工作者"
+      "source": "American Council on Education",
+      "url": "https://www.acenet.edu/News-Room/Pages/New-Paper-AI-Amplifying-Learning.aspx",
+      "additional_urls": [
+        "https://www.acenet.edu/Documents/AI-Future-Higher-Education.pdf"
       ],
-      "scopeTags": [
-        "跨学段"
-      ],
-      "tags": [
-        "教育项目"
-      ],
-      "summary": "佛州教育局与FAU等公布三年570万美元LEAP-AI项目，聚焦Broward的18所高需求学校，包含校领导培养、AI与读写微证书及教师学徒路径。",
-      "why": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
-      "limits": "官方项目公告；至少100名教育者完成微证书等均为目标，不是已实现的学习成效。",
-      "sources": [
-        {
-          "label": "Florida Department of Education",
-          "url": "https://www.fldoe.org/newsroom/latest-news/icymi-florida-department-of-education-and-fau-partner-to-boost-literacy-and-prepare-educators-for-ai.stml"
-        }
-      ],
-      "freshness": "本周发布",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "教育项目",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "summary": "《Leading with Purpose》围绕个性化学习、学业指导与学生成功、学习评价三个场景，提出高校AI整合应保留人与人的联系，重视公平、基础设施、教职工能力与院校使命。",
+      "implication": "高校选型可从具体支持需求出发，把人工支持和公平可及性列为采购、部署与评价条件。",
+      "evidence_type": "高等教育协会与合作机构报告／领导建议",
+      "limits": "不是三个应用场景的统一效果检验，也不构成新的法规或认证要求。",
+      "time_status": "本周报告发布新闻",
+      "priority": "高"
     },
     {
-      "id": "e002-08",
-      "title": "WestEd在AIME聚焦生成内容偏差与AI测评议程",
-      "date": "原发布日期未标明",
-      "eventDate": "2026-10-05至2026-10-07",
-      "category": "教育测评",
-      "educationLevels": [],
-      "audienceTypes": [
-        "教育工作者"
+      "id": "E10",
+      "category": "政策与评价",
+      "title": "Jisc与Google宣布两年合作，支持高教与继续教育AI采用",
+      "region": "英国／爱尔兰",
+      "published_date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "stage_tags": [
+        "高等教育",
+        "继续教育"
       ],
-      "scopeTags": [
-        "未限定"
-      ],
-      "tags": [
-        "教育测评"
-      ],
-      "summary": "WestEd公布AIME会议议程：比较Claude、GPT和Gemini在不同提示及减偏量规条件下生成教育内容；另分享跨研究者、实践者与政策人员形成的AI测评研发议程。",
-      "why": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
-      "limits": "官方会议日程证明议题与计划，不提供完整研究结果；不宣称减偏量规已经有效。页面未明示首次发布日期。",
-      "sources": [
-        {
-          "label": "WestEd会议页面",
-          "url": "https://www.wested.org/event/join-wested-at-the-2026-ai-in-measurement-and-education-conference/"
-        }
-      ],
-      "freshness": "本周列定日程｜未核验执行结果",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "教育测评",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "source": "Jisc官方公告",
+      "url": "https://www.jisc.ac.uk/news/all/new-google-partnership-to-accelerate-ai-adoption-across-he-and-fe",
+      "summary": "Jisc宣布与Google开展两年合作，计划提供工作坊、网络研讨会、领导者交流与实践社群，并通过专门框架支持教育软件采购。首批参与院校正在组织，试点将收集真实场景的实施挑战与效益证据。",
+      "implication": "规模化采用AI正在与治理、能力建设、采购路径和共享评估绑定；教育机构应关注试点结果而非只看工具可用性。",
+      "evidence_type": "合作方官方发布／试点计划",
+      "limits": "未发布首批院校实施成效；不能写成两年项目已完成。较早活动页注明签约条件，新闻页称已宣布合作；不推断每所院校已获得同等授权。",
+      "time_status": "本周宣布",
+      "priority": "高"
     },
     {
-      "id": "e002-09",
-      "title": "COABE成人教育AI峰会：从了解工具走向教学与服务",
-      "date": "原发布日期未标明",
-      "eventDate": "2026-10-06",
-      "category": "成人教育",
-      "educationLevels": [],
-      "audienceTypes": [
-        "成人与继续教育",
-        "职业教育",
-        "教育工作者"
+      "id": "E11",
+      "category": "政策与评价",
+      "title": "Brookings评论呼吁幼儿AI产品开展发展影响评估",
+      "region": "美国",
+      "published_date": "2026-10-12",
+      "event_date": null,
+      "stage_tags": [
+        "婴幼儿",
+        "学前",
+        "8岁以下"
       ],
-      "scopeTags": [
-        "未限定"
-      ],
-      "tags": [
-        "成人教育"
-      ],
-      "summary": "COABE的10月6日AI线上峰会议程覆盖教学、行政、就业准备和学习者服务，强调负责任的实际应用。",
-      "why": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
-      "limits": "主办方日程，未核验完整录像和实际实施成果；会员免费不代表向所有公众免费，首次公告日期未明示。",
-      "sources": [
-        {
-          "label": "COABE主办方",
-          "url": "https://www.coabe.org/ai-virtual-summit"
-        }
-      ],
-      "freshness": "本周列定日程｜未核验执行结果",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "成人教育",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "source": "Brookings署名评论",
+      "url": "https://www.brookings.edu/articles/as-ai-leaders-call-for-slowdown-children-need-a-voice/",
+      "summary": "作者主张把家长、早期教育专业人员和儿童发展专家纳入AI设计、测试与治理，尤其建议面向8岁以下儿童的AI产品在上市前接受独立发展影响评估，考察关系依恋、语言、游戏等方面。",
+      "implication": "幼儿场景不宜以隐私与内容过滤替代发展适宜性评估；采购讨论需要纳入真实人际互动是否被挤占。",
+      "evidence_type": "专家政策评论",
+      "limits": "这是作者建议，不是新法规或已实施制度；没有提供新随机试验。披露Zero to Three对相关任务组的资助及作者董事会关系。",
+      "time_status": "本周评论发表",
+      "priority": "中"
     },
     {
-      "id": "e002-10",
-      "title": "人文学科AI素养：把权力、责任与伦理放进课堂",
-      "date": "原发布日期未标明",
-      "eventDate": "2026-10-08",
-      "category": "AI素养",
-      "educationLevels": [
-        "初中教育",
-        "高中阶段教育",
+      "id": "E12",
+      "category": "政策与评价",
+      "title": "UC Riverside峰会讨论AI通识教育与基础知识",
+      "region": "美国",
+      "published_date": "2026-10-15",
+      "event_date": "2026-10-15",
+      "stage_tags": [
         "高等教育"
       ],
-      "audienceTypes": [
-        "教育工作者"
-      ],
-      "scopeTags": [
-        "跨学段"
-      ],
-      "tags": [
-        "AI素养"
-      ],
-      "summary": "National Humanities Center的10月8日研修由Kathryn Conrad与Sean Kamperman带领，讨论AI所处社会文化体系，以及教师怎样带学生提出伦理与权力问题。",
-      "why": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
-      "limits": "依据主办方课程介绍，未将宣传目标当成学习效果；仅核实活动日程，首次发布日期未明示。",
-      "sources": [
-        {
-          "label": "National Humanities Center",
-          "url": "https://nationalhumanitiescenter.org/event/webinars/critical-ai-literacy-humanities/"
-        }
-      ],
-      "freshness": "本周列定日程｜未核验执行结果",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "AI素养",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "source": "UC Riverside官方会后报道",
+      "url": "https://insideucr.ucr.edu/stories/2026/10/15/summit-explores-promise-perils-ai",
+      "summary": "UCR首届AI峰会讨论大学如何应对AI。参会者提出将AI教育纳入通识要求；UCR相关负责人同时强调，学生仍需基础知识来评估AI信息，大学应关注使用差距和人的判断。",
+      "implication": "AI通识课程可以按专业需求分层，同时把识别错误、质疑输出和独立判断列入共同目标。",
+      "evidence_type": "大学官方会后报道／嘉宾观点",
+      "limits": "“通识必修”是参会者建议，不是UCR已通过的校级政策；峰会报道不提供课程学习效果。",
+      "time_status": "本周实际活动及会后报道",
+      "priority": "中"
+    }
+  ],
+  "editorial_notes": [
+    "共12条主选，均有本周发表或更新日期；不是12项本周新实施项目。",
+    "研究证据强度分层：概念验证、问卷关联、框架建议、实践报道与供应商反馈不能混为学习效果证明。",
+    "美国来源较多，但覆盖澳大利亚、英国／爱尔兰、西班牙、印度和中国；学段覆盖小学高年级、初高中、高等教育、医学本科、继续教育、教师发展；仅一条幼儿专门条目。",
+    "如篇幅有限，E01、E04、E08、E09、E10优先。E03归政策与评价，不要当作因果研究。"
+  ],
+  "background_only": [
+    {
+      "title": "UNESCO–CODEMAO非亚青年AI研学复盘",
+      "url": "https://www.unesco.org/en/articles/unesco-and-codemao-advance-africa-asia-cooperation-ai-education-through-youth-ai-tour",
+      "published_date": "2026-10-15",
+      "updated_date": "2026-10-16",
+      "event_date": "2026-07-20—2026-07-25",
+      "summary": "官方本周回顾六国参与深圳研学、68所学校获试点认可及跨国编程AI共创。活动发生于7月，不可写成本周举办。未给出学段，宜标青年／学生而非幼教。",
+      "limits": "可作本周新披露的跨地区实践，非本周事件；成效为活动产出，非受控学习评估。"
     },
     {
-      "id": "e002-11",
-      "title": "西班牙AInnovaLAB讨论AI、教育与公民参与",
-      "date": "原发布日期未标明",
-      "eventDate": "2026-10-08至2026-10-09",
-      "category": "AI素养",
-      "educationLevels": [],
-      "audienceTypes": [
-        "教育工作者"
-      ],
-      "scopeTags": [
-        "未限定"
-      ],
-      "tags": [
-        "AI素养"
-      ],
-      "summary": "萨拉曼卡大学域名下的AInnovaLAB会议议程将生成式AI教育创新、教师培训差距、艺术教育和知识民主化放在共同框架中，采用数字报告与讨论空间。",
-      "why": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
-      "limits": "会议日程而非会议结果报道；不据议程推断演讲已按原计划完成或产生有效成果。",
-      "sources": [
-        {
-          "label": "AInnovaLAB官方会议站",
-          "url": "https://ainnovalab.usal.es/en/"
-        }
-      ],
-      "freshness": "本周列定日程｜未核验执行结果",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "AI素养",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
-    },
+      "title": "UNESCO IITE俄语高校教师生成式AI课程页面",
+      "url": "https://iite.unesco.org/highlights/unesco-iite-online-courses-on-generative-ai-for-educators/",
+      "published_date": "2026-10-12",
+      "summary": "页面介绍免费自主进度微课程，包含提示设计、学习评价和指导学生使用AI。",
+      "limits": "重要时间核验：2025年官方报告已经列出四门同名课程，2025年通讯记载两门于2025-04-23上线，因此不可仅凭2026页面日期称为本周首次推出。建议不计入本周新课程。",
+      "historical_sources": [
+        "https://iite.unesco.org/wp-content/uploads/2025/09/2025-IITE-GB-Directors-Report.pdf",
+        "https://iite.unesco.org/wp-content/uploads/2025/10/UN_2_25_WWW.pdf"
+      ]
+    }
+  ],
+  "schedule_only": [
     {
-      "id": "e002-12",
-      "title": "MIT Rakhlin讨论研究生教育如何面对AI能力变化",
-      "date": "2026-10-08",
-      "eventDate": "2026-10-08",
-      "category": "高教治理",
-      "educationLevels": [
-        "高等教育"
-      ],
-      "audienceTypes": [
-        "教育工作者"
-      ],
-      "scopeTags": [],
-      "tags": [
-        "高教治理"
-      ],
-      "summary": "MIT采访Sasha Rakhlin，围绕研究、研究生培养和大学如何调整面对AI的工作方式提出问题。",
-      "why": "院系层面需要区分AI承担任务与学生必须亲自掌握的研究判断。",
-      "limits": "专家访谈与前瞻观点，不是实证研究；文中模型能力预测与数学进展判断不作独立确认。",
-      "sources": [
-        {
-          "label": "MIT News",
-          "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925"
-        }
-      ],
-      "freshness": "本周发布",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "高教治理",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "院系层面需要区分AI承担任务与学生必须亲自掌握的研究判断。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
-    },
-    {
-      "id": "e002-13",
-      "title": "Butler把Gemini与Canvas结合开展个性化学习研修",
-      "date": "原发布日期未标明",
-      "eventDate": "2026-10-09",
-      "category": "教学工具实践",
-      "educationLevels": [
-        "高等教育"
-      ],
-      "audienceTypes": [
-        "教育工作者"
-      ],
-      "scopeTags": [],
-      "tags": [
-        "教学工具实践"
-      ],
-      "summary": "Butler大学10月9日教师研修介绍在Canvas中使用Gemini LTI、学习空间和Gems，对阅读材料、作业指令与反馈做差异化处理。",
-      "why": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
-      "limits": "校方培训描述；未实测集成，不推断所有学校套餐均已开放，也未核实其节省时间或改善学习的效果。",
-      "sources": [
-        {
-          "label": "Butler大学教学支持",
-          "url": "https://www.butler.edu/oeet/artificial-intelligence/pillar-1-faculty-education-community/"
-        }
-      ],
-      "freshness": "本周列定日程｜未核验执行结果",
-      "evidenceLevel": "一手正文已读取",
-      "firstSeen": "2026-10-12",
-      "updated": null,
-      "isBackground": false,
-      "contentType": "教学工具实践",
-      "metrics": null,
-      "ageRestriction": null,
-      "checkedAt": "2026-10-12",
-      "application": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
-      "applicationLabel": "可关注的实践方向｜编辑建议",
-      "image": null
+      "title": "Cambridge AI in Education Summit",
+      "url": "https://aisummit.cambridge.org/",
+      "event_date": "2026-10-15—2026-10-16",
+      "summary": "官网日程可证实计划主题包括人类智能、认知、评价与公平。",
+      "limits": "仅有会议日程，不据此推断会议结论、承诺或效果；不列主选。"
     }
   ]
 }

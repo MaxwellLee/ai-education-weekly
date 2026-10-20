@@ -1796,9 +1796,872 @@
         "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
         "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
       }
+    },
+    {
+      "id": "person-003-sweta-shah",
+      "name": "Sweta Shah",
+      "identity": "Brookings普及教育中心研究员",
+      "bio": [
+        "Brookings普及教育中心研究员，研究幼儿教育与危机环境下的儿童发展。",
+        "公开作品与实践：著有《Early Childhood Development in Humanitarian Crises: South Sudanese Refugees in Uganda》；共同创办ChildArise。"
+      ],
+      "contributions": [
+        {
+          "title": "著有《Early Childhood Development in Humanitarian Crises: South Sudanese Refugees in Uganda》",
+          "text": "著有《Early Childhood Development in Humanitarian Crises: South Sudanese Refugees in Uganda》。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Sweta Shah：履历／代表作品原始来源",
+            "url": "https://www.brookings.edu/people/sweta-shah/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Sweta Shah：履历／代表作品原始来源",
+              "url": "https://www.brookings.edu/people/sweta-shah/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "共同创办ChildArise",
+          "text": "共同创办ChildArise。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Sweta Shah：履历／代表作品原始来源",
+            "url": "https://www.brookings.edu/people/sweta-shah/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Sweta Shah：履历／代表作品原始来源",
+              "url": "https://www.brookings.edu/people/sweta-shah/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "从幼儿与弱势群体角度审视AI，而非仅关注中大学生效率。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Sweta Shah：履历／代表作品原始来源",
+          "url": "https://www.brookings.edu/people/sweta-shah/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "共同署名观点，不能拆成三次独立发言。属政策主张，非新实验结论。文末披露Zero to Three向相关项目提供支持。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.brookings.edu/people/sweta-shah/",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Sweta Shah真实人物照片（具名来源）",
+        "processing": "未下载、未加工",
+        "imageUrl": "https://www.brookings.edu/wp-content/uploads/2024/03/Sweta-Shah-sq.jpg?quality=50&w=500",
+        "publicReuseCleared": false,
+        "rightsStatus": "未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。",
+        "missingReason": "真实照片来源已定位，下载返回HTTP403，未取得可嵌入照片；不使用生成脸"
+      }
+    },
+    {
+      "id": "person-003-melissa-boteach",
+      "name": "Melissa Boteach",
+      "identity": "ZERO TO THREE首席政策官",
+      "bio": [
+        "ZERO TO THREE首席政策官，长期从事家庭经济保障与托育政策。",
+        "公开作品与实践：获Harry Truman与George J. Mitchell奖学金；曾创立Center for American Progress的Poverty to Prosperity项目。"
+      ],
+      "contributions": [
+        {
+          "title": "获Harry Truman与George J. Mitchell奖学金",
+          "text": "获Harry Truman与George J. Mitchell奖学金。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Melissa Boteach：履历／代表作品原始来源",
+            "url": "https://www.zerotothree.org/news/leading-advocate-for-family-well-being-melissa-boteach-joins-zero-to-three-as-chief-policy-officer/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Melissa Boteach：履历／代表作品原始来源",
+              "url": "https://www.zerotothree.org/news/leading-advocate-for-family-well-being-melissa-boteach-joins-zero-to-three-as-chief-policy-officer/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Melissa Boteach：履历／代表作品原始来源",
+              "url": "https://www.zerotothree.org/resource/a-future-built-for-babies-why-im-joining-zero-to-three/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "曾创立Center for American Progress的Poverty to Prosperity项目",
+          "text": "曾创立Center for American Progress的Poverty to Prosperity项目。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Melissa Boteach：履历／代表作品原始来源",
+            "url": "https://www.zerotothree.org/news/leading-advocate-for-family-well-being-melissa-boteach-joins-zero-to-three-as-chief-policy-officer/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Melissa Boteach：履历／代表作品原始来源",
+              "url": "https://www.zerotothree.org/news/leading-advocate-for-family-well-being-melissa-boteach-joins-zero-to-three-as-chief-policy-officer/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Melissa Boteach：履历／代表作品原始来源",
+              "url": "https://www.zerotothree.org/resource/a-future-built-for-babies-why-im-joining-zero-to-three/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "连接儿童发展与可执行公共政策，补足教学工具讨论。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Melissa Boteach：履历／代表作品原始来源",
+          "url": "https://www.zerotothree.org/news/leading-advocate-for-family-well-being-melissa-boteach-joins-zero-to-three-as-chief-policy-officer/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        },
+        {
+          "title": "Melissa Boteach：履历／代表作品原始来源",
+          "url": "https://www.zerotothree.org/resource/a-future-built-for-babies-why-im-joining-zero-to-three/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "同一共同署名文章；并无证据把某个段落单独归属她。组织是本文披露的资助方之一。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://tspppa.gwu.edu/melissa-boteach",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Melissa Boteach真实人物照片（具名来源）",
+        "processing": "未下载、未加工",
+        "imageUrl": "https://www.brookings.edu/wp-content/uploads/2026/10/Melissa-Boteach-ZeroToThree28551-rhkcvz27js2endcxmctqby2zlt1j0b3nsg8s5w1p8g.jpg?quality=50&w=256",
+        "publicReuseCleared": false,
+        "rightsStatus": "未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。",
+        "missingReason": "真实照片来源已定位，下载返回HTTP403，未取得可嵌入照片；不使用生成脸"
+      }
+    },
+    {
+      "id": "person-003-kathy-hirsh-pasek",
+      "name": "Kathy Hirsh-Pasek",
+      "identity": "Temple心理学教授、Brookings高级研究员",
+      "bio": [
+        "Temple心理学教授、Brookings高级研究员，关注儿童学习科学。",
+        "公开作品与实践：2021年当选美国National Academy of Education成员；共同创办Learning Science Exchange Fellowship。"
+      ],
+      "contributions": [
+        {
+          "title": "2021年当选美国National Academy of Education成员",
+          "text": "2021年当选美国National Academy of Education成员。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Kathy Hirsh-Pasek：履历／代表作品原始来源",
+            "url": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Kathy Hirsh-Pasek：履历／代表作品原始来源",
+              "url": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "共同创办Learning Science Exchange Fellowship",
+          "text": "共同创办Learning Science Exchange Fellowship。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Kathy Hirsh-Pasek：履历／代表作品原始来源",
+            "url": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Kathy Hirsh-Pasek：履历／代表作品原始来源",
+              "url": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "可帮助区分产品体验与儿童真正的发展收益。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Kathy Hirsh-Pasek：履历／代表作品原始来源",
+          "url": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "共同署名，不能作为其单独受访原话。她任Zero to Three董事，文章已披露关系。"
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Kathy Hirsh-Pasek真实人物照片（具名来源）",
+        "processing": "未下载、未加工",
+        "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/06/pasekk_portrait1.jpg?quality=50&w=343",
+        "publicReuseCleared": false,
+        "rightsStatus": "未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。",
+        "missingReason": "真实照片来源已定位，下载返回HTTP403，未取得可嵌入照片；不使用生成脸"
+      }
+    },
+    {
+      "id": "person-003-jeff-grabill",
+      "name": "Jeff Grabill",
+      "identity": "布法罗大学文理学院院长",
+      "bio": [
+        "布法罗大学文理学院院长，研究与实践高等教育学习设计。",
+        "公开作品与实践：与Sarah Gretter、Erik Skogsberg合著《Design for Change in Higher Education》（2022）。"
+      ],
+      "contributions": [
+        {
+          "title": "与Sarah Gretter、Erik Skogsberg合著《Design for Change in Higher Education》（2022）",
+          "text": "与Sarah Gretter、Erik Skogsberg合著《Design for Change in Higher Education》（2022）。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Jeff Grabill：履历／代表作品原始来源",
+            "url": "https://press.jhu.edu/newsroom/design-change-higher-education",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Jeff Grabill：履历／代表作品原始来源",
+              "url": "https://press.jhu.edu/newsroom/design-change-higher-education",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Jeff Grabill：履历／代表作品原始来源",
+              "url": "https://arts-sciences.buffalo.edu/college/about-the-college/college-stories.host.html/content/shared/university/news/ub-reporter-articles/stories/2025/08/qa-jeff-grabill.detail.html",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "将AI教育的重点从购买应用推进到大学的公共职责。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Jeff Grabill：履历／代表作品原始来源",
+          "url": "https://press.jhu.edu/newsroom/design-change-higher-education",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        },
+        {
+          "title": "Jeff Grabill：履历／代表作品原始来源",
+          "url": "https://arts-sciences.buffalo.edu/college/about-the-college/college-stories.host.html/content/shared/university/news/ub-reporter-articles/stories/2025/08/qa-jeff-grabill.detail.html",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "10月16日是校方报道发表日；声明源于6月峰会，不能写成10月新举办峰会。书籍署名是共同作者。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-003-jeff-grabill.jpg",
+        "sourcePage": "https://www.buffalo.edu/news/news-releases.host.html/content/shared/university/news/ub-reporter-articles/stories/2026/10/AI-Buffalo-Statement.detail.html",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Jeff Grabill真实人物照片（具名来源）",
+        "processing": "等比例缩小至最长边300px；JPEG压缩；未生成或修饰人脸",
+        "imageUrl": "https://www.buffalo.edu/content/shared/university/news/ub-reporter-articles/stories/2026/10/AI-Buffalo-Statement/_jcr_content/par/assetcolumn/assets/image.img.140.180.jpg/1792067603045.jpg",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示低分辨率来源图；公开复用许可未确认",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。"
+      }
+    },
+    {
+      "id": "person-003-venu-govindaraju",
+      "name": "Venu Govindaraju",
+      "identity": "布法罗大学科研、创新及经济发展高级副校长、首席AI官",
+      "bio": [
+        "布法罗大学科研、创新及经济发展高级副校长、首席AI官，模式识别研究者。",
+        "公开作品与实践：2009年成为ACM Fellow；2010年获IEEE Technical Achievement Award，表彰手写识别贡献。"
+      ],
+      "contributions": [
+        {
+          "title": "2009年成为ACM Fellow",
+          "text": "2009年成为ACM Fellow。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Venu Govindaraju：履历／代表作品原始来源",
+            "url": "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Venu Govindaraju：履历／代表作品原始来源",
+              "url": "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "2010年获IEEE Technical Achievement Award，表彰手写识别贡献",
+          "text": "2010年获IEEE Technical Achievement Award，表彰手写识别贡献。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Venu Govindaraju：履历／代表作品原始来源",
+            "url": "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Venu Govindaraju：履历／代表作品原始来源",
+              "url": "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "同时理解AI技术与大学治理，可观察公共算力如何服务教育。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Venu Govindaraju：履历／代表作品原始来源",
+          "url": "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "机构原始引述；不是研究结果。学校五十年AI历史不能当成他的个人成就。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-003-venu-govindaraju.jpg",
+        "sourcePage": "https://www.buffalo.edu/research/about-ried/our-team/venu-govindaraju.html",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Venu Govindaraju真实人物照片（具名来源）",
+        "processing": "等比例缩小至最长边300px；JPEG压缩；未生成或修饰人脸",
+        "imageUrl": "https://www.buffalo.edu/content/shared/www/research/venu-news-articles/Empire-AI-is-already-making-rapid-progress-in-drug-discovery/_jcr_content/par/image_2118092383_cop_1745927290.img.447.auto.jpg/1782746107465.jpg",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示低分辨率来源图；公开复用许可未确认",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。"
+      }
+    },
+    {
+      "id": "person-003-leon-furze",
+      "name": "Leon Furze",
+      "identity": "教育顾问、作者",
+      "bio": [
+        "教育顾问、作者，研究生成式AI与写作教学。",
+        "公开作品与实践：出版《Practical AI Strategies》（2024）；参与AI Assessment Scale共同研究。"
+      ],
+      "contributions": [
+        {
+          "title": "出版《Practical AI Strategies》（2024）",
+          "text": "出版《Practical AI Strategies》（2024）。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Leon Furze：履历／代表作品原始来源",
+            "url": "https://leonfurze.com/about/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Leon Furze：履历／代表作品原始来源",
+              "url": "https://leonfurze.com/about/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Leon Furze：履历／代表作品原始来源",
+              "url": "https://leonfurze.com/2025/08/18/five-principles-for-rethinking-assessment-with-gen-ai/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Leon Furze：履历／代表作品原始来源",
+              "url": "https://leonfurze.com/publications/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "参与AI Assessment Scale共同研究",
+          "text": "参与AI Assessment Scale共同研究。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Leon Furze：履历／代表作品原始来源",
+            "url": "https://leonfurze.com/about/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Leon Furze：履历／代表作品原始来源",
+              "url": "https://leonfurze.com/about/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Leon Furze：履历／代表作品原始来源",
+              "url": "https://leonfurze.com/2025/08/18/five-principles-for-rethinking-assessment-with-gen-ai/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Leon Furze：履历／代表作品原始来源",
+              "url": "https://leonfurze.com/publications/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "擅长把评估、写作和治理问题联在一起，也愿意批评AI应用假设。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Leon Furze：履历／代表作品原始来源",
+          "url": "https://leonfurze.com/about/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        },
+        {
+          "title": "Leon Furze：履历／代表作品原始来源",
+          "url": "https://leonfurze.com/2025/08/18/five-principles-for-rethinking-assessment-with-gen-ai/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        },
+        {
+          "title": "Leon Furze：履历／代表作品原始来源",
+          "url": "https://leonfurze.com/publications/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "个人评论，技术演进判断并非学校学习效果证据。首页记录10月18日更新；文章标注首发10月16日。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-002-leon-furze.jpg",
+        "sourcePage": "https://leonfurze.com/about/",
+        "credit": "来源：Leon Furze本人网站，摄影署名未注明",
+        "alt": "Leon Furze真实照片，来源机构或本人资料页",
+        "processing": "等比例缩小至最长边300px；JPEG压缩；无AI生成或身份修饰",
+        "imageUrl": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2022/06/facetune_24-06-2022-18-39-23.jpg?resize=300%2C300&ssl=1",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示既有低分辨率来源图；公开复用许可未确认",
+        "displayContext": "私人预览人物背景介绍；不表示本人或机构背书。"
+      }
+    },
+    {
+      "id": "person-003-lisa-clark",
+      "name": "Lisa A. Clark",
+      "identity": "Blackboard学术转型助理副总裁",
+      "bio": [
+        "Blackboard学术转型助理副总裁，关注AI时代的学习评估。",
+        "公开作品与实践：提出Transform Evidence Arc（TEA）学习证据框架；撰写《Reframing Bloom’s for the Age of AI》白皮书。"
+      ],
+      "contributions": [
+        {
+          "title": "提出Transform Evidence Arc（TEA）学习证据框架",
+          "text": "提出Transform Evidence Arc（TEA）学习证据框架。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Lisa A. Clark：履历／代表作品原始来源",
+            "url": "https://www.blackboard.com/blog/beyond-ai-detection",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Lisa A. Clark：履历／代表作品原始来源",
+              "url": "https://www.blackboard.com/blog/beyond-ai-detection",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Lisa A. Clark：履历／代表作品原始来源",
+              "url": "https://www.blackboard.com/blog/blooms-taxonomy-ai-transform-evidence-arc",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "撰写《Reframing Bloom’s for the Age of AI》白皮书",
+          "text": "撰写《Reframing Bloom’s for the Age of AI》白皮书。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Lisa A. Clark：履历／代表作品原始来源",
+            "url": "https://www.blackboard.com/blog/beyond-ai-detection",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Lisa A. Clark：履历／代表作品原始来源",
+              "url": "https://www.blackboard.com/blog/beyond-ai-detection",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Lisa A. Clark：履历／代表作品原始来源",
+              "url": "https://www.blackboard.com/blog/blooms-taxonomy-ai-transform-evidence-arc",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "提供从终稿查AI转向学习过程证据的具体视角。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Lisa A. Clark：履历／代表作品原始来源",
+          "url": "https://www.blackboard.com/blog/beyond-ai-detection",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        },
+        {
+          "title": "Lisa A. Clark：履历／代表作品原始来源",
+          "url": "https://www.blackboard.com/blog/blooms-taxonomy-ai-transform-evidence-arc",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "文章同时推介Blackboard/Cursive，存在商业立场；TEA是作者提出的框架，不应描述为已验证有效的统一标准。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-003-lisa-clark.jpg",
+        "sourcePage": "https://www.blackboard.com/blog/beyond-ai-detection",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Lisa A. Clark真实人物照片（具名来源）",
+        "processing": "等比例缩小至最长边300px；JPEG压缩；未生成或修饰人脸",
+        "imageUrl": "https://backstage.blackboard.com/sites/default/files/migrated/2023-10/lisa-clark-headshot.png?q=75&w=256",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示低分辨率来源图；公开复用许可未确认",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。"
+      }
+    },
+    {
+      "id": "person-003-dan-fitzpatrick",
+      "name": "Dan Fitzpatrick",
+      "identity": "AI教育作者、顾问",
+      "bio": [
+        "AI教育作者、顾问，创办The AI Educator与工具目录。",
+        "公开作品与实践：与Amanda Fox、Brad Weinstein合著《The AI Classroom》；著有《Infinite Education》。"
+      ],
+      "contributions": [
+        {
+          "title": "与Amanda Fox、Brad Weinstein合著《The AI Classroom》",
+          "text": "与Amanda Fox、Brad Weinstein合著《The AI Classroom》。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+              "url": "https://blog.theaieducator.io/about",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "著有《Infinite Education》",
+          "text": "著有《Infinite Education》。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+              "url": "https://blog.theaieducator.io/about",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "把AI治理压缩成教务与技术团队可执行的检查问题。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+          "url": "https://theaieducator.io/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        },
+        {
+          "title": "Dan Fitzpatrick：履历／代表作品原始来源",
+          "url": "https://blog.theaieducator.io/about",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "五问是作者编辑判断，非法律标准；文内部分产品依据来自2024年公告，不能当作2026全部产品的现行结论。只采用治理方法，不转述其工具条款表。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-dan-fitzpatrick.jpg",
+        "sourcePage": "https://www.theaiclassroom.net/",
+        "credit": "来源：The AI Classroom 官方团队页；页面未注明摄影者",
+        "alt": "Dan Fitzpatrick的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示既有低分辨率来源图；公开复用许可未确认",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。"
+      }
+    },
+    {
+      "id": "person-003-amy-allen",
+      "name": "Amy E. Allen",
+      "identity": "Virginia Tech小学教育副教授",
+      "bio": [
+        "Virginia Tech小学教育副教授，研究社会科与历史教学、生成式AI和教师培养。",
+        "公开作品与实践：与David Hicks合著开放教材《Teaching History with Chatty Geeps》；共同编辑《Beyond Single Stories: Changing Narratives for a Changing World》。"
+      ],
+      "contributions": [
+        {
+          "title": "与David Hicks合著开放教材《Teaching History with Chatty Geeps》",
+          "text": "与David Hicks合著开放教材《Teaching History with Chatty Geeps》。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Amy E. Allen：履历／代表作品原始来源",
+            "url": "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Amy E. Allen：履历／代表作品原始来源",
+              "url": "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Amy E. Allen：履历／代表作品原始来源",
+              "url": "https://tpsconsortiumcreatedmaterials.org/organizations/virginia-tech/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "共同编辑《Beyond Single Stories: Changing Narratives for a Changing World》",
+          "text": "共同编辑《Beyond Single Stories: Changing Narratives for a Changing World》。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Amy E. Allen：履历／代表作品原始来源",
+            "url": "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Amy E. Allen：履历／代表作品原始来源",
+              "url": "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            },
+            {
+              "title": "Amy E. Allen：履历／代表作品原始来源",
+              "url": "https://tpsconsortiumcreatedmaterials.org/organizations/virginia-tech/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "将学科思维、史料教学与AI结合，关注教师能否形成自己的教学判断。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Amy E. Allen：履历／代表作品原始来源",
+          "url": "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        },
+        {
+          "title": "Amy E. Allen：履历／代表作品原始来源",
+          "url": "https://tpsconsortiumcreatedmaterials.org/organizations/virginia-tech/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "10月12日为采访报道发表日，工作坊具体日期未确认；为本人实践观点，并非学习效果实验。官方履历后半段含明确幽默夸张，不采纳其明星、格莱美等玩笑内容。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-003-amy-allen.jpg",
+        "sourcePage": "https://liberalarts.vt.edu/departments-and-schools/school-of-education/faculty/amy-allen.html",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Amy E. Allen真实人物照片（具名来源）",
+        "processing": "等比例缩小至最长边300px；JPEG压缩；未生成或修饰人脸",
+        "imageUrl": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/departments-and-schools/school-of-education/faculty/amy-allen/_jcr_content/bio-image.transform/m-medium/image.png",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示低分辨率来源图；公开复用许可未确认",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。"
+      }
+    },
+    {
+      "id": "person-003-rada-stojsin",
+      "name": "Radmila “Rada” Stojsin",
+      "identity": "英语语言文学教师",
+      "bio": [
+        "英语语言文学教师，自2023年任Verbalists青少年语言项目协调员；官方介绍称有十五年以上教学经验。",
+        "公开作品与实践：署名发表本期《Digital Learning and AI: Why the Future of Education Is Not Simply Digital》；公开履历记载在多国从事教学与国际教育工作。"
+      ],
+      "contributions": [
+        {
+          "title": "署名发表本期《Digital Learning and AI: Why the Future of Education Is Not Simply Digital》",
+          "text": "署名发表本期《Digital Learning and AI: Why the Future of Education Is Not Simply Digital》。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Radmila “Rada” Stojsin：履历／代表作品原始来源",
+            "url": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Radmila “Rada” Stojsin：履历／代表作品原始来源",
+              "url": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        },
+        {
+          "title": "公开履历记载在多国从事教学与国际教育工作",
+          "text": "公开履历记载在多国从事教学与国际教育工作。此处记录个人署名成果或公开履历，不将机构成绩归为个人独立成就。",
+          "period": null,
+          "source": {
+            "title": "Radmila “Rada” Stojsin：履历／代表作品原始来源",
+            "url": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-19"
+          },
+          "sources": [
+            {
+              "title": "Radmila “Rada” Stojsin：履历／代表作品原始来源",
+              "url": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-19"
+            }
+          ],
+          "evidenceNote": "作品／公开履历记录，不代表经独立实验验证的教学效果。"
+        }
+      ],
+      "followReason": "提供一线语言教师对认知努力与师生关系的观察。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-19",
+      "profileSources": [
+        {
+          "title": "Radmila “Rada” Stojsin：履历／代表作品原始来源",
+          "url": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-19"
+        }
+      ],
+      "profileCaveats": [
+        "个人实践评论；个人成就证据较弱，只核实公开作品和履历，未找到独立奖项证据。所援引OUP调查的百分比未在本人物卡独立复核，因此不采用。"
+      ],
+      "portrait": {
+        "path": "assets/portraits/person-003-rada-stojsin.jpg",
+        "sourcePage": "https://verbalistseducation.com/digital-learning-ai-future-of-education/",
+        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
+        "alt": "Radmila “Rada” Stojsin真实人物照片（具名来源）",
+        "processing": "等比例缩小至最长边300px；JPEG压缩；未生成或修饰人脸",
+        "imageUrl": "https://i0.wp.com/verbalistseducation.com/wp-content/uploads/2026/10/Radmila-Stojsin-Jezicka-mreza-Verbalisti.jpg?resize=150%2C150&ssl=1",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示低分辨率来源图；公开复用许可未确认",
+        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。"
+      }
     }
   ],
   "schemaVersion": 1,
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-19",
   "publicationStatus": "private-preview"
 }

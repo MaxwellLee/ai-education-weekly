@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "issueId": "003",
+  "verifiedAt": "2026-10-19",
+  "coverageNote": "本期收录5条窗口内一手披露：小学教师应用、高中科普、职业院校平台、校端采购及职教师资研修通知。另保留龙华和龙岗两条旧项目复查。不是全市全区清单；发布、招标、预告与已实施分开。",
+  "items": [
+    {
+      "id": "sz003-01",
+      "districts": [
+        "罗湖"
+      ],
+      "type": "教师AI素养与校本教研",
+      "stage": "10月12日活动已举办",
+      "title": "红岭小学：AI课堂报告要回看视频，不只看参与度",
+      "publishedDate": "2026-10-14",
+      "eventDate": "2026-10-12",
+      "organizations": "深圳市桂园教育集团红岭小学；罗湖区教育科学研究院平台",
+      "peopleCompanies": "郭华；汤菲；徐美美",
+      "summary": "学校发布教师分享会记录，展示罗湖教育云Harness工具和智能研修平台。案例涉及教案、组卷、HTML互动游戏、课堂行为分析；教师提醒，高参与度不能直接证明充分探究。",
+      "relevance": "可借鉴“初次课堂报告—教研修改—二次课堂报告”的验证流程；优先检查学生是否真正理解。",
+      "limits": "学校自述活动与工具能力，未独立验证节省时间或学习提升；“免费开源、隐私可控”等属于原文描述，不能替代安全审查。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 · 2026-10-14",
+          "url": "https://luohuedu.net/news/128018-6-0"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-19",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "003",
+        "firstItemId": "sz003-01",
+        "change": "第003期新收录；非对第002期旧项目覆盖数字的更新。"
+      }
+    },
+    {
+      "id": "sz003-02",
+      "districts": [
+        "原文未明确区属"
+      ],
+      "type": "高中AI科普与大学协同",
+      "stage": "科普讲座已举办",
+      "title": "深圳大学走进深二实：从聊天AI谈到空间感知与社会责任",
+      "publishedDate": "2026-10-14",
+      "eventDate": "2026-10-13",
+      "organizations": "深圳大学；深圳市第二实验学校",
+      "peopleCompanies": "李清泉；校长邓旭",
+      "summary": "李清泉为高一学生讲解泛在感知与时空智能，以交通、巡检等案例说明AI如何理解现实环境，并讨论就业与责任问题。",
+      "relevance": "适合高中AI素养设计：技术原理与现实应用、社会影响并讲；不把AI教育缩为提示词培训。",
+      "limits": "这是一次讲座与校际交流，不是新开长期课程或已验证教学成效；原文未明确活动校区，区属不猜填。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 · 2026-10-14",
+          "url": "https://www.szu.edu.cn/info/1161/21115.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [],
+      "checkedAt": "2026-10-19",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "003",
+        "firstItemId": "sz003-02",
+        "change": "第003期新收录；非对第002期旧项目覆盖数字的更新。"
+      }
+    },
+    {
+      "id": "sz003-03",
+      "districts": [
+        "南山"
+      ],
+      "type": "职业教育智慧教学平台",
+      "stage": "学校披露案例入选及平台使用规模",
+      "title": "深职大：3000余门课程获AI工作台，仍需区分工具配置与学习成效",
+      "publishedDate": "2026-10-16",
+      "eventDate": "具体入选日未披露；10月16日学校报道",
+      "organizations": "深圳职业技术大学",
+      "peopleCompanies": "教育技术与信息中心何晓青；亚非中心",
+      "summary": "学校称“深职i学习”案例入选UNESCO-UNEVOC案例库；平台以课程知识库、知识图谱、智能助教与学伴支持教与学。披露3000余门课程配备AI工作台、500余门生成AI知识库、100余门构建AI知识图谱。",
+      "relevance": "职业教育从通用工具转向课程专属资源，是可追踪的落地路径；下一步关注活跃使用、教师复核与学生任务质量。",
+      "limits": "数量为学校当次自报，配置不等于持续使用；本轮未独立打开UNESCO对应条目核对遴选细则，不把入库当作效果认证。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 · 2026-10-16",
+          "url": "https://www.szpu.edu.cn/info/1092/23800.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "职业教育",
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-19",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "003",
+        "firstItemId": "sz003-03",
+        "change": "第003期新收录；非对第002期旧项目覆盖数字的更新。"
+      }
+    },
+    {
+      "id": "sz003-04",
+      "districts": [
+        "南山"
+      ],
+      "type": "学校AI服务采购",
+      "stage": "公开招标，尚未成交/验收",
+      "title": "深圳湾学校AI智学社区：13.92万元预算采购一年服务",
+      "publishedDate": "2026-10-15",
+      "eventDate": "获取标书：10月15—22日17时；投标截止/开标：10月26日9:30（北京时间）",
+      "organizations": "深圳市南山区深圳湾学校；中国远东国际招标有限公司",
+      "peopleCompanies": "项目编号0722-26FE6880SZF-1；供应商尚未确定",
+      "summary": "公告预算和最高限价均为人民币139,200元；要求合同签订后10个工作日内完成部署，服务期为验收合格后12个月。",
+      "relevance": "提供具体学校端付费结构观察：部署与一年服务结合；待成交和需求文件明确后才能判断功能、覆盖学生及供货方。",
+      "limits": "预算不是成交价、收入或利润；尚未中标不写成已上线。详细用户需求书未获取，不补写模型、设备数或学生名额。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 · 2026-10-15",
+          "url": "https://www.szns.gov.cn/bsfw/ztfw/jypx/tzgg28/zbzbgg/content/post_13021572.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-19",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "003",
+        "firstItemId": "sz003-04",
+        "change": "第003期新收录；非对第002期旧项目覆盖数字的更新。"
+      }
+    },
+    {
+      "id": "sz003-05",
+      "districts": [
+        "南山"
+      ],
+      "type": "职业院校教师继续教育",
+      "stage": "本周发布招生通知；12月拟举办",
+      "title": "深职大发布能力图谱与AI教学研修班，明确线上和线下价格",
+      "publishedDate": "2026-10-16",
+      "eventDate": "拟2026-12-03至12-07；12月1日报名截止",
+      "organizations": "深圳职业技术大学职业教育师资培训中心",
+      "peopleCompanies": "面向职业院校管理人员、专业负责人、教研与骨干教师",
+      "summary": "通知计划在西丽校区开展能力图谱、AI教案、课程助教与教学评价研修。个人线上培训费人民币1,680元，线下2,980元；线下往返交通与食宿另付。",
+      "relevance": "成人和教师培训有明确交付、对象和报价，可与少儿课按不同产品类型观察，不能直接用总价横比。",
+      "limits": "这是计划与公开报价，不是已开班、已收款或实际参训规模；通知要求等12月1日开班通知再买往返车票。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 · 2026-10-16",
+          "url": "https://jpxy.szpu.edu.cn/info/1012/1713.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "职业教育",
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-19",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "003",
+        "firstItemId": "sz003-05",
+        "change": "第003期新收录；非对第002期旧项目覆盖数字的更新。"
+      }
+    },
+    {
+      "id": "sz003-06",
+      "districts": [
+        "龙华"
+      ],
+      "type": "区级AI教育基础设施",
+      "stage": "旧项目跟踪；本期未取得新的可核实进展",
+      "title": "龙华AI支撑底座：10月9日披露继续作为历史基线",
+      "publishedDate": "2026-10-09",
+      "eventDate": "2026-10-09 15:00–16:00",
+      "organizations": "深圳市龙华区人民政府",
+      "peopleCompanies": "副区长马冰",
+      "summary": "10月9日官方政民通访谈介绍“1+N”人工智能建设框架，并称教育领域已打造覆盖管理、教学、评价与心理健康的AI支撑底座，服务管理者、教师、学生和家长。",
+      "relevance": "后续重点查具体学校接入、教师工作流与数据治理，而不只看区域平台名目。",
+      "limits": "政府一手访谈的搜索索引完整相关段落可读；页面直开仅返回动态壳。属官员建设情况陈述，未披露各校清单、使用量或独立成效，也不能把心理健康工具视为临床支持。 本期为检索后保留的历史基线，未获得新的覆盖清单、使用量或独立效果证据。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://www.sz.gov.cn/hdjl/zxft/zqt/fthg/2026/zmt/content/post_13011885.html"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-19",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "002",
+        "firstItemId": "sz002-01",
+        "change": "相对第002期没有已核实新变化；保留原始发布日期和历史口径，不计为本周新增。"
+      }
+    },
+    {
+      "id": "sz003-07",
+      "districts": [
+        "龙岗"
+      ],
+      "type": "区级学校应用",
+      "stage": "旧项目跟踪；本期未取得新的可核实进展",
+      "title": "AI龙老师：保留140校应用基线，不把旧数字写成新扩张",
+      "publishedDate": "2026-09-08",
+      "eventDate": "2026-09-04调研",
+      "organizations": "龙岗区；悦澜山实验小学",
+      "peopleCompanies": "AI龙老师项目；原文未明确商业供应商归属",
+      "summary": "政府原文记录AI龙老师专属模型在140所学校开启应用，并展示课堂反馈、AI智习室和墨水屏学伴等。",
+      "relevance": "下一步需追踪实际活跃使用、教师体验和学业评价变化。",
+      "limits": "本周复查未取得新增覆盖或效果数据；140校仍是9月8日披露的历史口径。开启应用不等于持续使用或学习增益。 本期为检索后保留的历史基线，未获得新的覆盖清单、使用量或独立效果证据。",
+      "sources": [
+        {
+          "label": "政府 / 学校一手来源 ↗",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12971406.html"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "checkedAt": "2026-10-19",
+      "relatedGlobalIds": [],
+      "followUp": {
+        "firstIssueId": "002",
+        "firstItemId": "sz002-04",
+        "change": "相对第002期没有已核实新变化；保留原始发布日期和历史口径，不计为本周新增。"
+      },
+      "priorIssue": "001",
+      "priorItemId": "sz004"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]; S=ROOT/'src'; sys.path.insert(0,str(S)
 raw=(S/'index.html').read_text(); full=H.fromstring(raw)
 manifest=json.loads((S/'data/issues.json').read_text()); latest=manifest['latestIssueId']; issues={i['id']:json.loads((S/'data'/i['file']).read_text()) for i in manifest['issues']}
 ideas=json.loads((S/'data/ideas.json').read_text())['items']; profiles={p['id']:p for p in json.loads((S/'data/people.json').read_text())['items']}
-assert latest=='002' and set(issues)=={'001','002'}
+assert latest=='003' and set(issues)=={'001','002','003'}
 assert len({x['id'] for x in ideas})==len(ideas)
 assert len([x for x in ideas if x['firstIssue']==latest])>=10
 assert all(x['firstIssue'] in issues for x in ideas)

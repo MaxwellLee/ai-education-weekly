@@ -1,0 +1,941 @@
+{
+  "schemaVersion": 2,
+  "categoryOrder": [
+    "图像设计",
+    "故事视频",
+    "音乐声音",
+    "互动游戏",
+    "Agent自动化",
+    "个性化体验",
+    "教学应用"
+  ],
+  "educationLevelOrder": [
+    "学前教育",
+    "小学教育",
+    "初中教育",
+    "高中阶段教育",
+    "高等教育"
+  ],
+  "audienceTypeOrder": [
+    "职业教育",
+    "成人与继续教育",
+    "教育工作者"
+  ],
+  "scopeTagOrder": [
+    "跨学段",
+    "未限定"
+  ],
+  "asOf": "2026-10-19",
+  "cutoff": "2026-10-19T09:00:00+08:00",
+  "title": "有趣实用AI创意精选",
+  "editorialNote": "第003期新增11项，1项本周发布与10项历史灵感。与既有27项去重；全部未实测。原始日期、首次收录和核验日期分别记录。",
+  "imageRightsNote": "11项均有已核验原作缩略图与来源；媒体公开复用许可未确认，不能把代码许可当作图片授权。",
+  "items": [
+    {
+      "id": "scroobly",
+      "title": "让自己画的小怪兽跟着身体动",
+      "category": "故事视频",
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "date": "2020-12",
+      "originalDate": "2020-12",
+      "dateNote": "原始来源仅精确到月份，未补造具体日期。",
+      "firstSeen": "2026-10-19",
+      "author": "Google Partner Innovation 与 bit.studio",
+      "summary": "官方完成了将手绘角色绑定实时脸部与身体动作的网页实验，原作示例展示不同涂鸦角色。",
+      "play": "先画一个四肢清楚的小怪兽，再用动作赋予它性格。",
+      "tools": [
+        "TensorFlow.js",
+        "Facemesh",
+        "PoseNet",
+        "Scroobly"
+      ],
+      "reproduce": "用成人自己的摄像头画面体验；画简单角色，分别测试挥手、侧身与遮挡，记录追踪失败的动作。",
+      "education": "用同一个动作演绎不同角色，讨论动作设计与角色性格；教师展示即可，不要求学生上传面部数据。",
+      "limits": "浏览器兼容性和当前服务可用性未运行核验；摄像头使用须先征得当事人同意。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://experiments.withgoogle.com/scroobly"
+        }
+      ],
+      "image": {
+        "url": "https://lh3.googleusercontent.com/HagxK4jiwVX6zijaWeGsHjUzs8XlRWwbG6V-8ZB8Lal4wTwWFjF4ST6yKauZA0165nhCTfRMJaYKn_lapuZS9Cftb15-ZauriyZwHZNAEBWU",
+        "localPath": "assets/creative-scroobly.jpg",
+        "relativePath": "assets/creative-scroobly.jpg",
+        "alt": "官方涂鸦角色与手机界面示例",
+        "credit": "Google Partner Innovation 与 bit.studio；原作/官方展示素材",
+        "sourcePage": "https://experiments.withgoogle.com/scroobly",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "故事视频",
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "先画一个四肢清楚的小怪兽，再用动作赋予它性格。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "giga-manga",
+      "title": "几笔草图变成漫画人物，再反查相似馆藏",
+      "category": "图像设计",
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "date": "2022-03",
+      "originalDate": "2022-03",
+      "dateNote": "原始来源仅精确到月份，未补造具体日期。",
+      "firstSeen": "2026-10-19",
+      "author": "Gael Hugo、Caroline Buttet / Google Arts & Culture Lab",
+      "summary": "官方项目展示了漫画草图的补全、上色和相似作品检索，示例图保留了从线稿到上色的人物变化。",
+      "play": "把生成当作构图搭档，保留自己的线条选择。",
+      "tools": [
+        "Giga Manga",
+        "Adeleine",
+        "CLIP",
+        "OpenCV",
+        "ANNOY"
+      ],
+      "reproduce": "从半张脸和头发轮廓开始，只改一种色块；保留输入、机器补全和人工修改三版。",
+      "education": "比较角色特征由谁决定，让学生标出人工创作与模型建议，并检查相似馆藏的来源。",
+      "limits": "在线可用性未实测；模型补全不是原创性或版权保证，示例漫画图公开复用许可未确认。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://experiments.withgoogle.com/giga-manga"
+        }
+      ],
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-experiments.appspot.com/9349-GIGA_MANGA_FINAL%20%282%29.png",
+        "localPath": "assets/creative-giga-manga.jpg",
+        "relativePath": "assets/creative-giga-manga.jpg",
+        "alt": "官方漫画线稿与彩色补全示例",
+        "credit": "Gael Hugo、Caroline Buttet / Google Arts & Culture Lab；原作/官方展示素材",
+        "sourcePage": "https://experiments.withgoogle.com/giga-manga",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "图像设计",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "把生成当作构图搭档，保留自己的线条选择。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "teachable-snake",
+      "title": "一张纸箭头，变成贪吃蛇的遥控器",
+      "category": "互动游戏",
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "date": "2019-06",
+      "originalDate": "2019-06",
+      "dateNote": "原始来源仅精确到月份，未补造具体日期。",
+      "firstSeen": "2026-10-19",
+      "author": "Vince MingPu Shao",
+      "summary": "作者完成网页贪吃蛇，用纸上黑箭头的朝向控制移动；原作说明每个方向用500张照片训练。",
+      "play": "把手柄换成能看懂的纸，再检查误识别。",
+      "tools": [
+        "Teachable Machine 2 测试版",
+        "React.js",
+        "摄像头"
+      ],
+      "reproduce": "先看作者代码和演示；新做版本时训练上、下、左、右四类纸箭头，把预测结果映射为游戏方向，并加置信度门槛。",
+      "education": "比较光线、背景与手持角度对识别的影响；设置独立测试集，避免只测训练照片。",
+      "limits": "历史测试版接口可能失效；重建需要替换现行接口，本刊未运行。不要把摄像头对准无关人员。",
+      "difficulty": "分层",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://experiments.withgoogle.com/teachable-snake"
+        }
+      ],
+      "image": {
+        "url": "https://lh3.googleusercontent.com/tNi4RCWiW1d0mgv2Tp6f7gz0TWxOM1Ro_xX852mXGfbdKISv5KhowyTZ-pXvRuHYNiyI0tdW50n34vvNtkWWcyB6c2_Wcw",
+        "localPath": "assets/creative-teachable-snake.jpg",
+        "relativePath": "assets/creative-teachable-snake.jpg",
+        "alt": "作者纸箭头输入与贪吃蛇游戏界面",
+        "credit": "Vince MingPu Shao；原作/官方展示素材",
+        "sourcePage": "https://experiments.withgoogle.com/teachable-snake",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "把手柄换成能看懂的纸，再检查误识别。"
+      ],
+      "difficultyGroup": "分层",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "move-mirror",
+      "title": "做一个姿势，找到另一张动作相同的照片",
+      "category": "个性化体验",
+      "tags": [
+        "个性化体验",
+        "历史灵感"
+      ],
+      "date": "2018-07",
+      "originalDate": "2018-07",
+      "dateNote": "原始来源仅精确到月份，未补造具体日期。",
+      "firstSeen": "2026-10-19",
+      "author": "Google Creative Lab、PAIR、Research 与 Use All Five",
+      "summary": "完成的实验把摄像头姿势与八万多张图片进行匹配，原作图展示了参与者和匹配照片的姿态对应。",
+      "play": "用身体做搜索词，观察姿态相似与语义相似的差别。",
+      "tools": [
+        "TensorFlow.js",
+        "PoseNet",
+        "Move Mirror 历史代码"
+      ],
+      "reproduce": "原网页已停用；以原作视频分析为先。进阶重建时使用有许可的少量姿态图片，比较归一化骨架距离。",
+      "education": "体育与信息技术课一起设计姿态检索：同样抬手可能是舞蹈或投球，讨论模型没有理解什么。",
+      "limits": "官方明确实验不再运行；这是历史案例与重建思路，不是当前可直接使用的推荐。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://experiments.withgoogle.com/move-mirror"
+        }
+      ],
+      "image": {
+        "url": "https://lh3.googleusercontent.com/9KjKmyybh9Vqs7PzpbDc-hQ57V0CCtJ1gDe7kiSlhYXBHMLV9WdYignZZYVF9EbsCwlf9N2BjYLeAjlVYc9ZRMLDOmx_L78",
+        "localPath": "assets/creative-move-mirror.jpg",
+        "relativePath": "assets/creative-move-mirror.jpg",
+        "alt": "原作姿态检测骨架与匹配照片",
+        "credit": "Google Creative Lab、PAIR、Research 与 Use All Five；原作/官方展示素材",
+        "sourcePage": "https://experiments.withgoogle.com/move-mirror",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "个性化体验",
+        "互动游戏",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者",
+        "职业教育"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "用身体做搜索词，观察姿态相似与语义相似的差别。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "infinite-herbarium",
+      "title": "把两株植物变成一段不存在的植物生长影像",
+      "category": "图像设计",
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "date": "2021-04",
+      "originalDate": "2021-04",
+      "dateNote": "艺术家确认互动项目2021年4月上线；Experiments目录标注2021年6月，Google介绍发表于2021年7月1日，分别保留，不混作同一日期。",
+      "firstSeen": "2026-10-19",
+      "author": "Caroline Rothwell 与 Google Creative Lab；声音 Theodore Wohng",
+      "summary": "Rothwell将混合植物影像做成六通道艺术装置，并在2021年澳大利亚当代艺术博物馆和悉尼皇家植物园展示。观众曾能拍两株植物生成自己的混合影像。",
+      "play": "把真实观察和虚构植物分开标注，再比较形态。",
+      "tools": [
+        "Infinite Herbarium",
+        "植物分类模型",
+        "生成式机器学习",
+        "Biodiversity Heritage Library 图谱"
+      ],
+      "reproduce": "先观看艺术家原作；课堂只使用获准拍摄的植物图或已核实许可的植物图谱，设计叶形、花序等混合规则，制作一张明确标注虚构的作品。",
+      "education": "融合美术与生物：找出生成植物不符合真实植物结构的地方，不能把生成图当物种记录。",
+      "limits": "艺术家说明互动服务仅在2021年4月至2023年8月运行；当前只作为历史艺术案例。",
+      "difficulty": "分层",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://carolinerothwell.com/public-projects/"
+        },
+        {
+          "label": "官方2021年7月介绍与展出记录",
+          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/infinite-herbarium/"
+        },
+        {
+          "label": "官方实验页与停用说明",
+          "url": "https://experiments.withgoogle.com/infinite-herbarium"
+        }
+      ],
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-experiments.appspot.com/1286-chrome-store_morph.gif",
+        "localPath": "assets/creative-infinite-herbarium.jpg",
+        "relativePath": "assets/creative-infinite-herbarium.jpg",
+        "alt": "官方混合植物影像截图",
+        "credit": "Caroline Rothwell 与 Google Creative Lab；声音 Theodore Wohng；原作/官方展示素材",
+        "sourcePage": "https://experiments.withgoogle.com/infinite-herbarium",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "图像设计",
+        "故事视频",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "把真实观察和虚构植物分开标注，再比较形态。"
+      ],
+      "difficultyGroup": "分层",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "neuralcandy",
+      "title": "识别对了才发糖：做一个有实体反馈的小游戏",
+      "category": "互动游戏",
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "date": "2019-06",
+      "originalDate": "2019-06",
+      "dateNote": "原始来源仅精确到月份，未补造具体日期。",
+      "firstSeen": "2026-10-19",
+      "author": "Al Bencomo",
+      "summary": "作者搭建了实体糖果机：屏幕提出图像类别，摄像头识别匹配后，电机转动发出奖励。演示画面可见设备和图像输入。",
+      "play": "把识别、判断、执行拆开，就能看懂自动化。",
+      "tools": [
+        "TensorFlow Lite",
+        "ImageNet 分类模型",
+        "Raspberry Pi 3 Model B",
+        "Android Things",
+        "电机与摄像头"
+      ],
+      "reproduce": "先看原作视频与电路代码；课堂重建可用屏幕亮灯代替食物与电机，输入匹配才触发反馈，记录误报。",
+      "education": "画出感知—判断—执行流程；讨论这类分类自动化与能规划多步任务的LLM Agent有什么不同。",
+      "limits": "不是自主规划Agent；Android Things是历史平台，硬件需成人监督。不要直接用未经检查的机器分发食品。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://experiments.withgoogle.com/neuralcandy"
+        }
+      ],
+      "image": {
+        "url": "https://lh3.googleusercontent.com/0Nhq0yX1TiDntpgLWWKscGonWboUnVaNicvulp0a5hdhnIbRGGTDDGO_4410mO1Gx1-Aj7hqamgnUw0CE3acoGiv-lyE",
+        "localPath": "assets/creative-neuralcandy.jpg",
+        "relativePath": "assets/creative-neuralcandy.jpg",
+        "alt": "作者实体糖果机识别演示",
+        "credit": "Al Bencomo；原作/官方展示素材",
+        "sourcePage": "https://experiments.withgoogle.com/neuralcandy",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "互动游戏",
+        "Agent自动化",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者",
+        "职业教育"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "把识别、判断、执行拆开，就能看懂自动化。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "lofi-player",
+      "title": "把房间里的电视和收音机变成作曲旋钮",
+      "category": "音乐声音",
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "date": "2020-09-01",
+      "originalDate": "2020-09-01",
+      "dateNote": "原作公开日期；首次收录与核验日期另列。",
+      "firstSeen": "2026-10-19",
+      "author": "Vibert Thio / Magenta；Douglas Eck 合作指导",
+      "summary": "作者完成像素房间式音乐实验：电视混合旋律，收音机生成旋律，窗外景色与背景声一起变化；另做过观众通过聊天参与的直播。",
+      "play": "把旋律参数藏进熟悉的家具，降低创作门槛。",
+      "tools": [
+        "Magenta.js",
+        "MusicVAE",
+        "MelodyRNN",
+        "Lo-Fi Player"
+      ],
+      "reproduce": "打开项目并逐件点选物品，固定节奏只改旋律；保存自己的参数记录，比较两种房间情绪。",
+      "education": "讨论交互设计如何让抽象参数更易理解；用音乐元素描述差别，而不是只说好听。",
+      "limits": "当前运行和分享功能未实测；文章明确日落动图由Sheena Tiong授权给该项目，不等于授权本刊复用。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://magenta.withgoogle.com/lofi-player"
+        }
+      ],
+      "image": {
+        "url": "https://magenta.withgoogle.com/assets/lofi-player/start.png",
+        "localPath": "assets/creative-lofi-player.jpg",
+        "relativePath": "assets/creative-lofi-player.jpg",
+        "alt": "作者像素房间音乐界面",
+        "credit": "Vibert Thio / Magenta；Douglas Eck 合作指导；原作/官方展示素材",
+        "sourcePage": "https://magenta.withgoogle.com/lofi-player",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。 原文明确日落动画由Sheena Tiong制作并授权项目，其余美术由Vibert创作；没有确认对本刊的媒体转载授权。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "音乐声音",
+        "个性化体验",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "把旋律参数藏进熟悉的家具，降低创作门槛。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "tone-transfer",
+      "title": "把一声哼唱变成长笛，保留自己的旋律",
+      "category": "音乐声音",
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "date": "2020-10-01",
+      "originalDate": "2020-10-01",
+      "dateNote": "原作公开日期；首次收录与核验日期另列。",
+      "firstSeen": "2026-10-19",
+      "author": "Google Magenta 与 AIUX；Hanoi Hantrakul 等",
+      "summary": "团队完成浏览器音色转换实验，将录音重绘为长笛、萨克斯等乐器；官方示例图展示长笛转换轨迹。",
+      "play": "保持旋律不变，只替换音色。",
+      "tools": [
+        "Tone Transfer",
+        "DDSP",
+        "TensorFlow.js",
+        "SPICE"
+      ],
+      "reproduce": "优先用内置示例音频；对比原声与两种乐器转换，记录音高、响度和气息感的变化，再尝试自己授权的一段单音哼唱。",
+      "education": "把音高、节奏与音色分开讲；观察有噪声或复音输入时输出是否改变音乐内容。",
+      "limits": "本刊未上传或录制声音；当前服务未实测。不要提交他人的未授权声音，不将结果包装成真人演奏。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://magenta.withgoogle.com/tone-transfer"
+        }
+      ],
+      "image": {
+        "url": "https://magenta.withgoogle.com/assets/tone-transfer/ToneTransfer_models.gif",
+        "localPath": "assets/creative-tone-transfer.jpg",
+        "relativePath": "assets/creative-tone-transfer.jpg",
+        "alt": "官方长笛音色转换界面与轨迹",
+        "credit": "Google Magenta 与 AIUX；Hanoi Hantrakul 等；原作/官方展示素材",
+        "sourcePage": "https://magenta.withgoogle.com/tone-transfer",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "音乐声音",
+        "个性化体验",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "保持旋律不变，只替换音色。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "art-selfie-2",
+      "title": "让自拍进入艺术场景，再追问场景的文化来源",
+      "category": "图像设计",
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "date": "2024-01-24",
+      "originalDate": "2024-01-24",
+      "dateNote": "原作公开日期；首次收录与核验日期另列。",
+      "firstSeen": "2026-10-19",
+      "author": "Google Arts & Culture 艺术家驻留项目；Joe Shepherd 发布介绍",
+      "summary": "官方完成自拍周围场景的生成式改造，示例包括艺术、历史和旅行风格；结果旁连接文化知识与馆藏故事。",
+      "play": "把风格体验当作查资料的起点。",
+      "tools": [
+        "Google Arts & Culture",
+        "Art Selfie 2"
+      ],
+      "reproduce": "教师先展示官方例图；若个人体验，只用自己同意处理的照片，选一个风格，再打开关联文化资料核对服装与场景。",
+      "education": "比较生成的历史视觉印象与博物馆实物证据；不把合成图当历史照片。",
+      "limits": "涉及人脸与隐私；不要求未成年人上传自拍。地区、年龄、当前功能可用性与数据条款需使用前另核对。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/art-selfie-is-back-this-time-with-generative-ai/"
+        }
+      ],
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AS2_-_YT_Thumbnail_3_2.width-1300.png",
+        "localPath": "assets/creative-art-selfie-2.jpg",
+        "relativePath": "assets/creative-art-selfie-2.jpg",
+        "alt": "官方Art Selfie 2艺术风格输出与界面",
+        "credit": "Google Arts & Culture 艺术家驻留项目；Joe Shepherd 发布介绍；原作/官方展示素材",
+        "sourcePage": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/art-selfie-is-back-this-time-with-generative-ai/",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "图像设计",
+        "个性化体验",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "把风格体验当作查资料的起点。"
+      ],
+      "difficultyGroup": "入门",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "smallville",
+      "title": "给虚拟居民一段记忆，看小镇如何约成一场聚会",
+      "category": "Agent自动化",
+      "tags": [
+        "Agent自动化",
+        "历史灵感"
+      ],
+      "date": "2023-04-07",
+      "originalDate": "2023-04-07",
+      "dateNote": "原作公开日期；首次收录与核验日期另列。",
+      "firstSeen": "2026-10-19",
+      "author": "Joon Sung Park、Joseph C. O’Brien、Carrie J. Cai、Meredith Ringel Morris、Percy Liang、Michael S. Bernstein",
+      "summary": "研究团队实现25名生成式角色的小镇模拟；角色通过记忆、反思与计划互动。论文记录了以一名角色聚会意图为种子的信息传播和协调行为。",
+      "play": "先看已有回放，再改一条记忆，观察故事是否改变。",
+      "tools": [
+        "Generative Agents",
+        "LLM API",
+        "Python",
+        "Django",
+        "Tiled"
+      ],
+      "reproduce": "优先播放仓库预先生成的三角色样例；进阶再建立本地环境，改一个角色的初始记忆，记录行动与失败，控制API预算。",
+      "education": "用于信息技术和叙事设计课：区分人工设定、模型生成和实际观察，不把模拟居民当真实人类行为证据。",
+      "limits": "旧版依赖/API可能需适配；运行可能收费。代码Apache-2.0不自动证明所有角色、地图和输出图素材可转载。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://github.com/joonspk-research/generative_agents"
+        },
+        {
+          "label": "原论文首次提交时间与研究结果",
+          "url": "https://arxiv.org/abs/2304.03442"
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/joonspk-research/generative_agents/main/cover.png",
+        "localPath": "assets/creative-smallville.jpg",
+        "relativePath": "assets/creative-smallville.jpg",
+        "alt": "作者小镇地图与角色互动输出总览",
+        "credit": "Joon Sung Park、Joseph C. O’Brien、Carrie J. Cai、Meredith Ringel Morris、Percy Liang、Michael S. Bernstein；原作/官方展示素材",
+        "sourcePage": "https://github.com/joonspk-research/generative_agents",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": "https://github.com/joonspk-research/generative_agents/blob/main/LICENSE",
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。 仓库Apache-2.0已核实，但README另列PixyMoon、LimeZu、ぴぽ的游戏资产，未确认封面中全部第三方素材授权范围。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "历史灵感",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "Agent自动化",
+        "互动游戏",
+        "故事视频",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者",
+        "职业教育"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "先看已有回放，再改一条记忆，观察故事是否改变。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    },
+    {
+      "id": "kandinsky-s2v",
+      "title": "让一张卡通角色图跟着旁白说话",
+      "category": "故事视频",
+      "tags": [
+        "故事视频",
+        "本周发布"
+      ],
+      "date": "2026-10-14",
+      "originalDate": "2026-10-14",
+      "dateNote": "arXiv首次提交为2026-10-13 23:11:39 UTC，对应北京时间2026-10-14 07:11:39；本周范围内。",
+      "firstSeen": "2026-10-19",
+      "author": "Nikolay Semenov、Artem Riabinin 等 / Kandinsky Lab",
+      "summary": "本周论文配套项目展示了语音驱动视频；其中卡通与动物分区提供20.7秒官方成片，可直接对照嘴形、表情和手势与音频的关系。",
+      "play": "用虚构角色和授权旁白做短片，逐句检查口型。",
+      "tools": [
+        "Kandinsky S2V 1.0",
+        "参考图",
+        "语音",
+        "文本提示"
+      ],
+      "reproduce": "先观看官方卡通示例；若代码和权重确实可用，再用自创角色与自己的十秒旁白测试，标明AI合成，逐帧检查嘴形和手部。",
+      "education": "语言与媒体课可比较语音节奏和视觉表达；提醒不能克隆同学或教师形象冒充本人。",
+      "limits": "本次官方GitHub链接返回404，不能声称已验证可安装；当前仅核验论文、项目与示例资源，未生成视频。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "作者/官方项目与输出示例",
+          "url": "https://kandinskyavatar.github.io/"
+        },
+        {
+          "label": "论文与首次提交时间",
+          "url": "https://arxiv.org/abs/2610.19290"
+        },
+        {
+          "label": "官方20.7秒卡通示例成片",
+          "url": "https://kandinskyavatar.github.io/examples/generalizations/50.mp4"
+        }
+      ],
+      "image": {
+        "url": "https://kandinskyavatar.github.io/previews/generalizations/50.jpg",
+        "localPath": "assets/creative-kandinsky-s2v.jpg",
+        "relativePath": "assets/creative-kandinsky-s2v.jpg",
+        "alt": "官方卡通/动物泛化分区20.7秒视频的预览帧",
+        "credit": "Nikolay Semenov、Artem Riabinin 等 / Kandinsky Lab；原作/官方展示素材",
+        "sourcePage": "https://kandinskyavatar.github.io/",
+        "publicReuseCleared": false,
+        "rightsStatus": "未找到该图的明确公开复用许可；不视为已获转载授权。",
+        "licenseName": null,
+        "licenseUrl": null,
+        "permissionEvidence": null,
+        "evidenceNote": "来源页内嵌原作示例或界面，已核对图片内容；非本刊生成或实测。代码许可不自动扩展至媒体素材。 项目称输入为公共领域素材或自有模型输出，并称代码/权重MIT；未明确将最终示例帧以MIT或CC许可发布。",
+        "changes": "仅缩小并转换为JPEG；动图取单帧。",
+        "displayContext": "研究用来源缩略图；公开展示前应单独处理授权，或仅提供来源链接。"
+      },
+      "freshness": "本周发布",
+      "popularity": {
+        "status": "未核验X互动或跨平台热度；不声称本周热门。"
+      },
+      "reproductionStatus": "编辑整理的复现/教学迁移思路，未逐项运行实测。",
+      "lastVerified": "2026-10-19",
+      "categories": [
+        "故事视频",
+        "音乐声音",
+        "教学应用"
+      ],
+      "educationLevels": [
+        "高中阶段教育",
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者",
+        "职业教育"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑教学迁移建议，不代表产品适用年龄、账号资格或学校采购批准。",
+      "firstIssue": "003",
+      "updatedAt": "2026-10-19",
+      "uses": [
+        "用虚构角色和授权旁白做短片，逐句检查口型。"
+      ],
+      "difficultyGroup": "进阶",
+      "ageRestriction": null,
+      "relatedIssues": [
+        "003"
+      ]
+    }
+  ]
+}
