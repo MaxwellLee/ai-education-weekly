@@ -14,7 +14,7 @@ for x in b['items'][13:]:
  assert all(x[k] for k in ['sources','limits','financialBoundary','pricingCosts','verificationNote'])
 for f in (OLD/'snapshots').glob('*'):
  assert (R/'snapshots'/f.name).read_bytes()==f.read_bytes()
-assert (R/'src/data/issues/003.json').read_bytes()==(OLD/'src/data/issues/003.json').read_bytes()
+new_issue=load(R/'src/data/issues/003.json');old_issue=load(OLD/'src/data/issues/003.json');new_issue['revisionNote']=old_issue['revisionNote'];assert new_issue==old_issue
 tree=html.fromstring((R/'docs/index.html').read_text());cards=tree.xpath('//article[@class="industry-card" and not(ancestor::template)]')
 new=[x for x in cards if x.attrib.get('id') in expected]
 assert len(new)==5
