@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 2,
+  "id": "004",
+  "number": 4,
+  "date": "2026-10-26",
+  "title": "让AI走进真实任务：教学证据与硬件创意",
+  "window": {
+    "start": "2026-10-19",
+    "end": "2026-10-28",
+    "note": "10月26日当周补刊；10月29日补发，补齐上期后动态。活动安排、历史资料与新品分开标注。"
+  },
+  "cutoff": "2026-10-28",
+  "revisionNote": "第004期于10月29日补发；核验截至当日。历史001—003保持原样。",
+  "education": {
+    "issue": "004",
+    "cutoff": "2026-10-28",
+    "items": [
+      {
+        "id": "e004-01",
+        "title": "会写提示词，不等于会迭代教案",
+        "date": "2026-10-22",
+        "eventDate": null,
+        "category": "学习科学",
+        "frontierCategory": "技术与研究",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "tags": [
+          "学习科学"
+        ],
+        "summary": "10名师范生接受AI素养培训后，各用Madlen设计3份教案。研究结合访谈、评分量表和聊天记录，发现多数互动仍停在单轮生成，缺少反复修改与批判检查。",
+        "why": "把培训考核从“交出教案”改为“展示修改依据和对话过程”。",
+        "application": "把培训考核从“交出教案”改为“展示修改依据和对话过程”。（编辑建议，未实测）",
+        "limits": "定性小样本；摘要不支持推广到全部教师，也不能据此量化AI的教学收益。研究实施日期未明确，10月22日为发表日。",
+        "sources": [
+          {
+            "label": "IJIET论文摘要",
+            "url": "https://www.ijiet.org/show-245-3417-1.html"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "同行评议期刊／定性案例",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-02",
+        "title": "先独立思考，再借AI练习与反馈",
+        "date": "2026-10-22",
+        "eventDate": null,
+        "category": "学习科学",
+        "frontierCategory": "技术与研究",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "学习科学"
+        ],
+        "summary": "Panayiota Kendeou在大学访谈中强调：AI适合辅助练习、反馈与理解检查；过早替学生总结或解题，会减少必要的思考练习。",
+        "why": "物理课先收学生的受力分析，再允许AI追问；最后用一道无AI迁移题复核。",
+        "application": "物理课先收学生的受力分析，再允许AI追问；最后用一道无AI迁移题复核。（编辑建议，未实测）",
+        "limits": "这是对报告的专家解读，不是本周新开展的干预实验；不能把一般性建议换算为提分幅度。",
+        "sources": [
+          {
+            "label": "明尼苏达大学具名访谈",
+            "url": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "大学具名访谈／专家解读",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-03",
+        "title": "Code Classroom加入积木编辑器：先给创意课打好编程基础",
+        "date": "2026-10-26",
+        "eventDate": null,
+        "category": "课程工具",
+        "frontierCategory": "教学实践",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "课程工具"
+        ],
+        "summary": "基金会宣布Code Classroom加入基于开源Scratch的Blocks编辑器，与Python、网页编辑器放在同一教学平台，并提供班级与作业管理。",
+        "why": "可用来承接AI生成的故事点子，让学生自己实现动画逻辑。",
+        "application": "可用来承接AI生成的故事点子，让学生自己实现动画逻辑。（编辑建议，未实测）",
+        "limits": "这是编程工具更新，不是生成式AI新功能；AI故事迁移为编辑建议。账号资格、国内访问和课堂稳定性未实测。",
+        "sources": [
+          {
+            "label": "Raspberry Pi Foundation发布",
+            "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "开发机构官方发布",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-04",
+        "title": "Ada Computer Science扩展到11—19岁，加入前沿技术学习",
+        "date": "2026-10-21",
+        "eventDate": null,
+        "category": "课程资源",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "tags": [
+          "课程资源"
+        ],
+        "summary": "基金会披露TechFirst合作及Ada平台扩展，新增11—14岁材料；AI等前沿技术内容、项目和挑战将分阶段推进。",
+        "why": "参考“基础计算概念—项目任务—职业场景”的课程递进方式。",
+        "application": "参考“基础计算概念—项目任务—职业场景”的课程递进方式。（编辑建议，未实测）",
+        "limits": "合作方公告；分阶段计划不代表全部材料已经上线。英国项目不能直接推定适配深圳课程与账号条件。",
+        "sources": [
+          {
+            "label": "Raspberry Pi Foundation项目说明",
+            "url": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "项目方公告／分阶段计划",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-05",
+        "title": "AI素养从会使用走向会判断",
+        "date": "2026-10-26",
+        "eventDate": "2026-10-26",
+        "category": "AI素养",
+        "frontierCategory": "政策与评价",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "AI素养"
+        ],
+        "summary": "UNESCO与智利Alberto Hurtado大学的10月26日活动议程，将信息完整性、输出判断和负责任参与列为讨论重点。",
+        "why": "用一条AI解释练习“查原始来源—找遗漏—给出自己的判断”。",
+        "application": "用一条AI解释练习“查原始来源—找遗漏—给出自己的判断”。（编辑建议，未实测）",
+        "limits": "页面是议程，不是会议完成报告或效果评估；不把预定演讲内容写成已发表的现场结论。活动日不等于页面发表日。",
+        "sources": [
+          {
+            "label": "UNESCO活动议程",
+            "url": "https://www.unesco.org/en/articles/critical-literacy-age-artificial-intelligence-understanding-evaluating-and-taking"
+          }
+        ],
+        "freshness": "窗口内活动安排",
+        "evidenceLevel": "国际组织活动议程",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-06",
+        "title": "教学设计师训练：带走作品，也保留迭代过程",
+        "date": "2026-10-19",
+        "eventDate": null,
+        "category": "教师发展",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "tags": [
+          "教师发展"
+        ],
+        "summary": "EDUCAUSE的10月19—28日教学设计课程安排5个模块，最低学习投入约5—6小时；重点包含材料原型、个性化与迭代改进。",
+        "why": "教研团队可以围绕一个真实课时完成原型、审稿和复盘，而非只听工具介绍。",
+        "application": "教研团队可以围绕一个真实课时完成原型、审稿和复盘，而非只听工具介绍。（编辑建议，未实测）",
+        "limits": "课程目标与日程不是学员已经达标的证据；10月28日美国直播时段可能对应北京时间次日。",
+        "sources": [
+          {
+            "label": "EDUCAUSE课程与价格",
+            "url": "https://events.educause.edu/ai-for-instructional-design-collaborating-with-intelligent-systems/2026/online-9"
+          }
+        ],
+        "freshness": "窗口内活动安排",
+        "evidenceLevel": "主办方课程日程",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-07",
+        "title": "十周AI教师培训，把人的检查放进课程进度",
+        "date": "2026-10-05",
+        "eventDate": null,
+        "category": "教师发展",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "tags": [
+          "教师发展"
+        ],
+        "summary": "United Board公布的Ateneo SALT课程为10月5日至12月11日、约30小时；10月19—30日模块安排人机协作与人在环路，后续延伸到教学及评价。",
+        "why": "培训设计可把“教师在哪一步核验”写成每周产出要求。",
+        "application": "培训设计可把“教师在哪一步核验”写成每周产出要求。（编辑建议，未实测）",
+        "limits": "本期持续进行的课程，非本周首次发布；日程可确认安排，不能证明实际完成情况或学习增益。",
+        "sources": [
+          {
+            "label": "United Board课程安排",
+            "url": "https://unitedboard.smapply.io/prog/2026_introduction_to_genai_in_education_by_ateneo_salt_institute/"
+          }
+        ],
+        "freshness": "持续项目 · 背景资料",
+        "evidenceLevel": "主办方课程安排",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": true
+      },
+      {
+        "id": "e004-08",
+        "title": "AI教学工具的下一步：补上效果证据",
+        "date": "2026-10-23",
+        "eventDate": null,
+        "category": "教育评价",
+        "frontierCategory": "政策与评价",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "教育评价"
+        ],
+        "summary": "BU专题关注证据与人际关系。EVAL计划比较AI阅读辅导、无补充教学和真人辅导，报道尚未提供试验结果。",
+        "why": "选工具时同时记录对照方案与独立任务表现。",
+        "application": "选工具时同时记录对照方案与独立任务表现。（编辑建议，未实测）",
+        "limits": "10月23日页面日期优先于搜索摘要；报道回顾3月论坛，不能写成当周新举行。试验计划不等于有效性结论。",
+        "sources": [
+          {
+            "label": "Boston University专题报道",
+            "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "大学专题报道／研究计划",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-09",
+        "title": "学区AI治理让学生与教师共同汇报进度",
+        "date": "2026-10-22",
+        "eventDate": null,
+        "category": "学校治理",
+        "frontierCategory": "政策与评价",
+        "educationLevels": [
+          "高中阶段教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "tags": [
+          "学校治理"
+        ],
+        "summary": "SMUHSD披露10月22日董事会听取AI指导委员会进度，由管理者、教师发展负责人和学生共同汇报，涉及协作原则与下一步安排。",
+        "why": "在机构内邀请教师与学生共同列出允许用AI的任务和需要独立完成的任务。",
+        "application": "在机构内邀请教师与学生共同列出允许用AI的任务和需要独立完成的任务。（编辑建议，未实测）",
+        "limits": "仅核查学区公开说明；未逐帧审看演讲，不能把5月计划全部视为10月已经落实。",
+        "sources": [
+          {
+            "label": "SMUHSD学区10月22日更新",
+            "url": "https://www.smuhsd.org/departments/curriculum-and-assessment/artificial-intelligence-in-education"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "学区一手更新",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-10",
+        "title": "高校AI师资培训覆盖实验教学与伦理风险",
+        "date": "2026-10-23",
+        "eventDate": null,
+        "category": "教师发展",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "tags": [
+          "教师发展"
+        ],
+        "summary": "西南大学转发年度AI赋能高等教育师资培训通知，内容覆盖通识、专业教育、大模型教学、实验改革和伦理风险。",
+        "why": "物理化学教研可把实验数据、模型解释和教师复核组成一个练习单元。",
+        "application": "物理化学教研可把实验数据、模型解释和教师复核组成一个练习单元。（编辑建议，未实测）",
+        "limits": "这是一所高校的转发通知；不能以转发日代替政策原始公布日，也不表示培训已完成。",
+        "sources": [
+          {
+            "label": "西南大学培训转发通知",
+            "url": "https://ugs.swu.edu.cn/info/1012/4616.htm"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "高校官方转发通知",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-11",
+        "title": "深圳龙华：把决策树、绘画迭代和辨伪放进生活任务",
+        "date": "2026-10-23",
+        "eventDate": null,
+        "category": "AI通识",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "小学教育",
+          "初中教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "tags": [
+          "AI通识"
+        ],
+        "summary": "龙华教育局报道4个课例入选市级评审，涉及领养决策树、孙悟空绘画、深度伪造辨识和柑橘疤痕识别。",
+        "why": "先选学生能理解的生活问题，再拆数据、规则、输出与检验。",
+        "application": "先选学生能理解的生活问题，再拆数据、规则、输出与检验。（编辑建议，未实测）",
+        "limits": "入选是课例评审结果，不是学生学习增益；文章未给出每个课例的明确年级，学段标签仅依区域课程说明。",
+        "sources": [
+          {
+            "label": "龙华区教育局课例报道",
+            "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+          }
+        ],
+        "freshness": "观察窗口内发布",
+        "evidenceLevel": "教育局实践报道",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": false
+      },
+      {
+        "id": "e004-12",
+        "title": "硬件专题：让AI从屏幕走到可以观察的实体",
+        "date": "原始发布日期未确认",
+        "eventDate": null,
+        "category": "硬件与课程",
+        "frontierCategory": "技术与研究",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [
+          "未限定"
+        ],
+        "tags": [
+          "硬件与课程"
+        ],
+        "summary": "StackChan官方文档确认其包含触屏、摄像头、麦克风、扬声器与舵机，并提供AI Agent功能。实体交互为“先预测、再观察、再解释”提供了载体。",
+        "why": "从一次固定问题的追问演示起步，记录识别错误与响应延迟；详细改造思路见全部创意。",
+        "application": "从一次固定问题的追问演示起步，记录识别错误与响应延迟；详细改造思路见全部创意。（编辑建议，未实测）",
+        "limits": "本期重新核验现行硬件，不是本周新品。联网服务与课程逻辑需单独配置；本刊未购机实测。",
+        "sources": [
+          {
+            "label": "M5Stack StackChan官方文档",
+            "url": "https://docs.m5stack.com/en/StackChan"
+          }
+        ],
+        "freshness": "现行产品复查 · 非本周新品",
+        "evidenceLevel": "厂商硬件与固件文档",
+        "firstSeen": "2026-10-28",
+        "lastVerified": "2026-10-28",
+        "checkedAt": "2026-10-28",
+        "isBackground": true
+      }
+    ],
+    "summaries": [
+      {
+        "title": "看修改过程，才知道教师是否真会用AI",
+        "summary": "师范生研究发现认知与行为存在落差；培训应留下迭代和核验依据。",
+        "target": "e004-01"
+      },
+      {
+        "title": "深圳课例从真实情境出发",
+        "summary": "决策树、绘画迭代与深度伪造辨识，提供可拆解的课程结构。",
+        "target": "e004-11"
+      },
+      {
+        "title": "给学习保留独立思考",
+        "summary": "将AI练习表现与离开AI后的理解分开检查。",
+        "target": "e004-02"
+      },
+      {
+        "title": "三种AI＋硬件课堂原型",
+        "summary": "桌面机器人、语音记录器、电子墨水卡进入创意库；均注明改造成本与未实测边界。",
+        "target": "e004-12"
+      }
+    ]
+  },
+  "publicFigures": [
+    {
+      "id": "person-004-tj-mckenna",
+      "name": "TJ McKenna",
+      "role": "BU科学教育临床助理教授",
+      "platform": "Boston University专题报道",
+      "title": "把学生的理解过程留在课堂",
+      "date": "2026-10-23",
+      "published_date": "2026-10-23",
+      "event_date": null,
+      "freshness": "窗口内报道 · 具名观点或署名说明",
+      "in_week": true,
+      "summary": "他强调科学学习中的自主理解，关注AI造成的依赖。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "同一篇专题中的具名观点；原文含3月论坛回顾，发言具体时间未单独确认。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "Boston University专题报道",
+          "title": "Boston University专题报道",
+          "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+        }
+      ],
+      "source_url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+    },
+    {
+      "id": "person-004-nermeen-dashoush",
+      "name": "Nermeen Dashoush",
+      "role": "LEGO教育影响负责人；前BU临床副教授",
+      "platform": "Boston University专题报道",
+      "title": "让儿童理解并参与AI创作",
+      "date": "2026-10-23",
+      "published_date": "2026-10-23",
+      "event_date": null,
+      "freshness": "窗口内报道 · 具名观点或署名说明",
+      "in_week": true,
+      "summary": "她主张儿童参与设计，并重视AI素养资源的公平可及。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "同一篇专题中的具名观点；原文含3月论坛回顾，发言具体时间未单独确认。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "Boston University专题报道",
+          "title": "Boston University专题报道",
+          "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+        }
+      ],
+      "source_url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+    },
+    {
+      "id": "person-004-ola-ozernov",
+      "name": "Ola Ozernov-Palchik",
+      "role": "BU研究助理教授、EVAL负责人",
+      "platform": "Boston University专题报道",
+      "title": "用因果证据评估教育工具",
+      "date": "2026-10-23",
+      "published_date": "2026-10-23",
+      "event_date": null,
+      "freshness": "窗口内报道 · 具名观点或署名说明",
+      "in_week": true,
+      "summary": "她主张以严格对照研究判断工具是否改善学习。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "同一篇专题中的具名观点；原文含3月论坛回顾，发言具体时间未单独确认。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "Boston University专题报道",
+          "title": "Boston University专题报道",
+          "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+        }
+      ],
+      "source_url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+    },
+    {
+      "id": "person-004-kendeou",
+      "name": "Panayiota Kendeou",
+      "role": "明尼苏达大学教育心理学教授",
+      "platform": "明尼苏达大学具名访谈",
+      "title": "先思考，再使用AI反馈",
+      "date": "2026-10-22",
+      "published_date": "2026-10-22",
+      "event_date": null,
+      "freshness": "窗口内报道 · 具名观点或署名说明",
+      "in_week": true,
+      "summary": "她建议让AI补充练习和理解检查，保留学生自主思考与同伴交流。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "机构发布或具名反馈；不视为独立学习效果证据。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "明尼苏达大学具名访谈",
+          "title": "明尼苏达大学具名访谈",
+          "url": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota"
+        }
+      ],
+      "source_url": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota"
+    },
+    {
+      "id": "person-004-mel-farrington",
+      "name": "Mel Farrington",
+      "role": "Raspberry Pi Foundation发布文章署名作者",
+      "platform": "Raspberry Pi Foundation发布",
+      "title": "用同一平台衔接多种编程方式",
+      "date": "2026-10-26",
+      "published_date": "2026-10-26",
+      "event_date": null,
+      "freshness": "窗口内报道 · 具名观点或署名说明",
+      "in_week": true,
+      "summary": "署名发布介绍积木、Python和网页编辑器的衔接及课堂管理。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "机构发布或具名反馈；不视为独立学习效果证据。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "Raspberry Pi Foundation发布",
+          "title": "Raspberry Pi Foundation发布",
+          "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+        }
+      ],
+      "source_url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+    },
+    {
+      "id": "person-004-dan-fisher",
+      "name": "Dan Fisher",
+      "role": "Raspberry Pi Foundation项目文章署名作者",
+      "platform": "Raspberry Pi Foundation项目说明",
+      "title": "更早建立前沿技术的学习入口",
+      "date": "2026-10-21",
+      "published_date": "2026-10-21",
+      "event_date": null,
+      "freshness": "窗口内报道 · 具名观点或署名说明",
+      "in_week": true,
+      "summary": "署名文章说明Ada扩展11—14岁材料并分阶段添加前沿技术项目。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "机构发布或具名反馈；不视为独立学习效果证据。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "Raspberry Pi Foundation项目说明",
+          "title": "Raspberry Pi Foundation项目说明",
+          "url": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/"
+        }
+      ],
+      "source_url": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/"
+    },
+    {
+      "id": "person-004-bartholomew-owuor",
+      "name": "Bartholomew Owuor",
+      "role": "肯尼亚Cathsam School计算机教师",
+      "platform": "Raspberry Pi Foundation发布",
+      "title": "积木编程让更多年龄的学生参与",
+      "date": "2026-10-26",
+      "published_date": "2026-10-26",
+      "event_date": null,
+      "freshness": "窗口内报道 · 具名观点或署名说明",
+      "in_week": true,
+      "summary": "他在官方报道中反馈，积木编辑器帮助其扩大教学对象的年龄范围。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "机构发布或具名反馈；不视为独立学习效果证据。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "Raspberry Pi Foundation发布",
+          "title": "Raspberry Pi Foundation发布",
+          "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+        }
+      ],
+      "source_url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+    },
+    {
+      "id": "person-004-xiong-huiliang",
+      "name": "熊辉亮",
+      "role": "深圳龙华AI通识课例教师",
+      "platform": "龙华区教育局课例报道",
+      "title": "从领养情境学习决策树",
+      "date": "2026-10-23",
+      "published_date": "2026-10-23",
+      "event_date": null,
+      "freshness": "窗口内报道 · 课例实践",
+      "in_week": true,
+      "summary": "教育局报道其课例以流浪猫领养任务引导数据分析与决策树测试。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "同一篇教育局报道中的课例实践；不是教师直接引语，未确认具体授课日期。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "龙华区教育局课例报道",
+          "title": "龙华区教育局课例报道",
+          "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+        }
+      ],
+      "source_url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+    },
+    {
+      "id": "person-004-fang-zhuocheng",
+      "name": "房卓成",
+      "role": "深圳龙华AI通识课例教师",
+      "platform": "龙华区教育局课例报道",
+      "title": "把人的创意放在生成与迭代之前",
+      "date": "2026-10-23",
+      "published_date": "2026-10-23",
+      "event_date": null,
+      "freshness": "窗口内报道 · 课例实践",
+      "in_week": true,
+      "summary": "其孙悟空绘画课例串联提示词、生成与修改，强调人主导创意。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "同一篇教育局报道中的课例实践；不是教师直接引语，未确认具体授课日期。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "龙华区教育局课例报道",
+          "title": "龙华区教育局课例报道",
+          "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+        }
+      ],
+      "source_url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+    },
+    {
+      "id": "person-004-chen-zhelin",
+      "name": "陈喆琳",
+      "role": "深圳龙华AI通识课例教师",
+      "platform": "龙华区教育局课例报道",
+      "title": "用辨伪任务理解AI风险",
+      "date": "2026-10-23",
+      "published_date": "2026-10-23",
+      "event_date": null,
+      "freshness": "窗口内报道 · 课例实践",
+      "in_week": true,
+      "summary": "其课例围绕深度伪造图像、声音和视频设置探究活动。",
+      "why": "可用于讨论教师角色、课程任务与验证方式。",
+      "fact_vs_opinion": "采用中文转述；教学建议和使用反馈不等于因果证据。",
+      "caveat": "同一篇教育局报道中的课例实践；不是教师直接引语，未确认具体授课日期。",
+      "verification": "已核对一手机构原文；同源内容不计为多次独立事件。",
+      "sources": [
+        {
+          "label": "龙华区教育局课例报道",
+          "title": "龙华区教育局课例报道",
+          "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+        }
+      ],
+      "source_url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+    }
+  ],
+  "newIdeaIds": [
+    "stackchan-question-buddy",
+    "atom-lab-voice-notes",
+    "paper-ai-exit-ticket"
+  ],
+  "creativeSnapshots": []
+}

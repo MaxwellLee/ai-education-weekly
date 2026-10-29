@@ -253,6 +253,62 @@
       ],
       "factCorrections": [],
       "evidenceUpdates": []
+    },
+    "004": {
+      "experiments": [
+        {
+          "id": "experiment004-1",
+          "title": "留下一份教案的修改证据",
+          "audience": "物理化学教研教师",
+          "estimatedMinutes": "估计30—45分钟",
+          "steps": "同一份自编教案先让AI生成，再只改一个薄弱环节；保存原稿、修改稿和逐条审核依据。",
+          "verificationGoal": "能说清哪处错误由教师发现、哪处建议有教材或实验依据。",
+          "sourceIds": [
+            "e004-01"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "experiment004-2",
+          "title": "一题两次作答，区分提示与理解",
+          "audience": "初中物理教师与学生",
+          "estimatedMinutes": "估计20—30分钟",
+          "steps": "先独立画受力图；AI只追问理由；最后换一道结构相近的问题，在无AI条件下解释。",
+          "verificationGoal": "比较两次独立解释的证据质量；一次小试不用于宣称因果提分。",
+          "sourceIds": [
+            "e004-02"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "experiment004-3",
+          "title": "先测十轮追问，再决定做不做机器人课",
+          "audience": "AI＋教育课程研发者",
+          "estimatedMinutes": "估计45—60分钟；不含硬件首次配置",
+          "steps": "有设备就用设备，没有设备先用现有语音工具模拟。固定十个学生可能的回答，记录识别错误、延迟和提前给答案的次数。",
+          "verificationGoal": "判断实体交互是否有教学必要，以及教师能否随时接管。",
+          "sourceIds": [
+            "e004-12"
+          ],
+          "status": "编辑建议，未实测"
+        }
+      ],
+      "changes": {
+        "status": "no-verified-change",
+        "baselineIssue": "003",
+        "baselineDate": "2026-10-19",
+        "items": [],
+        "note": "本期新增教学观察与硬件专题；尚未取得足以逐条改写上期项目结论的证据。既有行业对象保留历史核验日期。"
+      },
+      "revisionLog": [
+        {
+          "date": "2026-10-28",
+          "version": "004.1",
+          "type": "补发与新增",
+          "summary": "补发10月26日当周期刊，观察窗口扩展至10月28日；新增12条教育观察、10位人物或课例实践、3条深圳动态、3个硬件创意。"
+        }
+      ],
+      "factCorrections": []
     }
   }
 }

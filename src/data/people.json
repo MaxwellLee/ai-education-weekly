@@ -2659,9 +2659,469 @@
         "rightsStatus": "仅随私人预览展示低分辨率来源图；公开复用许可未确认",
         "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。"
       }
+    },
+    {
+      "id": "person-004-tj-mckenna",
+      "name": "TJ McKenna",
+      "identity": "BU科学教育临床助理教授",
+      "bio": [
+        "BU科学教育临床助理教授。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "开发NGSS AI Coach，支持教师查找课程指导。",
+          "source": {
+            "label": "Boston University专题报道",
+            "title": "Boston University专题报道",
+            "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+          },
+          "sources": [
+            {
+              "label": "Boston University专题报道",
+              "title": "Boston University专题报道",
+              "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+            }
+          ],
+          "evidenceNote": "同一篇专题中的具名观点；原文含3月论坛回顾，发言具体时间未单独确认。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "Boston University专题报道",
+          "title": "Boston University专题报道",
+          "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/",
+        "imageUrl": null,
+        "credit": "Boston University专题报道",
+        "alt": "TJ McKenna人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-nermeen-dashoush",
+      "name": "Nermeen Dashoush",
+      "identity": "LEGO教育影响负责人；前BU临床副教授",
+      "bio": [
+        "LEGO教育影响负责人；前BU临床副教授。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "设计面向儿童、家庭与教育者的AI素养多媒体工具；报道说明其2026年5月离开BU。",
+          "source": {
+            "label": "Boston University专题报道",
+            "title": "Boston University专题报道",
+            "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+          },
+          "sources": [
+            {
+              "label": "Boston University专题报道",
+              "title": "Boston University专题报道",
+              "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+            }
+          ],
+          "evidenceNote": "同一篇专题中的具名观点；原文含3月论坛回顾，发言具体时间未单独确认。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "Boston University专题报道",
+          "title": "Boston University专题报道",
+          "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/",
+        "imageUrl": null,
+        "credit": "Boston University专题报道",
+        "alt": "Nermeen Dashoush人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-ola-ozernov",
+      "name": "Ola Ozernov-Palchik",
+      "identity": "BU研究助理教授、EVAL负责人",
+      "bio": [
+        "BU研究助理教授、EVAL负责人。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "发起EVAL Challenge，推动教育技术效果研究。",
+          "source": {
+            "label": "Boston University专题报道",
+            "title": "Boston University专题报道",
+            "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+          },
+          "sources": [
+            {
+              "label": "Boston University专题报道",
+              "title": "Boston University专题报道",
+              "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+            }
+          ],
+          "evidenceNote": "同一篇专题中的具名观点；原文含3月论坛回顾，发言具体时间未单独确认。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "Boston University专题报道",
+          "title": "Boston University专题报道",
+          "url": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/",
+        "imageUrl": null,
+        "credit": "Boston University专题报道",
+        "alt": "Ola Ozernov-Palchik人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-kendeou",
+      "name": "Panayiota Kendeou",
+      "identity": "明尼苏达大学教育心理学教授",
+      "bio": [
+        "明尼苏达大学教育心理学教授。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "研究阅读理解与学习；担任相关生成式AI教育报告主要作者。",
+          "source": {
+            "label": "明尼苏达大学具名访谈",
+            "title": "明尼苏达大学具名访谈",
+            "url": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota"
+          },
+          "sources": [
+            {
+              "label": "明尼苏达大学具名访谈",
+              "title": "明尼苏达大学具名访谈",
+              "url": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota"
+            }
+          ],
+          "evidenceNote": "机构发布或具名反馈；不视为独立学习效果证据。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "明尼苏达大学具名访谈",
+          "title": "明尼苏达大学具名访谈",
+          "url": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota",
+        "imageUrl": null,
+        "credit": "明尼苏达大学具名访谈",
+        "alt": "Panayiota Kendeou人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-mel-farrington",
+      "name": "Mel Farrington",
+      "identity": "Raspberry Pi Foundation发布文章署名作者",
+      "bio": [
+        "Raspberry Pi Foundation发布文章署名作者。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "本期可核验成果为Code Classroom更新说明；未另确认其具体职衔。",
+          "source": {
+            "label": "Raspberry Pi Foundation发布",
+            "title": "Raspberry Pi Foundation发布",
+            "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+          },
+          "sources": [
+            {
+              "label": "Raspberry Pi Foundation发布",
+              "title": "Raspberry Pi Foundation发布",
+              "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+            }
+          ],
+          "evidenceNote": "机构发布或具名反馈；不视为独立学习效果证据。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "Raspberry Pi Foundation发布",
+          "title": "Raspberry Pi Foundation发布",
+          "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/",
+        "imageUrl": null,
+        "credit": "Raspberry Pi Foundation发布",
+        "alt": "Mel Farrington人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-dan-fisher",
+      "name": "Dan Fisher",
+      "identity": "Raspberry Pi Foundation项目文章署名作者",
+      "bio": [
+        "Raspberry Pi Foundation项目文章署名作者。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "本期可核验成果为Ada与TechFirst合作说明；不将机构项目全部归为个人成果。",
+          "source": {
+            "label": "Raspberry Pi Foundation项目说明",
+            "title": "Raspberry Pi Foundation项目说明",
+            "url": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/"
+          },
+          "sources": [
+            {
+              "label": "Raspberry Pi Foundation项目说明",
+              "title": "Raspberry Pi Foundation项目说明",
+              "url": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/"
+            }
+          ],
+          "evidenceNote": "机构发布或具名反馈；不视为独立学习效果证据。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "Raspberry Pi Foundation项目说明",
+          "title": "Raspberry Pi Foundation项目说明",
+          "url": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/",
+        "imageUrl": null,
+        "credit": "Raspberry Pi Foundation项目说明",
+        "alt": "Dan Fisher人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-bartholomew-owuor",
+      "name": "Bartholomew Owuor",
+      "identity": "肯尼亚Cathsam School计算机教师",
+      "bio": [
+        "肯尼亚Cathsam School计算机教师。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "提供Code Classroom课堂使用反馈；未取得独立成效评估。",
+          "source": {
+            "label": "Raspberry Pi Foundation发布",
+            "title": "Raspberry Pi Foundation发布",
+            "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+          },
+          "sources": [
+            {
+              "label": "Raspberry Pi Foundation发布",
+              "title": "Raspberry Pi Foundation发布",
+              "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+            }
+          ],
+          "evidenceNote": "机构发布或具名反馈；不视为独立学习效果证据。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "Raspberry Pi Foundation发布",
+          "title": "Raspberry Pi Foundation发布",
+          "url": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/",
+        "imageUrl": null,
+        "credit": "Raspberry Pi Foundation发布",
+        "alt": "Bartholomew Owuor人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-xiong-huiliang",
+      "name": "熊辉亮",
+      "identity": "深圳龙华AI通识课例教师",
+      "bio": [
+        "深圳龙华AI通识课例教师。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "课例《决策树与智能推理》入选市级评审；这里记录实践主张，不伪造本人直接引语。",
+          "source": {
+            "label": "龙华区教育局课例报道",
+            "title": "龙华区教育局课例报道",
+            "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+          },
+          "sources": [
+            {
+              "label": "龙华区教育局课例报道",
+              "title": "龙华区教育局课例报道",
+              "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+            }
+          ],
+          "evidenceNote": "同一篇教育局报道中的课例实践；不是教师直接引语，未确认具体授课日期。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "龙华区教育局课例报道",
+          "title": "龙华区教育局课例报道",
+          "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html",
+        "imageUrl": null,
+        "credit": "龙华区教育局课例报道",
+        "alt": "熊辉亮人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-fang-zhuocheng",
+      "name": "房卓成",
+      "identity": "深圳龙华AI通识课例教师",
+      "bio": [
+        "深圳龙华AI通识课例教师。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "相关AIGC绘画课例入选市级评审；课例评价不代表学习效果验证。",
+          "source": {
+            "label": "龙华区教育局课例报道",
+            "title": "龙华区教育局课例报道",
+            "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+          },
+          "sources": [
+            {
+              "label": "龙华区教育局课例报道",
+              "title": "龙华区教育局课例报道",
+              "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+            }
+          ],
+          "evidenceNote": "同一篇教育局报道中的课例实践；不是教师直接引语，未确认具体授课日期。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "龙华区教育局课例报道",
+          "title": "龙华区教育局课例报道",
+          "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html",
+        "imageUrl": null,
+        "credit": "龙华区教育局课例报道",
+        "alt": "房卓成人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
+    },
+    {
+      "id": "person-004-chen-zhelin",
+      "name": "陈喆琳",
+      "identity": "深圳龙华AI通识课例教师",
+      "bio": [
+        "深圳龙华AI通识课例教师。",
+        "本期材料见所附机构原文，履历范围仅限已核验信息。"
+      ],
+      "contributions": [
+        {
+          "title": "可核验实践与成果",
+          "text": "《数字守护官》课例入选市级评审；报道未提供独立前后测。",
+          "source": {
+            "label": "龙华区教育局课例报道",
+            "title": "龙华区教育局课例报道",
+            "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+          },
+          "sources": [
+            {
+              "label": "龙华区教育局课例报道",
+              "title": "龙华区教育局课例报道",
+              "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+            }
+          ],
+          "evidenceNote": "同一篇教育局报道中的课例实践；不是教师直接引语，未确认具体授课日期。"
+        }
+      ],
+      "followReason": "关注其对课程任务与证据的具体处理，而非只看工具数量。",
+      "profileUpdatedAt": "2026-10-28",
+      "profileSources": [
+        {
+          "label": "龙华区教育局课例报道",
+          "title": "龙华区教育局课例报道",
+          "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html",
+        "imageUrl": null,
+        "credit": "龙华区教育局课例报道",
+        "alt": "陈喆琳人物资料",
+        "rightsStatus": "本期不新增转载照片。",
+        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+      }
     }
   ],
   "schemaVersion": 1,
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-28",
   "publicationStatus": "private-preview"
 }

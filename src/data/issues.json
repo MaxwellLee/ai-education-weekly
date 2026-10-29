@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "latestIssueId": "003",
-  "libraryAsOf": "2026-10-19",
+  "latestIssueId": "004",
+  "libraryAsOf": "2026-10-28",
   "issues": [
     {
       "id": "001",
@@ -23,6 +23,13 @@
       "date": "2026-10-19",
       "title": "从工具采用到学习证据",
       "file": "issues/003.json"
+    },
+    {
+      "id": "004",
+      "number": 4,
+      "date": "2026-10-26",
+      "title": "让AI走进真实任务：教学证据与硬件创意",
+      "file": "issues/004.json"
     }
   ]
 }

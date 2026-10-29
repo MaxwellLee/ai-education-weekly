@@ -1,7 +1,7 @@
 {
-  "cutoff": "2026-10-19T09:00:00+08:00",
+  "cutoff": "2026-10-28",
   "title": "有趣实用AI创意精选",
-  "editorialNote": "第003期新增11项；原作日期与本刊首次收录分开，历史灵感不包装为本周发布。全部迁移建议未实测。",
+  "editorialNote": "第004期新增3项AI＋硬件课程构想；历史条目保留原始核验日。设备能力据官方文档核验，教学改造均未实测。",
   "imageRightsNote": "每项图片保留来源、署名及权利状态；未确认公开复用许可不表示已获转载授权。",
   "items": [
     {
@@ -3029,10 +3029,246 @@
       "relatedIssues": [
         "003"
       ]
+    },
+    {
+      "id": "stackchan-question-buddy",
+      "title": "会追问的桌面科学伙伴",
+      "category": "AI＋硬件",
+      "tags": [
+        "AI＋硬件",
+        "本期新收录",
+        "课程原型"
+      ],
+      "date": "原始发布日期未确认",
+      "dateNote": "2026-10-28首次收录与文档核验；不表示本周新品。硬件线索来自JosephZhou目录，功能以厂商文档为准。",
+      "firstSeen": "2026-10-28",
+      "author": "M5Stack / StackChan社区",
+      "summary": "触屏、摄像头、双麦克风、扬声器和舵机结合成实体桌面机器人；官方固件提供AI Agent。",
+      "play": "让机器人只追问“你依据什么判断”，学生用实验现象回应。",
+      "tools": [
+        "StackChan",
+        "教师审核的题目与素材",
+        "兼容语音后端／模型服务"
+      ],
+      "reproduce": "先由教师配置一个固定科学情境，例如灯泡为何变暗；限制每次一句追问。记录10轮对话的误识别、延迟和是否提前泄露答案，再决定是否进课堂。",
+      "education": "适合初中物理中的预测—观察—解释；也可做学生设计机器人提问规则的活动。",
+      "limits": "官方功能不保证科学回答正确。摄像头与语音涉及数据传输；课堂样例避免学生身份信息。须核对固件、模型服务、账号及地区条件，联网对话不能当作离线大模型。 成本与投入：教师调试估计1—2天；需要机器人及可用模型服务，硬件现价、流量与订阅费待采购时确认。",
+      "difficulty": "进阶",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "M5Stack StackChan官方文档",
+          "title": "M5Stack StackChan官方文档",
+          "url": "https://docs.m5stack.com/en/StackChan"
+        },
+        {
+          "label": "发现入口：JosephZhou AI HardWare",
+          "title": "发现入口：JosephZhou AI HardWare",
+          "url": "https://josephzhou.me/ai/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "url": null,
+        "alt": "会追问的桌面科学伙伴",
+        "credit": "M5Stack StackChan官方文档",
+        "sourcePage": "https://docs.m5stack.com/en/StackChan",
+        "rightsStatus": "未转载产品图，请查看官方原作。",
+        "evidenceNote": "已核验硬件文档；课程效果尚未制作或实测，点击查看官方设备图片与演示。"
+      },
+      "freshness": "本期新收录 · 现行硬件的课程改造构想",
+      "reproductionStatus": "编辑建议，未购机、未刷机、未实测",
+      "lastVerified": "2026-10-28",
+      "categories": [
+        "AI＋硬件",
+        "教学应用",
+        "个性化体验"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为教师主导的课程迁移建议，不是产品年龄许可；先由成人调试与评估。",
+      "firstIssue": "004",
+      "originalDate": "未确认（非本周新品）",
+      "updatedAt": "2026-10-28",
+      "uses": [
+        "会追问的桌面科学伙伴",
+        "科学追问与人机交互"
+      ],
+      "ageRestriction": null,
+      "relatedIssues": [
+        "004"
+      ]
+    },
+    {
+      "id": "atom-lab-voice-notes",
+      "title": "把实验口述变成可核对的语音记录",
+      "category": "AI＋硬件",
+      "tags": [
+        "AI＋硬件",
+        "本期新收录",
+        "课程原型"
+      ],
+      "date": "原始发布日期未确认",
+      "dateNote": "2026-10-28首次收录与文档核验；不表示本周新品。硬件线索来自JosephZhou目录，功能以厂商文档为准。",
+      "firstSeen": "2026-10-28",
+      "author": "M5Stack / 小智ESP32社区",
+      "summary": "AtomS3R与Atomic Voice Base组成语音开发套件，官方提供小智等语音助手接入教程。",
+      "play": "学生口述观察，系统整理为“现象—测量值—解释”，再由学生逐项核对。",
+      "tools": [
+        "AtomS3R + Atomic Voice Base",
+        "教师审核的题目与素材",
+        "兼容语音后端／模型服务"
+      ],
+      "reproduce": "先用教师预录的10段无个人信息语音做转写测试；重点检查0.05、单位、正负号和化学式。只有确认稿进入实验记录，原始测量值保持可追溯。",
+      "education": "用于物理实验反思与化学现象描述；让学生发现“说得流畅”和“记录正确”的区别。",
+      "limits": "结构化记录与保存是需二次开发的课程功能，并非出厂承诺。语音模型可能听错数字，不能作为唯一测量记录或实验安全判断。需有可用后端，不默认云服务永久免费。 成本与投入：教师原型开发估计1—3天；套件、供电、网络及模型调用分别核价，已有硬件可优先复用。",
+      "difficulty": "进阶",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "M5Stack AtomS3R语音套件文档",
+          "title": "M5Stack AtomS3R语音套件文档",
+          "url": "https://docs.m5stack.com/en/core/AtomS3R-AI_Chatbot"
+        },
+        {
+          "label": "发现入口：JosephZhou AI HardWare",
+          "title": "发现入口：JosephZhou AI HardWare",
+          "url": "https://josephzhou.me/ai/"
+        },
+        {
+          "label": "小智ESP32开源仓库",
+          "title": "小智ESP32开源仓库",
+          "url": "https://github.com/78/xiaozhi-esp32"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "url": null,
+        "alt": "把实验口述变成可核对的语音记录",
+        "credit": "M5Stack AtomS3R语音套件文档",
+        "sourcePage": "https://docs.m5stack.com/en/core/AtomS3R-AI_Chatbot",
+        "rightsStatus": "未转载产品图，请查看官方原作。",
+        "evidenceNote": "已核验硬件文档；课程效果尚未制作或实测，点击查看官方设备图片与演示。"
+      },
+      "freshness": "本期新收录 · 现行硬件的课程改造构想",
+      "reproductionStatus": "编辑建议，未购机、未刷机、未实测",
+      "lastVerified": "2026-10-28",
+      "categories": [
+        "AI＋硬件",
+        "教学应用",
+        "个性化体验"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为教师主导的课程迁移建议，不是产品年龄许可；先由成人调试与评估。",
+      "firstIssue": "004",
+      "originalDate": "未确认（非本周新品）",
+      "updatedAt": "2026-10-28",
+      "uses": [
+        "把实验口述变成可核对的语音记录",
+        "实验数据口述核验"
+      ],
+      "ageRestriction": null,
+      "relatedIssues": [
+        "004"
+      ]
+    },
+    {
+      "id": "paper-ai-exit-ticket",
+      "title": "每天一张可解释的电子墨水学习卡",
+      "category": "AI＋硬件",
+      "tags": [
+        "AI＋硬件",
+        "本期新收录",
+        "课程原型"
+      ],
+      "date": "原始发布日期未确认",
+      "dateNote": "2026-10-28首次收录与文档核验；不表示本周新品。硬件线索来自JosephZhou目录，功能以厂商文档为准。",
+      "firstSeen": "2026-10-28",
+      "author": "M5Stack；课程方案为本刊编辑构想",
+      "summary": "PaperS3具备4.7英寸触控电子墨水屏、Wi-Fi和扩展接口，适合低频更新的信息展示。",
+      "play": "由AI生成一题，教师审核后推送到屏幕；学生先答再看解析。",
+      "tools": [
+        "PaperS3",
+        "教师审核的题目与素材",
+        "教师端生成服务与显示程序"
+      ],
+      "reproduce": "先用固定的5道自编力学题完成显示和翻页，再增加教师端生成与审核。每张卡附单位、答案依据和修订日期；保留本地缓存，断网仍能显示已审核内容。",
+      "education": "适合课后概念卡、实验站提示和化学仪器识别；用于显示学习材料，不替代动态实验演示。",
+      "limits": "生成、审核、同步与缓存均需另外开发，板卡本身不是大模型学习机；墨水屏不适合流畅动画。早期批次充电注意事项应按官方版本说明核对。 成本与投入：教师原型开发估计1—3天；需开发板与教师端服务。无现成后端时先用静态卡验证，不急于批量采购。",
+      "difficulty": "进阶",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "M5Stack PaperS3官方文档",
+          "title": "M5Stack PaperS3官方文档",
+          "url": "https://docs.m5stack.com/en/core/PaperS3"
+        },
+        {
+          "label": "发现入口：JosephZhou AI HardWare",
+          "title": "发现入口：JosephZhou AI HardWare",
+          "url": "https://josephzhou.me/ai/"
+        }
+      ],
+      "image": {
+        "localPath": null,
+        "url": null,
+        "alt": "每天一张可解释的电子墨水学习卡",
+        "credit": "M5Stack PaperS3官方文档",
+        "sourcePage": "https://docs.m5stack.com/en/core/PaperS3",
+        "rightsStatus": "未转载产品图，请查看官方原作。",
+        "evidenceNote": "已核验硬件文档；课程效果尚未制作或实测，点击查看官方设备图片与演示。"
+      },
+      "freshness": "本期新收录 · 现行硬件的课程改造构想",
+      "reproductionStatus": "编辑建议，未购机、未刷机、未实测",
+      "lastVerified": "2026-10-28",
+      "categories": [
+        "AI＋硬件",
+        "教学应用",
+        "个性化体验"
+      ],
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为教师主导的课程迁移建议，不是产品年龄许可；先由成人调试与评估。",
+      "firstIssue": "004",
+      "originalDate": "未确认（非本周新品）",
+      "updatedAt": "2026-10-28",
+      "uses": [
+        "每天一张可解释的电子墨水学习卡",
+        "概念复习与实验站提示"
+      ],
+      "ageRestriction": null,
+      "relatedIssues": [
+        "004"
+      ]
     }
   ],
   "schemaVersion": 2,
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-28",
   "editionNote": "第003期私人审阅版",
   "categoryOrder": [
     "图像设计",
@@ -3041,7 +3277,8 @@
     "互动游戏",
     "Agent自动化",
     "个性化体验",
-    "教学应用"
+    "教学应用",
+    "AI＋硬件"
   ],
   "educationLevelOrder": [
     "学前教育",

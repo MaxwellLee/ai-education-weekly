@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "issueId": "004",
+  "verifiedAt": "2026-10-28",
+  "coverageNote": "3条已核验本地动态；分别是课例评审、采购公开信息和未来培训通知。覆盖窗口10月19—28日，不代表全市完整清单。",
+  "items": [
+    {
+      "id": "sz004-longhua",
+      "districts": [
+        "龙华"
+      ],
+      "type": "课例评审",
+      "stage": "基础教育",
+      "title": "4个AI通识课例入选市级评审",
+      "publishedDate": "2026-10-23",
+      "eventDate": "公示具体日未确认；10月23日为报道日",
+      "organizations": "龙华区教育局、深圳市教育科学研究院",
+      "peopleCompanies": "熊辉亮、房卓成、陈喆琳、陈琦",
+      "summary": "区教育局公布4个入选课例及区域师资培养安排；课程情境覆盖领养、绘画、辨伪与果面识别。",
+      "relevance": "可研究任务情境与算法概念怎样衔接，再设计自己的物理化学版本。",
+      "limits": "入选不等于效果验证；不把区域平台使用量解读成AI提高成绩。",
+      "sources": [
+        {
+          "label": "龙华区教育局课例报道",
+          "title": "龙华区教育局课例报道",
+          "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
+        }
+      ],
+      "freshness": "current"
+    },
+    {
+      "id": "sz004-szu",
+      "districts": [
+        "深圳市"
+      ],
+      "type": "课程采购",
+      "stage": "高等教育",
+      "title": "深圳大学智慧课程建设：预算与拟成交价均为6万元",
+      "publishedDate": "2026-10-26",
+      "eventDate": "服务期限要求为2026年12月30日前",
+      "organizations": "深圳大学教育学部",
+      "peopleCompanies": "拟成交供应商：上海卓越睿新网络科技有限公司",
+      "summary": "《智能学习环境设计与管理》建设服务包含课程知识体系、AI教学空间、工具、智能体与课程运行服务。公开页列预算和拟成交价各60,000元。",
+      "relevance": "机构交付可对照知识结构、教学空间和运营支持拆分清单。",
+      "limits": "拟成交不等于验收完成或已确认收入；6万元是该项目报价，不能推算全行业单课成本。",
+      "sources": [
+        {
+          "label": "深圳大学采购公开信息",
+          "title": "深圳大学采购公开信息",
+          "url": "https://bidding.szu.edu.cn/info/1023/376849.htm"
+        }
+      ],
+      "freshness": "current"
+    },
+    {
+      "id": "sz004-baoan",
+      "districts": [
+        "宝安"
+      ],
+      "type": "公益培训通知",
+      "stage": "成人与继续教育",
+      "title": "宝安AI＋鸿蒙培训：4个班次，首班计划11月28日开课",
+      "publishedDate": "2026-10-26",
+      "eventDate": "2026-11-28至12-20分4个周末班；每班2天",
+      "organizations": "宝安区职业训练中心、深圳市软件行业协会",
+      "peopleCompanies": "深圳职业技术大学人工智能学院教师参与课程设计与教学",
+      "summary": "每班计划50—60人，涵盖AI基础、产品设计、产品开发与部署；符合条件免培训费，交通餐费自理。",
+      "relevance": "观察成人培训如何把AI知识连接到具体产品交付。",
+      "limits": "报名资格以官方通知为准；课程明确不含硬件开发，不能当作本期硬件项目现成培训。未核验余位与实际开班情况。",
+      "sources": [
+        {
+          "label": "深圳市软件行业协会培训通知",
+          "title": "深圳市软件行业协会培训通知",
+          "url": "https://www.ssia.org.cn/page59?article_id=3020"
+        }
+      ],
+      "freshness": "current"
+    }
+  ]
+}

@@ -7,9 +7,9 @@ ROOT=Path(__file__).resolve().parents[1]; S=ROOT/'src'; sys.path.insert(0,str(S)
 raw=(S/'index.html').read_text(); full=H.fromstring(raw)
 manifest=json.loads((S/'data/issues.json').read_text()); latest=manifest['latestIssueId']; issues={i['id']:json.loads((S/'data'/i['file']).read_text()) for i in manifest['issues']}
 ideas=json.loads((S/'data/ideas.json').read_text())['items']; profiles={p['id']:p for p in json.loads((S/'data/people.json').read_text())['items']}
-assert latest=='003' and set(issues)=={'001','002','003'}
+assert latest=='004' and set(issues)=={'001','002','003','004'}
 assert len({x['id'] for x in ideas})==len(ideas)
-assert len([x for x in ideas if x['firstIssue']==latest])>=10
+assert {x['id'] for x in ideas if x['firstIssue']==latest}==set(issues[latest]['newIdeaIds'])
 assert all(x['firstIssue'] in issues for x in ideas)
 byclass=lambda d,c:d.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," '+c+' ")]')
 snapshots={i:full.get_element_by_id('issue-template-'+i) for i in issues}
@@ -47,8 +47,14 @@ assert not d.get_element_by_id('weekly-panel').xpath('.//*[@data-idea-id]')
 assert not d.xpath('//script[@src]|//link[@rel="stylesheet"]')
 image_count=0
 for img in full.xpath('//img'):
- assert img.get('alt') and img.get('src','').startswith('data:image/')
- Image.open(io.BytesIO(base64.b64decode(img.get('src').split(',',1)[1]))).verify();image_count+=1
+ assert img.get('alt')
+ src=img.get('src','')
+ if src.startswith('data:image/'): image=Image.open(io.BytesIO(base64.b64decode(src.split(',',1)[1])))
+ else:
+  p=(S/src).resolve(); assert p.is_relative_to((S/'assets').resolve()) and p.is_file()
+  assert (ROOT/'docs'/src).read_bytes()==p.read_bytes()
+  image=Image.open(p)
+ image.verify();image_count+=1
 for a in full.xpath('//a[@href]'):
  href=a.get('href');assert href not in ['#','https://','http://']
  if href.startswith('#issue='):
