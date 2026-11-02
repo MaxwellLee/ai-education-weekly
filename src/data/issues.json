@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "latestIssueId": "004",
-  "libraryAsOf": "2026-10-28",
+  "latestIssueId": "005",
+  "libraryAsOf": "2026-11-02",
   "issues": [
     {
       "id": "001",
@@ -30,6 +30,13 @@
       "date": "2026-10-26",
       "title": "让AI走进真实任务：教学证据与硬件创意",
       "file": "issues/004.json"
+    },
+    {
+      "id": "005",
+      "number": 5,
+      "date": "2026-11-02",
+      "title": "把AI课堂变成可检查的学习过程",
+      "file": "issues/005.json"
     }
   ]
 }

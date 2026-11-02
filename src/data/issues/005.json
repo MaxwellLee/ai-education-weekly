@@ -1,0 +1,2230 @@
+{
+  "schemaVersion": 2,
+  "id": "005",
+  "number": 5,
+  "date": "2026-11-02",
+  "title": "把AI课堂变成可检查的学习过程",
+  "window": {
+    "start": "2026-10-26",
+    "end": "2026-11-02",
+    "note": "原资料截至2026-11-02 09:00 Asia/Shanghai；同日15:24补充核验大陆竞品与历史创意，不将补充材料冒充截点前新闻。"
+  },
+  "cutoff": "2026-11-02T09:00:00+08:00",
+  "revisionNote": "第005期公开补充版 · 原资料截止11月2日09:00；中国大陆竞品与6项历史创意于11月2日下午补充核验，详见行业动态与更新须知。",
+  "education": {
+    "items": [
+      {
+        "id": "e005-01",
+        "category": "技术与研究",
+        "title": "Google提出持续学习的“睡眠”框架",
+        "date": "2026-10-27",
+        "eventDate": "2026-10-27研究介绍",
+        "stages": [
+          "跨学段/未限定"
+        ],
+        "region": "美国／全球技术研究",
+        "summary": "Google Research介绍在固定架构及人为设定训练规则内，通过离线记忆巩固和合成样本练习，让模型吸收新信息并减轻灾难性遗忘。作者展示持续翻译、知识吸收和长上下文等基准结果。",
+        "value": "教育技术观察：长期课程助手需要更新知识且不遗忘旧知识，这是可跟踪的技术方向，不是已经验证的课堂产品。",
+        "caveat": "研发方技术报告；基准表现不能外推为教学效果，也不是模型拥有生物睡眠或自主改变架构。尚未独立复现。",
+        "source": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+        "evidenceType": "研究机构技术介绍",
+        "frontierCategory": "技术与研究",
+        "educationLevels": [],
+        "audienceTypes": [],
+        "scopeTags": [
+          "跨学段"
+        ],
+        "sources": [
+          {
+            "label": "原始来源 · 研究机构技术介绍",
+            "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+          }
+        ],
+        "why": "教育技术观察：长期课程助手需要更新知识且不遗忘旧知识，这是可跟踪的技术方向，不是已经验证的课堂产品。",
+        "limits": "研发方技术报告；基准表现不能外推为教学效果，也不是模型拥有生物睡眠或自主改变架构。尚未独立复现。",
+        "evidenceLevel": "研究机构技术介绍",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-02",
+        "category": "技术与研究",
+        "title": "一年行为追踪显示AI使用中的元认知分化",
+        "date": "2026-10-27",
+        "eventDate": "一学年教学观察；10月27日在线发表",
+        "stages": [
+          "高等教育"
+        ],
+        "region": "教育研究",
+        "summary": "SAGE Open研究90名教育学研究生、18个小组的一学年讨论行为。整体元认知参与上升，但高表现组持续核验与反思，低表现组出现较多直接接受AI输出、减少深层检查的行为。",
+        "value": "评价不宜只看最终作品；可记录提问、反证、修改理由及学生对AI建议的取舍。",
+        "caveat": "按小组分析的行为序列研究，不是证明AI导致能力退化的随机因果试验；组内贡献差异及推广到儿童均有局限。",
+        "source": "https://journals.sagepub.com/doi/10.1177/21582440261497399",
+        "evidenceType": "同行评审研究",
+        "frontierCategory": "技术与研究",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 同行评审研究",
+            "url": "https://journals.sagepub.com/doi/10.1177/21582440261497399"
+          }
+        ],
+        "why": "评价不宜只看最终作品；可记录提问、反证、修改理由及学生对AI建议的取舍。",
+        "limits": "按小组分析的行为序列研究，不是证明AI导致能力退化的随机因果试验；组内贡献差异及推广到儿童均有局限。",
+        "evidenceLevel": "同行评审研究",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-03",
+        "category": "技术与研究",
+        "title": "DEC与Pearson关注AI是否挤占同伴协作",
+        "date": "2026-10-27",
+        "eventDate": "2026-10-27报告发布",
+        "stages": [
+          "高等教育"
+        ],
+        "region": "国际",
+        "summary": "《Designing AI for Collaborative Learning》发布方指出：学生可能带着相似的AI答案进入小组，或让AI裁决分歧。报告梳理15种AI协作方法，并关联7种学习机制，强调决策应留在小组。",
+        "value": "设计小组任务时先保留个人判断，再要求同伴互证，避免AI成为唯一裁判。",
+        "caveat": "本轮核到发布方报告介绍，完整报告下载有登录门槛；样本和方法未独立核验，不能将介绍中的现象视作普遍比例或因果结论。",
+        "source": "https://dec-web-v2.webflow.io/newsroom/ai-risks-reducing-peer-exchange-and-eroding-collaboration-new-dec-and-pearson-report-finds",
+        "evidenceType": "报告发布方介绍",
+        "frontierCategory": "技术与研究",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 报告发布方介绍",
+            "url": "https://dec-web-v2.webflow.io/newsroom/ai-risks-reducing-peer-exchange-and-eroding-collaboration-new-dec-and-pearson-report-finds"
+          }
+        ],
+        "why": "设计小组任务时先保留个人判断，再要求同伴互证，避免AI成为唯一裁判。",
+        "limits": "本轮核到发布方报告介绍，完整报告下载有登录门槛；样本和方法未独立核验，不能将介绍中的现象视作普遍比例或因果结论。",
+        "evidenceLevel": "报告发布方介绍",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-04",
+        "category": "技术与研究",
+        "title": "AI共情反馈研究：参与感关联不等于成绩提升",
+        "date": "2026-10-28",
+        "eventDate": "2026-10-28发表；试用数据早于发表",
+        "stages": [
+          "高等教育"
+        ],
+        "region": "中国台湾高校研究",
+        "summary": "研究用KeyMoji、ChatGPT和Unity搭建反馈系统，303名本科生在编程课中使用30分钟，随后填写问卷。共情体验与动机、参与及自报学习收获相关。",
+        "value": "提醒课程产品同时区分“孩子喜欢”“愿意参与”和“真正学会”三类证据。",
+        "caveat": "单组、后测、自报设计，不能推断因果或客观成绩提升；情感分类准确性与未成年人使用安全未获本研究普遍验证。",
+        "source": "https://link.springer.com/article/10.1007/s11423-026-10720-0",
+        "evidenceType": "同行评审研究",
+        "frontierCategory": "技术与研究",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 同行评审研究",
+            "url": "https://link.springer.com/article/10.1007/s11423-026-10720-0"
+          }
+        ],
+        "why": "提醒课程产品同时区分“孩子喜欢”“愿意参与”和“真正学会”三类证据。",
+        "limits": "单组、后测、自报设计，不能推断因果或客观成绩提升；情感分类准确性与未成年人使用安全未获本研究普遍验证。",
+        "evidenceLevel": "同行评审研究",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-05",
+        "category": "教学实践",
+        "title": "微软与Cyberlite把查证和隐私放进故事任务",
+        "date": "2026-10-27",
+        "eventDate": "2026-10-27扩展版发布",
+        "stages": [
+          "初中阶段",
+          "教育工作者"
+        ],
+        "age": "官方工具包面向13–15岁",
+        "region": "国际／新加坡合作",
+        "summary": "新增The Climate Campaign与The Helpful Bot两节约30分钟课案，分别围绕AI帖子可信度、游戏助手编造信息与收集隐私展开。教师带领，学生直接使用AI工具是可选项。",
+        "value": "可借鉴“情境故事—找证据—解释判断”的课堂结构，不要求所有学生开AI账号。",
+        "caveat": "发布方教材介绍，不是成效实验。原版有中文；新增课案中文仍列待推出。具体课件复用许可未核，不能直接整包转载。",
+        "source": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/",
+        "additionalSources": [
+          "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/classroom-toolkit-unlock-generative-ai-safely-responsibly"
+        ],
+        "evidenceType": "官方课程资源",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "初中教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 官方课程资源",
+            "url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/"
+          },
+          {
+            "label": "补充官方资料",
+            "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/classroom-toolkit-unlock-generative-ai-safely-responsibly"
+          }
+        ],
+        "why": "可借鉴“情境故事—找证据—解释判断”的课堂结构，不要求所有学生开AI账号。",
+        "limits": "发布方教材介绍，不是成效实验。原版有中文；新增课案中文仍列待推出。具体课件复用许可未核，不能直接整包转载。",
+        "evidenceLevel": "官方课程资源",
+        "freshness": "本周发布",
+        "ageRestriction": "官方工具包面向13–15岁",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-06",
+        "category": "教学实践",
+        "title": "UMSL联合推出12小时免费教师AI课程",
+        "date": "2026-10-30",
+        "eventDate": "2026-10-30发布",
+        "stages": [
+          "教育工作者"
+        ],
+        "region": "美国",
+        "summary": "UMSL、Scale AI和Lindbergh学区推出Fundamentals of AI for Educators，面向美国K–12教师，12小时、自定进度、免费。完成模块、测验和面向具体学习目标的教学成品可获证书及徽章。",
+        "value": "教师培训交付可从“听过工具”转向“完成可用的课堂成品”。",
+        "caveat": "校方称此前20名教师试用；人数不是成效证据。美国以外注册资格、执照学分及真实课堂效果未核。",
+        "source": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/",
+        "additionalSources": [
+          "https://www.umsl.edu/workforce/programs-courses/ai-literacy.html"
+        ],
+        "evidenceType": "大学课程发布",
+        "frontierCategory": "教学实践",
+        "educationLevels": [],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 大学课程发布",
+            "url": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/"
+          },
+          {
+            "label": "补充官方资料",
+            "url": "https://www.umsl.edu/workforce/programs-courses/ai-literacy.html"
+          }
+        ],
+        "why": "教师培训交付可从“听过工具”转向“完成可用的课堂成品”。",
+        "limits": "校方称此前20名教师试用；人数不是成效证据。美国以外注册资格、执照学分及真实课堂效果未核。",
+        "evidenceLevel": "大学课程发布",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-07",
+        "category": "教学实践",
+        "title": "日本医学研究生课把AI幻觉核验做成练习",
+        "date": "2026-10-27",
+        "eventDate": "期刊出版10月25日；J-STAGE上线10月27日",
+        "stages": [
+          "高等教育"
+        ],
+        "region": "日本",
+        "summary": "千叶大学等作者报告基于4C/ID的在线研究生课程，六模块覆盖研究伦理、写作、检索、研究问题、规划及数据分析。练习故意呈现虚构或无依据输出，训练查证与责任意识。",
+        "value": "把识别错误安排为显式学习任务，比仅提醒“AI会犯错”更具体。",
+        "caveat": "论文描述已设计实施的课程流程，效果评估仍为后续工作；不应声称已证明提高研究能力。",
+        "source": "https://www.jstage.jst.go.jp/article/mededjapan/57/5/57_375/_article/-char/en",
+        "evidenceType": "同行评审课程实施报告",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 同行评审课程实施报告",
+            "url": "https://www.jstage.jst.go.jp/article/mededjapan/57/5/57_375/_article/-char/en"
+          }
+        ],
+        "why": "把识别错误安排为显式学习任务，比仅提醒“AI会犯错”更具体。",
+        "limits": "论文描述已设计实施的课程流程，效果评估仍为后续工作；不应声称已证明提高研究能力。",
+        "evidenceLevel": "同行评审课程实施报告",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-08",
+        "category": "教学实践",
+        "title": "剑桥资助六项AI教学与评价试验",
+        "date": "2026-10-29",
+        "eventDate": "2026-10-29公布资助；未来六个月测试",
+        "stages": [
+          "高等教育"
+        ],
+        "region": "英国",
+        "summary": "六项目覆盖建筑、经济、基因组医学、法律、物理与心理学，包括苏格拉底科学阅读教练、AI辅助小组指导、法律来源核验和按程序陌生情境表现评价。",
+        "value": "共同问题不是能否生成好作品，而是能否保留独立判断、验证能力与个人推理。",
+        "caveat": "这是获资助方案，尚非测试结果；个别项目涉及隐私和学生同意，不能把计划人数当作完成规模。",
+        "source": "https://www.ai.cam.ac.uk/news/six-cambridge-projects-to-explore-how-ai-is-changing-teaching-and-learning/",
+        "evidenceType": "大学项目公告",
+        "frontierCategory": "教学实践",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 大学项目公告",
+            "url": "https://www.ai.cam.ac.uk/news/six-cambridge-projects-to-explore-how-ai-is-changing-teaching-and-learning/"
+          }
+        ],
+        "why": "共同问题不是能否生成好作品，而是能否保留独立判断、验证能力与个人推理。",
+        "limits": "这是获资助方案，尚非测试结果；个别项目涉及隐私和学生同意，不能把计划人数当作完成规模。",
+        "evidenceLevel": "大学项目公告",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-09",
+        "category": "政策与评价",
+        "title": "香港公布小学资讯与创新科技课程框架拟定稿",
+        "date": "2026-10-30",
+        "eventDate": "2026-10-30公布；计划2028/29学年推行",
+        "stages": [
+          "小学阶段"
+        ],
+        "region": "中国香港",
+        "summary": "新科覆盖资讯科技、计算思维与编程、人工智能初探、基础工程与机器人、科技与社会五范畴，强调动手设计、科技向善及过程表现。",
+        "value": "小学AI课可以连接真实生活问题、设计迭代和责任意识，而非仅练提示词。",
+        "caveat": "属于拟定课程框架及实施计划，不是已实施成效；AI初探试行版早在2026年7月21日发布，不能全部写作首次推出。",
+        "source": "https://www.edb.gov.hk/sc/about-edb/press/insiderperspective/insiderperspective20261030.html",
+        "evidenceType": "教育主管部门公告",
+        "frontierCategory": "政策与评价",
+        "educationLevels": [
+          "小学教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 教育主管部门公告",
+            "url": "https://www.edb.gov.hk/sc/about-edb/press/insiderperspective/insiderperspective20261030.html"
+          }
+        ],
+        "why": "小学AI课可以连接真实生活问题、设计迭代和责任意识，而非仅练提示词。",
+        "limits": "属于拟定课程框架及实施计划，不是已实施成效；AI初探试行版早在2026年7月21日发布，不能全部写作首次推出。",
+        "evidenceLevel": "教育主管部门公告",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-10",
+        "category": "政策与评价",
+        "title": "北京基础教育AI蓝皮书发布，聚焦六类学校场景",
+        "date": "2026-10-30",
+        "eventDate": "10月29日发布；9月调研",
+        "stages": [
+          "小学阶段",
+          "初中阶段",
+          "高中阶段"
+        ],
+        "region": "中国北京",
+        "summary": "北师大与北京市数字教育中心联合编制的2026蓝皮书涉及18个教育部门、106所中小学，讨论教学设计、语言学习、作业管理、体育健康、智能答疑和智能教研，另关注真实问题项目学习。",
+        "value": "为学校端产品判断需求与选取可检验试点提供分类参考。",
+        "caveat": "本轮核验编制方介绍，未审读全文、抽样代表性和评测数据；106所是调研样本，不是AI普及率或效果证明。",
+        "source": "https://ai.bnu.edu.cn/ggjxz/xyxw/9da4dfeaf9364cccbae0e9a1ef7e0f4d.htm",
+        "evidenceType": "蓝皮书编制方介绍",
+        "frontierCategory": "政策与评价",
+        "educationLevels": [
+          "小学教育",
+          "初中教育",
+          "高中阶段教育"
+        ],
+        "audienceTypes": [],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 蓝皮书编制方介绍",
+            "url": "https://ai.bnu.edu.cn/ggjxz/xyxw/9da4dfeaf9364cccbae0e9a1ef7e0f4d.htm"
+          }
+        ],
+        "why": "为学校端产品判断需求与选取可检验试点提供分类参考。",
+        "limits": "本轮核验编制方介绍，未审读全文、抽样代表性和评测数据；106所是调研样本，不是AI普及率或效果证明。",
+        "evidenceLevel": "蓝皮书编制方介绍",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-11",
+        "category": "政策与评价",
+        "title": "REAL框架追问：反复使用AI后，人保留了什么能力？",
+        "date": "2026-10-27",
+        "eventDate": "2026-10-27发表",
+        "stages": [
+          "高等教育",
+          "教育工作者"
+        ],
+        "region": "美国／概念研究",
+        "summary": "Martin Jones提出Retained、Eroded、Atrophied、Leveraged四个反思维度，将评价重心从AI能做什么转向长期使用对人的判断和能力有何影响。",
+        "value": "备课时可据此列出必须由学生完成的思考环节，以及可以交给AI的辅助步骤。",
+        "caveat": "概念性、理论综合框架，尚未经过实证验证或形成测量量表；不能当作已证实的评估工具。",
+        "source": "https://www.emerald.com/jeet/article/doi/10.1108/JEET-08-2026-0046/1404169/The-REAL-framework-evaluating-the-cognitive-and",
+        "evidenceType": "同行评审概念论文",
+        "frontierCategory": "政策与评价",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 同行评审概念论文",
+            "url": "https://www.emerald.com/jeet/article/doi/10.1108/JEET-08-2026-0046/1404169/The-REAL-framework-evaluating-the-cognitive-and"
+          }
+        ],
+        "why": "备课时可据此列出必须由学生完成的思考环节，以及可以交给AI的辅助步骤。",
+        "limits": "概念性、理论综合框架，尚未经过实证验证或形成测量量表；不能当作已证实的评估工具。",
+        "evidenceLevel": "同行评审概念论文",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      },
+      {
+        "id": "e005-12",
+        "category": "政策与评价",
+        "title": "牙科教育AI评估把患者安全放在技术新奇之前",
+        "date": "2026-10-28",
+        "eventDate": "2026-10-28大学发布研究介绍",
+        "stages": [
+          "高等教育",
+          "教育工作者"
+        ],
+        "region": "英国",
+        "summary": "Queen Mary团队受General Dental Council委托，综合75项研究及监管者、教育专家、毕业生访谈。报告建议明确教学与评价治理、数据保护及数字素养，并持续评估临床判断和安全。",
+        "value": "高风险专业教育不能只展示AI模拟效果，还须验证学生脱离工具后的判断能力。",
+        "caveat": "本轮核大学对快速证据评估的介绍，报告全文未逐项审读；不是75项全部证明有效，也不意味着新的强制规则已生效。",
+        "source": "https://www.qmul.ac.uk/news/latest-news/2026/medicine-and-dentistry/fmd/queen-mary-research-informs-national-approach-to-ai-in-dental-education.html",
+        "evidenceType": "监管委托研究介绍",
+        "frontierCategory": "政策与评价",
+        "educationLevels": [
+          "高等教育"
+        ],
+        "audienceTypes": [
+          "教育工作者"
+        ],
+        "scopeTags": [],
+        "sources": [
+          {
+            "label": "原始来源 · 监管委托研究介绍",
+            "url": "https://www.qmul.ac.uk/news/latest-news/2026/medicine-and-dentistry/fmd/queen-mary-research-informs-national-approach-to-ai-in-dental-education.html"
+          }
+        ],
+        "why": "高风险专业教育不能只展示AI模拟效果，还须验证学生脱离工具后的判断能力。",
+        "limits": "本轮核大学对快速证据评估的介绍，报告全文未逐项审读；不是75项全部证明有效，也不意味着新的强制规则已生效。",
+        "evidenceLevel": "监管委托研究介绍",
+        "freshness": "本周发布",
+        "ageRestriction": "",
+        "firstSeen": "2026-11-02",
+        "lastVerified": "2026-11-02"
+      }
+    ],
+    "summaries": [
+      {
+        "title": "中国大陆AI课程竞争对照",
+        "summary": "8个大陆品牌/项目对照：创作课包、校端平台、编程硬件与AI少年派现场招生案例。价格、工商和交付未核之处分别标注。",
+        "url": "#issue=005&page=industry",
+        "target": "mainland-competitors",
+        "page": "industry"
+      },
+      {
+        "title": "查证成为故事课的一部分",
+        "summary": "13–15岁工具包用游戏助手与气候帖子训练判断；不要求学生直接使用AI。",
+        "target": "e005-05"
+      },
+      {
+        "title": "作品完成，不等于能力形成",
+        "summary": "元认知研究、同伴协作报告和REAL框架共同提示：保留独立判断与修改证据。",
+        "target": "e005-02"
+      },
+      {
+        "title": "教师培训以教学成品收尾",
+        "summary": "UMSL免费12小时课程把测验和课堂作品纳入结业要求，效果与跨境资格仍待核。",
+        "target": "e005-06"
+      },
+      {
+        "title": "小学课程强调过程与责任",
+        "summary": "香港拟定框架计划2028/29推行；北京蓝皮书提供学校场景分类，不能把计划和样本当成效。",
+        "target": "e005-09"
+      }
+    ],
+    "issue": "005",
+    "cutoff": "2026-11-02T09:00:00+08:00",
+    "window": {
+      "start": "2026-10-26T09:00:00+08:00",
+      "end": "2026-11-02T09:00:00+08:00"
+    }
+  },
+  "publicFigures": [
+    {
+      "id": "p005-jenny-lay-flurrie",
+      "name": "Jenny Lay-Flurrie",
+      "role": "微软 Trusted Technology Group 副总裁",
+      "platform": "Microsoft On the Issues；本人署名",
+      "title": "辨别可信信息是AI时代的基础能力",
+      "date": "2026-10-27",
+      "event_date": "2026-10-27",
+      "summary": "她在署名文章中强调，判断信息与AI输出是否可信需要专门训练；开发者不能把可靠性责任全部转给用户。微软与Cyberlite扩展课堂工具包，加入查证与媒体素养情境。",
+      "why": "把产品责任和学生判断力放在一起，适合作为课程安全设计的检查视角。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "企业署名观点及资源发布，不是学习效果试验；团队工具包不计作个人独立成果。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/",
+      "sources": [
+        {
+          "title": "Microsoft On the Issues；本人署名",
+          "url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/"
+        }
+      ]
+    },
+    {
+      "id": "p005-michelle-yao",
+      "name": "Michelle Yao",
+      "role": "Cyberlite 联合创始人",
+      "platform": "Microsoft，明确归属Michelle Yao的引述",
+      "title": "从安全操作走向有依据的信任",
+      "date": "2026-10-27",
+      "event_date": "2026-10-27",
+      "summary": "她指出，青年如今的问题已从怎样安全用AI，转向网上什么值得相信、聊天机器人答案能信多少；希望学生形成更有把握的独立判断。",
+      "why": "适合把绘本或故事课延伸到查证、同伴讨论及解释选择，而不只教提示词。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "合作方自述及观点；不是独立成效结论。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/",
+      "sources": [
+        {
+          "title": "Microsoft，明确归属Michelle Yao的引述",
+          "url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/"
+        }
+      ]
+    },
+    {
+      "id": "p005-neil-lawrence",
+      "name": "Neil Lawrence",
+      "role": "剑桥大学机器学习教授、ai@cam主席",
+      "platform": "ai@cam官方新闻，明确归属引述",
+      "title": "AI能做什么，不等于学生学到了什么",
+      "date": "2026-10-29",
+      "event_date": "2026-10-29",
+      "summary": "他指出，AI已改变学生能完成的任务，但大学仍需研究其对知识、专业能力和独立判断形成的影响，并核验何处真正改善教学。",
+      "why": "可用于区分作品完成度与学生学习证据，尤其是AI辅助设计和编程。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "六项教学研究处于资助和待测试阶段，不能写成已证实有效。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://www.ai.cam.ac.uk/news/six-cambridge-projects-to-explore-how-ai-is-changing-teaching-and-learning/",
+      "sources": [
+        {
+          "title": "ai@cam官方新闻，明确归属引述",
+          "url": "https://www.ai.cam.ac.uk/news/six-cambridge-projects-to-explore-how-ai-is-changing-teaching-and-learning/"
+        }
+      ]
+    },
+    {
+      "id": "p005-jessica-montgomery",
+      "name": "Jessica（Jess）Montgomery",
+      "role": "剑桥大学ai@cam主任",
+      "platform": "ai@cam官方新闻，明确归属引述",
+      "title": "让不同院系试验，并分享可检验经验",
+      "date": "2026-10-29",
+      "event_date": "2026-10-29",
+      "summary": "她表示，六个获资助项目让教师在实际教学中测试不同做法并共享结果，帮助大学据证据决定怎样使用AI。",
+      "why": "适合参考小规模试教、记录问题、跨教师共享经验的课程迭代流程。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "项目计划，不是已有学习成效；机构资助成果不等于她个人完成全部研究。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://www.ai.cam.ac.uk/news/six-cambridge-projects-to-explore-how-ai-is-changing-teaching-and-learning/",
+      "sources": [
+        {
+          "title": "ai@cam官方新闻，明确归属引述",
+          "url": "https://www.ai.cam.ac.uk/news/six-cambridge-projects-to-explore-how-ai-is-changing-teaching-and-learning/"
+        }
+      ]
+    },
+    {
+      "id": "p005-manu-raj-mathur",
+      "name": "Manu Raj Mathur",
+      "role": "伦敦玛丽女王大学牙科公共卫生教授",
+      "platform": "QMUL官方研究新闻，明确归属引述",
+      "title": "专业教育引入AI，首先要守住人的判断",
+      "date": "2026-10-28",
+      "event_date": "2026-10-28",
+      "summary": "他在牙科教育AI证据评估发布中强调，采用技术须由证据和风险认知引导，未来专业人员仍要形成临床判断、批判思维与伦理意识；患者安全应处于核心。",
+      "why": "提醒专业技能课程不能以AI给出正确答案替代学习者独立判断的训练。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "学校介绍称评估纳入75项研究及访谈；本次未独立审阅报告全文，不能视为某工具的效果证明。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://www.qmul.ac.uk/news/latest-news/2026/medicine-and-dentistry/fmd/queen-mary-research-informs-national-approach-to-ai-in-dental-education.html",
+      "sources": [
+        {
+          "title": "QMUL官方研究新闻，明确归属引述",
+          "url": "https://www.qmul.ac.uk/news/latest-news/2026/medicine-and-dentistry/fmd/queen-mary-research-informs-national-approach-to-ai-in-dental-education.html"
+        }
+      ]
+    },
+    {
+      "id": "p005-tony-lake",
+      "name": "Tony Lake",
+      "role": "美国Lindbergh学区总监",
+      "platform": "UMSL Daily；Steve Walentik报道，明确归属引述",
+      "title": "先为教师提供可落地的AI培训",
+      "date": "2026-10-30",
+      "event_date": "2026-10-30",
+      "summary": "他在免费教师AI课程发布时表示，希望借技术伙伴的专业知识训练学区教师，并进一步支持学生。",
+      "why": "关注学校管理层怎样将技术合作转为教师能力，而不只采购账号。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "合作方期待，不是学生学习改善已验证；12小时课程由三个组织共同开发。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/",
+      "sources": [
+        {
+          "title": "UMSL Daily；Steve Walentik报道，明确归属引述",
+          "url": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/"
+        }
+      ]
+    },
+    {
+      "id": "p005-reggie-hill",
+      "name": "Reggie Hill",
+      "role": "UMSL战略招生与职业发展副校长",
+      "platform": "UMSL Daily；Steve Walentik报道，明确归属引述",
+      "title": "把教师培训接上职业能力建设",
+      "date": "2026-10-30",
+      "event_date": "2026-10-30",
+      "summary": "他认为此次合作符合Advanced Workforce Center弥合岗位需求与能力准备差距的使命，也让更多教师获得培训并传递给学生。",
+      "why": "为教师研修的认证、可及性和推广渠道提供参考。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "组织使命与合作判断，不能推断就业或学生成效。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/",
+      "sources": [
+        {
+          "title": "UMSL Daily；Steve Walentik报道，明确归属引述",
+          "url": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/"
+        }
+      ]
+    },
+    {
+      "id": "p005-caren-milloy",
+      "name": "Caren Milloy",
+      "role": "英国Jisc许可业务总监",
+      "platform": "Jisc官方新闻；全文搜索索引可读，直连返回502",
+      "title": "学校需要掌握AI的成本、选择与风险",
+      "date": "2026-10-27",
+      "event_date": "2026-10-27",
+      "summary": "她指出AI正进入教学、科研和运营核心，机构必须保留对成本、选择与风险的控制；供应商的透明度与问责是可持续采用的基础。",
+      "why": "采购课程或平台时，可据此检查用量计费、模型更换、迁移和退出条件。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "行业共同采购主张，不是法律合规结论；本轮直接网页存在访问限制。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://www.jisc.ac.uk/news/all/education-and-research-sector-calls-for-governance-and-cost-control-for-AI",
+      "sources": [
+        {
+          "title": "Jisc官方新闻；全文搜索索引可读，直连返回502",
+          "url": "https://www.jisc.ac.uk/news/all/education-and-research-sector-calls-for-governance-and-cost-control-for-AI"
+        }
+      ]
+    },
+    {
+      "id": "p005-catherine-sezen",
+      "name": "Catherine Sezen MBE",
+      "role": "英国Association of Colleges教育政策总监",
+      "platform": "Jisc官方新闻；全文搜索索引可读，直连返回502",
+      "title": "职业教育采用AI，要同时证明价值与可持续性",
+      "date": "2026-10-27",
+      "event_date": "2026-10-27",
+      "summary": "她表示，继续教育机构要发挥AI潜力，需要治理框架与工具来负责地采用技术、控制费用、说明投入价值，并让投入可长期持续。",
+      "why": "帮助课程经营者把工具体验与学校采购、教师支持和经费约束连接起来。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "政策观点而非产品成效；与Caren同一公告，热点只算一个事件。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://www.jisc.ac.uk/news/all/education-and-research-sector-calls-for-governance-and-cost-control-for-AI",
+      "sources": [
+        {
+          "title": "Jisc官方新闻；全文搜索索引可读，直连返回502",
+          "url": "https://www.jisc.ac.uk/news/all/education-and-research-sector-calls-for-governance-and-cost-control-for-AI"
+        }
+      ]
+    },
+    {
+      "id": "p005-zhou-chenggang",
+      "name": "周成刚（Chenggang Zhou）",
+      "role": "新东方董事兼首席执行官",
+      "platform": "新东方投资者关系官网；2027财年第一季未经审计业绩公告",
+      "title": "AI投入同时看产品商业化与运营效率",
+      "date": "2026-10-28",
+      "event_date": "2026-10-28",
+      "summary": "他在业绩公告中表示，本财年将审慎投入AI，提升现有产品竞争力、开发可有效商业化的新教育产品，同时用于降低人工成本、提高运营效率及支持员工。",
+      "why": "可对照机构到底为AI产品、教师增效还是获客付费；不能只看宣传中的学生规模。",
+      "fact_vs_opinion": "中文转述；有明确署名或归属的人物观点，不是逐字引语。",
+      "caveat": "管理层前瞻经营表述；财季截至2026-08-31，发布于10-28。集团收入和利润不等于AI教育业务收入和利润。",
+      "freshness": "本周发布｜具体观点",
+      "verification": "一手署名文章或机构明确归属报道，访问限制见资料边界。",
+      "source_url": "https://investor.neworiental.org/index.php/news-releases/news-release-details/new-oriental-announces-results-first-fiscal-quarter-ended-12",
+      "sources": [
+        {
+          "title": "新东方投资者关系官网；2027财年第一季未经审计业绩公告",
+          "url": "https://investor.neworiental.org/index.php/news-releases/news-release-details/new-oriental-announces-results-first-fiscal-quarter-ended-12"
+        }
+      ]
+    }
+  ],
+  "newIdeaIds": [
+    "mail-toolkit",
+    "ltx-ipe-scenarios",
+    "instrument-playground",
+    "poem-postcards",
+    "bach-doodle",
+    "draw-to-art",
+    "alto",
+    "lipsync",
+    "wordcraft-workshop",
+    "poem-booth",
+    "dance-ai-luxembourg",
+    "world-toon-video",
+    "jixi-jimeng-picturebook",
+    "nanjing-digital-shadow",
+    "bjsc-ai-science-film",
+    "changzhou-ai-mini-games",
+    "ecnu-liulin-feelings",
+    "giant-remix-codesign"
+  ],
+  "creativeSnapshots": [
+    {
+      "id": "mail-toolkit",
+      "title": "先给游戏助手找错，再决定能不能分享它的答案",
+      "date": "2026-10-27",
+      "dateNote": "原始公开日期；非本刊首次发现日期。",
+      "author": "Microsoft × Cyberlite",
+      "category": "教学应用",
+      "summary": "扩展AI课堂工具包以虚构游戏助手和真假混合信息流组织查证活动，是真实发布的教学资源，不是已证明有效的课堂实验。",
+      "play": "围绕The Helpful Bot核对助手的说法和索取的信息；另一活动The Climate Campaign要求检查主张与来源，而非只猜是不是AI生成。",
+      "tools": [
+        "教师课件",
+        "来源网页",
+        "纸质判断卡；学生AI使用可选"
+      ],
+      "reproduce": "教师自编无个人信息的机器人回答卡，让小组标出事实主张、寻找证据，并写一条安全改进规则。",
+      "education": "练习负责任分享、同伴协商和事实核验；适合原资源明确的13–15岁。",
+      "limits": "新两课各约30分钟且建议另留讨论时间；原版有中文不等于扩展版已有中文。扩展PPTX内容和复用许可未逐页核验；不可把原工具包覆盖量当新课效果。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/"
+        },
+        {
+          "label": "补充原始资料",
+          "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/classroom-toolkit-unlock-generative-ai-safely-responsibly"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "初中",
+        "教育工作者"
+      ],
+      "stage": [
+        "初中",
+        "教育工作者"
+      ],
+      "tags": [
+        "教学应用",
+        "本周新发布"
+      ],
+      "timeLayer": "本周新发布",
+      "image": {
+        "url": "",
+        "alt": "先给游戏助手找错，再决定能不能分享它的答案：原项目展示图",
+        "sourcePage": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/",
+        "credit": "Microsoft × Cyberlite",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
+        "localPath": null,
+        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+      },
+      "educationLevels": [
+        "初中教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：初中；教育工作者。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "教学应用"
+      ],
+      "freshness": "本周新发布",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2026-10-27",
+      "difficultyGroup": "入门",
+      "uses": [
+        "练习负责任分享、同伴协商和事实核验；适合原资源明确的13–15岁。"
+      ]
+    },
+    {
+      "id": "ltx-ipe-scenarios",
+      "title": "用AI拍协作冲突短片，让学习者补上成功应对",
+      "date": "2026-10-27",
+      "dateNote": "期刊标印刷出版2026-10-25、J-STAGE上线2026-10-27；不是课堂实施日。",
+      "author": "Kyoko Isoyama、Hiroshi Mihara、Yukihiro Osanami、Masaki Sugimura",
+      "category": "教学应用",
+      "summary": "日本医学教育短报描述用LTX Studio生成四条真人角色风格视频，供47名一年级医学及健康科学学生参与跨专业协作工作坊。",
+      "play": "观看协作情境后进行小组讨论和反思；研究发现学习者还希望看到理想应对示例。",
+      "tools": [
+        "LTX Studio",
+        "小组讨论与反思记录"
+      ],
+      "reproduce": "教师迁移到普通课堂时，可另写虚构的“小组任务意见冲突”，先演出问题，再让孩子共同改写一个互助解决版本；该迁移方案未实测。",
+      "education": "将生成式视频用作讨论触发器，而不是让AI替学生作价值判断。原研究对象为高等教育，不直接外推低幼。",
+      "limits": "只有摘要级核验；与70人历史非AI对照相比改善无显著差异，不能声称AI优于传统视频。未取得可转载视频或截图，也未验证成本。",
+      "difficulty": "中等",
+      "sources": [
+        {
+          "label": "出版者目录及摘要",
+          "url": "https://www.jstage.jst.go.jp/browse/mededjapan/57/5/_contents/-char/en"
+        },
+        {
+          "label": "论文DOI",
+          "url": "https://doi.org/10.11307/mededjapan.57.5_386"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "真实已实施研究案例；摘要级核验；非本刊实测",
+      "audience": [
+        "高等教育",
+        "教育工作者"
+      ],
+      "stage": [
+        "高等教育",
+        "教育工作者"
+      ],
+      "tags": [
+        "教学应用",
+        "本周新发布"
+      ],
+      "timeLayer": "本周新发布",
+      "image": {
+        "url": "",
+        "alt": "未取得原研究视频截图",
+        "sourcePage": "https://doi.org/10.11307/mededjapan.57.5_386",
+        "credit": "论文作者",
+        "publicReuseCleared": false,
+        "rightsStatus": "未取得成品图/视频及转载许可；不补造示例",
+        "localPath": null,
+        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+      },
+      "relatedFrontier": "与本期日本医学教育课程实施报告为不同研究，不重复标为同一研究。",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：高等教育；教育工作者。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "教学应用"
+      ],
+      "freshness": "本周新发布",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2026-10-27",
+      "difficultyGroup": "进阶",
+      "uses": [
+        "将生成式视频用作讨论触发器，而不是让AI替学生作价值判断。原研究对象为高等教育，不直接外推低幼。"
+      ]
+    },
+    {
+      "id": "instrument-playground",
+      "title": "先给乐器一个心情，再把生成声音编成小合奏",
+      "date": "2023-12-01",
+      "dateNote": "原始公开日期；非本刊首次发现日期。",
+      "author": "Simon Doury / Google Arts & Culture Lab",
+      "category": "音乐声音",
+      "summary": "官方发布页展示以世界乐器名称与心情描述生成声音，再用不同模式编辑、叠加的音乐实验，并附节庆短曲示例。",
+      "play": "输入乐器及情绪词，取得约20秒片段；从节拍、音高等模式探索，可用序列器叠加最多四种乐器。",
+      "tools": [
+        "Instrument Playground",
+        "发布时使用MusicLM"
+      ],
+      "reproduce": "教师用同一乐器的两种心情做听辨，孩子选择片段配一段互助故事，再说清选音理由。",
+      "education": "把情绪描述、节奏选择和故事表达连接起来；适龄为本刊教学迁移建议，原页未限定年龄。",
+      "limits": "生成声是受乐器启发，不保证是准确民族乐器采样；账号、地区、现时可用性、音频导出和许可未实测。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/google-arts-culture-new-music-ai-experiment/"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "小学（教师演示建议）",
+        "初中（迁移建议）"
+      ],
+      "stage": [
+        "小学（教师演示建议）",
+        "初中（迁移建议）"
+      ],
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Instrument_Playground_Hero_01.gif",
+        "alt": "先给乐器一个心情，再把生成声音编成小合奏：原项目展示图",
+        "sourcePage": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/google-arts-culture-new-music-ai-experiment/",
+        "credit": "Simon Doury / Google Arts & Culture Lab",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "有官方展示图URL，未验证所有客户端显示",
+        "localPath": null,
+        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
+        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：小学（教师演示建议）；初中（迁移建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "音乐声音"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2023-12-01",
+      "difficultyGroup": "入门",
+      "uses": [
+        "把情绪描述、节奏选择和故事表达连接起来；适龄为本刊教学迁移建议，原页未限定年龄。"
+      ]
+    },
+    {
+      "id": "poem-postcards",
+      "title": "用同一幅画比较两种诗，再做一张有署名的明信片",
+      "date": "2023-08-09",
+      "dateNote": "原始公开日期；非本刊首次发现日期。",
+      "author": "Google researchers / Google Arts & Culture",
+      "category": "图像设计",
+      "summary": "Poem Postcards把选定馆藏艺术品、诗体和补充主题组合成AI诗歌明信片；原页面说明可重写和分享。",
+      "play": "选画，选俳句或其他诗体，加主题词，比较重写前后并选择适合画面的一版。",
+      "tools": [
+        "Poem Postcards",
+        "发布时PaLM 2"
+      ],
+      "reproduce": "先让孩子用自己的三句话描述画面，再由教师生成候选；保留孩子修改和拒绝的理由，成品注明画作及AI参与。",
+      "education": "练习观察、语言取舍与作品署名，不把生成诗当艺术家的原话。",
+      "limits": "原始作品及生成结果的使用权需分别核查；中文效果和当前交互未实测。学生不必注册账号。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://artsandculture.google.com/experiment/ZgG5_uTbBgTpIQ"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "小学（教师代操作建议）",
+        "初中（迁移建议）"
+      ],
+      "stage": [
+        "小学（教师代操作建议）",
+        "初中（迁移建议）"
+      ],
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "alt": "用同一幅画比较两种诗，再做一张有署名的明信片：原项目展示图",
+        "sourcePage": "https://artsandculture.google.com/experiment/ZgG5_uTbBgTpIQ",
+        "credit": "Google researchers / Google Arts & Culture",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
+        "localPath": null,
+        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：小学（教师代操作建议）；初中（迁移建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "图像设计"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2023-08-09",
+      "difficultyGroup": "入门",
+      "uses": [
+        "练习观察、语言取舍与作品署名，不把生成诗当艺术家的原话。"
+      ]
+    },
+    {
+      "id": "bach-doodle",
+      "title": "自己写主旋律，让AI补和声，再听哪里不合意",
+      "date": "2019-03-21",
+      "dateNote": "原始公开日期；非本刊首次发现日期。",
+      "author": "Google Doodle / Magenta / PAIR",
+      "category": "音乐声音",
+      "summary": "Bach Doodle是可输入旋律并由Coconet补成巴赫风格和声的真实互动作品，官方说明了训练素材与浏览器运行方式。",
+      "play": "先输入自己的旋律，比较单旋律与生成和声；再改一个音并听变化。",
+      "tools": [
+        "Bach Doodle",
+        "Coconet",
+        "TensorFlow.js"
+      ],
+      "reproduce": "教师准备简单旋律与两个和声版本，让学生描述哪一版更像角色遇难或获助，并保留人的选择。",
+      "education": "区分主旋律作者与自动伴奏；理解训练范例会影响风格。",
+      "limits": "历史作品，不是本周新品；本轮未实际演奏或验证所有设备兼容。模型风格输出不是巴赫原作。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://blog.google/innovation-and-ai/products/honoring-js-bach-our-first-ai-powered-doodle/"
+        },
+        {
+          "label": "补充原始资料",
+          "url": "https://arxiv.org/abs/1907.06637"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "小学（迁移建议）",
+        "初中（迁移建议）"
+      ],
+      "stage": [
+        "小学（迁移建议）",
+        "初中（迁移建议）"
+      ],
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/CTA_highres.width-1300.jpg",
+        "alt": "自己写主旋律，让AI补和声，再听哪里不合意：原项目展示图",
+        "sourcePage": "https://blog.google/innovation-and-ai/products/honoring-js-bach-our-first-ai-powered-doodle/",
+        "credit": "Google Doodle / Magenta / PAIR",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "有官方展示图URL，未验证所有客户端显示",
+        "localPath": null,
+        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
+        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：小学（迁移建议）；初中（迁移建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "音乐声音"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2019-03-21",
+      "difficultyGroup": "入门",
+      "uses": [
+        "区分主旋律作者与自动伴奏；理解训练范例会影响风格。"
+      ]
+    },
+    {
+      "id": "draw-to-art",
+      "title": "画一个轮廓，找到相似馆藏，再解释像在哪里",
+      "date": "2018-10",
+      "dateNote": "原页只明确到月份或年份，未虚构具体日期。",
+      "author": "Google Creative Lab / Google Arts & Culture Lab / IYOIYO",
+      "category": "互动游戏",
+      "summary": "Draw to Art将涂鸦匹配到博物馆的绘画、雕塑和素描；官方项目说明其使用Sketchy数据训练匹配网络。",
+      "play": "先画简单形状，观察相似作品，不把“像”误认为作者、时代或含义相同。",
+      "tools": [
+        "Draw to Art",
+        "Sketchy训练的匹配模型"
+      ],
+      "reproduce": "两人画同一个“帮助伙伴”的物体，各选一件匹配艺术品，依据轮廓、姿态或构图说明相似和不同。",
+      "education": "从检索结果练习观察与证据表达，减少把模型结果当唯一答案。",
+      "limits": "原始装置和现有网页版本可能不同；馆藏背景需回到博物馆资料核验；作品版权未统一获准。",
+      "difficulty": "入门",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://experiments.withgoogle.com/draw-to-art"
+        },
+        {
+          "label": "补充原始资料",
+          "url": "https://artsexperiments.withgoogle.com/draw-to-art"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "小学（迁移建议）",
+        "初中（迁移建议）"
+      ],
+      "stage": [
+        "小学（迁移建议）",
+        "初中（迁移建议）"
+      ],
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/8M1GyqqdDy5UouXxV19QO4FyDO70muhLWHW2KZI0wiG14QiPbahzduTO03b5O04paD-xBmlALx_L6jeWPTKQvCvGq5lb9A",
+        "alt": "画一个轮廓，找到相似馆藏，再解释像在哪里：原项目展示图",
+        "sourcePage": "https://experiments.withgoogle.com/draw-to-art",
+        "credit": "Google Creative Lab / Google Arts & Culture Lab / IYOIYO",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "有官方展示图URL，未验证所有客户端显示",
+        "localPath": null,
+        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
+        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：小学（迁移建议）；初中（迁移建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "互动游戏"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2018-10",
+      "difficultyGroup": "入门",
+      "uses": [
+        "从检索结果练习观察与证据表达，减少把模型结果当唯一答案。"
+      ]
+    },
+    {
+      "id": "alto",
+      "title": "给纸壳机器人教两个物体，让它用手臂指出答案",
+      "date": "2021-02",
+      "dateNote": "原页只明确到月份或年份，未虚构具体日期。",
+      "author": "Google Creative Lab",
+      "category": "互动游戏",
+      "summary": "Alto是有开源代码和模板的可教物体：按按钮教它识别东西，识别后用手臂指示。",
+      "play": "制作外壳与硬件，采集样例，测试换角度或换背景后的识别是否仍可靠。",
+      "tools": [
+        "Alto",
+        "Raspberry Pi",
+        "Coral USB accelerator",
+        "TensorFlow"
+      ],
+      "reproduce": "教师负责电气与装配，学生用不含个人信息的文具给分类器提供样例，记录正确和错误，再补样例重测。",
+      "education": "让“提供数据—检验—修正”变成有实体反馈的合作过程。",
+      "limits": "需硬件和开发环境；非即插即用课包。采购成本、现有依赖兼容及实体运行未实测；代码许可不自动涵盖宣传图片。",
+      "difficulty": "进阶",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://experiments.withgoogle.com/alto"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "小学高年级（教师支持建议）",
+        "初中（迁移建议）"
+      ],
+      "stage": [
+        "小学高年级（教师支持建议）",
+        "初中（迁移建议）"
+      ],
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/APx4kb-N72WadG9cxDtSWPnaSkKe2WXcZ1zuJ93r8fLmR_gaJ62BPfRPBHVqgWg1inZvkfJwFSuDsEJSgZgMp8Wt_dCLT5ikvRL6K6lGbA",
+        "alt": "给纸壳机器人教两个物体，让它用手臂指出答案：原项目展示图",
+        "sourcePage": "https://experiments.withgoogle.com/alto",
+        "credit": "Google Creative Lab",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "有官方展示图URL，未验证所有客户端显示",
+        "localPath": null,
+        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
+        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：小学高年级（教师支持建议）；初中（迁移建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "互动游戏"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2021-02",
+      "difficultyGroup": "进阶",
+      "uses": [
+        "让“提供数据—检验—修正”变成有实体反馈的合作过程。"
+      ]
+    },
+    {
+      "id": "lipsync",
+      "title": "让嘴形成为互动控制，讨论机器究竟测到了什么",
+      "date": "2020-09",
+      "dateNote": "原页只明确到月份或年份，未虚构具体日期。",
+      "author": "Google Partner Innovation × bit.studio",
+      "category": "个性化体验",
+      "summary": "LipSync by YouTube用浏览器端面部关键点检测，对对口型与歌曲的匹配进行反馈，是已发布实验。",
+      "play": "体验嘴形与机器评分的关系，再区分口型匹配、发音质量和情感表达。",
+      "tools": [
+        "LipSync by YouTube",
+        "TensorFlow.js",
+        "摄像头"
+      ],
+      "reproduce": "优先用教师自愿示范，不采集儿童面部；学生设计不依赖人脸的替代控制方法，并解释评分盲点。",
+      "education": "认识AI量化指标的边界；口型评分不能替代口语教学评价。",
+      "limits": "涉及摄像头与面部信息，课程前应审查隐私与授权；历史页声称浏览器运行不等于整个网站绝无网络传输。本轮未交互测试。",
+      "difficulty": "中等",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://experiments.withgoogle.com/lipsync"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "初中（教师演示建议）",
+        "教育工作者"
+      ],
+      "stage": [
+        "初中（教师演示建议）",
+        "教育工作者"
+      ],
+      "tags": [
+        "个性化体验",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/t54TCKZOI8QgHU-ZPTRgcMaFg7ir2XKCutX8pdgPiU2X1XJWZgmzv00aY821B7FRjGWtF8kN_u5ADOsQ5aGvs1mI-_eGnRU",
+        "alt": "让嘴形成为互动控制，讨论机器究竟测到了什么：原项目展示图",
+        "sourcePage": "https://experiments.withgoogle.com/lipsync",
+        "credit": "Google Partner Innovation × bit.studio",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "有官方展示图URL，未验证所有客户端显示",
+        "localPath": null,
+        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
+        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+      },
+      "educationLevels": [
+        "初中教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：初中（教师演示建议）；教育工作者。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "个性化体验"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2020-09",
+      "difficultyGroup": "进阶",
+      "uses": [
+        "认识AI量化指标的边界；口型评分不能替代口语教学评价。"
+      ]
+    },
+    {
+      "id": "wordcraft-workshop",
+      "title": "先保留作者的故事，再让AI只帮助改一小段",
+      "date": "2022-12-01",
+      "dateNote": "原始公开日期；非本刊首次发现日期。",
+      "author": "Google PAIR / Magenta与13位专业作家",
+      "category": "故事视频",
+      "summary": "Wordcraft作家工作坊邀请13位专业作家用LaMDA辅助编辑创作，并公开故事及对工具局限的反思。",
+      "play": "在故事构思、局部改写、续写之间切换，作者判断是否采用；官方也报告俗套、无聊建议和风格保留困难。",
+      "tools": [
+        "Wordcraft（历史研究工具）",
+        "LaMDA",
+        "公开数字文学作品集"
+      ],
+      "reproduce": "用学校许可的文本AI迁移“只改一处”方法：孩子先讲自己的互助情节，教师索取两个转折建议，孩子选择或拒绝并说明原因。",
+      "education": "评价作者的取舍与修改痕迹，不按AI产出的长短评分。",
+      "limits": "公开文学作品含成人主题，不能直接整本投给儿童；教师只参考流程并另备适龄文本。研究编辑器现时开放性未核。",
+      "difficulty": "中等",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://magenta.withgoogle.com/wordcraft-writers-workshop"
+        },
+        {
+          "label": "补充原始资料",
+          "url": "https://wordcraft-writers-workshop.appspot.com/"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "高中及成人",
+        "教育工作者；小学迁移需另备文本"
+      ],
+      "stage": [
+        "高中及成人",
+        "教育工作者；小学迁移需另备文本"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "https://magenta.withgoogle.com/assets/wordcraft/www-card.png",
+        "alt": "先保留作者的故事，再让AI只帮助改一小段：原项目展示图",
+        "sourcePage": "https://magenta.withgoogle.com/wordcraft-writers-workshop",
+        "credit": "Google PAIR / Magenta与13位专业作家",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "有官方展示图URL，未验证所有客户端显示",
+        "localPath": null,
+        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
+        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：高中及成人；教育工作者；小学迁移需另备文本。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "故事视频"
+      ],
+      "freshness": "历史灵感",
+      "classroomPlan": {
+        "title": "我来决定故事怎么走：给AI建议盖“采用/修改/不采用”章",
+        "basedOn": "wordcraft-workshop",
+        "status": "本刊原创课堂迁移方案，未实测；不属于第13个真实案例",
+        "stage": "小学一至三年级建议；幼儿园可由教师记录口述并缩短到35分钟",
+        "duration": "60分钟（估计）",
+        "goal": [
+          "孩子说清人物、困难、互助行动和结果。",
+          "至少比较两个建议，并给出采用或拒绝的理由。",
+          "能指出哪些内容由自己提出、哪些来自AI并经修改。"
+        ],
+        "materials": [
+          "四格故事纸、彩笔、采用/修改/不采用三种标记",
+          "教师电脑与投屏、学校批准的文本生成工具；学生不注册AI账号",
+          "教师预先审查的两组AI建议；断网时使用纸卡"
+        ],
+        "prompt": "你是老师的备课助手。请只为下面儿童原创故事提供两个不同的下一步建议，每个不超过40字，表达互相帮助。不要替孩子写结尾，不新增暴力、危险动作或个人信息。故事：两只小动物想送一篮水果过桥，但篮子太重。请让两个建议有可比较的优缺点。",
+        "steps": [
+          {
+            "minutes": "0–8",
+            "activity": "教师用自己的原创纸偶演示角色与困难。孩子两人一组口述开头，不先让AI写整篇。"
+          },
+          {
+            "minutes": "8–18",
+            "activity": "孩子画前两格，伙伴复述“谁遇到什么困难”；教师记录关键词而不上传孩子姓名或声音。"
+          },
+          {
+            "minutes": "18–28",
+            "activity": "教师展示预审后的两个AI转折建议，小组先说理由再盖章。可全部不采用。"
+          },
+          {
+            "minutes": "28–40",
+            "activity": "孩子自己改出互助行动与结尾，画完四格；保留一次修改痕迹。"
+          },
+          {
+            "minutes": "40–53",
+            "activity": "每组用60秒介绍作品，并补一句“AI建议了……，我们改成……，因为……”。伙伴问一个关于选择的具体问题。"
+          },
+          {
+            "minutes": "53–60",
+            "activity": "老师收集出口卡：我的贡献、伙伴的贡献、AI帮助和仍需检查的一点。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "故事因果",
+            "observable": "困难、行动和结果能够连起来。"
+          },
+          {
+            "dimension": "自主选择",
+            "observable": "能为至少一处采纳或拒绝说明具体理由。"
+          },
+          {
+            "dimension": "合作表达",
+            "observable": "伙伴都有发言，并能复述对方意见。"
+          },
+          {
+            "dimension": "AI归因",
+            "observable": "清楚标记AI建议和自己的改动。"
+          }
+        ],
+        "expectedOutput": "一张四格互助故事、两张标记过的建议卡、一次修改痕迹和约60秒口头分享。",
+        "safety": "只输入虚构角色和非个人信息；不采集人脸、姓名、学校位置。教师审查所有生成内容；不上传儿童作品到公开服务或对外发布。",
+        "homeExtension": "可让孩子向家长复述修改理由，分享纸本即可，不要求家庭注册服务。",
+        "evidenceBoundary": "借鉴Wordcraft的局部协作与作者选择，不使用其含成人主题的公开小说；该活动不声称已有学习效果。"
+      },
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2022-12-01",
+      "difficultyGroup": "进阶",
+      "uses": [
+        "评价作者的取舍与修改痕迹，不按AI产出的长短评分。"
+      ]
+    },
+    {
+      "id": "poem-booth",
+      "title": "把展台拍照变成诗歌互动，再追问诗里哪些是猜测",
+      "date": "2023-05-08",
+      "dateNote": "原始公开日期；非本刊首次发现日期。",
+      "author": "Poem Booth团队 / Little Robots / Maarten Inghels",
+      "category": "个性化体验",
+      "summary": "制作者称其照片转诗原型曾在NEMO组织的Expeditie Next儿童科学节演示，并由诗人参与调整诗歌语气。",
+      "play": "照片输入后得到个性化诗；观众可比较照片里可见事实和AI补出的想象。",
+      "tools": [
+        "Poem Booth",
+        "ChatGPT/生成式AI（制作者表述）"
+      ],
+      "reproduce": "借用流程时改为孩子画的虚构角色或无身份物件，教师代操作；让孩子删掉没有依据的描述，形成“原诗—我修改的诗”。",
+      "education": "把被动收到作品改为审稿、解释和表达；保留真实照片服务的隐私讨论。",
+      "limits": "属于制作者自述的演示，未独立核实节庆效果；网页工具直接打开失败，但另经原站HTML读取确认页面及配图可访问；活动效果仍为制作者自述。勿上传儿童人脸或私人资料；当下产品配置、价格未核。",
+      "difficulty": "中等",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://poembooth.com/en/row/blog/how-were-using-chatgpt-generative-ai-poetry"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "教育工作者",
+        "小学（无身份素材迁移建议）"
+      ],
+      "stage": [
+        "教育工作者",
+        "小学（无身份素材迁移建议）"
+      ],
+      "tags": [
+        "个性化体验",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "https://cdn.sanity.io/images/454beuev/production/92aaf0ec1af04ea51268f69a18cd9c27bf307a70-640x360.gif",
+        "alt": "把展台拍照变成诗歌互动，再追问诗里哪些是猜测：原项目展示图",
+        "sourcePage": "https://poembooth.com/en/row/blog/how-were-using-chatgpt-generative-ai-poetry",
+        "credit": "Poem Booth团队 / Little Robots / Maarten Inghels",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "有官方展示图URL，未验证所有客户端显示",
+        "localPath": null,
+        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
+        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+      },
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：教育工作者；小学（无身份素材迁移建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "个性化体验"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2023-05-08",
+      "difficultyGroup": "进阶",
+      "uses": [
+        "把被动收到作品改为审稿、解释和表达；保留真实照片服务的隐私讨论。"
+      ]
+    },
+    {
+      "id": "dance-ai-luxembourg",
+      "title": "看AI骨架怎么跳舞，找出被遮挡的那条腿",
+      "date": "2022",
+      "dateNote": "原页只明确到月份或年份，未虚构具体日期。",
+      "author": "University of Luxembourg AI ROBOLAB / N. Shojaee、B. Antico",
+      "category": "故事视频",
+      "summary": "卢森堡大学2022展示提供芭蕾和探戈AI舞蹈视频，并展示遮挡和复杂姿势导致骨架识别困难的例子。",
+      "play": "比较音乐、动作骨架和示例画面，寻找关键点错连或身体部位不可见的情况。",
+      "tools": [
+        "大学Dance and AI公开视频",
+        "姿态关键点/舞蹈生成研究系统"
+      ],
+      "reproduce": "学生用纸偶设计三格动作，故意遮住一只手，请同伴猜动作；再看研究示例，讨论机器和人的不确定性。",
+      "education": "把识别错误转成可解释的观察任务，连接身体表达与模型局限。",
+      "limits": "只核到项目公开展示，不是儿童课堂效果研究；训练系统不是现成免安装工具。视频人物与图片复用许可未核。",
+      "difficulty": "入门观摩／进阶复现",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://testit.uni.lu/exhibit/dance-and-ai/"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "小学（纸偶迁移建议）",
+        "初中（迁移建议）"
+      ],
+      "stage": [
+        "小学（纸偶迁移建议）",
+        "初中（迁移建议）"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "alt": "看AI骨架怎么跳舞，找出被遮挡的那条腿：原项目展示图",
+        "sourcePage": "https://testit.uni.lu/exhibit/dance-and-ai/",
+        "credit": "University of Luxembourg AI ROBOLAB / N. Shojaee、B. Antico",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
+        "localPath": null,
+        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：小学（纸偶迁移建议）；初中（迁移建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "故事视频"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2022",
+      "difficultyGroup": "进阶",
+      "uses": [
+        "把识别错误转成可解释的观察任务，连接身体表达与模型局限。"
+      ]
+    },
+    {
+      "id": "world-toon-video",
+      "title": "把卡通主角放进知识场景，让短片事实也接受检查",
+      "date": "2025-11-27",
+      "dateNote": "原始公开日期；非本刊首次发现日期。",
+      "author": "Gaël Hugo / Google Arts & Culture Lab",
+      "category": "故事视频",
+      "summary": "World Toon Video官方演示将自拍转为不同画风的卡通角色，选择场景及四个候选后生成讲述场景知识的短片。",
+      "play": "选角色风格、场景、候选画面，再生成短片；将视频中的事实另列出来核对。",
+      "tools": [
+        "World Toon Video",
+        "Google AI"
+      ],
+      "reproduce": "原产品需要自拍，儿童课堂优先仅观摩教师自愿示例；若用另一个获准工具迁移，则用虚构人物手绘图，不宣称原产品接受该替代输入。",
+      "education": "让学生区分“我喜欢的角色画面”和“经过查证的知识”，练短片讲述结构。",
+      "limits": "与旧Art Selfie 2为不同项目：本项包含短视频和知识叙述。面部素材、账号年龄、地区、许可需先审查；本轮未实际生成。",
+      "difficulty": "中等",
+      "sources": [
+        {
+          "label": "原始发布/项目与成品展示",
+          "url": "https://artsandculture.google.com/experiment/world-toon-video-w-t-v/kQGgmM6Aoohkrw?hl=en"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "已公开真实资源/项目；非本刊课堂实测",
+      "audience": [
+        "教育工作者",
+        "初中（教师演示建议）"
+      ],
+      "stage": [
+        "教育工作者",
+        "初中（教师演示建议）"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "alt": "把卡通主角放进知识场景，让短片事实也接受检查：原项目展示图",
+        "sourcePage": "https://artsandculture.google.com/experiment/world-toon-video-w-t-v/kQGgmM6Aoohkrw?hl=en",
+        "credit": "Gaël Hugo / Google Arts & Culture Lab",
+        "publicReuseCleared": false,
+        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
+        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
+        "localPath": null,
+        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+      },
+      "educationLevels": [
+        "初中教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "stageBasis": "原资料/迁移范围：教育工作者；初中（教师演示建议）。若标迁移建议，表示编者改编对象，不是原产品年龄许可；学生使用须另核规则。",
+      "categories": [
+        "故事视频"
+      ],
+      "freshness": "历史灵感",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
+      "originalDate": "2025-11-27",
+      "difficultyGroup": "进阶",
+      "uses": [
+        "让学生区分“我喜欢的角色画面”和“经过查证的知识”，练短片讲述结构。"
+      ]
+    },
+    {
+      "id": "jixi-jimeng-picturebook",
+      "title": "把绘本里的一个疑问变成短片，让孩子先说再看",
+      "date": "2025-05-23",
+      "eventDate": "2025年5月19日至23日期间的推门课活动；具体该节日期未标",
+      "dateNote": "历史案例，2026-11-02补充核验；不是本周新发生事件。",
+      "author": "梨树区实验幼儿园 / 鸡西教育云",
+      "category": "教学应用",
+      "summary": "园方报道教师用即梦生成《没有耳朵的兔子》的故事图片和短视频，再带领幼儿讨论。属于教师制备情境、儿童参与表达的真实课堂案例。",
+      "play": "园方报道教师用即梦生成《没有耳朵的兔子》的故事图片和短视频，再带领幼儿讨论。属于教师制备情境、儿童参与表达的真实课堂案例。",
+      "tools": [
+        "即梦（原文明确）",
+        "教师电脑和投屏"
+      ],
+      "reproduce": "迁移时另用教师原创的互助故事：先停在角色遇到困难的一格，让孩子提出办法；再播放教师预审的短片，比较自己的方案与画面。",
+      "education": "一组原创情境图、短片和幼儿口述记录；评价是否能说明角色困难和帮助办法，不以播放时长或热闹程度评分。",
+      "expectedOutput": "一组原创情境图、短片和幼儿口述记录；评价是否能说明角色困难和帮助办法，不以播放时长或热闹程度评分。",
+      "limits": "园方所述发言和参与提升没有样本、量表或对照数据，不当作实证成效。原绘本改编及生成内容版权须另核；不复制原书图片，学生无需AI账号。",
+      "difficulty": "入门／教师支持",
+      "sources": [
+        {
+          "label": "原始机构报道与示例",
+          "url": "https://edu.jixi.gov.cn/Article/49320.html"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "真实已报道课堂/共创案例；机构自述；本刊迁移未实测",
+      "audience": [
+        "学前",
+        "教育工作者"
+      ],
+      "stage": [
+        "学前",
+        "教育工作者"
+      ],
+      "tags": [
+        "教学应用",
+        "历史灵感",
+        "大陆课堂案例"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "sourcePage": "https://edu.jixi.gov.cn/Article/49320.html",
+        "alt": "把绘本里的一个疑问变成短片，让孩子先说再看：示例请见原页",
+        "credit": "梨树区实验幼儿园 / 鸡西教育云",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
+        "availability": "原页有课堂照片，未提供可独立核验的完整生成视频。",
+        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+      },
+      "educationLevels": [
+        "学前教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "categories": [
+        "教学应用"
+      ],
+      "stageBasis": "原资料及编辑迁移对象：学前；教育工作者；迁移建议不是工具年龄许可，学生直接操作须另核学校与服务规则。",
+      "difficultyGroup": "入门",
+      "uses": [
+        "一组原创情境图、短片和幼儿口述记录；评价是否能说明角色困难和帮助办法，不以播放时长或热闹程度评分。"
+      ],
+      "originalDate": "2025-05-23",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "freshness": "历史案例 · 11月2日下午补充",
+      "reproductionStatus": "原案例有公开来源；本刊课堂迁移未实测"
+    },
+    {
+      "id": "nanjing-digital-shadow",
+      "title": "先画皮影角色，再比较哪些关节让它动得自然",
+      "date": "2026-04-10",
+      "eventDate": "2026-04-09进校活动",
+      "dateNote": "历史案例，2026-11-02补充核验；不是本周新发生事件。",
+      "author": "南京工业职业技术大学计算机与软件学院 / 栖霞区实验小学尧和路分校",
+      "category": "互动游戏",
+      "summary": "学校报道党员师生带小学生体验数字皮影：画角色、自动抠图、绑定关节并操控表演，比较传统实物皮影和可修改的电子角色。",
+      "play": "学校报道党员师生带小学生体验数字皮影：画角色、自动抠图、绑定关节并操控表演，比较传统实物皮影和可修改的电子角色。",
+      "tools": [
+        "电脑与摄像头",
+        "自动抠图、关节绑定系统（品牌未披露）"
+      ],
+      "reproduce": "教师准备原创纸偶，小组决定哪些部位需要活动；先手动演一段互助故事，再由教师展示数字角色的修改和操控。",
+      "education": "一个原创皮影角色、动作测试单与一分钟合作表演；记录关节位置改变后的效果。",
+      "expectedOutput": "一个原创皮影角色、动作测试单与一分钟合作表演；记录关节位置改变后的效果。",
+      "limits": "原页通过搜索引擎完整正文核验，直接网页抓取超时，另一次原站请求返回503；具体AI模型、软件和识别精度未披露，不能凭照片断言自动生成全部动作。与已有Animated Drawings不同，本项是大陆实际皮影课堂迁移案例，但技术机制有相似处。",
+      "difficulty": "入门／教师支持",
+      "sources": [
+        {
+          "label": "原始机构报道与示例",
+          "url": "https://niit.edu.cn/1e/da/c5818a73434/page.htm"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "真实已报道课堂/共创案例；机构自述；本刊迁移未实测",
+      "audience": [
+        "小学",
+        "教育工作者"
+      ],
+      "stage": [
+        "小学",
+        "教育工作者"
+      ],
+      "tags": [
+        "互动游戏",
+        "历史灵感",
+        "大陆课堂案例"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "sourcePage": "https://niit.edu.cn/1e/da/c5818a73434/page.htm",
+        "alt": "先画皮影角色，再比较哪些关节让它动得自然：示例请见原页",
+        "credit": "南京工业职业技术大学计算机与软件学院 / 栖霞区实验小学尧和路分校",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
+        "availability": "原页列“数字皮影体验”和活动照片，未取得可转载成片。",
+        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+      },
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "categories": [
+        "互动游戏"
+      ],
+      "stageBasis": "原资料及编辑迁移对象：小学；教育工作者；迁移建议不是工具年龄许可，学生直接操作须另核学校与服务规则。",
+      "difficultyGroup": "入门",
+      "uses": [
+        "一个原创皮影角色、动作测试单与一分钟合作表演；记录关节位置改变后的效果。"
+      ],
+      "originalDate": "2026-04-10",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "freshness": "历史案例 · 11月2日下午补充",
+      "reproductionStatus": "原案例有公开来源；本刊课堂迁移未实测"
+    },
+    {
+      "id": "bjsc-ai-science-film",
+      "title": "给真实展项写歌、配画面，做一部有事实依据的科普片",
+      "date": "2026-07-23",
+      "eventDate": "三天营地已结束，具体实施日期未披露；原页显示7月23日，URL目录8月不作发布日期",
+      "dateNote": "历史案例，2026-11-02补充核验；不是本周新发生事件。",
+      "author": "北京科学中心 AI先锋创造营",
+      "category": "故事视频",
+      "summary": "中心报道10–13岁学员围绕真实展项选题，自己填歌词模板、调整画面提示，再剪辑音乐和图像素材成科普短片。",
+      "play": "中心报道10–13岁学员围绕真实展项选题，自己填歌词模板、调整画面提示，再剪辑音乐和图像素材成科普短片。",
+      "tools": [
+        "AI音乐与图像/视频工具（原文未列品牌）",
+        "视频剪辑与自动字幕工具"
+      ],
+      "reproduce": "选一个已讲授的科学现象，学生先写三条查证过的事实及四句歌词；教师代操作生成备选素材，小组删去不准确画面并用自己的声音解释。",
+      "education": "一条30–60秒科普片及事实核验卡；保留歌词原稿、被删错误和修改原因。",
+      "expectedOutput": "一条30–60秒科普片及事实核验卡；保留歌词原稿、被删错误和修改原因。",
+      "limits": "官方活动报道而非独立效果研究；未披露收费、统一软件及长期效果。年级标签据10–13岁作概略对应，不能推断每名学生年级。原案例明确学生亲手操作，本刊的教师代操作是另作的低龄适配建议。",
+      "difficulty": "入门／教师支持",
+      "sources": [
+        {
+          "label": "原始机构报道与示例",
+          "url": "https://www.bjsc.net.cn/bjsc/bgxx/xwzx/202608/t20260803_184214.html"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "真实已报道课堂/共创案例；机构自述；本刊迁移未实测",
+      "audience": [
+        "小学高年级",
+        "初中"
+      ],
+      "stage": [
+        "小学高年级",
+        "初中"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感",
+        "大陆课堂案例"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "sourcePage": "https://www.bjsc.net.cn/bjsc/bgxx/xwzx/202608/t20260803_184214.html",
+        "alt": "给真实展项写歌、配画面，做一部有事实依据的科普片：示例请见原页",
+        "credit": "北京科学中心 AI先锋创造营",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
+        "availability": "原页有多张课堂与作品展示照片，公开完整短片未核。",
+        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+      },
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "categories": [
+        "故事视频"
+      ],
+      "stageBasis": "原资料及编辑迁移对象：小学高年级；初中；迁移建议不是工具年龄许可，学生直接操作须另核学校与服务规则。",
+      "difficultyGroup": "入门",
+      "uses": [
+        "一条30–60秒科普片及事实核验卡；保留歌词原稿、被删错误和修改原因。"
+      ],
+      "originalDate": "2026-07-23",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "freshness": "历史案例 · 11月2日下午补充",
+      "reproductionStatus": "原案例有公开来源；本刊课堂迁移未实测"
+    },
+    {
+      "id": "changzhou-ai-mini-games",
+      "title": "让AI写猜数字游戏，再由孩子设计反例测规则",
+      "date": "2026-05-28",
+      "eventDate": "2026-05-26活动",
+      "dateNote": "历史案例，2026-11-02补充核验；不是本周新发生事件。",
+      "author": "常州工学院计算机信息工程学院 / 薛家实验小学",
+      "category": "互动游戏",
+      "summary": "学院报道志愿者帮助小学生生成并运行猜数字与石头剪刀布程序，同时讲解随机数、循环和交互规则。",
+      "play": "学院报道志愿者帮助小学生生成并运行猜数字与石头剪刀布程序，同时讲解随机数、循环和交互规则。",
+      "tools": [
+        "AI代码生成工具（品牌未披露）",
+        "Python运行环境"
+      ],
+      "reproduce": "先用纸卡把游戏规则说清，再让教师生成代码；学生设计“超范围、空输入、相同选项”等测试，报告哪里不符合自己的规则。",
+      "education": "一个经测试的小游戏和三条测试记录；讲清一处问题及如何修改，不以代码长度评价。",
+      "expectedOutput": "一个经测试的小游戏和三条测试记录；讲清一处问题及如何修改，不以代码长度评价。",
+      "limits": "学校活动自述，未公布源码或独立学习测量；生成程序不是已验证安全软件。课堂运行前由教师审查代码，避免联网、个人数据和任意文件操作。",
+      "difficulty": "入门／教师支持",
+      "sources": [
+        {
+          "label": "原始机构报道与示例",
+          "url": "https://xxxy.czu.cn/2026/0528/c10118a174427/page.htm"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "真实已报道课堂/共创案例；机构自述；本刊迁移未实测",
+      "audience": [
+        "小学",
+        "教育工作者"
+      ],
+      "stage": [
+        "小学",
+        "教育工作者"
+      ],
+      "tags": [
+        "互动游戏",
+        "历史灵感",
+        "大陆课堂案例"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "sourcePage": "https://xxxy.czu.cn/2026/0528/c10118a174427/page.htm",
+        "alt": "让AI写猜数字游戏，再由孩子设计反例测规则：示例请见原页",
+        "credit": "常州工学院计算机信息工程学院 / 薛家实验小学",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
+        "availability": "原页可看活动记录；未公开可直接复用的完整源码。",
+        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+      },
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "categories": [
+        "互动游戏"
+      ],
+      "stageBasis": "原资料及编辑迁移对象：小学；教育工作者；迁移建议不是工具年龄许可，学生直接操作须另核学校与服务规则。",
+      "difficultyGroup": "入门",
+      "uses": [
+        "一个经测试的小游戏和三条测试记录；讲清一处问题及如何修改，不以代码长度评价。"
+      ],
+      "originalDate": "2026-05-28",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "freshness": "历史案例 · 11月2日下午补充",
+      "reproductionStatus": "原案例有公开来源；本刊课堂迁移未实测"
+    },
+    {
+      "id": "ecnu-liulin-feelings",
+      "title": "同一故事做成纸本和有声版，让孩子比较表达方式",
+      "date": "2025-07-22",
+      "eventDate": "2025-07-06至07-12乡村实践",
+      "dateNote": "历史案例，2026-11-02补充核验；不是本周新发生事件。",
+      "author": "华东师范大学团队 / 云南寻甸雷锋希望小学",
+      "category": "故事视频",
+      "summary": "大学团队制作《柳林心声》情绪认知绘本并带到小学，面向5–12岁设计纸质及有声电子版本。文字、插图由AI辅助，但原作品由大学团队制作，不能误写成小学生独立创作。",
+      "play": "大学团队制作《柳林心声》情绪认知绘本并带到小学，面向5–12岁设计纸质及有声电子版本。文字、插图由AI辅助，但原作品由大学团队制作，不能误写成小学生独立创作。",
+      "tools": [
+        "DeepSeek",
+        "即梦",
+        "Midjourney",
+        "电子绘本语音朗读"
+      ],
+      "reproduce": "借鉴多版本表达而非复制原书：孩子先口述原创互助故事，教师整理成一页纸本和一段朗读；同伴指出哪种表达更清楚，并由孩子修改。",
+      "education": "相同内容的纸本页、朗读音频与一处改写记录。",
+      "expectedOutput": "相同内容的纸本页、朗读音频与一处改写记录。",
+      "limits": "原报告涉及情绪关怀，不将其称为已证明有效的心理治疗；不采集儿童心理测评数据。原书蓝本、AI插图及录音复用权限须分别确认；当前公开工具可用性未测试。",
+      "difficulty": "入门／教师支持",
+      "sources": [
+        {
+          "label": "原始机构报道与示例",
+          "url": "https://comm.ecnu.edu.cn/2e/c1/c50798a732865/page.htm"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "真实已报道课堂/共创案例；机构自述；本刊迁移未实测",
+      "audience": [
+        "学前",
+        "小学",
+        "教育工作者"
+      ],
+      "stage": [
+        "学前",
+        "小学",
+        "教育工作者"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感",
+        "大陆课堂案例"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "sourcePage": "https://comm.ecnu.edu.cn/2e/c1/c50798a732865/page.htm",
+        "alt": "同一故事做成纸本和有声版，让孩子比较表达方式：示例请见原页",
+        "credit": "华东师范大学团队 / 云南寻甸雷锋希望小学",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
+        "availability": "原页有项目体系图、IP形象与绘本封面，可查原作；不转载未知权利图片。",
+        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+      },
+      "educationLevels": [
+        "学前教育",
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "categories": [
+        "故事视频"
+      ],
+      "stageBasis": "原资料及编辑迁移对象：学前；小学；教育工作者；迁移建议不是工具年龄许可，学生直接操作须另核学校与服务规则。",
+      "difficultyGroup": "入门",
+      "uses": [
+        "相同内容的纸本页、朗读音频与一处改写记录。"
+      ],
+      "originalDate": "2025-07-22",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "freshness": "历史案例 · 11月2日下午补充",
+      "reproductionStatus": "原案例有公开来源；本刊课堂迁移未实测"
+    },
+    {
+      "id": "giant-remix-codesign",
+      "title": "纸上设计生态角色，给AI反馈后做班级卡片集",
+      "date": "2026-10-01",
+      "eventDate": "2024秋、2025春、2025秋三个学期实施",
+      "dateNote": "历史案例，2026-11-02补充核验；不是本周新发生事件。",
+      "author": "The GIANT Room × Joan Ganz Cooney Center",
+      "category": "教学应用",
+      "summary": "报告记录纽约两校六个二三年级班、120名学生及10名教师共同设计：教师定学习目标，孩子手绘并描述角色，再上传任务纸，经反馈和修改形成书或卡片。",
+      "play": "报告记录纽约两校六个二三年级班、120名学生及10名教师共同设计：教师定学习目标，孩子手绘并描述角色，再上传任务纸，经反馈和修改形成书或卡片。",
+      "tools": [
+        "The GIANT Remix",
+        "纸质任务单",
+        "教师审核的图像与写作反馈"
+      ],
+      "reproduce": "用原创“森林互助角色”任务迁移：先写它帮助哪种生物、依据是什么；教师提供两版AI草图，孩子指出错误并修改，最后互相介绍卡片。",
+      "education": "手绘任务纸、修改前后两版角色卡和口头说明；儿童的判断与改动作为作品证据。",
+      "expectedOutput": "手绘任务纸、修改前后两版角色卡和口头说明；儿童的判断与改动作为作品证据。",
+      "limits": "参与方案例研究，不是独立随机成效证明；涉及儿童任务纸上传时须另核平台隐私、地区与学校授权，不照搬国外数据流程。报告整体标CC BY-SA4.0，但本次不单独转载学生照片或插图。",
+      "difficulty": "入门／教师支持",
+      "sources": [
+        {
+          "label": "原始机构报道与示例",
+          "url": "https://joanganzcooneycenter.org/publication/remixing-the-future/"
+        },
+        {
+          "label": "原报告PDF（正文与示例）",
+          "url": "https://joanganzcooneycenter.org/wp-content/uploads/2026/10/jgcc_remixingthefuture.pdf"
+        }
+      ],
+      "firstSeen": "2026-11-02",
+      "firstIssue": "005",
+      "relatedIssues": [
+        "005"
+      ],
+      "verifiedAt": "2026-11-02",
+      "tested": false,
+      "evidenceType": "真实已报道课堂/共创案例；机构自述；本刊迁移未实测",
+      "audience": [
+        "小学二至三年级",
+        "教育工作者"
+      ],
+      "stage": [
+        "小学二至三年级",
+        "教育工作者"
+      ],
+      "tags": [
+        "教学应用",
+        "历史灵感",
+        "国际对照"
+      ],
+      "timeLayer": "历史灵感",
+      "image": {
+        "url": "",
+        "sourcePage": "https://joanganzcooneycenter.org/publication/remixing-the-future/",
+        "alt": "纸上设计生态角色，给AI反馈后做班级卡片集：示例请见原页",
+        "credit": "The GIANT Room × Joan Ganz Cooney Center",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
+        "availability": "原报告PDF含任务纸、作品与出版流程示例（第6–7、23–24页）。",
+        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+      },
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "categories": [
+        "教学应用"
+      ],
+      "stageBasis": "原资料及编辑迁移对象：小学二至三年级；教育工作者；迁移建议不是工具年龄许可，学生直接操作须另核学校与服务规则。",
+      "difficultyGroup": "入门",
+      "uses": [
+        "手绘任务纸、修改前后两版角色卡和口头说明；儿童的判断与改动作为作品证据。"
+      ],
+      "originalDate": "2026-10-01",
+      "updatedAt": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "freshness": "历史案例 · 11月2日下午补充",
+      "reproductionStatus": "原案例有公开来源；本刊课堂迁移未实测"
+    }
+  ],
+  "supplementedAt": "2026-11-02T15:24:00+08:00"
+}

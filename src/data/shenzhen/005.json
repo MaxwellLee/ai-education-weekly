@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "issueId": "005",
+  "verifiedAt": "2026-11-02",
+  "coverageNote": "5条窗口内报道，覆盖南山学校采购、坪山中小学活动、龙岗高校研习、职业师训和设计教育合作。报道日期与活动日期分开，未覆盖全部区校。成交、开班、合作签署均不等于学习成效。",
+  "items": [
+    {
+      "id": "sz005-01",
+      "title": "深圳湾学校AI智学社区公布成交结果",
+      "districts": [
+        "南山区"
+      ],
+      "type": "学校政府采购结果",
+      "stage": "2026-10-27结果公告",
+      "publishedDate": "2026-10-27",
+      "eventDate": "2026-10-27结果公告",
+      "organizations": "深圳湾学校",
+      "peopleCompanies": "深圳湾学校",
+      "summary": "项目0722-26FE6880SZF-1成交供应商为赫马乐园文化体育发展（深圳）有限公司，成交金额人民币138,800元。约定合同签订后10个工作日安装联调、账号初始化与软件部署，验收合格后服务12个月。",
+      "relevance": "提供学校采购的真实金额与部署、验收、持续服务三阶段交付证据。",
+      "limits": "成交公示不等于签约完成、安装验收、实际使用或收入确认。项目金额不能推断利润。 成交公告未细分使用年级，不按学校类型猜测参与学段",
+      "sources": [
+        {
+          "label": "学校政府采购结果",
+          "url": "https://www.szns.gov.cn/xxgk/bmxxgk/qjyj/qtgk_157913/jypx/tzgg/zbzbgg/content/post_13040650.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "followUp": {
+        "firstIssueId": "003",
+        "firstItemId": "sz003-04",
+        "change": "跟进003期招标项目；此前139,200元为预算，本次138,800元为成交金额，属于新进展而非改写旧预算。"
+      }
+    },
+    {
+      "id": "sz005-02",
+      "title": "坪山科创嘉年华连接人机共创、路演与答辩",
+      "districts": [
+        "坪山区"
+      ],
+      "type": "区教育局活动报道",
+      "stage": "原文称日前举办，具体日期未披露",
+      "publishedDate": "2026-10-30",
+      "eventDate": "原文称日前举办，具体日期未披露",
+      "organizations": "坪山区教育局／科源实验学校",
+      "peopleCompanies": "坪山区教育局／科源实验学校",
+      "summary": "第四届中小学生科技创新嘉年华在科源实验学校举行，包含具身机器人互动、作品展示及围绕人机协同的创客马拉松；学生进行项目路演与作品答辩，同时开启线上AI智能算法与创意编程赛事。",
+      "relevance": "与用户课程的作品分享相呼应：评价可以覆盖构思、协作、修改和表达，而不止最终图片。",
+      "limits": "教育局活动报道，未提供对照学习成效或各赛道报名结果；不能把开赛等同完成比赛。 原文统称中小学生，未给各赛道详细年级；不得据此推断每个学段参加所有赛道",
+      "sources": [
+        {
+          "label": "区教育局活动报道",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_13047674.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": []
+    },
+    {
+      "id": "sz005-03",
+      "title": "深北莫张量方法国际学校与会议完成十日研习",
+      "districts": [
+        "龙岗区"
+      ],
+      "type": "高校活动报道",
+      "stage": "2026-10-19至2026-10-28",
+      "publishedDate": "2026-10-28",
+      "eventDate": "2026-10-19至2026-10-28",
+      "organizations": "深圳北理莫斯科大学",
+      "peopleCompanies": "深圳北理莫斯科大学",
+      "summary": "学校与俄方研究机构联合举办张量方法国际学校暨会议，约180名专家学者及青年科研人员参加，围绕高维数据、机器学习及科学计算展开研讨。",
+      "relevance": "深圳AI教育观察延伸至基础数学与研究人才培养，不局限工具应用或低龄活动。",
+      "limits": "180人为校方报道的参会规模，不能当作课程完成率或人才培养效果；未审读每场讲义。 面向专家学者与青年科研人员的国际学校／学术活动，不是K12课程",
+      "sources": [
+        {
+          "label": "高校活动报道",
+          "url": "https://www.smbu.edu.cn/info/4551/141571.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": []
+    },
+    {
+      "id": "sz005-04",
+      "title": "深职大人形机器人研修班把遥操作数据采集纳入课程",
+      "districts": [
+        "南山区／留仙洞园区"
+      ],
+      "type": "高校培训开班报道",
+      "stage": "2026-10-25开班，10月28日报道",
+      "publishedDate": "2026-10-28",
+      "eventDate": "2026-10-25开班，10月28日报道",
+      "organizations": "深圳职业技术大学继续教育与培训学院、人工智能学院",
+      "peopleCompanies": "深圳职业技术大学继续教育与培训学院、人工智能学院",
+      "summary": "第二期研修班有34名学员，课程涵盖机器人平台操作、VR遥操作数据采集、仿真训练与真机部署，并安排相关中级考核；参观优必选在报道时仍是后续计划。",
+      "relevance": "学校端AI课程服务可把技术、操作与评价配成完整链条，观察对象从学生课拓展到师资和技能培训。",
+      "limits": "开班已报道，后续参访、考核通过与就业成效未核实；学员具体身份构成未逐人公开。 ",
+      "sources": [
+        {
+          "label": "高校培训开班报道",
+          "url": "https://jpxy.szpu.edu.cn/info/1011/1739.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "职业教育",
+        "教育工作者",
+        "成人与继续教育"
+      ],
+      "scopeTags": []
+    },
+    {
+      "id": "sz005-05",
+      "title": "深圳设计教育合作新增“未来设计学苑”平台",
+      "districts": [
+        "南山区／深圳湾文化广场"
+      ],
+      "type": "政府网站转载媒体报道",
+      "stage": "报道称日前，具体日期未披露",
+      "publishedDate": "2026-10-29",
+      "eventDate": "报道称日前，具体日期未披露",
+      "organizations": "清华大学美术学院、深圳湾文化广场、清华大学深圳国际研究生院等",
+      "peopleCompanies": "清华大学美术学院、深圳湾文化广场、清华大学深圳国际研究生院等",
+      "summary": "全球设计与产业合作大会围绕AI时代设计领导力展开，签署未来设计产教融合共创计划协议并发布未来设计学苑，讨论高校、企业与公共文化机构协同培养人才。",
+      "relevance": "值得追踪创意AI课程如何从软件工具训练连接产业题目、设计判断及跨学科协作。",
+      "limits": "来源为深圳特区报经市政府网站转载；协议与平台发布不是已开课、招生或成效证明，具体课程与价格未公开核实。 ",
+      "sources": [
+        {
+          "label": "政府网站转载媒体报道",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_13044987.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": []
+    }
+  ]
+}

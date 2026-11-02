@@ -3,6 +3,16 @@ import json
 import render_helpers as H
 E=H.esc
 
+def render_mainland(data,issue):
+ rows=data.get('mainlandCompetitors',[])
+ if not rows:return ''
+ body='<section class="mainland-competitors" id="mainland-competitors"><p class="section-kicker">中国大陆 / 课程竞争地图</p><h3>先看与你重叠的课程与交付方式</h3><p>'+E(data.get('mainlandComparisonNote',''))+'</p><div class="mainland-compare-scroll" role="region" aria-label="中国大陆AI课程竞争对照，可横向滚动" tabindex="0"><table class="mainland-compare"><thead><tr><th>品牌与竞争关系</th><th>学段 / 课程与平台</th><th>教师与学校交付</th><th>价格 / 证据 / 差异</th></tr></thead><tbody>'
+ for c in rows:
+  name=('<a href="#issue='+E(issue['id'])+'&amp;page=industry&amp;focus='+E(c['id'])+'">'+E(c['name'])+'</a>') if c.get('id') else E(c['name'])
+  body+='<tr><th scope="row">'+name+'<p class="pill neutral">'+E(c['group'])+'</p>'+H.detail('主体',c.get('entity',''))+'</th><td>'+H.detail('对象',c.get('audience',''))+H.detail('课程 / 平台',c.get('coursePlatform',''))+'</td><td>'+H.detail('教师流程',c.get('teacherWorkflow',''))+H.detail('已核交付',c.get('deliveryEvidence',''))+'</td><td>'+H.detail('公开收费',c.get('pricing',''))+H.detail('与你的差异 · 分析',c.get('difference',''))+H.sources(c)+'</td></tr>'
+ body+='</tbody></table></div><p class="criteria-note">直接竞争 / 相邻竞争为基于公开定位的编辑分析，不是市场份额排名。课程数量、演示作品、机构Logo及宣传覆盖均不等于教学成效或营收。待核品牌不计入已核竞争样本。</p></section>'
+ return body
+
 def render_industry(issue,root):
  path=root/'data/industry'/f'{issue["id"]}.json'
  if not path.exists():
@@ -16,6 +26,7 @@ def render_industry(issue,root):
   cross=''.join('<p><a href="'+E(y['url'])+'">'+E(y['label'])+'</a></p>' for y in x.get('crosslinks',[]))
   return '<article class="industry-card" id="'+E(x['id'])+'" tabindex="-1"><p class="section-kicker">'+E(x['region'])+' / '+E(x['entity'])+'</p><h3>'+E(x['title'])+'</h3><p>'+E(x['summary'])+'</p>'+H.detail('服务对象',x['audience'])+H.detail('交付方式',x.get('delivery',''))+dates+H.detail('相对上期',x.get('changeSinceLastIssue',''))+H.detail('本轮核验范围',x.get('verificationNote',''))+'<details><summary>产品进展、商业模式与财务依据</summary>'+H.detail('功能与进展',x['progress'])+model+finance+H.detail('证据边界',x['limits'])+H.sources(x)+'</details><p class="industry-followup"><strong>继续跟踪 · 编辑判断：</strong>'+E(x['followup'])+'</p>'+cross+'<p class="criteria-note">首次收录：<a href="#issue='+E(first)+'&amp;page=industry">'+E(first)+'期 · '+E(collected)+'</a><br>条目核验：'+E(x.get('lastVerified',x.get('checkedAt',data['verifiedAt'])))+'</p></article>'
  body='<section class="section" id="industry"><div class="section-head"><div><p class="section-kicker">INDUSTRY / GLOBAL FIELDNOTES</p><h2>行业动态</h2></div><p class="section-note">看具体产品与项目，也看谁付费、钱从哪来。</p></div><p class="scope-note">第'+E(issue['id'])+'期行业观察 · 核验 '+E(data['verifiedAt'])+'。本期窗口为 '+E(issue['window']['start'])+' 至 '+E(issue['window']['end'])+'；建档日期不改变原文日期。</p><p>'+E(data['coverageNote'])+'</p><div class="note-box">财务读法：集团 ≠ 教育板块 ≠ 单一AI产品。营收、利润、融资与现金流不能混用；没有披露就保留空白，不把亏损直接称作现金消耗。</div>'
+ body+=render_mainland(data,issue)
  body+='<nav class="industry-index" aria-label="行业机构索引">'+''.join('<a href="#issue='+E(issue['id'])+'&amp;page=industry&amp;focus='+E(x['id'])+'">'+E(x['shortName'])+'</a>' for x in data['items'])+'</nav>'
  if issue['id']=='003':
   body+='<aside class="note-box"><h3>10月20日补充 · 灵动与四个同类参照</h3><p>不是同质化排名：灵动侧重体验课到三级课程及机构开课；艾绘侧重绘本与学校创作；盛通侧重科技教育与软硬件；AIScratch侧重图形化编程、AI与硬件项目；创造栗侧重学校软硬件方案及师训。此为公开产品定位的编辑分析，不表示任何产品已实测或效果更好。</p><p>共同核验清单：签约主体、最终课程、教师独立开课能力、作品可编辑与导出、每班调用成本、未成年人数据处理、退款退出与机构持续使用。先比较完整交付闭环，再比较功能数量。</p></aside>'

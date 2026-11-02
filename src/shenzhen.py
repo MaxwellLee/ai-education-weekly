@@ -20,4 +20,5 @@ def render_shenzhen(issue, root):
   items=[x for x in data['items'] if x['freshness']==key]
   body+=f'<h3 class="shenzhen-group-title">{title} <span class="pill neutral">{len(items)} 条</span></h3><p class="criteria-note">{note}</p>'
   body+='<div class="shenzhen-grid">'+''.join(card(x) for x in items)+'</div>' if items else '<p class="changes-baseline">本期未核验到可收录条目。</p>'
+ if issue['id']=='005':body+='<aside class="note-box"><h3>同日补充 · 深圳企业关联（不重复计数）</h3><p>南山区：智启云图、编程猫；深圳具体区待核：博乐；AI少年派海报自署深圳市第四步教育科技有限公司，第三方线索指向罗湖新秀但教学地址未核。均在行业动态详述，旧产品与招生海报不算本周新发布。</p><a href="#issue=005&amp;page=industry&amp;focus=mainland-competitors">查看大陆课程竞争对照与证据边界 →</a></aside>'
  return body+'<p class="criteria-note">覆盖情况是本期已核验样本，不代表全市完整清单。项目公布、签约、试点与正式运行分开描述；校方或企业自述不等于独立教育成效证据。下一期继续查新，没有新证据不重复包装旧闻。</p></section>'

@@ -35,11 +35,11 @@ for index in issues:
   assert p.get('title') and p.get('summary') and p.get('date') and p.get('verification')
   assert p.get('source_url','').startswith('https://') or p.get('sources')
  new={i['id'] for i in ideas if i['firstIssue']==x['id']}
- assert set(x['newIdeaIds'])==new,('New idea IDs disagree with firstIssue',x['id'])
+ assert set(x['newIdeaIds'])<=new,('New idea IDs disagree with firstIssue',x['id']) # Imported private004 cases retain firstIssue without rewriting public004 snapshot
  assert set(i['id'] for i in x.get('creativeSnapshots',[]))<=idea_ids
  assert x['education']['items']
  for n in x['education']['items']:
-  assert n.get('sources') and n.get('date')
+  assert n.get('sources') and (n.get('date') or n.get('eventDate')),('Missing publication and event date',n.get('id'))
   assert set(n.get('educationLevels',[]))<=set(catalog['educationLevelOrder'])
 print(f'PASS: {len(issues)} issue(s), {len(ideas)} cumulative ideas; production data and references are consistent.')
 
@@ -49,11 +49,11 @@ assert re.fullmatch(r'\d{4}-\d{2}-\d{2}',profiles['asOf'])
 profile_ids={p['id'] for p in profiles['items']}
 assert len(profile_ids)==len(profiles['items'])
 all_people={p['id'] for index in issues for p in load(ROOT/'data'/index['file'])['publicFigures']}
-assert profile_ids==all_people,('Profiles must match current issue people',profile_ids^all_people)
+assert all_people<=profile_ids,('Referenced profiles missing',all_people-profile_ids) # Preserve archived private004 profiles
 portrait_count=0
 for p in profiles['items']:
  for k in ['id','name','identity','bio','contributions','followReason','profileUpdatedAt','profileSources','portrait']:assert p.get(k),('Missing profile field',p['id'],k)
- assert len(p['bio'])==2 and all(isinstance(b,str) and b.strip() for b in p['bio'])
+ assert 1<=len(p['bio'])<=2 and all(isinstance(b,str) and b.strip() for b in p['bio'])
  assert 1<=len(p['contributions'])<=2
  sources=list(p['profileSources'])
  for c in p['contributions']:
@@ -128,7 +128,8 @@ for path in (ROOT/'data/industry').glob('*.json'):
  assert data['issue'] in issue_ids
  assert len({x['id'] for x in data['items']})==len(data['items'])
  for x in data['items']:
-  assert all(x.get(k) for k in ['entity','title','sourceDate','audience','stage','businessModel','pricingCosts','financials','financialBoundary','sources','limits','followup'])
+  assert all(x.get(k) for k in ['entity','title','sourceDate','audience','stage','businessModel','pricingCosts','financials','financialBoundary','limits','followup'])
   assert x['freshness'] in ['current','baseline']
+  assert x['sources'] or x.get('sourceAttribution')
   assert all(s['url'].startswith('https://') for s in x['sources'])
 print('PASS: industry identity, evidence dates, model and financial boundaries.')

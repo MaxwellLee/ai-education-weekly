@@ -17,3 +17,4 @@ shutil.copytree(ROOT/'src/assets',ROOT/'docs/assets',dirs_exist_ok=True)
 shutil.copyfile(ROOT/'src/index.html',ROOT/'docs/index.html')
 (ROOT/'docs/.nojekyll').write_text('')
 print('Built public docs/index.html and image assets.')
+
