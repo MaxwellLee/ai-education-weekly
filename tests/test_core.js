@@ -7,3 +7,10 @@ s.filters=C.emptyFilters();s.filters.query='nothing-matches-8129172';assert.equa
 s=C.selectIssue(s,m.latestIssueId,m);assert.equal(s.view,'library');assert.equal(s.page,'shenzhen');assert.deepEqual(s.filters,C.emptyFilters());assert.equal(C.matchingIdeas(items,s).length,items.length);
 assert.equal(C.fromHash('#issue=invalid&page=bad',m).issueId,m.latestIssueId);assert.equal(C.fromHash('#issue=invalid&page=bad',m).page,'preview');
 console.log('PASS: all real issue navigation, cumulative and per-issue scopes, invalid routes, Unicode hash/filter round trips, historical return state.');
+
+const sample=[{id:'one',firstSeen:'2026-11-01',originalDate:'2099-01-01'},{id:'unknown'},{id:'two',firstSeen:'2026-11-02'},{id:'three',firstSeen:'2026-11-02'},{id:'bad',firstSeen:'not a date'}];
+assert.deepEqual(C.sortedIdeas(sample,{sortOrder:'desc'}).map(x=>x.id),['three','two','one','unknown','bad']);
+assert.deepEqual(C.sortedIdeas(sample,{sortOrder:'asc'}).map(x=>x.id),['one','two','three','unknown','bad']);
+assert.equal(sample[0].id,'one');
+assert.equal(C.fromHash('#view=library&sort=asc',m).sortOrder,'asc');assert.equal(C.fromHash('#view=library&sort=bad',m).sortOrder,'desc');
+console.log('PASS: added-date sorting, stable same-day order, missing-date tail and URL order validation.');

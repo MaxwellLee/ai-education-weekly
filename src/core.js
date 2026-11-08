@@ -4,7 +4,7 @@
  const pages=['preview','education','shenzhen','industry','people','updates'];
  const dimensions=['categories','educationLevels','audienceTypes','scopeTags'];
  const emptyFilters=()=>({scope:'all',categories:[],educationLevels:[],audienceTypes:[],scopeTags:[],difficulty:'all',query:''});
- function createState(manifest){return {issueId:manifest.latestIssueId,view:'weekly',page:'preview',focus:'',filters:emptyFilters()};}
+ function createState(manifest){return {issueId:manifest.latestIssueId,view:'weekly',page:'preview',focus:'',sortOrder:'desc',filters:emptyFilters()};}
  function selectIssue(state,id,manifest){if(!manifest.issues.some(x=>x.id===id))throw new Error('Unknown issue');return {...state,issueId:id,focus:'',filters:emptyFilters()};}
  function toggleValue(list,value){return list.includes(value)?list.filter(x=>x!==value):[...list,value];}
  function matchingIdeas(items,state){
@@ -17,11 +17,23 @@
    return true;
   });
  }
+ // firstSeen is the date this catalog first added the idea, never the source publication date.
+ function sortedIdeas(items,state){
+  const direction=state.sortOrder==='asc'?1:-1;
+  const dateValue=item=>{const value=item.addedAt||item.firstSeen;if(!value||!/^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(value))return null;const time=Date.parse(value);return Number.isFinite(time)?time:null;};
+  return items.map((item,index)=>({item,index,time:dateValue(item)})).sort((a,b)=>{
+   if(a.time===null&&b.time!==null)return 1;
+   if(b.time===null&&a.time!==null)return -1;
+   if(a.time===null&&b.time===null)return a.index-b.index;
+   return direction*((a.time-b.time)||(a.index-b.index));
+  }).map(x=>x.item);
+ }
  function neighbors(manifest,id){const index=manifest.issues.findIndex(x=>x.id===id);return {previous:manifest.issues[index-1]?.id||null,next:manifest.issues[index+1]?.id||null};}
  function hashFor(state){
   const p=new URLSearchParams({issue:state.issueId,page:state.page});
+  if(state.sortOrder==='asc')p.set('sort','asc');
   if(state.view==='library'){
-   p.set('view','library');
+   p.set('view','library');p.set('sort',state.sortOrder==='asc'?'asc':'desc');
    const f=state.filters;if(f.scope==='issue')p.set('scope','issue');
    for(const key of dimensions)for(const v of f[key])p.append(key,v);
    if(f.difficulty!=='all')p.set('difficulty',f.difficulty);
@@ -33,14 +45,15 @@
   const s=createState(manifest),p=new URLSearchParams(hash.replace(/^#/,''));
   if(manifest.issues.some(x=>x.id===p.get('issue')))s.issueId=p.get('issue');
   if(pages.includes(p.get('page')))s.page=p.get('page');
+  s.sortOrder=p.get('sort')==='asc'?'asc':'desc';
   if(p.get('view')==='library'){
-   s.view='library';s.filters.scope=p.get('scope')==='issue'?'issue':'all';
+   s.view='library';s.sortOrder=p.get('sort')==='asc'?'asc':'desc';s.filters.scope=p.get('scope')==='issue'?'issue':'all';
    for(const key of dimensions)s.filters[key]=Array.from(new Set(p.getAll(key)));
    if(['入门','进阶','分层'].includes(p.get('difficulty')))s.filters.difficulty=p.get('difficulty');
    s.filters.query=p.get('q')||'';
   }else{s.focus=p.get('focus')||'';}
   return s;
  }
- const api={pages,emptyFilters,createState,selectIssue,toggleValue,matchingIdeas,neighbors,hashFor,fromHash};
+ const api={pages,emptyFilters,createState,selectIssue,toggleValue,matchingIdeas,sortedIdeas,neighbors,hashFor,fromHash};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WeeklyCore=api;
 })(typeof window==='undefined'?globalThis:window);

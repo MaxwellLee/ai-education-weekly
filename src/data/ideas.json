@@ -209,15 +209,19 @@
         }
       ],
       "image": {
-        "localPath": null,
-        "alt": "铁盒作品：仅可从转载页查看，未下载",
-        "credit": "TTN谈谈网转载，原作品作者未核实",
-        "sourcePage": "https://tantannews.com/topic/chatgpt-help-you-fill-container-st-210926",
-        "url": null,
+        "localPath": "assets/creative-20261108-tinbox-reference.webp",
+        "alt": "OpenAI 官方 ChatGPT 多物件构图参考图，非人生铁盒原作效果",
+        "credit": "OpenAI 官方 ChatGPT 多物件构图参考图，非人生铁盒原作效果",
+        "sourcePage": "https://openai.com/index/new-chatgpt-images-is-here/",
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/5oMdYDrJ0rnoqcaSPEUWjN/e248e4e693e25e53f18cd9098fbf68a4/chatgpt-images-instruction-following-new.png?fm=webp&q=90&w=828",
         "publicReuseCleared": false,
-        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "displayContext": "随作品介绍与评论展示既有低分辨率原作图；不表示作者或来源机构背书。",
-        "evidenceNote": "未取得可内嵌且来源清晰的效果图；请打开原作页面查看。原作者及公开转载许可未确认。"
+        "evidenceNote": "原铁盒转载来源仍未能取得图片。此图来自OpenAI于2025-12-16发布的ChatGPT Images文章，展示按要求组织多个物件的同产品能力，不是铁盒案例原作或本刊复现结果。",
+        "relativePath": "assets/creative-20261108-tinbox-reference.webp",
+        "availability": "已保存同产品官方参考图；原作效果仍未取得",
+        "changes": "下载官方展示图，未改动图像",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "近月线索 · 非本周首发",
       "popularity": {
@@ -1269,15 +1273,18 @@
         }
       ],
       "image": {
-        "localPath": null,
-        "relativePath": null,
+        "localPath": "assets/creative-20261108-playground-board.png",
+        "relativePath": "assets/creative-20261108-playground-board.png",
         "url": "https://images.playgroundai.com/user-uploads/public/cmuwf2xlo003u01s63v3y7iu7.png?c=1",
-        "alt": "四个生成设计变体的官方Board界面",
-        "credit": "Playground官方展示",
+        "alt": "Playground 官方 Board 发布配图：提示输入框与四种设计示例，非本刊实测",
+        "credit": "Playground 官方 Board 发布配图：提示输入框与四种设计示例，非本刊实测",
         "sourcePage": "https://playgroundai.com/design/whats-new",
         "publicReuseCleared": false,
-        "rightsStatus": "原作图下载返回HTTP403，未绕过访问限制；公开转载许可未确认。",
-        "evidenceNote": "可从官方更新页查看原作效果；本预览不以其他图片冒充Board效果。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "evidenceNote": "父线程通过正常浏览器取得2026-10-06 Introducing Board官方更新配图；已目视核对。此前HTTP请求403，本次正常浏览器下载成功。",
+        "availability": "已保存官方发布配图",
+        "changes": "官方AVIF下载后转换为PNG，未更改内容",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "本周新进展",
       "popularity": {
@@ -3106,13 +3113,19 @@
         }
       ],
       "image": {
-        "localPath": null,
-        "url": null,
-        "alt": "会追问的桌面科学伙伴",
-        "credit": "M5Stack StackChan官方文档",
+        "localPath": "assets/creative-20261108-stackchan-question-buddy.webp",
+        "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1205/K151_stack_chan_main_pictures_01.webp",
+        "alt": "M5Stack StackChan 官方产品图，非课程实测成果",
+        "credit": "M5Stack StackChan 官方产品图，非课程实测成果",
         "sourcePage": "https://docs.m5stack.com/en/StackChan",
-        "rightsStatus": "未转载产品图，请查看官方原作。",
-        "evidenceNote": "已核验硬件文档；课程效果尚未制作或实测，点击查看官方设备图片与演示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "evidenceNote": "M5Stack StackChan 官方产品图，非课程实测成果。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-stackchan-question-buddy.webp",
+        "publicReuseCleared": false,
+        "availability": "已保存本地相关配图",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "本期新收录 · 现行硬件的课程改造构想",
       "reproductionStatus": "编辑建议，未购机、未刷机、未实测",
@@ -3189,13 +3202,19 @@
         }
       ],
       "image": {
-        "localPath": null,
-        "url": null,
-        "alt": "把实验口述变成可核对的语音记录",
-        "credit": "M5Stack AtomS3R语音套件文档",
+        "localPath": "assets/creative-20261108-atom-lab-voice-notes.webp",
+        "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1149/K147_01.webp",
+        "alt": "M5Stack AtomS3R 官方产品图，非实验课堂成果",
+        "credit": "M5Stack AtomS3R 官方产品图，非实验课堂成果",
         "sourcePage": "https://docs.m5stack.com/en/core/AtomS3R-AI_Chatbot",
-        "rightsStatus": "未转载产品图，请查看官方原作。",
-        "evidenceNote": "已核验硬件文档；课程效果尚未制作或实测，点击查看官方设备图片与演示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "evidenceNote": "M5Stack AtomS3R 官方产品图，非实验课堂成果。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-atom-lab-voice-notes.webp",
+        "publicReuseCleared": false,
+        "availability": "已保存本地相关配图",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "本期新收录 · 现行硬件的课程改造构想",
       "reproductionStatus": "编辑建议，未购机、未刷机、未实测",
@@ -3267,13 +3286,19 @@
         }
       ],
       "image": {
-        "localPath": null,
-        "url": null,
-        "alt": "每天一张可解释的电子墨水学习卡",
-        "credit": "M5Stack PaperS3官方文档",
+        "localPath": "assets/creative-20261108-paper-ai-exit-ticket.webp",
+        "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/PaperS3/4.webp",
+        "alt": "M5Stack PaperS3 官方产品图，非学习卡实测成果",
+        "credit": "M5Stack PaperS3 官方产品图，非学习卡实测成果",
         "sourcePage": "https://docs.m5stack.com/en/core/PaperS3",
-        "rightsStatus": "未转载产品图，请查看官方原作。",
-        "evidenceNote": "已核验硬件文档；课程效果尚未制作或实测，点击查看官方设备图片与演示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "evidenceNote": "M5Stack PaperS3 官方产品图，非学习卡实测成果。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-paper-ai-exit-ticket.webp",
+        "publicReuseCleared": false,
+        "availability": "已保存本地相关配图",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "本期新收录 · 现行硬件的课程改造构想",
       "reproductionStatus": "编辑建议，未购机、未刷机、未实测",
@@ -3336,20 +3361,22 @@
         }
       ],
       "image": {
-        "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "作者页演讲成片及“机器作画”概念画面",
-        "credit": "David Jhave Johnston（Jhave）；官方/作者展示素材",
+        "url": "https://glia.ca/2026/biff/img/header-it-ernal-now.webp",
+        "localPath": "assets/creative-20261108-it-ernal-now.webp",
+        "relativePath": "assets/creative-20261108-it-ernal-now.webp",
+        "alt": "作者项目标题海报，非课堂成果",
+        "credit": "作者项目标题海报，非课堂成果",
         "sourcePage": "https://glia.ca/2026/biff/",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "作者项目标题海报，非课堂成果。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "本周案例",
       "popularity": {
@@ -3416,20 +3443,22 @@
         }
       ],
       "image": {
-        "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "MIT页面的人机演奏录像；照片版权署名Caroline Alden",
-        "credit": "MIT Media Lab Responsive Environments / Jordan Rudess / Lancelot Blanchard / Perry Naseck / Joseph Paradiso；官方/作者展示素材",
+        "url": "https://dam-prod.media.mit.edu/thumb/2026/09/01/81b8ac780893efcb72907b6da692e874-xxlarge.jpg.1400x1400.jpg",
+        "localPath": "assets/creative-20261108-jam-bot.jpg",
+        "relativePath": "assets/creative-20261108-jam-bot.jpg",
+        "alt": "MIT 官方演奏现场照片；摄影 Caroline Alden",
+        "credit": "MIT 官方演奏现场照片；摄影 Caroline Alden",
         "sourcePage": "https://www.media.mit.edu/posts/media-alert/",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "MIT 官方演奏现场照片；摄影 Caroline Alden。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -3495,20 +3524,22 @@
         }
       ],
       "image": {
-        "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方手影识别界面与动物示例",
-        "credit": "Google ZOO & bit.studio；官方/作者展示素材",
+        "url": "https://lh3.googleusercontent.com/gUIU8KFIkOszLyiNMLr6n2XVq4_SGtoz2fXWngT1WsWzNS7pg_hLn3zu1yZsQmasbVrq1uznX1jGD4NDMHNbaAzCae-0pA",
+        "localPath": "assets/creative-20261108-shadow-art.gif",
+        "relativePath": "assets/creative-20261108-shadow-art.gif",
+        "alt": "Google 官方兔子手影演示界面",
+        "credit": "Google 官方兔子手影演示界面",
         "sourcePage": "https://experiments.withgoogle.com/shadow-art",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Google 官方兔子手影演示界面。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -3577,20 +3608,22 @@
         }
       ],
       "image": {
-        "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方涂鸦猜测界面与完成绘画",
-        "credit": "Google Creative Lab / Jonas Jongejan、Henry Rowley等；官方/作者展示素材",
+        "url": "https://lh3.googleusercontent.com/-sV_feee3ZyzmvEFBoDU0s_c3l3M18cFgjaCqYQu24HqurNoibuyOIehjKlY6-ZA7putypLVxFpteyw0wOp8Uav8UK_8rQ",
+        "localPath": "assets/creative-20261108-quick-draw.png",
+        "relativePath": "assets/creative-20261108-quick-draw.png",
+        "alt": "Google 官方绘画互动演示图",
+        "credit": "Google 官方绘画互动演示图",
         "sourcePage": "https://experiments.withgoogle.com/quick-draw",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Google 官方绘画互动演示图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -3660,20 +3693,22 @@
         }
       ],
       "image": {
-        "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "Magenta发布页生成火烈鸟矢量图及瑜伽姿态动画",
-        "credit": "David Ha、Douglas Eck / Google Magenta；官方/作者展示素材",
+        "url": "https://magenta.withgoogle.com/assets/sketch_rnn/flamingos.png",
+        "localPath": "assets/creative-20261108-sketch-rnn.png",
+        "relativePath": "assets/creative-20261108-sketch-rnn.png",
+        "alt": "Magenta 官方生成火烈鸟绘图示例",
+        "credit": "Magenta 官方生成火烈鸟绘图示例",
         "sourcePage": "https://magenta.withgoogle.com/sketch_rnn",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Magenta 官方生成火烈鸟绘图示例。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -3744,20 +3779,22 @@
         }
       ],
       "image": {
-        "url": "https://lh3.googleusercontent.com/csyP6eHk0x6iQ0M6gbpL_bj5m9sJ2VGi8QNMNUtX2I1D8DqWRkpGJi7qDAYW9kiEiDi4R6d8WG8lQ4SkelvSe43tWTFhMpt2",
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方声音混合键盘界面",
-        "credit": "Yotam Mann / Google Magenta & Creative Lab；官方/作者展示素材",
-        "sourcePage": "https://experiments.withgoogle.com/sound-maker",
+        "url": null,
+        "localPath": "assets/creative-20261108-nsynth-sound-maker.jpg",
+        "relativePath": "assets/creative-20261108-nsynth-sound-maker.jpg",
+        "alt": "Google 官方声音混合键盘界面截图；未验证声音效果",
+        "credit": "Google 官方声音混合键盘界面截图；未验证声音效果",
+        "sourcePage": "https://experiments.withgoogle.com/ai/sound-maker/view/",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Google 官方声音混合键盘界面截图；未验证声音效果。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "官方界面截图",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -3824,20 +3861,22 @@
         }
       ],
       "image": {
-        "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方旋律块插值界面",
-        "credit": "Torin Blankensmith、Kyle Phillips / Google Creative Lab与Magenta；官方/作者展示素材",
+        "url": "https://lh3.googleusercontent.com/DrraG2oAwDBrIIx6jEN-s6oUpsb_TqpPrbk_o_ar726yfqU__jBWSKxrG4mcPHHFlglHr-hxg3h-nUDqF4NL6FLgqxLs",
+        "localPath": "assets/creative-20261108-melody-mixer.png",
+        "relativePath": "assets/creative-20261108-melody-mixer.png",
+        "alt": "Google 官方旋律混合界面",
+        "credit": "Google 官方旋律混合界面",
         "sourcePage": "https://experiments.withgoogle.com/melody-mixer",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Google 官方旋律混合界面。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -3903,20 +3942,22 @@
         }
       ],
       "image": {
-        "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方演唱挑战与三维反馈界面",
-        "credit": "Google Research、Google Creative Lab、YouTube Music；官方/作者展示素材",
+        "url": "https://lh3.googleusercontent.com/sOWO90lGLke4p3rKkSmxNFt_5D6yAlbL845SKPdub_95rkqCl0Gslndy7oUqoCflCdsIknTkqipYoYDg7kjwSdtOarcj",
+        "localPath": "assets/creative-20261108-freddiemeter.jpg",
+        "relativePath": "assets/creative-20261108-freddiemeter.jpg",
+        "alt": "官方项目人物宣传照片，非评分界面",
+        "credit": "官方项目人物宣传照片，非评分界面",
         "sourcePage": "https://experiments.withgoogle.com/freddiemeter",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "官方项目人物宣传照片，非评分界面。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -3988,19 +4029,21 @@
       ],
       "image": {
         "url": null,
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方彩色声音地图及四轨节奏界面",
-        "credit": "Kyle McDonald、Manny Tan、Yotam Mann / Google Creative Lab；官方/作者展示素材",
-        "sourcePage": "https://iyoiyo.studio/2016-the-infinite-drum-machine/",
+        "localPath": "assets/creative-20261108-infinite-drum-machine.jpg",
+        "relativePath": "assets/creative-20261108-infinite-drum-machine.jpg",
+        "alt": "Google for Developers 官方声音地图视频缩略图",
+        "credit": "Google for Developers 官方声音地图视频缩略图",
+        "sourcePage": "https://www.youtube.com/watch?v=9x-_My5yjQY",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Google for Developers 官方声音地图视频缩略图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "官方视频公开缩略图",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -4066,20 +4109,22 @@
         }
       ],
       "image": {
-        "url": "https://storage.googleapis.com/gweb-experiments.appspot.com/1036-thumbnail_1_2560x1440.jpeg",
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方感官画布与音乐笔刷成品",
-        "credit": "Simon Doury、Caroline Buttet / Google Arts & Culture Lab；官方/作者展示素材",
+        "url": "https://storage.googleapis.com/gweb-experiments.appspot.com/5931-thumbnail_1_2560x1440.jpeg",
+        "localPath": "assets/creative-20261108-paint-with-music.jpg",
+        "relativePath": "assets/creative-20261108-paint-with-music.jpg",
+        "alt": "Google 官方音乐画布展示图",
+        "credit": "Google 官方音乐画布展示图",
         "sourcePage": "https://experiments.withgoogle.com/paint-with-music",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Google 官方音乐画布展示图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -4147,20 +4192,22 @@
         }
       ],
       "image": {
-        "url": "https://lh3.googleusercontent.com/kz-reBSx4NG8qSdrM3ELEjkAKsZEQLXeotY-SMOr4nVpD66ZK2FQaXz3JQRtRX6a161iilKAy3NXo-wk-I2jngY5Xqk9",
-        "localPath": null,
-        "relativePath": null,
-        "alt": "官方人体姿态线条与音乐映射演示",
-        "credit": "Use All Five & Google Creative Lab；官方/作者展示素材",
+        "url": "https://lh3.googleusercontent.com/VnwiflH_u2vonPakZkiQr5jWzt3a9ek-ZQSSYtxnNkUszaQkmZvuq63_oHOFLPx4v8EyXkVRo4OnmZSoAMWQr2MF4KsH",
+        "localPath": "assets/creative-20261108-body-synth.jpg",
+        "relativePath": "assets/creative-20261108-body-synth.jpg",
+        "alt": "Google 官方人体姿态音乐演示图",
+        "credit": "Google 官方人体姿态音乐演示图",
         "sourcePage": "https://experiments.withgoogle.com/body-synth",
         "publicReuseCleared": false,
-        "rightsStatus": "公开复用许可未确认；本刊仅提供原作成品图/视频来源入口，不嵌入转载。",
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
         "licenseName": null,
         "licenseUrl": null,
         "permissionEvidence": null,
-        "evidenceNote": "官方来源页可核验原作示例/界面；图片独立获取未全部成功。源代码许可不自动覆盖媒体。",
-        "changes": "未下载、未改图",
-        "displayContext": "来源入口，不代表获授权转载。"
+        "evidenceNote": "Google 官方人体姿态音乐演示图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "availability": "已保存本地相关配图",
+        "retrievedAt": "2026-11-08"
       },
       "freshness": "历史灵感",
       "popularity": {
@@ -4247,15 +4294,19 @@
       ],
       "timeLayer": "本周新发布",
       "image": {
-        "url": "",
-        "alt": "先给游戏助手找错，再决定能不能分享它的答案：原项目展示图",
-        "sourcePage": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/",
-        "credit": "Microsoft × Cyberlite",
+        "url": null,
+        "alt": "Microsoft / Cyberlite 官方教师指南封面局部，非学员作品",
+        "sourcePage": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/classroom-toolkit-unlock-generative-ai-safely-responsibly",
+        "credit": "Microsoft / Cyberlite 官方教师指南封面局部，非学员作品",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
-        "localPath": null,
-        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-20261108-mail-toolkit.png",
+        "evidenceNote": "Microsoft / Cyberlite 官方教师指南封面局部，非学员作品。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-mail-toolkit.png",
+        "changes": "官方PDF封面裁切",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "初中教育"
@@ -4293,7 +4344,7 @@
       ],
       "reproduce": "教师迁移到普通课堂时，可另写虚构的“小组任务意见冲突”，先演出问题，再让孩子共同改写一个互助解决版本；该迁移方案未实测。",
       "education": "将生成式视频用作讨论触发器，而不是让AI替学生作价值判断。原研究对象为高等教育，不直接外推低幼。",
-      "limits": "只有摘要级核验；与70人历史非AI对照相比改善无显著差异，不能声称AI优于传统视频。未取得可转载视频或截图，也未验证成本。",
+      "limits": "已读取出版者全文并找到作者附录所链四段视频；本版配图为其中一段公开缩略图，未完整观看四段或验证成本。与70人历史非AI对照相比改善无显著差异，不能声称AI优于传统视频。",
       "difficulty": "中等",
       "sources": [
         {
@@ -4303,6 +4354,14 @@
         {
           "label": "论文DOI",
           "url": "https://doi.org/10.11307/mededjapan.57.5_386"
+        },
+        {
+          "label": "出版者全文（含视频附录）",
+          "url": "https://www.jstage.jst.go.jp/article/mededjapan/57/5/57_386/_pdf/-char/ja"
+        },
+        {
+          "label": "作者附录视频示例",
+          "url": "https://www.youtube.com/watch?v=gf-NzeLxyIs"
         }
       ],
       "firstSeen": "2026-11-02",
@@ -4312,7 +4371,7 @@
       ],
       "verifiedAt": "2026-11-02",
       "tested": false,
-      "evidenceType": "真实已实施研究案例；摘要级核验；非本刊实测",
+      "evidenceType": "真实已实施研究案例；已核出版者全文与附录视频链接；非本刊实测",
       "audience": [
         "高等教育",
         "教育工作者"
@@ -4327,14 +4386,19 @@
       ],
       "timeLayer": "本周新发布",
       "image": {
-        "url": "",
-        "alt": "未取得原研究视频截图",
-        "sourcePage": "https://doi.org/10.11307/mededjapan.57.5_386",
-        "credit": "论文作者",
+        "url": null,
+        "alt": "论文作者所附 AI 药剂师视频缩略图，非真人医护照片",
+        "sourcePage": "https://www.youtube.com/watch?v=gf-NzeLxyIs",
+        "credit": "论文作者所附 AI 药剂师视频缩略图，非真人医护照片",
         "publicReuseCleared": false,
-        "rightsStatus": "未取得成品图/视频及转载许可；不补造示例",
-        "localPath": null,
-        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "localPath": "assets/creative-20261108-ltx-ipe-scenarios.jpg",
+        "evidenceNote": "论文作者所附 AI 药剂师视频缩略图，非真人医护照片。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-ltx-ipe-scenarios.jpg",
+        "availability": "已保存本地相关配图",
+        "changes": "官方视频公开缩略图",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "relatedFrontier": "与本期日本医学教育课程实施报告为不同研究，不重复标为同一研究。",
       "educationLevels": [
@@ -4349,8 +4413,8 @@
         "教学应用"
       ],
       "freshness": "本周新发布",
-      "updatedAt": "2026-11-02",
-      "lastVerified": "2026-11-02",
+      "updatedAt": "2026-11-08",
+      "lastVerified": "2026-11-08",
       "reproductionStatus": "原作公开可核验；课堂迁移为编辑建议，未实测",
       "originalDate": "2026-10-27",
       "difficultyGroup": "进阶",
@@ -4404,15 +4468,18 @@
       "timeLayer": "历史灵感",
       "image": {
         "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Instrument_Playground_Hero_01.gif",
-        "alt": "先给乐器一个心情，再把生成声音编成小合奏：原项目展示图",
+        "alt": "Google 官方乐器选择界面",
         "sourcePage": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/google-arts-culture-new-music-ai-experiment/",
-        "credit": "Simon Doury / Google Arts & Culture Lab",
+        "credit": "Google 官方乐器选择界面",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "有官方展示图URL，未验证所有客户端显示",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-005-instrument-playground.jpg",
+        "evidenceNote": "Google 官方乐器选择界面。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-005-instrument-playground.jpg",
+        "changes": "恢复已核验的原项目图片",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -4479,15 +4546,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
-        "alt": "用同一幅画比较两种诗，再做一张有署名的明信片：原项目展示图",
+        "url": "https://lh3.googleusercontent.com/ci/AL18g_RsDTtMuVT-oJkxWzUm2T0GkxEM7kOUhyN6fxvd7kokVhByP6CgYbXIBP8_0dUFEJ2vlGRI7b8",
+        "alt": "Google 官方诗歌明信片演示图",
         "sourcePage": "https://artsandculture.google.com/experiment/ZgG5_uTbBgTpIQ",
-        "credit": "Google researchers / Google Arts & Culture",
+        "credit": "Google 官方诗歌明信片演示图",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
-        "localPath": null,
-        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-20261108-poem-postcards.jpg",
+        "evidenceNote": "Google 官方诗歌明信片演示图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-poem-postcards.jpg",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -4560,15 +4631,18 @@
       "timeLayer": "历史灵感",
       "image": {
         "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/CTA_highres.width-1300.jpg",
-        "alt": "自己写主旋律，让AI补和声，再听哪里不合意：原项目展示图",
+        "alt": "Google 官方 Bach Doodle 插图",
         "sourcePage": "https://blog.google/innovation-and-ai/products/honoring-js-bach-our-first-ai-powered-doodle/",
-        "credit": "Google Doodle / Magenta / PAIR",
+        "credit": "Google 官方 Bach Doodle 插图",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "有官方展示图URL，未验证所有客户端显示",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-005-bach-doodle.jpg",
+        "evidenceNote": "Google 官方 Bach Doodle 插图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-005-bach-doodle.jpg",
+        "changes": "恢复已核验的原项目图片",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -4639,16 +4713,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "https://lh3.googleusercontent.com/8M1GyqqdDy5UouXxV19QO4FyDO70muhLWHW2KZI0wiG14QiPbahzduTO03b5O04paD-xBmlALx_L6jeWPTKQvCvGq5lb9A",
-        "alt": "画一个轮廓，找到相似馆藏，再解释像在哪里：原项目展示图",
-        "sourcePage": "https://experiments.withgoogle.com/draw-to-art",
-        "credit": "Google Creative Lab / Google Arts & Culture Lab / IYOIYO",
+        "url": null,
+        "alt": "Google Draw to Art 官方介绍界面截图，非匹配结果",
+        "sourcePage": "https://artsexperiments.withgoogle.com/draw-to-art",
+        "credit": "Google Draw to Art 官方介绍界面截图，非匹配结果",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "有官方展示图URL，未验证所有客户端显示",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-20261108-draw-to-art.jpg",
+        "evidenceNote": "Google Draw to Art 官方介绍界面截图，非匹配结果。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-draw-to-art.jpg",
+        "changes": "官方界面截图",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -4718,15 +4795,18 @@
       "timeLayer": "历史灵感",
       "image": {
         "url": "https://lh3.googleusercontent.com/APx4kb-N72WadG9cxDtSWPnaSkKe2WXcZ1zuJ93r8fLmR_gaJ62BPfRPBHVqgWg1inZvkfJwFSuDsEJSgZgMp8Wt_dCLT5ikvRL6K6lGbA",
-        "alt": "给纸壳机器人教两个物体，让它用手臂指出答案：原项目展示图",
+        "alt": "Google 官方纸壳机器人照片",
         "sourcePage": "https://experiments.withgoogle.com/alto",
-        "credit": "Google Creative Lab",
+        "credit": "Google 官方纸壳机器人照片",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "有官方展示图URL，未验证所有客户端显示",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-005-alto.jpg",
+        "evidenceNote": "Google 官方纸壳机器人照片。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-005-alto.jpg",
+        "changes": "恢复已核验的原项目图片",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -4795,15 +4875,18 @@
       "timeLayer": "历史灵感",
       "image": {
         "url": "https://lh3.googleusercontent.com/t54TCKZOI8QgHU-ZPTRgcMaFg7ir2XKCutX8pdgPiU2X1XJWZgmzv00aY821B7FRjGWtF8kN_u5ADOsQ5aGvs1mI-_eGnRU",
-        "alt": "让嘴形成为互动控制，讨论机器究竟测到了什么：原项目展示图",
+        "alt": "Google 官方口型交互演示界面",
         "sourcePage": "https://experiments.withgoogle.com/lipsync",
-        "credit": "Google Partner Innovation × bit.studio",
+        "credit": "Google 官方口型交互演示界面",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "有官方展示图URL，未验证所有客户端显示",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-005-lipsync.jpg",
+        "evidenceNote": "Google 官方口型交互演示界面。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-005-lipsync.jpg",
+        "changes": "恢复已核验的原项目图片",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "初中教育"
@@ -4877,15 +4960,18 @@
       "timeLayer": "历史灵感",
       "image": {
         "url": "https://magenta.withgoogle.com/assets/wordcraft/www-card.png",
-        "alt": "先保留作者的故事，再让AI只帮助改一小段：原项目展示图",
+        "alt": "Magenta 官方写作工作坊标题海报，非故事成品",
         "sourcePage": "https://magenta.withgoogle.com/wordcraft-writers-workshop",
-        "credit": "Google PAIR / Magenta与13位专业作家",
+        "credit": "Magenta 官方写作工作坊标题海报，非故事成品",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "有官方展示图URL，未验证所有客户端显示",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-005-wordcraft-workshop.jpg",
+        "evidenceNote": "Magenta 官方写作工作坊标题海报，非故事成品。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-005-wordcraft-workshop.jpg",
+        "changes": "恢复已核验的原项目图片",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -5022,15 +5108,18 @@
       "timeLayer": "历史灵感",
       "image": {
         "url": "https://cdn.sanity.io/images/454beuev/production/92aaf0ec1af04ea51268f69a18cd9c27bf307a70-640x360.gif",
-        "alt": "把展台拍照变成诗歌互动，再追问诗里哪些是猜测：原项目展示图",
+        "alt": "Poem Booth 官方互动装置现场照片",
         "sourcePage": "https://poembooth.com/en/row/blog/how-were-using-chatgpt-generative-ai-poetry",
-        "credit": "Poem Booth团队 / Little Robots / Maarten Inghels",
+        "credit": "Poem Booth 官方互动装置现场照片",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "有官方展示图URL，未验证所有客户端显示",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-005-poem-booth.jpg",
+        "evidenceNote": "Poem Booth 官方互动装置现场照片。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-005-poem-booth.jpg",
+        "changes": "恢复已核验的原项目图片",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育"
@@ -5098,15 +5187,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
-        "alt": "看AI骨架怎么跳舞，找出被遮挡的那条腿：原项目展示图",
+        "url": "https://testit.uni.lu/wp-content/uploads/2023/07/MicrosoftTeams-image-154.png",
+        "alt": "卢森堡大学官方舞蹈骨架演示图",
         "sourcePage": "https://testit.uni.lu/exhibit/dance-and-ai/",
-        "credit": "University of Luxembourg AI ROBOLAB / N. Shojaee、B. Antico",
+        "credit": "卢森堡大学官方舞蹈骨架演示图",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
-        "localPath": null,
-        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-20261108-dance-ai-luxembourg.png",
+        "evidenceNote": "卢森堡大学官方舞蹈骨架演示图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-dance-ai-luxembourg.png",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -5173,15 +5266,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
-        "alt": "把卡通主角放进知识场景，让短片事实也接受检查：原项目展示图",
+        "url": "https://lh3.googleusercontent.com/ci/AL18g_TjK65h_8CThO1w6Oi0ZthJiWojMtgAMJFIH-ehJeng7unQOoo9Z7gKe-TBntu_R9jvf-MoMU0",
+        "alt": "Google 官方卡通视频项目预览图",
         "sourcePage": "https://artsandculture.google.com/experiment/world-toon-video-w-t-v/kQGgmM6Aoohkrw?hl=en",
-        "credit": "Gaël Hugo / Google Arts & Culture Lab",
+        "credit": "Google 官方卡通视频项目预览图",
         "publicReuseCleared": false,
-        "rightsStatus": "原项目图片仅作私人预览来源参考；未核公开转载许可，不因原页可见而视为获授权。",
-        "availability": "未取得可靠直链；请由原页查看示例，不用AI补画冒充原作",
-        "localPath": null,
-        "evidenceNote": "本版未能取得可嵌入原作图；保留原页作品入口，不用生成图替代真实成果。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "localPath": "assets/creative-20261108-world-toon-video.jpg",
+        "evidenceNote": "Google 官方卡通视频项目预览图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "relativePath": "assets/creative-20261108-world-toon-video.jpg",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "初中教育"
@@ -5252,14 +5349,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
+        "url": "https://edu.jixi.gov.cn/upload/image/20250523/6388360855362398015490569.jpg",
         "sourcePage": "https://edu.jixi.gov.cn/Article/49320.html",
-        "alt": "把绘本里的一个疑问变成短片，让孩子先说再看：示例请见原页",
-        "credit": "梨树区实验幼儿园 / 鸡西教育云",
+        "alt": "鸡西教育云官方课堂照片，非完整生成短片",
+        "credit": "鸡西教育云官方课堂照片，非完整生成短片",
         "publicReuseCleared": false,
-        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
-        "availability": "原页有课堂照片，未提供可独立核验的完整生成视频。",
-        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "evidenceNote": "鸡西教育云官方课堂照片，非完整生成短片。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "localPath": "assets/creative-20261108-jixi-jimeng-picturebook.jpg",
+        "relativePath": "assets/creative-20261108-jixi-jimeng-picturebook.jpg",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "学前教育"
@@ -5408,14 +5510,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
+        "url": "https://www.bjsc.net.cn/bjsc/bgxx/xwzx/202608/W020260803550662799580.png",
         "sourcePage": "https://www.bjsc.net.cn/bjsc/bgxx/xwzx/202608/t20260803_184214.html",
-        "alt": "给真实展项写歌、配画面，做一部有事实依据的科普片：示例请见原页",
-        "credit": "北京科学中心 AI先锋创造营",
+        "alt": "北京科学中心官方展厅照片与学生作品对照图",
+        "credit": "北京科学中心官方展厅照片与学生作品对照图",
         "publicReuseCleared": false,
-        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
-        "availability": "原页有多张课堂与作品展示照片，公开完整短片未核。",
-        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "evidenceNote": "北京科学中心官方展厅照片与学生作品对照图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "localPath": "assets/creative-20261108-bjsc-ai-science-film.png",
+        "relativePath": "assets/creative-20261108-bjsc-ai-science-film.png",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育",
@@ -5485,14 +5592,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
+        "url": "https://xxxy.czu.cn/_upload/article/images/fd/91/ffec07eb4e048b851690c965c8c3/068bf2d1-e9b8-4325-a423-f4ea06877bd5.jpg",
         "sourcePage": "https://xxxy.czu.cn/2026/0528/c10118a174427/page.htm",
-        "alt": "让AI写猜数字游戏，再由孩子设计反例测规则：示例请见原页",
-        "credit": "常州工学院计算机信息工程学院 / 薛家实验小学",
+        "alt": "常州工学院官方课堂照片，非游戏画面",
+        "credit": "常州工学院官方课堂照片，非游戏画面",
         "publicReuseCleared": false,
-        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
-        "availability": "原页可看活动记录；未公开可直接复用的完整源码。",
-        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "evidenceNote": "常州工学院官方课堂照片，非游戏画面。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "localPath": "assets/creative-20261108-changzhou-ai-mini-games.jpg",
+        "relativePath": "assets/creative-20261108-changzhou-ai-mini-games.jpg",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育"
@@ -5567,14 +5679,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
+        "url": "https://img.xiumi.us/xmi/ua/4ffxO/i/1d5ac6f658123ef664887b5c9902c3c4-sz_26601.jpeg",
         "sourcePage": "https://comm.ecnu.edu.cn/2e/c1/c50798a732865/page.htm",
-        "alt": "同一故事做成纸本和有声版，让孩子比较表达方式：示例请见原页",
-        "credit": "华东师范大学团队 / 云南寻甸雷锋希望小学",
+        "alt": "华东师大官方绘本项目角色形象图",
+        "credit": "华东师大官方绘本项目角色形象图",
         "publicReuseCleared": false,
-        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
-        "availability": "原页有项目体系图、IP形象与绘本封面，可查原作；不转载未知权利图片。",
-        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "evidenceNote": "华东师大官方绘本项目角色形象图。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "localPath": "assets/creative-20261108-ecnu-liulin-feelings.jpg",
+        "relativePath": "assets/creative-20261108-ecnu-liulin-feelings.jpg",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "学前教育",
@@ -5651,14 +5768,19 @@
       ],
       "timeLayer": "历史灵感",
       "image": {
-        "url": "",
+        "url": "https://joanganzcooneycenter.org/wp-content/uploads/2026/10/remixing-the-future-_-thumb.png",
         "sourcePage": "https://joanganzcooneycenter.org/publication/remixing-the-future/",
-        "alt": "纸上设计生态角色，给AI反馈后做班级卡片集：示例请见原页",
-        "credit": "The GIANT Room × Joan Ganz Cooney Center",
+        "alt": "官方研究报告封面，非学生作品",
+        "credit": "官方研究报告封面，非学生作品",
         "publicReuseCleared": false,
-        "rightsStatus": "公开版只保留原页来源入口，不复制或嵌入未经确认许可的图片。",
-        "availability": "原报告PDF含任务纸、作品与出版流程示例（第6–7、23–24页）。",
-        "evidenceNote": "公开版保留原页示例入口；未复制未经授权图片。"
+        "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+        "availability": "已保存本地相关配图",
+        "evidenceNote": "官方研究报告封面，非学生作品。来源已核对；不表示本刊完成对应课堂或作品实测。",
+        "localPath": "assets/creative-20261108-giant-remix-codesign.png",
+        "relativePath": "assets/creative-20261108-giant-remix-codesign.png",
+        "changes": "下载官方来源配图，未改动图像",
+        "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+        "retrievedAt": "2026-11-08"
       },
       "educationLevels": [
         "小学教育"

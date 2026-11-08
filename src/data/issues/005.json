@@ -46,7 +46,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/2e6eedee604124.jpg",
+          "relativePath": "assets/news-images/2e6eedee604124.jpg",
+          "sourcePage": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+          "url": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+          "alt": "Google提出持续学习的“睡眠”框架｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-02",
@@ -116,7 +128,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/cc8d014bfd0b9d.jpg",
+          "relativePath": "assets/news-images/cc8d014bfd0b9d.jpg",
+          "sourcePage": "https://dec-web-v2.webflow.io/newsroom/ai-risks-reducing-peer-exchange-and-eroding-collaboration-new-dec-and-pearson-report-finds",
+          "url": "https://cdn.prod.website-files.com/65f1d299b87bcc50550a6398/6ae002e59822cc61f9500e71_e7183f2e.png",
+          "alt": "DEC与Pearson关注AI是否挤占同伴协作｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://cdn.prod.website-files.com/65f1d299b87bcc50550a6398/6ae002e59822cc61f9500e71_e7183f2e.png",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-04",
@@ -151,7 +175,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/5d5ffa996e309c.jpg",
+          "relativePath": "assets/news-images/5d5ffa996e309c.jpg",
+          "sourcePage": "https://link.springer.com/article/10.1007/s11423-026-10720-0",
+          "url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11423-026-10720-0/MediaObjects/11423_2026_10720_Fig1_HTML.png",
+          "alt": "AI共情反馈研究：参与感关联不等于成绩提升｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11423-026-10720-0/MediaObjects/11423_2026_10720_Fig1_HTML.png",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-05",
@@ -197,7 +233,22 @@
         "freshness": "本周发布",
         "ageRestriction": "官方工具包面向13–15岁",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "url": null,
+          "alt": "Microsoft / Cyberlite 官方教师指南封面局部，非学员作品",
+          "sourcePage": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/classroom-toolkit-unlock-generative-ai-safely-responsibly",
+          "credit": "Microsoft / Cyberlite 官方教师指南封面局部，非学员作品",
+          "publicReuseCleared": false,
+          "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+          "availability": "已保存本地相关配图",
+          "localPath": "assets/creative-20261108-mail-toolkit.png",
+          "evidenceNote": "Microsoft / Cyberlite 官方教师指南封面局部，非学员作品。来源已核对；不表示本刊完成对应课堂或作品实测。",
+          "relativePath": "assets/creative-20261108-mail-toolkit.png",
+          "changes": "官方PDF封面裁切",
+          "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-06",
@@ -239,7 +290,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/cf8a29e20e4629.jpg",
+          "relativePath": "assets/news-images/cf8a29e20e4629.jpg",
+          "sourcePage": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/",
+          "url": "https://blogs.umsl.edu/news/files/2026/10/umsl-lindbergh-scale-collaboration-1250.jpg",
+          "alt": "UMSL联合推出12小时免费教师AI课程｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://blogs.umsl.edu/news/files/2026/10/umsl-lindbergh-scale-collaboration-1250.jpg",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-07",
@@ -274,7 +337,22 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "url": null,
+          "alt": "论文作者所附 AI 药剂师视频缩略图，非真人医护照片",
+          "sourcePage": "https://www.youtube.com/watch?v=gf-NzeLxyIs",
+          "credit": "论文作者所附 AI 药剂师视频缩略图，非真人医护照片",
+          "publicReuseCleared": false,
+          "rightsStatus": "图片版权归原权利人；公开复用许可未独立确认。",
+          "localPath": "assets/creative-20261108-ltx-ipe-scenarios.jpg",
+          "evidenceNote": "论文作者所附 AI 药剂师视频缩略图，非真人医护照片。来源已核对；不表示本刊完成对应课堂或作品实测。",
+          "relativePath": "assets/creative-20261108-ltx-ipe-scenarios.jpg",
+          "availability": "已保存本地相关配图",
+          "changes": "官方视频公开缩略图",
+          "displayContext": "私人预览中的相关资料配图；不表示来源机构背书。",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-08",
@@ -309,7 +387,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/0479debba70588.jpg",
+          "relativePath": "assets/news-images/0479debba70588.jpg",
+          "sourcePage": "https://www.ai.cam.ac.uk/news/six-cambridge-projects-to-explore-how-ai-is-changing-teaching-and-learning/",
+          "url": "https://www.ai.cam.ac.uk/assets/images/uploads/20240626_students-at-museum-of-zoology_0028.jpg",
+          "alt": "剑桥资助六项AI教学与评价试验｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.ai.cam.ac.uk/assets/images/uploads/20240626_students-at-museum-of-zoology_0028.jpg",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-09",
@@ -344,7 +434,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/d927020e96caec.jpg",
+          "relativePath": "assets/news-images/d927020e96caec.jpg",
+          "sourcePage": "https://www.edb.gov.hk/sc/about-edb/press/insiderperspective/insiderperspective20261030.html",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/technology-edu/primary-iit/IIT_Curriculum_Framework.pdf",
+          "alt": "香港公布小学资讯与创新科技课程框架拟定稿｜官方文件首页截图",
+          "credit": "官方文件首页截图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/technology-edu/primary-iit/IIT_Curriculum_Framework.pdf",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-10",
@@ -383,7 +485,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/8d477fdee2584c.jpg",
+          "relativePath": "assets/news-images/8d477fdee2584c.jpg",
+          "sourcePage": "https://ai.bnu.edu.cn/ggjxz/xyxw/9da4dfeaf9364cccbae0e9a1ef7e0f4d.htm",
+          "url": "https://ai.bnu.edu.cn/images/2026-10/925c241b36e94e8d88b359a7892311e8.png",
+          "alt": "北京基础教育AI蓝皮书发布，聚焦六类学校场景｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://ai.bnu.edu.cn/images/2026-10/925c241b36e94e8d88b359a7892311e8.png",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e005-11",
@@ -459,7 +573,19 @@
         "freshness": "本周发布",
         "ageRestriction": "",
         "firstSeen": "2026-11-02",
-        "lastVerified": "2026-11-02"
+        "lastVerified": "2026-11-02",
+        "image": {
+          "localPath": "assets/news-images/19e7b07cbf52e8.jpg",
+          "relativePath": "assets/news-images/19e7b07cbf52e8.jpg",
+          "sourcePage": "https://www.qmul.ac.uk/news/latest-news/2026/medicine-and-dentistry/fmd/queen-mary-research-informs-national-approach-to-ai-in-dental-education.html",
+          "url": "https://www.qmul.ac.uk/media/qmul/media/news/items/fmd/Close-up-view-of-dentist-hands-on-work-640.png",
+          "alt": "牙科教育AI评估把患者安全放在技术新奇之前｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.qmul.ac.uk/media/qmul/media/news/items/fmd/Close-up-view-of-dentist-hands-on-work-640.png",
+          "retrievedAt": "2026-11-08"
+        }
       }
     ],
     "summaries": [

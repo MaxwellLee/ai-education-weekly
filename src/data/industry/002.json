@@ -44,7 +44,17 @@
           "url": "https://ir.tal.com/2026-07-30-TAL-Education-Group-Announces-Unaudited-Financial-Results-for-the-First-Fiscal-Quarter-Ended-May-31,-2026"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-tal.jpg",
+        "relativePath": "assets/profile-industry-images/industry-tal.jpg",
+        "sourcePage": "https://www.tal.com/zh-cn/news/detail/3039",
+        "imageUrl": "https://www.news.cn/tech/20260702/6c2507bdbcad455881a639682237c0fc/202607026c2507bdbcad455881a639682237c0fc_20260702ba7736f3013a43ee94229ff76038ec14.jpg",
+        "alt": "学而思 T6 系列 + 培优AI家教 / 九章爱学老师版：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-new-oriental",
@@ -89,7 +99,17 @@
           "url": "https://www.neworiental.org/system/subsidiary/202108/8625128.html"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-new-oriental.jpg",
+        "relativePath": "assets/profile-industry-images/industry-new-oriental.jpg",
+        "sourcePage": "https://www.neworiental.org/system/subsidiary/202108/8625128.html",
+        "imageUrl": "https://g.xdfimage.cn/upload/96190859a11bdd413991b4e154a3431a.png",
+        "alt": "智能学习系统与设备 / 智慧伴学、智慧督学 / 新东方 AI 1对1 / Sure Chinese：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-iflytek",
@@ -127,7 +147,17 @@
           "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485550.PDF"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-iflytek.jpg",
+        "relativePath": "assets/profile-industry-images/industry-iflytek.jpg",
+        "sourcePage": "https://edu.iflytek.com/about-us/news/company-news/2665",
+        "imageUrl": "https://edu.iflytek.com/Public/ueditor/upload/image/20260305/1772698294652245.jpeg",
+        "alt": "讯飞AI学习机 T90 系列 / 星火智能批阅机：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-codemao",
@@ -170,7 +200,17 @@
           "url": "https://apps.apple.com/cn/app/id1382569039"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-codemao.jpg",
+        "relativePath": "assets/profile-industry-images/industry-codemao.jpg",
+        "sourcePage": "https://www.codemao.cn/gocodemao",
+        "imageUrl": "https://static.codemao.cn/community_official/static/media/logo_dm_cm_black.479fdf5d.png",
+        "alt": "编程猫：家庭编程课程与点猫AI教育平台：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-duolingo",
@@ -207,7 +247,17 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/q2fy26duolingo6-30x26share.htm"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-duolingo.jpg",
+        "relativePath": "assets/profile-industry-images/industry-duolingo.jpg",
+        "sourcePage": "https://blog.duolingo.com/duolingo-max/",
+        "imageUrl": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2024/04/DuolingoMax_HeroImage-Light.png",
+        "alt": "Duolingo Max / Video Call：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-khan-academy",
@@ -264,7 +314,17 @@
           "url": "https://support.khanacademy.org/hc/en-us/articles/14583967053069-Why-do-I-need-to-pay-to-use-Khanmigo"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-khan-academy.jpg",
+        "relativePath": "assets/profile-industry-images/industry-khan-academy.jpg",
+        "sourcePage": "https://blog.khanacademy.org/new-ai-tools-bring-interactive-diagrams-and-targeted-practice-thanks-to-khan-academys-partnership-with-google-org/",
+        "imageUrl": "https://blog.khanacademy.org/wp-content/uploads/2026/07/cropped-KABlog_Logo_1.png",
+        "alt": "Khan Academy Blog官方机构标识，非产品或事件实拍",
+        "credit": "可汗学院官方博客标识参考图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方博客页面获取其站点标识，非各期历史截图。原文章主图获取403，未采用错误页面图。"
+      }
     },
     {
       "id": "industry-coursera",
@@ -313,7 +373,17 @@
           "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Reports-Second-Quarter-2026-Financial-Results/default.aspx"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-coursera.jpg",
+        "relativePath": "assets/profile-industry-images/industry-coursera.jpg",
+        "sourcePage": "https://www.coursera.org/explore/coach/",
+        "imageUrl": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1V8qbFO31WuwRS3dYprOde/c89d4e14ad273cf5e4f17ad1c594f241/Coursera_Coach_Hero.png?auto=format%2C%20compress&dpr=1&w=720&h=400&q=40&fit=clip",
+        "alt": "Coursera Coach / Role Play / Project Helix：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-fabarta",
@@ -344,7 +414,17 @@
           "url": "https://fabarta.com/products/ai-training-platform/"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-fabarta.jpg",
+        "relativePath": "assets/profile-industry-images/industry-fabarta.jpg",
+        "sourcePage": "https://fabarta.com/news/detail/e2f385cb-43d7-4908-ac18-98c1af3db5b8",
+        "imageUrl": "https://fabarta.com/image/202608/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-09_171156_381.png",
+        "alt": "高校Agent实训平台与小学AIGC公益课：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-qinghe",
@@ -368,7 +448,7 @@
       "sources": [
         {
           "label": "青禾致知少儿AI课：原帖正文与7张课程配图 · 编辑于09-17（年份未明）",
-          "url": "https://www.xiaohongshu.com/discovery/item/6a6ca9040000000008010051?source=webshare&xhsshare=pc_web&xsec_token=ABTA5geqDOD09Z4XUa9OWlKhbA4AuRakhJXom2ehdCDFc=&xsec_source=pc_share"
+          "url": "https://www.xiaohongshu.com/discovery/item/6a6ca9040000000008010051?source=webshare&xhsshare=pc_web"
         }
       ],
       "freshness": "baseline"
@@ -435,7 +515,17 @@
       "financials": [
         "截至2026-10-12所核实公开材料，未取得该AI课程独立收入、利润或现金流披露。"
       ],
-      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。"
+      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-create-learn.png",
+        "relativePath": "assets/profile-industry-images/industry-create-learn.png",
+        "sourcePage": "https://www.create-learn.us/ai-for-kids/create-with-chatgpt",
+        "imageUrl": null,
+        "alt": "Create & Learn官网Create with ChatGPT Class课程介绍页，2026-11-08官网截图，非历史事件实拍",
+        "credit": "2026-11-08现行官网截图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取官网现行页面；已目视核验。图内课程及课堂展示属于官方宣传，非独立效果验证，不代表各期历史页面状态。"
+      }
     },
     {
       "id": "industry-codakid",
@@ -469,7 +559,17 @@
       "financials": [
         "截至2026-10-12所核实公开材料，未取得该AI课程独立收入、利润或现金流披露。"
       ],
-      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。"
+      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-codakid.png",
+        "relativePath": "assets/profile-industry-images/industry-codakid.png",
+        "sourcePage": "https://codakid.com/ai-classes-for-kids/",
+        "imageUrl": null,
+        "alt": "CodaKid AI课程官方页面，2026-11-08截图，非历史事件实拍",
+        "credit": "2026-11-08现行官网课程页截图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取并目视核验CodaKid课程页；不将现行网页当历史期页面状态或课堂实拍。"
+      }
     },
     {
       "id": "industry-juniorcodes",
@@ -499,7 +599,17 @@
       "financials": [
         "截至2026-10-12所核实公开材料，未取得该AI课程独立收入、利润或现金流披露。"
       ],
-      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。"
+      "financialBoundary": "公开标价、课程容量和课时不是营收；营收也不等于利润。不从报价推断盈利或现金消耗。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-juniorcodes.jpg",
+        "relativePath": "assets/profile-industry-images/industry-juniorcodes.jpg",
+        "sourcePage": "https://juniorcodes.com/courses/ai-course-for-kids",
+        "imageUrl": "https://juniorcodes.com/images/og-image.png",
+        "alt": "AI Explorers：直播课加一年练习平台：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     }
   ],
   "pending": [

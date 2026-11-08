@@ -2,7 +2,7 @@ const fs=require('fs'),vm=require('vm'),assert=require('assert/strict'),path=req
 const ROOT=(fs.existsSync(path.resolve(__dirname,'../data'))?path.resolve(__dirname,'..'):path.resolve(__dirname,'../src')),raw=JSON.parse(fs.readFileSync(__dirname+'/dom.json'));
 class El{
  constructor(o={}){Object.assign(this,o);this.dataset=o.dataset||{};this.listeners={};this.attrs=o.attrs||{};this.hidden='hidden' in this.attrs;this.value='';this.textContent='';this.classes=new Set();this.classList={toggle:(v,b)=>b?this.classes.add(v):this.classes.delete(v)};}
- setAttribute(k,v){this.attrs[k]=v}removeAttribute(k){delete this.attrs[k]}addEventListener(k,cb){this.listeners[k]=cb}scrollIntoView(){this.scrolled=true}focus(){this.focused=true}replaceChildren(c){this.content=c}closest(){return this}
+ setAttribute(k,v){this.attrs[k]=v}removeAttribute(k){delete this.attrs[k]}addEventListener(k,cb){this.listeners[k]=cb}scrollIntoView(){this.scrolled=true}focus(){this.focused=true}replaceChildren(c){this.content=c}append(c){this.children=c.children||[c]}closest(){return this}
  trigger(type,event={}){this.listeners[type]?.({target:this,preventDefault(){},...event})}
 }
 function setup(input=raw,initial=''){
@@ -10,10 +10,10 @@ function setup(input=raw,initial=''){
  const ids={};for(const id of input.ids)ids[id]=new El({id});for(const list of Object.values(lists))for(const e of list)if(e.id)ids[e.id]=e;
  ids['app-data'].textContent=JSON.stringify(input.app);
  for(const issue of input.app.manifest.issues){ids['issue-template-'+issue.id]=new El();ids['issue-template-'+issue.id].content={cloneNode(){return {issue:issue.id}}};}
- const docListeners={},winListeners={};const document={querySelector(s){return ids[s.slice(1)]},querySelectorAll(s){return lists[s]||[]},getElementById(s){return ids[s]},addEventListener(k,cb){docListeners[k]=cb}};
+ const docListeners={},winListeners={};ids['creative-list']=new El();const document={createDocumentFragment(){return {children:[],append(c){this.children.push(c)}}},querySelector(s){return s==='.creative-grid'?ids['creative-list']:ids[s.slice(1)]},querySelectorAll(s){return lists[s]||[]},getElementById(s){return ids[s]},addEventListener(k,cb){docListeners[k]=cb}};
  let position=0;const stack=[initial],win={location:{hash:initial},addEventListener(k,cb){winListeners[k]=cb;}};
  win.history={pushState(o,t,hash){stack.splice(position+1);stack.push(hash);position++;win.location.hash=hash},replaceState(o,t,hash){stack[position]=hash;win.location.hash=hash},back(){if(position){win.location.hash=stack[--position];winListeners.popstate();}},forward(){if(position<stack.length-1){win.location.hash=stack[++position];winListeners.popstate();}}};
- const context={window:win,document,Set,JSON,URLSearchParams};vm.runInNewContext(fs.readFileSync(ROOT+'/core.js','utf8'),context);vm.runInNewContext(fs.readFileSync(ROOT+'/interactions.js','utf8'),context);
+ const context={window:win,document,Set,Map,JSON,URLSearchParams};vm.runInNewContext(fs.readFileSync(ROOT+'/core.js','utf8'),context);vm.runInNewContext(fs.readFileSync(ROOT+'/interactions.js','utf8'),context);
  return {ids,lists,win,document,visible:()=>lists['.creative-card'].filter(x=>!x.hidden).length,click:(e)=>docListeners.click({target:e,preventDefault(){}}),hash(hash){win.location.hash=hash;winListeners.hashchange();}};
 }
 let h=setup(),{ids,lists,win}=h; const count=raw.cards.length,latest=raw.app.manifest.latestIssueId;
@@ -28,4 +28,19 @@ while(!ids['next-issue'].disabled)ids['next-issue'].trigger('click');assert.equa
 h.click(new El({dataset:{openLibrary:''}}));lists['.scope-button'].find(x=>x.dataset.scope==='issue').trigger('click');assert.equal(h.visible(),raw.app.ideas.filter(x=>x.firstIssue===latest).length);
 ids['idea-query'].value='nothing-matches-71918833';ids['idea-query'].trigger('input');assert.equal(h.visible(),0);assert.equal(ids['empty-filter'].hidden,false);ids['reset-filters'].trigger('click');assert.equal(h.visible(),count);
 h.hash('#issue=001&page=updates&view=library');assert.match(ids['return-weekly'].textContent,/001.*更新须知/);h.click(new El({dataset:{returnWeekly:''}}));assert.equal(ids['issue-content'].content.issue,'001');assert.equal(lists['[data-weekly-page]'].find(x=>!x.hidden).dataset.weeklyPage,'updates');
-console.log('PASS: actual production controller in synthetic DOM; real 001/002/003 snapshots, six tabs, previous/next/latest, independent cumulative library, new scopes, empty/reset, history, historical issue/page return. Real-browser layout is separate.');
+console.log('PASS: actual production controller in synthetic DOM; real manifest issue snapshots, six tabs, previous/next/latest, independent cumulative library, new scopes, empty/reset, history, historical issue/page return. Real-browser layout is separate.');
+
+// Regression coverage for order, filters, history, and stable card identity.
+h=setup();h.click(new El({dataset:{openLibrary:''}}));
+let order=()=>h.ids['creative-list'].children.map(x=>x.dataset.ideaId);
+const C=require(ROOT+'/core.js'),expectedDesc=C.sortedIdeas(raw.app.ideas,{sortOrder:'desc'}).map(x=>x.id),expectedAsc=C.sortedIdeas(raw.app.ideas,{sortOrder:'asc'}).map(x=>x.id);
+assert.deepEqual(order(),expectedDesc);h.ids['sort-added'].trigger('click');assert.deepEqual(order(),expectedAsc);assert(h.win.location.hash.includes('sort=asc'));
+h.win.history.back();assert.deepEqual(order(),expectedDesc);h.win.history.forward();assert.deepEqual(order(),expectedAsc);
+h.ids['idea-query'].value='故事';h.ids['idea-query'].trigger('input');assert.deepEqual(order(),expectedAsc);h.ids['reset-filters'].trigger('click');assert.deepEqual(order(),expectedAsc);
+h.click(new El({dataset:{returnWeekly:''}}));h.click(new El({dataset:{openLibrary:''}}));assert.deepEqual(order(),expectedAsc);
+h.ids['sort-added'].trigger('click');assert.deepEqual(order(),expectedDesc);
+assert.equal(new Set(h.ids['creative-list'].children).size,count);
+h.hash('#issue=005&page=preview&view=library&sort=asc');assert.deepEqual(order(),expectedAsc);
+console.log('PASS: added-date sort direction, filter compatibility, retained card nodes, URL restore and back/forward.');
+
+h=setup();h.click(new El({dataset:{openLibrary:''}}));h.ids['sort-added'].trigger('click');h.click(new El({dataset:{returnWeekly:''}}));h.win.history.back();h.win.history.forward();h.click(new El({dataset:{openLibrary:''}}));assert(h.win.location.hash.includes('sort=asc'));assert.deepEqual(h.ids['creative-list'].children.map(x=>x.dataset.ideaId),expectedAsc);console.log('PASS: ascending order survives weekly return plus browser back/forward.');

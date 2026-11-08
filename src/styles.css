@@ -38,3 +38,11 @@ button,select,input{font:inherit}select,input{max-width:100%;color:var(--ink);ba
 .classroom-plan{margin:0 20px 24px;padding:16px;border:1px solid #baa886;background:#faf7ef}.classroom-plan h5{font-size:15px;margin:16px 0 5px}.classroom-plan li{margin:8px 0;line-height:1.7}.classroom-plan summary{font-weight:700;cursor:pointer}
 
 .mainland-competitors{margin:2rem 0;padding:1.25rem;background:#f4f6ed;border:1px solid #ccd2bd;border-radius:16px}.mainland-compare-scroll{overflow-x:auto}.mainland-compare{border-collapse:collapse;min-width:900px;width:100%;font-size:.9rem;line-height:1.7}.mainland-compare th,.mainland-compare td{vertical-align:top;text-align:left;border-bottom:1px solid #cdd4c4;padding:16px 12px}.mainland-compare thead th{background:#e6ebdc}.mainland-compare th:first-child{width:18%}.mainland-compare td{width:27%}.mainland-compare .sources{display:flex;gap:8px;flex-wrap:wrap}.mainland-compare .pill{display:block;width:fit-content}.mainland-compare .detail-line{margin:.35rem 0}.mainland-compare a{overflow-wrap:anywhere}
+
+/* Added-date sort toolbar: retains the same control on mobile. */
+.catalog-result-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:10px}.catalog-result-row .result-count{margin:0}.sort-note{font-size:13px;color:var(--muted);margin:0 0 20px}.catalog-result-row #sort-added{color:var(--blue);border-color:var(--blue);background:var(--pale)}
+@media(max-width:650px){.catalog-result-row{align-items:stretch}.catalog-result-row #sort-added{width:100%;text-align:left}.catalog-result-row .result-count{width:100%}}
+
+.news-card>.figure,.shenzhen-card>.figure,.industry-card>.figure{margin:16px 0 20px;border-radius:10px;border:1px solid var(--line)}.news-card>.figure img,.shenzhen-card>.figure img,.industry-card>.figure img{max-height:300px;object-fit:contain}
+
+.portrait-reference{width:140px!important;height:100px!important;object-fit:contain!important;border-radius:6px!important}.portrait-kind{font-size:13px!important;color:var(--muted)}

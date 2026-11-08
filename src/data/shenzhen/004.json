@@ -26,7 +26,18 @@
           "url": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html"
         }
       ],
-      "freshness": "current"
+      "freshness": "current",
+      "image": {
+        "localPath": "assets/profile-industry-images/reference-longhua-lessons.png",
+        "relativePath": "assets/profile-industry-images/reference-longhua-lessons.png",
+        "sourcePage": "https://www.szlhq.gov.cn/bmdt/content/post_13038649.html",
+        "alt": "龙华四个AI通识课例官方同文页面截图（非课堂实拍）",
+        "credit": "龙华四个AI通识课例官方同文页面截图（非课堂实拍）",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "父任务浏览器取得真实页面截图；本任务已目视核验标题与内容。不代表历史期页面快照或本刊实测。",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz004-szu",
@@ -50,7 +61,19 @@
           "url": "https://bidding.szu.edu.cn/info/1023/376849.htm"
         }
       ],
-      "freshness": "current"
+      "freshness": "current",
+      "image": {
+        "localPath": "assets/news-images/e9ca27114ee0d6.jpg",
+        "relativePath": "assets/news-images/e9ca27114ee0d6.jpg",
+        "sourcePage": "https://bidding.szu.edu.cn/info/1023/376849.htm",
+        "url": "https://bidding.szu.edu.cn/images/logo.png",
+        "alt": "深圳大学智慧课程建设：预算与拟成交价均为6万元｜官网标识／资源预览参考图",
+        "credit": "官网标识／资源预览参考图；版权归原来源权利人",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://bidding.szu.edu.cn/images/logo.png",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz004-baoan",
@@ -74,7 +97,18 @@
           "url": "https://www.ssia.org.cn/page59?article_id=3020"
         }
       ],
-      "freshness": "current"
+      "freshness": "current",
+      "image": {
+        "localPath": "assets/news-images/ssia-hongmeng.png",
+        "relativePath": "assets/news-images/ssia-hongmeng.png",
+        "sourcePage": "https://www.ssia.org.cn/page123?article_id=3020",
+        "alt": "深圳市软件行业协会人工智能＋鸿蒙实战培训通知官网页面截图",
+        "credit": "协会官网通知截图（2026-11-08获取），非实际培训现场",
+        "rightsStatus": "版权归原权利人；公开再发布许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "父任务正常浏览器截图并核验标题、日期、协会标识与正文；本任务再次目视核验。原图片CDN不可下载，使用官方通知截图，不冒充课程成效。",
+        "retrievedAt": "2026-11-08"
+      }
     }
   ]
 }

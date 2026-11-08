@@ -10,7 +10,7 @@
     "note": "截至2026-10-19 09:00 Asia/Shanghai；本周发表不等于本周实施。"
   },
   "cutoff": "2026-10-19T09:00:00+08:00",
-  "revisionNote": "第003期公开发布版，含2026-10-20行业专题补充；001、002源数据及既有原始快照保留。",
+  "revisionNote": "第003期私人审阅版，未公开发布；001、002源数据及原始快照原样保留。",
   "education": {
     "issue": "003",
     "cutoff": "2026-10-19T09:00:00+08:00",
@@ -119,7 +119,18 @@
         "checkedAt": "2026-10-19",
         "application": "高校评估AI课程时，可同时观察知识交流和创造自信，而不只统计工具使用率。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/e819ecdb667f92.jpg",
+          "relativePath": "assets/news-images/e819ecdb667f92.jpg",
+          "sourcePage": "https://www.nature.com/articles/s41599-026-09524-7",
+          "url": "https://www.nature.com/articles/s41599-026-09524-7_reference.pdf",
+          "alt": "291份高校问卷研究AI使用、知识分享与创新行为的关系｜官方文件首页截图",
+          "credit": "官方文件首页截图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.nature.com/articles/s41599-026-09524-7_reference.pdf",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "技术与研究"
       },
@@ -160,7 +171,18 @@
         "checkedAt": "2026-10-19",
         "application": "专业教育需要把允许使用AI的任务、必须独立完成的能力考核和教师培训放在同一设计中。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/4afbc4982fd937.jpg",
+          "relativePath": "assets/news-images/4afbc4982fd937.jpg",
+          "sourcePage": "https://www.nature.com/articles/s41746-026-03390-y",
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41746-026-03390-y/MediaObjects/41746_2026_3390_Fig1_HTML.png",
+          "alt": "医学本科AI治理框架：把能力与共同责任纳入规则｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41746-026-03390-y/MediaObjects/41746_2026_3390_Fig1_HTML.png",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "政策与评价"
       },
@@ -209,7 +231,18 @@
         "checkedAt": "2026-10-19",
         "application": "教师培训可要求现场完成一个可复用成果，并在后续核查是否真正使用，而非只做工具演示。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/eb7b69ae81ecd2.jpg",
+          "relativePath": "assets/news-images/eb7b69ae81ecd2.jpg",
+          "sourcePage": "https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf",
+          "url": "https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf",
+          "alt": "OpenAI发布K–12 Skills Jam复盘：教师产出可复用材料与工具｜原始论文／报告首页截图",
+          "credit": "原始论文／报告首页截图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "教学实践"
       },
@@ -250,7 +283,18 @@
         "checkedAt": "2026-10-19",
         "application": "AI课程开发可以把学生列为共同设计者，收集学习方式、使用权限与公平关切。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/16985d1807bb9e.jpg",
+          "relativePath": "assets/news-images/16985d1807bb9e.jpg",
+          "sourcePage": "https://www.theloganschool.org/post/logan-students-help-shape-an-ai-curriculum",
+          "url": "https://cdn.prod.website-files.com/5db0f5f2083f4b65659e1264/6ace7cb9355148d919306c1a_brie%20in%20teach%20lab.jpeg",
+          "alt": "Logan学校让中学生参与AI课程共创｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://cdn.prod.website-files.com/5db0f5f2083f4b65659e1264/6ace7cb9355148d919306c1a_brie%20in%20teach%20lab.jpeg",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "教学实践"
       },
@@ -291,7 +335,18 @@
         "checkedAt": "2026-10-19",
         "application": "AI素养活动可把“模型为什么失败”转化为数据质量、偏差和模型边界的讨论。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/b5968dd742a164.jpg",
+          "relativePath": "assets/news-images/b5968dd742a164.jpg",
+          "sourcePage": "https://learningml.org/en/positive-uses-of-ai-in-education-pide-congress-2026/",
+          "url": "https://learningml.org/recursos/congreso-pide-2026/diapositiva-01.jpg",
+          "alt": "西班牙LearningML演讲：通过建模理解数据与偏差｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://learningml.org/recursos/congreso-pide-2026/diapositiva-01.jpg",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "教学实践"
       },
@@ -332,7 +387,18 @@
         "checkedAt": "2026-10-19",
         "application": "在健康与成长教育中，AI应用需要适龄、可靠的内容与教育者支持；线上触达不能直接等同于有效学习。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/18e5614afb49ba.jpg",
+          "relativePath": "assets/news-images/18e5614afb49ba.jpg",
+          "sourcePage": "https://www.unesco.org/en/articles/how-karishma-india-broadens-access-sexuality-education-ai-and-digital-channels",
+          "url": "https://www.unesco.org/sites/default/files/styles/best_image/article/2026-10/Karishma%20Swarup_1.png.webp?itok=GaVywjuP",
+          "alt": "UNESCO印度案例：数字渠道拓展青少年全面性教育｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.unesco.org/sites/default/files/styles/best_image/article/2026-10/Karishma%20Swarup_1.png.webp?itok=GaVywjuP",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "教学实践"
       },
@@ -430,7 +496,18 @@
         "checkedAt": "2026-10-19",
         "application": "高校选型可从具体支持需求出发，把人工支持和公平可及性列为采购、部署与评价条件。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/f3bc91104b72ba.jpg",
+          "relativePath": "assets/news-images/f3bc91104b72ba.jpg",
+          "sourcePage": "https://www.acenet.edu/News-Room/Pages/New-Paper-AI-Amplifying-Learning.aspx",
+          "url": "https://www.acenet.edu/PublishingImages/Document-Covers/AI-Future-Higher-Education.png?RenditionID=12",
+          "alt": "ACE与Ultranauts发布高校AI领导报告｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.acenet.edu/PublishingImages/Document-Covers/AI-Future-Higher-Education.png?RenditionID=12",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "政策与评价"
       },
@@ -472,7 +549,18 @@
         "checkedAt": "2026-10-19",
         "application": "规模化采用AI正在与治理、能力建设、采购路径和共享评估绑定；教育机构应关注试点结果而非只看工具可用性。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/989115e26afad6.jpg",
+          "relativePath": "assets/news-images/989115e26afad6.jpg",
+          "sourcePage": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-1300.png",
+          "alt": "Google Gemini Notebook官网产品参考图（非Jisc合作现场）",
+          "credit": "Google Gemini Notebook官网产品参考图（非Jisc合作现场）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "Google Gemini Notebook官网产品参考图（非Jisc合作现场）。原报道图片暂不可下载，使用同机构教育产品/报告作主题参考，非直接事件证据。",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "政策与评价"
       },
@@ -516,7 +604,17 @@
         "checkedAt": "2026-10-19",
         "application": "幼儿场景不宜以隐私与内容过滤替代发展适宜性评估；采购讨论需要纳入真实人际互动是否被挤占。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/brookings-children-voice.png",
+          "relativePath": "assets/news-images/brookings-children-voice.png",
+          "sourcePage": "https://www.brookings.edu/articles/as-ai-leaders-call-for-slowdown-children-need-a-voice/",
+          "alt": "Brookings儿童AI评论官方原文截图",
+          "credit": "Brookings儿童AI评论官方原文截图（2026-11-08获取）",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "正常浏览器真实截图，父任务和本任务均目视核验标题、日期、机构。不代表本刊独立检验报告结论。",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "政策与评价"
       },
@@ -557,7 +655,18 @@
         "checkedAt": "2026-10-19",
         "application": "AI通识课程可以按专业需求分层，同时把识别错误、质疑输出和独立判断列入共同目标。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/b3954653b1645a.jpg",
+          "relativePath": "assets/news-images/b3954653b1645a.jpg",
+          "sourcePage": "https://insideucr.ucr.edu/stories/2026/10/15/summit-explores-promise-perils-ai",
+          "url": "https://insideucr.ucr.edu/sites/default/files/2026-10/960-ai_summit_002-copy.jpg",
+          "alt": "UC Riverside峰会讨论AI通识教育与基础知识｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://insideucr.ucr.edu/sites/default/files/2026-10/960-ai_summit_002-copy.jpg",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-19",
         "frontierCategory": "政策与评价"
       }

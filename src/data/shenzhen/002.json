@@ -36,6 +36,17 @@
         "firstIssueId": "001",
         "firstItemId": "sz007",
         "change": "相对第001期年初种子教师基线，本周新增区政府对教育AI底座的具体披露；未核验此前教师培养或标杆校规划完成度。"
+      },
+      "image": {
+        "localPath": "assets/profile-industry-images/reference-longhua-lessons.png",
+        "relativePath": "assets/profile-industry-images/reference-longhua-lessons.png",
+        "sourcePage": "https://www.szlhq.gov.cn/bmdt/content/post_13038649.html",
+        "alt": "龙华AI通识教育官方报道截图（同区教育项目参考，非AI底座界面）",
+        "credit": "龙华AI通识教育官方报道截图（同区教育项目参考，非AI底座界面）",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "AI底座原始访谈正文未加载，改用同区官方AI教育报道作主题参考。原报道讨论师资、课程、平台协同；不冒充底座平台截图或本次访谈现场。",
+        "retrievedAt": "2026-11-08"
       }
     },
     {
@@ -137,7 +148,19 @@
         "change": "无已核实新进展；沿用原日期的140校基线，明确不是本周增长。"
       },
       "priorIssue": "001",
-      "priorItemId": "sz004"
+      "priorItemId": "sz004",
+      "image": {
+        "localPath": "assets/news-images/84f51cb6789728.jpg",
+        "relativePath": "assets/news-images/84f51cb6789728.jpg",
+        "sourcePage": "https://static.nfnews.com/content/202602/12/c12165599.html?enterColumnId=14",
+        "url": "https://media.nfnews.com/nfplus/ossfs/pic/xy/202602/12/7c984698-a4ee-4635-b40f-1b9bcba6abce.jpg?x-oss-process=style/w640",
+        "alt": "南方+2026-02-12报道中的“龙老师”答疑界面参考图（非9月走访现场）",
+        "credit": "南方+2026-02-12报道中的“龙老师”答疑界面参考图（非9月走访现场）；南方+报道配图",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "原9月政府报道无可下载图，采用同一项目早期原始媒体报道配图。目视界面标有“龙老师答疑”，原图相邻正文明确南京师大附属龙岗学校使用“龙老师”系列智能体。图片仅作项目参考，不以旧图证明140校数字或新增成效。",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz002-05",
@@ -198,7 +221,19 @@
       ],
       "audienceTypes": [],
       "checkedAt": "2026-10-12",
-      "relatedGlobalIds": []
+      "relatedGlobalIds": [],
+      "image": {
+        "localPath": "assets/news-images/87766eb91ecffc.jpg",
+        "relativePath": "assets/news-images/87766eb91ecffc.jpg",
+        "sourcePage": "https://www.szu.edu.cn/info/1161/21115.htm",
+        "url": "https://www.szu.edu.cn/images/logo_03.png",
+        "alt": "深圳大学官方标识参考图，非本事件现场",
+        "credit": "深圳大学官网标识；非本事件现场",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "原报道页面暂无法读取图片，复用深圳大学官网标识。不代表院系、活动场景或教学成效。",
+        "retrievedAt": "2026-11-08"
+      }
     }
   ]
 }

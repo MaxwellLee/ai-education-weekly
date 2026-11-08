@@ -7,6 +7,13 @@
  const pageLabels={preview:'本期预览',education:'AI教育前沿',people:'公众人物言论',shenzhen:'深圳专题',industry:'行业动态',updates:'更新须知'};
  function applyFilters(){
   const visible=new Set(C.matchingIdeas(ideas,state).map(x=>x.id));
+  const cards=new Map($$('.creative-card').map(card=>[card.dataset.ideaId,card]));
+  const fragment=document.createDocumentFragment();
+  C.sortedIdeas(ideas,state).forEach(item=>fragment.append(cards.get(item.id)));
+  $('.creative-grid').append(fragment);
+  const ascending=state.sortOrder==='asc';
+  $('#sort-added').textContent=ascending?'加入时间 ↑ 正序（最早在前）':'加入时间 ↓ 倒序（最新在前）';
+  $('#sort-added').setAttribute('aria-label',ascending?'当前按加入时间正序，点击切换倒序':'当前按加入时间倒序，点击切换正序');
   $$('.creative-card').forEach(card=>{card.hidden=!visible.has(card.dataset.ideaId);});
   $$('.facet').forEach(b=>b.setAttribute('aria-pressed',String(state.filters[b.dataset.dimension].includes(b.dataset.value))));
   $$('.scope-button').forEach(b=>b.setAttribute('aria-pressed',String(state.filters.scope===b.dataset.scope)));
@@ -66,6 +73,7 @@
  $$('.scope-button').forEach(b=>b.addEventListener('click',()=>{state.filters.scope=b.dataset.scope;changeFilters();}));
  $('#idea-query').addEventListener('input',e=>{state.filters.query=e.target.value;changeFilters();});
  $('#difficulty').addEventListener('change',e=>{state.filters.difficulty=e.target.value;changeFilters();});
+ $('#sort-added').addEventListener('click',()=>navigate({...state,sortOrder:state.sortOrder==='asc'?'desc':'asc'},false,false));
  $('#reset-filters').addEventListener('click',()=>{state.filters=C.emptyFilters();changeFilters();});
  function restoreRoute(){state=C.fromHash(window.location.hash,manifest);rememberedFilters=JSON.parse(JSON.stringify(state.filters));render(true);}
  window.addEventListener('popstate',restoreRoute);window.addEventListener('hashchange',restoreRoute);

@@ -25,7 +25,19 @@
           "url": "https://www.szpu.edu.cn/info/1391/23723.htm"
         }
       ],
-      "freshness": "current"
+      "freshness": "current",
+      "image": {
+        "localPath": "assets/news-images/6a8c81de156d8a.jpg",
+        "relativePath": "assets/news-images/6a8c81de156d8a.jpg",
+        "sourcePage": "https://www.szpu.edu.cn/info/1391/23723.htm",
+        "url": "https://www.szpu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1950773726&wbfileid=2635150A1681A51A70ECB40861B24A4F",
+        "alt": "深职大 × 腾讯云：教师智能体培训开放报名｜官方文件首页截图",
+        "credit": "官方文件首页截图；版权归原来源权利人",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.szpu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1950773726&wbfileid=2635150A1681A51A70ECB40861B24A4F",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz002",
@@ -48,7 +60,19 @@
           "url": "https://clxx.szlgedu.org.cn/info/1003/2347.htm"
         }
       ],
-      "freshness": "current"
+      "freshness": "current",
+      "image": {
+        "localPath": "assets/news-images/01c9715d8cb07f.jpg",
+        "relativePath": "assets/news-images/01c9715d8cb07f.jpg",
+        "sourcePage": "https://clxx.szlgedu.org.cn/info/1003/2347.htm",
+        "url": "https://clxx.szlgedu.org.cn/__local/5/C2/F7/D3E6E1450FE2B8043034F131448_05EBFDAF_21ABE.jpg",
+        "alt": "百外春蕾小学：五学科拆解AI教学工作流｜官网文章配图",
+        "credit": "官网文章配图；版权归原来源权利人",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://clxx.szlgedu.org.cn/__local/5/C2/F7/D3E6E1450FE2B8043034F131448_05EBFDAF_21ABE.jpg",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz003",
@@ -71,7 +95,19 @@
           "url": "https://ceie.szu.edu.cn/info/1025/7072.htm"
         }
       ],
-      "freshness": "current"
+      "freshness": "current",
+      "image": {
+        "localPath": "assets/news-images/87766eb91ecffc.jpg",
+        "relativePath": "assets/news-images/87766eb91ecffc.jpg",
+        "sourcePage": "https://www.szu.edu.cn/info/1161/21115.htm",
+        "url": "https://www.szu.edu.cn/images/logo_03.png",
+        "alt": "深圳大学官方标识参考图，非本事件现场",
+        "credit": "深圳大学官网标识；非本事件现场",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "原报道页面暂无法读取图片，复用深圳大学官网标识。不代表院系、活动场景或教学成效。",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz004",
@@ -94,7 +130,19 @@
           "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12971406.html"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/news-images/84f51cb6789728.jpg",
+        "relativePath": "assets/news-images/84f51cb6789728.jpg",
+        "sourcePage": "https://static.nfnews.com/content/202602/12/c12165599.html?enterColumnId=14",
+        "url": "https://media.nfnews.com/nfplus/ossfs/pic/xy/202602/12/7c984698-a4ee-4635-b40f-1b9bcba6abce.jpg?x-oss-process=style/w640",
+        "alt": "南方+2026-02-12报道中的“龙老师”答疑界面参考图（非9月走访现场）",
+        "credit": "南方+2026-02-12报道中的“龙老师”答疑界面参考图（非9月走访现场）；南方+报道配图",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "原9月政府报道无可下载图，采用同一项目早期原始媒体报道配图。目视界面标有“龙老师答疑”，原图相邻正文明确南京师大附属龙岗学校使用“龙老师”系列智能体。图片仅作项目参考，不以旧图证明140校数字或新增成效。",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz005",
@@ -140,7 +188,19 @@
           "url": "https://www.sz.gov.cn/ztfw/jyly/wyk/content/post_12745152.html"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/news-images/bao-jiao-tong.png",
+        "relativePath": "assets/news-images/bao-jiao-tong.png",
+        "sourcePage": "https://www.sz.gov.cn/ztfw/jyly/wyk/content/post_12745152.html",
+        "url": "https://www.sz.gov.cn/img/4/4434/4434042/12745152.png",
+        "alt": "宝教通·察教通官方报道座谈会配图",
+        "credit": "宝教通·察教通官方报道座谈会配图",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "父任务通过正常浏览器/官方下载获取，本任务已目视核验。保留来源历史日期，不暗示近期新增成效。",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz007",
@@ -163,7 +223,19 @@
           "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12590053.html"
         }
       ],
-      "freshness": "baseline"
+      "freshness": "baseline",
+      "image": {
+        "localPath": "assets/news-images/longhua-seed-teachers.png",
+        "relativePath": "assets/news-images/longhua-seed-teachers.png",
+        "sourcePage": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12590053.html",
+        "url": null,
+        "alt": "龙华官方报道页面截图，含2025年种子教师培训照片（2026-11-08获取）",
+        "credit": "龙华官方报道页面截图，含2025年种子教师培训照片（2026-11-08获取）",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "父任务通过正常浏览器/官方下载获取，本任务已目视核验。保留来源历史日期，不暗示近期新增成效。",
+        "retrievedAt": "2026-11-08"
+      }
     }
   ]
 }

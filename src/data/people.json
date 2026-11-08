@@ -1549,16 +1549,16 @@
         "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.commonsense.org/education/user/2656321",
-        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
-        "alt": "Christine Elgersma：本期未嵌入肖像，原人物资料见链接",
-        "processing": "未生成或替代真人肖像",
-        "imageUrl": null,
+        "path": "assets/profile-industry-images/christine-elgersma.png",
+        "sourcePage": "https://about.commonsensemedia.org/press-room/experts/christine-elgersma",
+        "imageUrl": "https://about.commonsensemedia.org/sites/default/files/2026-11/Christine%2520Elgersma.png",
+        "imageKind": "portrait",
+        "alt": "Christine Elgersma，Common Sense Media官方新闻室具名肖像",
+        "credit": "Common Sense Media官方新闻室具名肖像",
+        "processing": "等比例缩小至最长边300px，PNG优化；未生成、修饰或推断人物相貌",
         "publicReuseCleared": false,
-        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
-        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。",
-        "missingReason": "官方头像页面访问受限或未找到可可靠匹配且可下载的单人照片；未使用生成替代图。"
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08父任务正常浏览器取得具名专家页及head shot，目视核验；早期shell403不再构成此人物缺口。"
       }
     },
     {
@@ -1630,16 +1630,16 @@
       ],
       "profileCaveats": [],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.underhatpod.com/guests/cammie-kannekens/",
-        "credit": "来源：Cammie Kannekens本人博客，摄影署名未注明",
-        "alt": "Cammie Kannekens：真实照片暂缺",
-        "processing": "原图是卡通头像，不用于真人照片栏。",
-        "imageUrl": null,
+        "path": "assets/profile-industry-images/person-002-cammie-kannekens.jpg",
+        "sourcePage": "https://cammiekannekensblog.wordpress.com/about/",
+        "imageUrl": "https://cammiekannekensblog.wordpress.com/wp-content/uploads/2013/09/mrsk.png?w=252&h=252",
+        "alt": "Cammie Kannekens本人博客自用卡通头像，非真人照片",
+        "credit": "Cammie Kannekens本人博客自用卡通头像，非真人照片",
+        "imageKind": "reference",
+        "processing": "等比例缩小与JPEG压缩，未生成或改变原图内容",
         "publicReuseCleared": false,
-        "rightsStatus": "真人肖像暂缺；公开复用许可未确认",
-        "displayContext": "私人预览人物背景介绍；不表示本人或机构背书。",
-        "missingReason": "本人博客图像为卡通头像；原节目嘉宾真人图下载返回403，本期未嵌入。"
+        "rightsStatus": "仅私人预览；图像版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08读取具名原文/本人介绍页并下载对应配图，目视核验；不以卡通头像或观点图推断相貌。"
       }
     },
     {
@@ -1693,16 +1693,16 @@
         "肖像公开复用许可未确认，本次不新增嵌入照片；请通过人物资料来源查看。"
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.linkedin.com/in/kristynmuller",
-        "credit": "原人物官网或机构资料页；摄影署名及复用许可未完整确认",
-        "alt": "Kristyn Muller Mirasol：本期未嵌入肖像，原人物资料见链接",
-        "processing": "未生成或替代真人肖像",
-        "imageUrl": null,
+        "path": "assets/profile-industry-images/person-002-kristyn-muller-mirasol.jpg",
+        "sourcePage": "https://packback.co/resources/blog/webinar-recap-packback-ai-integrated-assignments/",
+        "imageUrl": "https://packback.co/app/uploads/2026/10/Quote-From-Planning-to-Final-Artifact.png",
+        "alt": "Packback官方文章中Kristyn Muller Mirasol具名观点配图，非人物肖像",
+        "credit": "Packback官方文章中Kristyn Muller Mirasol具名观点配图，非人物肖像",
+        "imageKind": "reference",
+        "processing": "等比例缩小与JPEG压缩，未生成或改变原图内容",
         "publicReuseCleared": false,
-        "rightsStatus": "暂不嵌入头像：公开复用许可未确认；不影响人物身份核验",
-        "displayContext": "显示缺图提示与人物资料原链接，不用AI造脸。",
-        "missingReason": "官方头像页面访问受限或未找到可可靠匹配且可下载的单人照片；未使用生成替代图。"
+        "rightsStatus": "仅私人预览；图像版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08读取具名原文/本人介绍页并下载对应配图，目视核验；不以卡通头像或观点图推断相貌。"
       }
     },
     {
@@ -1862,16 +1862,16 @@
         "共同署名观点，不能拆成三次独立发言。属政策主张，非新实验结论。文末披露Zero to Three向相关项目提供支持。"
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.brookings.edu/people/sweta-shah/",
-        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
-        "alt": "Sweta Shah真实人物照片（具名来源）",
-        "processing": "未下载、未加工",
-        "imageUrl": "https://www.brookings.edu/wp-content/uploads/2024/03/Sweta-Shah-sq.jpg?quality=50&w=500",
+        "path": "assets/profile-industry-images/person-003-sweta-shah.jpg",
+        "sourcePage": "https://globalchildren.georgetown.edu/people/sweta-shah",
+        "imageUrl": "https://s3.amazonaws.com/global-db-public/global-db-public/person/image/15641/SwetaShah.HeadShot_copy.jpg",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Sweta Shah（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
         "publicReuseCleared": false,
-        "rightsStatus": "未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。",
-        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。",
-        "missingReason": "真实照片来源已定位，下载返回HTTP403，未取得可嵌入照片；不使用生成脸"
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -1957,16 +1957,16 @@
         "同一共同署名文章；并无证据把某个段落单独归属她。组织是本文披露的资助方之一。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/profile-industry-images/person-003-melissa-boteach.jpg",
         "sourcePage": "https://tspppa.gwu.edu/melissa-boteach",
-        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
-        "alt": "Melissa Boteach真实人物照片（具名来源）",
-        "processing": "未下载、未加工",
-        "imageUrl": "https://www.brookings.edu/wp-content/uploads/2026/10/Melissa-Boteach-ZeroToThree28551-rhkcvz27js2endcxmctqby2zlt1j0b3nsg8s5w1p8g.jpg?quality=50&w=256",
+        "imageUrl": "https://tspppa.gwu.edu/sites/g/files/zaxdzs5331/files/styles/d07/public/2026-08/19.jpg?itok=XQchT6oP",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Melissa Boteach（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
         "publicReuseCleared": false,
-        "rightsStatus": "未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。",
-        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。",
-        "missingReason": "真实照片来源已定位，下载返回HTTP403，未取得可嵌入照片；不使用生成脸"
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -2034,16 +2034,16 @@
         "共同署名，不能作为其单独受访原话。她任Zero to Three董事，文章已披露关系。"
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.brookings.edu/people/kathy-hirsh-pasek/",
-        "credit": "来源：本人或所属机构具名页面；摄影者未注明",
-        "alt": "Kathy Hirsh-Pasek真实人物照片（具名来源）",
-        "processing": "未下载、未加工",
-        "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/06/pasekk_portrait1.jpg?quality=50&w=343",
+        "path": "assets/profile-industry-images/person-003-kathy-hirsh-pasek.jpg",
+        "sourcePage": "https://liberalarts.temple.edu/directory/kathryn-hirsh-pasek",
+        "imageUrl": "https://liberalarts.temple.edu/sites/liberalarts/files/styles/tu_image_style_thumbnail/public/temple/profiles/Kathy-Hirsh-Pasek8216-5-Copy-215x300.jpg?h=4c7d72b4&itok=8xdfCYM7",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Kathy Hirsh-Pasek（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
         "publicReuseCleared": false,
-        "rightsStatus": "未取得可嵌入图像；公开复用许可未确认，仅提供来源链接。",
-        "displayContext": "私人预览人物背景介绍，不表示本人或机构背书。",
-        "missingReason": "真实照片来源已定位，下载返回HTTP403，未取得可嵌入照片；不使用生成脸"
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -2697,13 +2697,16 @@
         }
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/",
-        "imageUrl": null,
-        "credit": "Boston University专题报道",
-        "alt": "TJ McKenna人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "path": "assets/profile-industry-images/person-004-tj-mckenna.jpg",
+        "sourcePage": "https://www.bu.edu/wheelock/profile/thomas-mckenna/",
+        "imageUrl": "https://www.bu.edu/wheelock/files/2018/07/TJ-McKenna_21_-600x600.jpg",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "TJ McKenna（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
+        "publicReuseCleared": false,
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -2743,13 +2746,16 @@
         }
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/",
-        "imageUrl": null,
-        "credit": "Boston University专题报道",
-        "alt": "Nermeen Dashoush人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "path": "assets/profile-industry-images/person-004-nermeen-dashoush.jpg",
+        "sourcePage": "https://www.bu.edu/wheelock/profile/nermeen-dashoush/",
+        "imageUrl": "https://www.bu.edu/wheelock/files/2016/07/dashoush-faculty-profile-Nermeen-Dashoush-600x600.jpg",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Nermeen Dashoush（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
+        "publicReuseCleared": false,
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "2026-11-08官方域名图片检索具名结果关联BU人物页与该照片；人物页本次请求404，原图公开可访问；文件名与检索具名说明一致。非脸部识别推断。"
       }
     },
     {
@@ -2789,13 +2795,16 @@
         }
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.bu.edu/wheelock/magazine/articles/2026/teaching-and-learning-in-an-ai-world/",
-        "imageUrl": null,
-        "credit": "Boston University专题报道",
-        "alt": "Ola Ozernov-Palchik人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "path": "assets/profile-industry-images/person-004-ola-ozernov.jpg",
+        "sourcePage": "https://www.bu.edu/wheelock/profile/ola-ozernov-palchik/",
+        "imageUrl": "https://www.bu.edu/wheelock/files/2024/10/Ola_Ozernov-Palchik_headshot_2024-600x600.jpg",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Ola Ozernov-Palchik（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
+        "publicReuseCleared": false,
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -2835,13 +2844,15 @@
         }
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota",
-        "imageUrl": null,
-        "credit": "明尼苏达大学具名访谈",
-        "alt": "Panayiota Kendeou人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "path": "assets/portraits/person-002-panayiota-kendeou.jpg",
+        "sourcePage": "https://edpsych.umn.edu/panayiota-kendeou",
+        "credit": "来源：明尼苏达大学，摄影署名未注明",
+        "alt": "Panayiota Kendeou真实照片，来源机构或本人资料页",
+        "processing": "等比例缩小至最长边300px；JPEG压缩；无AI生成或身份修饰",
+        "imageUrl": "https://edpsych.umn.edu/sites/edpsych/files/styles/x_small_portrait/public/2025-07/Kendeou%20a.jpg?h=39f1c17f&itok=sayba5B7",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅随私人预览展示低分辨率来源图；公开复用许可未确认",
+        "displayContext": "私人预览人物背景介绍；不表示本人或机构背书。"
       }
     },
     {
@@ -2881,13 +2892,15 @@
         }
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/profile-industry-images/reference-raspberry-code.png",
         "sourcePage": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/",
         "imageUrl": null,
-        "credit": "Raspberry Pi Foundation发布",
-        "alt": "Mel Farrington人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "imageKind": "reference",
+        "alt": "Mel Farrington本期观点所引Raspberry Pi Foundation官方文章页面截图，非人物肖像",
+        "credit": "2026-11-08官方文章截图，非人物肖像",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取并目视核验官方标题、署名及机构标识。作为同文相关参考图，不表示截图中的署名属于每位受访者，不推断人物相貌，非历史期页面快照。"
       }
     },
     {
@@ -2927,13 +2940,15 @@
         }
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/profile-industry-images/reference-raspberry-dan.png",
         "sourcePage": "https://www.raspberrypi.org/blog/preparing-young-people-for-frontier-technologies-our-new-partnership-with-the-uk-government/",
         "imageUrl": null,
-        "credit": "Raspberry Pi Foundation项目说明",
-        "alt": "Dan Fisher人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "imageKind": "reference",
+        "alt": "Dan Fisher本期观点所引Raspberry Pi Foundation官方文章页面截图，非人物肖像",
+        "credit": "2026-11-08官方文章截图，非人物肖像",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取并目视核验官方标题、署名及机构标识。作为同文相关参考图，不表示截图中的署名属于每位受访者，不推断人物相貌，非历史期页面快照。"
       }
     },
     {
@@ -2973,13 +2988,15 @@
         }
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/profile-industry-images/reference-raspberry-code.png",
         "sourcePage": "https://www.raspberrypi.org/blog/reintroducing-code-classroom-now-with-the-blocks-editor/",
         "imageUrl": null,
-        "credit": "Raspberry Pi Foundation发布",
-        "alt": "Bartholomew Owuor人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "imageKind": "reference",
+        "alt": "Bartholomew Owuor本期观点所引Raspberry Pi Foundation官方文章页面截图，非人物肖像",
+        "credit": "2026-11-08官方文章截图，非人物肖像",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取并目视核验官方标题、署名及机构标识。作为同文相关参考图，不表示截图中的署名属于每位受访者，不推断人物相貌，非历史期页面快照。"
       }
     },
     {
@@ -3019,13 +3036,15 @@
         }
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html",
+        "path": "assets/profile-industry-images/reference-longhua-lessons.png",
+        "sourcePage": "https://www.szlhq.gov.cn/bmdt/content/post_13038649.html",
         "imageUrl": null,
-        "credit": "龙华区教育局课例报道",
-        "alt": "熊辉亮人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "imageKind": "reference",
+        "alt": "熊辉亮相关龙华区官方AI课例报道截图，非人物肖像",
+        "credit": "2026-11-08龙华官方课例报道截图，非人物肖像",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "原教育局栏目请求失败；父任务通过政府部门动态栏目同主题原文截取并目视核验，正文明确含熊辉亮、房卓成、陈喆琳及对应课例；非历史事件实拍。"
       }
     },
     {
@@ -3065,13 +3084,15 @@
         }
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html",
+        "path": "assets/profile-industry-images/reference-longhua-lessons.png",
+        "sourcePage": "https://www.szlhq.gov.cn/bmdt/content/post_13038649.html",
         "imageUrl": null,
-        "credit": "龙华区教育局课例报道",
-        "alt": "房卓成人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "imageKind": "reference",
+        "alt": "房卓成相关龙华区官方AI课例报道截图，非人物肖像",
+        "credit": "2026-11-08龙华官方课例报道截图，非人物肖像",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "原教育局栏目请求失败；父任务通过政府部门动态栏目同主题原文截取并目视核验，正文明确含熊辉亮、房卓成、陈喆琳及对应课例；非历史事件实拍。"
       }
     },
     {
@@ -3111,13 +3132,15 @@
         }
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.szlhq.gov.cn/lhjyj/gkmlpt/content/13/13036/post_13036535.html",
+        "path": "assets/profile-industry-images/reference-longhua-lessons.png",
+        "sourcePage": "https://www.szlhq.gov.cn/bmdt/content/post_13038649.html",
         "imageUrl": null,
-        "credit": "龙华区教育局课例报道",
-        "alt": "陈喆琳人物资料",
-        "rightsStatus": "本期不新增转载照片。",
-        "missingReason": "未取得独立核验的可内嵌人物肖像，保留原文链接。"
+        "imageKind": "reference",
+        "alt": "陈喆琳相关龙华区官方AI课例报道截图，非人物肖像",
+        "credit": "2026-11-08龙华官方课例报道截图，非人物肖像",
+        "publicReuseCleared": false,
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "原教育局栏目请求失败；父任务通过政府部门动态栏目同主题原文截取并目视核验，正文明确含熊辉亮、房卓成、陈喆琳及对应课例；非历史事件实拍。"
       }
     },
     {
@@ -3517,7 +3540,7 @@
       ],
       "profileCaveats": [],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/person-jenny-conley.jpg",
         "sourcePage": "https://www.projectread.ai/blog/celebrating-student-strengths-during-dyslexia-awareness-month",
         "imageUrl": "https://cdn.sanity.io/images/q2b9xvlh/production/d5bbf33942a8f153c2a411a5580a13e27c6cc56a-353x525.jpg?auto=format&fit=max&q=75&rect=0,12,353,353&w=80",
         "credit": "来源：本人或所属机构原始页面；摄影署名未注明",
@@ -3525,10 +3548,7 @@
         "processing": "原站图片经目视核验；仅等比例缩小至最长边300px、JPEG压缩，无AI生成或修饰。",
         "publicReuseCleared": false,
         "rightsStatus": "仅供私人预览人物介绍；公开复用许可未确认。",
-        "displayContext": "私人预览；不表示本人或机构背书。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "displayContext": "私人预览；不表示本人或机构背书。"
       }
     },
     {
@@ -3594,7 +3614,7 @@
       ],
       "profileCaveats": [],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/person-benjamin-riley.jpg",
         "sourcePage": "https://www.cognitiveresonance.net/about",
         "imageUrl": "https://framerusercontent.com/images/waAhpsGHidCfQ4xFTT5jP7OntXI.png?width=1699&height=1594",
         "credit": "来源：本人或所属机构原始页面；摄影署名未注明",
@@ -3602,10 +3622,7 @@
         "processing": "原站图片经目视核验；仅等比例缩小至最长边300px、JPEG压缩，无AI生成或修饰。",
         "publicReuseCleared": false,
         "rightsStatus": "仅供私人预览人物介绍；公开复用许可未确认。",
-        "displayContext": "私人预览；不表示本人或机构背书。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "displayContext": "私人预览；不表示本人或机构背书。"
       }
     },
     {
@@ -3705,7 +3722,7 @@
       ],
       "profileCaveats": [],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/person-sarah-jayne-blakemore.jpg",
         "sourcePage": "https://www.psychol.cam.ac.uk/people/sarah-jayne-blakemore",
         "imageUrl": "https://www.psychol.cam.ac.uk/sites/default/files/styles/3_4_sm/public/images/profile/sjb_july_2026_portrait.jpg?h=8978c46c&itok=RuBY62be",
         "credit": "来源：本人或所属机构原始页面；摄影署名未注明",
@@ -3713,10 +3730,7 @@
         "processing": "原站图片经目视核验；仅等比例缩小至最长边300px、JPEG压缩，无AI生成或修饰。",
         "publicReuseCleared": false,
         "rightsStatus": "仅供私人预览人物介绍；公开复用许可未确认。",
-        "displayContext": "私人预览；不表示本人或机构背书。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "displayContext": "私人预览；不表示本人或机构背书。"
       }
     },
     {
@@ -3918,16 +3932,14 @@
         "企业署名观点及资源发布，不是学习效果试验；团队工具包不计作个人独立成果。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/p005-jenny-lay-flurrie.jpg",
         "sourcePage": "https://news.microsoft.com/futuredecoded/photos/jenny-lay-flurrie-chief-accessibility-officer-at-microsoft/",
         "imageUrl": "https://msftstories.thesourcemediaassets.com/sites/213/2019/09/WJ4_7673-1000x668.jpg",
         "credit": "Microsoft Future Decoded 2019；摄影者未在页面明确",
         "alt": "Jenny Lay-Flurrie官方来源肖像",
         "rightsStatus": "官方活动照，2019年旧照；公开复用许可待核；公开复用许可未确认。",
         "publicReuseCleared": false,
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "missingReason": null
       }
     },
     {
@@ -3973,16 +3985,14 @@
         "合作方自述及观点；不是独立成效结论。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/p005-michelle-yao.jpg",
         "sourcePage": "https://www.cyberlite.org/about",
         "imageUrl": "https://static.wixstatic.com/media/a2abbf_8235fdc034314b26b4f942f1e81e3aa8~mv2.png/v1/fill/w_300%2Ch_300%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/a2abbf_8235fdc034314b26b4f942f1e81e3aa8~mv2.png",
         "credit": "Cyberlite官网；摄影者未标",
         "alt": "Michelle Yao官方来源肖像",
         "rightsStatus": "官网姓名对应头像；抓取未成功，展示应有失败回退；公开许可待核；公开复用许可未确认。",
         "publicReuseCleared": false,
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "missingReason": null
       }
     },
     {
@@ -4028,14 +4038,16 @@
         "六项教学研究处于资助和待测试阶段，不能写成已证实有效。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/profile-industry-images/p005-neil-lawrence.jpg",
         "sourcePage": "https://www.ai.cam.ac.uk/team/neil-lawrence/",
         "imageUrl": "https://www.ai.cam.ac.uk/assets/images/uploads/team-9.png",
-        "credit": "ai@cam官网；摄影者未标",
-        "alt": "Neil Lawrence官方来源肖像",
-        "rightsStatus": "官方姓名对应头像；公开许可待核；公开复用许可未确认。",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Neil Lawrence（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
         "publicReuseCleared": false,
-        "missingReason": "尚未取得可可靠嵌入的独立头像；请打开官方人物资料查看。未用AI造脸。"
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -4081,16 +4093,14 @@
         "项目计划，不是已有学习成效；机构资助成果不等于她个人完成全部研究。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/p005-jessica-montgomery.jpg",
         "sourcePage": "https://www.ai.cam.ac.uk/team/jess-montgomery/",
         "imageUrl": "https://www.ai.cam.ac.uk/assets/images/uploads/team-6.png",
         "credit": "ai@cam官网；摄影者未标",
         "alt": "Jessica（Jess）Montgomery官方来源肖像",
         "rightsStatus": "官方姓名对应头像；抓取未成功，展示需回退；公开许可待核；公开复用许可未确认。",
         "publicReuseCleared": false,
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "missingReason": null
       }
     },
     {
@@ -4136,14 +4146,16 @@
         "学校介绍称评估纳入75项研究及访谈；本次未独立审阅报告全文，不能视为某工具的效果证明。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/profile-industry-images/p005-manu-raj-mathur.jpg",
         "sourcePage": "https://www.qmul.ac.uk/news/latest-news/2022/smd/global-oral-health-expert-professor-manu-raj-mathur-joins-queen-mary-university-of-london-.html",
-        "imageUrl": "https://pxl-qmulacuk.terminalfour.net/filters%3Aquality%2880%29/filters%3Aformat%28webp%29/prod01/channel_262/queen-mary-university-of-london/media/qmul/media/news/items/fmd/2022/ManuRajMathur_640X410.jpg",
-        "credit": "QMUL，2022年人物图；摄影者未标",
-        "alt": "Manu Raj Mathur官方来源肖像",
-        "rightsStatus": "官方姓名对应头像；抓取未成功，展示需回退；公开许可待核；公开复用许可未确认。",
+        "imageUrl": "https://www.qmul.ac.uk/media/qmul/media/news/items/fmd/2022/ManuRajMathur_640x410.jpg",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Manu Raj Mathur（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
         "publicReuseCleared": false,
-        "missingReason": "尚未取得可可靠嵌入的独立头像；请打开官方人物资料查看。未用AI造脸。"
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -4189,14 +4201,16 @@
         "合作方期待，不是学生学习改善已验证；12小时课程由三个组织共同开发。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/profile-industry-images/p005-tony-lake.jpg",
         "sourcePage": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/",
-        "imageUrl": null,
-        "credit": "活动合影：Derik Holtmann / UMSL",
-        "alt": "Tony Lake官方来源肖像",
-        "rightsStatus": "可靠独立头像缺失；来源有注明身份的合影，但不裁切猜认；公开复用许可未确认。",
+        "imageUrl": "https://blogs.umsl.edu/news/files/2026/10/umsl-lindbergh-scale-collaboration-1250.jpg",
+        "credit": "UMSL官方报道活动合影，非个人肖像",
+        "alt": "Tony Lake参与的UMSL教育培训活动合影，非个人肖像",
+        "imageKind": "reference",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
         "publicReuseCleared": false,
-        "missingReason": "尚未取得可可靠嵌入的独立头像；请打开官方人物资料查看。未用AI造脸。"
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -4242,16 +4256,14 @@
         "组织使命与合作判断，不能推断就业或学生成效。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/p005-reggie-hill.jpg",
         "sourcePage": "https://www.umsl.edu/admissions/directory/hill-reggie.html",
         "imageUrl": "https://www.umsl.edu/admissions/directory/images/020625-reggie-hill28.jpg",
         "credit": "UMSL人员目录；摄影者未标",
         "alt": "Reggie Hill官方来源肖像",
         "rightsStatus": "官方姓名对应头像；抓取未成功，展示需回退；公开许可待核；公开复用许可未确认。",
         "publicReuseCleared": false,
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "missingReason": null
       }
     },
     {
@@ -4301,14 +4313,16 @@
         "行业共同采购主张，不是法律合规结论；本轮直接网页存在访问限制。"
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://www.jisc.ac.uk/innovation/projects/reviewing-and-enhancing-our-digital-licensing-service",
-        "imageUrl": null,
-        "credit": "Jisc官网列有本人头像，但未取得可验证直链",
-        "alt": "Caren Milloy官方来源肖像",
-        "rightsStatus": "头像暂缺；原页直连502，未用第三方猜图；公开复用许可未确认。",
+        "path": "assets/profile-industry-images/p005-caren-milloy.jpg",
+        "sourcePage": "https://www.uksg.org/events/conference24/",
+        "imageUrl": "https://www.uksg.org/wp-content/uploads/2024/10/Caren_Milloy_f077e84e0ed39d0469cebee1ce0079cd.png",
+        "credit": "本人机构/官方介绍页具名人物照片",
+        "alt": "Caren Milloy（官方介绍页具名照片）",
+        "imageKind": "portrait",
+        "processing": "等比例缩小与JPEG压缩，未生成、未改变人物身份",
         "publicReuseCleared": false,
-        "missingReason": "尚未取得可可靠嵌入的独立头像；请打开官方人物资料查看。未用AI造脸。"
+        "rightsStatus": "图片版权归原权利人；用于私人预览，未核实公开转载许可。",
+        "evidenceNote": "来源HTML具名说明与原图链接见 evidence/profile-industry-images/；2026-11-08获取。"
       }
     },
     {
@@ -4358,16 +4372,14 @@
         "政策观点而非产品成效；与Caren同一公告，热点只算一个事件。"
       ],
       "portrait": {
-        "path": null,
+        "path": "assets/portraits/p005-catherine-sezen.jpg",
         "sourcePage": "https://www.aoc.co.uk/policy-work-and-priorities/meet-the-team",
         "imageUrl": "https://d4hfzltwt4wv7.cloudfront.net/uploads/images/_400x400_crop_center-center_none/Catherine-Sezen-7-1.jpg",
         "credit": "Association of Colleges人员页；摄影者未标",
         "alt": "Catherine Sezen MBE官方来源肖像",
         "rightsStatus": "官方姓名对应头像；抓取未成功，展示需回退；公开许可待核；公开复用许可未确认。",
         "publicReuseCleared": false,
-        "missingReason": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。",
-        "localPath": null,
-        "evidenceNote": "公开版仅提供官方原作入口；新增图像的公开转载许可尚未核实，未复制展示。"
+        "missingReason": null
       }
     },
     {
@@ -4417,14 +4429,15 @@
         "管理层前瞻经营表述；财季截至2026-08-31，发布于10-28。集团收入和利润不等于AI教育业务收入和利润。"
       ],
       "portrait": {
-        "path": null,
-        "sourcePage": "https://investor.neworiental.org/management/chenggang-zhou/",
-        "imageUrl": null,
-        "credit": "新东方管理层页面",
-        "alt": "周成刚（Chenggang Zhou）官方来源肖像",
-        "rightsStatus": "官方头像链接返回404，暂缺；不以失效图片当成功配图；公开复用许可未确认。",
+        "path": "assets/profile-industry-images/industry-new-oriental.jpg",
+        "sourcePage": "https://www.neworiental.org/system/subsidiary/202108/8625128.html",
+        "imageUrl": "https://g.xdfimage.cn/upload/96190859a11bdd413991b4e154a3431a.png",
+        "imageKind": "reference",
+        "alt": "周成刚所属新东方机构的官方品牌标识，非人物肖像",
+        "credit": "新东方官网机构标识参考图，非人物肖像",
         "publicReuseCleared": false,
-        "missingReason": "尚未取得可可靠嵌入的独立头像；请打开官方人物资料查看。未用AI造脸。"
+        "rightsStatus": "仅私人预览；图像版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "人物官方资料页获取503；采用其所属机构现行官网品牌标识，不推断人物相貌。2026-11-08获取。"
       }
     }
   ],

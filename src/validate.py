@@ -63,7 +63,7 @@ for p in profiles['items']:
  im=p['portrait'];assert all(k in im for k in ['path','sourcePage','imageUrl','credit','alt','rightsStatus'])
  assert im['rightsStatus'].strip()
  if im['path']:
-  path=(ROOT/im['path']).resolve();assert path.is_relative_to((ROOT/'assets/portraits').resolve()) and path.is_file()
+  path=(ROOT/im['path']).resolve();assert (path.is_relative_to((ROOT/'assets/portraits').resolve()) or path.is_relative_to((ROOT/'assets/profile-industry-images').resolve())) and path.is_file()
   assert im['sourcePage'].startswith('https://')
   assert im.get('imageUrl') is None or im['imageUrl'].startswith('https://')
   assert im['credit'].strip() and im['alt'].strip()
@@ -105,7 +105,7 @@ for iid,e in editorials.items():
 for p in profiles['items']:
  if p['portrait'].get('path'):
   assert p['portrait'].get('publicReuseCleared') is False
-  assert '未确认' in p['portrait']['rightsStatus']
+  assert any(word in p['portrait']['rightsStatus'] for word in ['未确认','未独立确认','未核实'])
 print('PASS: evidence supplements retain exact prior values; all portrait sources and unconfirmed reuse-permission status are explicit.')
 
 for index in issues:

@@ -76,7 +76,18 @@
         "checkedAt": "2026-10-12",
         "application": "课程评估可增加一个无AI的迁移题，区分完成作品和独立掌握。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/454947dd484d6a.jpg",
+          "relativePath": "assets/news-images/454947dd484d6a.jpg",
+          "sourcePage": "https://arxiv.org/pdf/2604.04721",
+          "url": "https://arxiv.org/pdf/2604.04721",
+          "alt": "撤去AI后还会做吗？伯克利报道三项坚持性实验｜原始论文／报告首页截图",
+          "credit": "原始论文／报告首页截图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://arxiv.org/pdf/2604.04721",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "技术与研究"
       },
@@ -116,7 +127,18 @@
         "checkedAt": "2026-10-12",
         "application": "值得关注从“像老师说话”转向“测学习结果”的训练目标。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/6a90c5d79e0b01.jpg",
+          "relativePath": "assets/news-images/6a90c5d79e0b01.jpg",
+          "sourcePage": "https://arxiv.org/abs/2610.08778",
+          "url": "https://arxiv.org/pdf/2610.08778",
+          "alt": "Sherpa：用模拟学生的学习结果训练自适应AI教师｜原始论文首页截图",
+          "credit": "原始论文首页截图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://arxiv.org/pdf/2610.08778",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "技术与研究"
       },
@@ -156,7 +178,18 @@
         "checkedAt": "2026-10-12",
         "application": "可借鉴其考核思路：学生只看自己的解释笔记完成新题。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/4e3a7c6e81578c.jpg",
+          "relativePath": "assets/news-images/4e3a7c6e81578c.jpg",
+          "sourcePage": "https://arxiv.org/abs/2610.06446",
+          "url": "https://arxiv.org/pdf/2610.06446",
+          "alt": "Eduardo：遮掉教师答案后，再测近迁移｜原始论文首页截图",
+          "credit": "原始论文首页截图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://arxiv.org/pdf/2610.06446",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "技术与研究"
       },
@@ -196,7 +229,18 @@
         "checkedAt": "2026-10-12",
         "application": "让教师培训拥有可重复的课堂突发情境，比单次生成教案更接近教学练习。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/a6d5229b30df02.jpg",
+          "relativePath": "assets/news-images/a6d5229b30df02.jpg",
+          "sourcePage": "https://wcledutech.github.io/publication-index/",
+          "url": "https://wcledutech.github.io/images/android-chrome-512x512.png",
+          "alt": "论文共同作者Chengliang Wang个人学术官网头像参考图（非研究界面）",
+          "credit": "论文共同作者Chengliang Wang个人学术官网头像参考图（非研究界面）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "论文共同作者Chengliang Wang个人学术官网头像参考图（非研究界面）。不代表本刊实测或本次事件的直接现场证据。",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "教学实践"
       },
@@ -237,7 +281,18 @@
         "checkedAt": "2026-10-12",
         "application": "关注学习提示、规划支架和家长设置怎样进入产品，而不只关注模型分数。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/eb7b69ae81ecd2.jpg",
+          "relativePath": "assets/news-images/eb7b69ae81ecd2.jpg",
+          "sourcePage": "https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf",
+          "url": "https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf",
+          "alt": "OpenAI K-12教育报告封面参考图（同机构另一教育资料，非青少年工具界面）",
+          "credit": "OpenAI K-12教育报告封面参考图（同机构另一教育资料，非青少年工具界面）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "OpenAI K-12教育报告封面参考图（同机构另一教育资料，非青少年工具界面）。原报道图片暂不可下载，使用同机构教育产品/报告作主题参考，非直接事件证据。",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "技术与研究"
       },
@@ -280,7 +335,17 @@
         "checkedAt": "2026-10-12",
         "application": "采购和课程试用要按具体场景测保护措施，不把“青少年模式”当作充分安全证明。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/chatgpt-teens-review.png",
+          "relativePath": "assets/news-images/chatgpt-teens-review.png",
+          "sourcePage": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens",
+          "alt": "Common Sense青少年模式风险评测官方原文截图",
+          "credit": "Common Sense青少年模式风险评测官方原文截图（2026-11-08获取）",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "正常浏览器真实截图，父任务和本任务均目视核验标题、日期、机构。不代表本刊独立检验报告结论。",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "政策与评价"
       },
@@ -325,7 +390,18 @@
         "checkedAt": "2026-10-12",
         "application": "把AI培训绑定学科教学能力、教练支持与教师队伍建设，是比一次工具培训更完整的设计。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/38abac38808ad3.jpg",
+          "relativePath": "assets/news-images/38abac38808ad3.jpg",
+          "sourcePage": "https://www.fldoe.org/newsroom/latest-news/icymi-florida-department-of-education-and-fau-partner-to-boost-literacy-and-prepare-educators-for-ai.stml",
+          "url": "https://www.fldoe.org/_/images/logo.png",
+          "alt": "佛州LEAP-AI将教师培养、读写教学与AI素养联动｜官网标识／资源预览参考图",
+          "credit": "官网标识／资源预览参考图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.fldoe.org/_/images/logo.png",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "教学实践"
       },
@@ -365,7 +441,18 @@
         "checkedAt": "2026-10-12",
         "application": "可将偏差检查量规纳入教学内容生成流程，并把量规结果与学习评估分开。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/8333b3ac440a58.jpg",
+          "relativePath": "assets/news-images/8333b3ac440a58.jpg",
+          "sourcePage": "https://www.wested.org/event/join-wested-at-the-2026-ai-in-measurement-and-education-conference/",
+          "url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21110251/Events-09-17-26-AIME-Con.jpg",
+          "alt": "WestEd在AIME聚焦生成内容偏差与AI测评议程｜官网文章配图（非本刊实测）",
+          "credit": "官网文章配图（非本刊实测）；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21110251/Events-09-17-26-AIME-Con.jpg",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "政策与评价"
       },
@@ -407,7 +494,18 @@
         "checkedAt": "2026-10-12",
         "application": "成人教育和职业培训可分别评估备课、行政减负与学习者支持，不将AI教育仅等同中小学课程。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/fbd86c2ece2f8a.jpg",
+          "relativePath": "assets/news-images/fbd86c2ece2f8a.jpg",
+          "sourcePage": "https://www.coabe.org/ai-virtual-summit",
+          "url": "https://static.wixstatic.com/media/107235_56ab9aee9cc048318d56b12057896161~mv2.png/v1/fit/w_2500,h_1330,al_c/107235_56ab9aee9cc048318d56b12057896161~mv2.png",
+          "alt": "COABE成人教育AI峰会：从了解工具走向教学与服务｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://static.wixstatic.com/media/107235_56ab9aee9cc048318d56b12057896161~mv2.png/v1/fit/w_2500,h_1330,al_c/107235_56ab9aee9cc048318d56b12057896161~mv2.png",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "教学实践"
       },
@@ -451,7 +549,18 @@
         "checkedAt": "2026-10-12",
         "application": "AI通识课可加入“谁被代表、谁承担错误、谁决定用途”等人文问题。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/123b681a726c8c.jpg",
+          "relativePath": "assets/news-images/123b681a726c8c.jpg",
+          "sourcePage": "https://academyforeducationalstudies.org/wp-content/uploads/2025/09/conrad-kamperman-final-1.pdf",
+          "url": "https://academyforeducationalstudies.org/wp-content/uploads/2025/09/conrad-kamperman-final-1.pdf",
+          "alt": "同两位主讲人的2025年批判性AI素养论文首页截图（非本次2026年讲座资料）",
+          "credit": "同两位主讲人的2025年批判性AI素养论文首页截图（非本次2026年讲座资料）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "同两位主讲人的2025年批判性AI素养论文首页截图（非本次2026年讲座资料）。不代表本刊实测或本次事件的直接现场证据。",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "教学实践"
       },
@@ -491,7 +600,18 @@
         "checkedAt": "2026-10-12",
         "application": "补充工具中心视角，观察AI教育与社会参与、文化表达如何结合。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/5a6b3b7fc4e47e.jpg",
+          "relativePath": "assets/news-images/5a6b3b7fc4e47e.jpg",
+          "sourcePage": "https://ainnovalab.usal.es/en/",
+          "url": "https://ainnovalab.usal.es/wp-content/uploads/2026/05/logo-completo-ainnovalab-e1778525714817-20.png",
+          "alt": "西班牙AInnovaLAB讨论AI、教育与公民参与｜官网标识／资源预览参考图",
+          "credit": "官网标识／资源预览参考图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://ainnovalab.usal.es/wp-content/uploads/2026/05/logo-completo-ainnovalab-e1778525714817-20.png",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "教学实践"
       },
@@ -531,7 +651,18 @@
         "checkedAt": "2026-10-12",
         "application": "观察AI功能嵌入原有学习管理系统后的教师工作流，而非新增一个孤立聊天窗口。",
         "applicationLabel": "可关注的实践方向｜编辑建议",
-        "image": null,
+        "image": {
+          "localPath": "assets/news-images/bc5bb7e72002d0.jpg",
+          "relativePath": "assets/news-images/bc5bb7e72002d0.jpg",
+          "sourcePage": "https://www.butler.edu/oeet/",
+          "url": "https://cdn.butler.edu/www/sites/9/2021/10/08101851/Campus-walk.jpg",
+          "alt": "Butler大学官网校园参考图（非本次培训现场）",
+          "credit": "Butler大学官网校园参考图（非本次培训现场）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "Butler大学官网校园参考图（非本次培训现场）。不代表本刊实测或本次事件的直接现场证据。",
+          "retrievedAt": "2026-11-08"
+        },
         "lastVerified": "2026-10-12",
         "frontierCategory": "教学实践"
       }

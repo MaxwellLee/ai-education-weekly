@@ -73,7 +73,17 @@
         "005"
       ],
       "firstCollected": "2026-10-12",
-      "lastVerified": "2026-11-02"
+      "lastVerified": "2026-11-02",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-tal.jpg",
+        "relativePath": "assets/profile-industry-images/industry-tal.jpg",
+        "sourcePage": "https://www.tal.com/zh-cn/news/detail/3039",
+        "imageUrl": "https://www.news.cn/tech/20260702/6c2507bdbcad455881a639682237c0fc/202607026c2507bdbcad455881a639682237c0fc_20260702ba7736f3013a43ee94229ff76038ec14.jpg",
+        "alt": "学而思 T6 系列 + 培优AI家教 / 九章爱学老师版：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-new-oriental",
@@ -146,7 +156,17 @@
         "005"
       ],
       "firstCollected": "2026-10-12",
-      "lastVerified": "2026-11-02"
+      "lastVerified": "2026-11-02",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-new-oriental.jpg",
+        "relativePath": "assets/profile-industry-images/industry-new-oriental.jpg",
+        "sourcePage": "https://www.neworiental.org/system/subsidiary/202108/8625128.html",
+        "imageUrl": "https://g.xdfimage.cn/upload/96190859a11bdd413991b4e154a3431a.png",
+        "alt": "智能学习系统与设备 / 智慧伴学、智慧督学 / 新东方 AI 1对1 / Sure Chinese：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-iflytek",
@@ -209,7 +229,17 @@
         "003",
         "004"
       ],
-      "firstCollected": "2026-10-12"
+      "firstCollected": "2026-10-12",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-iflytek.jpg",
+        "relativePath": "assets/profile-industry-images/industry-iflytek.jpg",
+        "sourcePage": "https://edu.iflytek.com/about-us/news/company-news/2665",
+        "imageUrl": "https://edu.iflytek.com/Public/ueditor/upload/image/20260305/1772698294652245.jpeg",
+        "alt": "讯飞星光：X2.6支撑的教师工作台与交互课件演示：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-codemao",
@@ -326,6 +356,16 @@
           "004"
         ],
         "firstCollected": "2026-10-12"
+      },
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-codemao.jpg",
+        "relativePath": "assets/profile-industry-images/industry-codemao.jpg",
+        "sourcePage": "https://www.codemao.cn/gocodemao",
+        "imageUrl": "https://static.codemao.cn/community_official/static/media/logo_dm_cm_black.479fdf5d.png",
+        "alt": "编程猫 / 点猫科技｜大陆AI创作课程竞争观察：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
       }
     },
     {
@@ -383,7 +423,17 @@
         "003",
         "004"
       ],
-      "firstCollected": "2026-10-12"
+      "firstCollected": "2026-10-12",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-duolingo.jpg",
+        "relativePath": "assets/profile-industry-images/industry-duolingo.jpg",
+        "sourcePage": "https://blog.duolingo.com/duolingo-max/",
+        "imageUrl": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2024/04/DuolingoMax_HeroImage-Light.png",
+        "alt": "Duolingo Max / Video Call：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-khan-academy",
@@ -470,7 +520,17 @@
           "label": "私人004相关资料保留于源码包快照；两版004内容有差异，见版本说明",
           "url": "#issue=004&page=updates"
         }
-      ]
+      ],
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-khan-academy.jpg",
+        "relativePath": "assets/profile-industry-images/industry-khan-academy.jpg",
+        "sourcePage": "https://blog.khanacademy.org/new-ai-tools-bring-interactive-diagrams-and-targeted-practice-thanks-to-khan-academys-partnership-with-google-org/",
+        "imageUrl": "https://blog.khanacademy.org/wp-content/uploads/2026/07/cropped-KABlog_Logo_1.png",
+        "alt": "Khan Academy Blog官方机构标识，非产品或事件实拍",
+        "credit": "可汗学院官方博客标识参考图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方博客页面获取其站点标识，非各期历史截图。原文章主图获取403，未采用错误页面图。"
+      }
     },
     {
       "id": "industry-coursera",
@@ -539,7 +599,17 @@
         "003",
         "004"
       ],
-      "firstCollected": "2026-10-12"
+      "firstCollected": "2026-10-12",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-coursera.jpg",
+        "relativePath": "assets/profile-industry-images/industry-coursera.jpg",
+        "sourcePage": "https://www.coursera.org/explore/coach/",
+        "imageUrl": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1V8qbFO31WuwRS3dYprOde/c89d4e14ad273cf5e4f17ad1c594f241/Coursera_Coach_Hero.png?auto=format%2C%20compress&dpr=1&w=720&h=400&q=40&fit=clip",
+        "alt": "Coursera Coach / Role Play / Project Helix：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-fabarta",
@@ -586,7 +656,17 @@
         "003",
         "004"
       ],
-      "firstCollected": "2026-10-12"
+      "firstCollected": "2026-10-12",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-fabarta.jpg",
+        "relativePath": "assets/profile-industry-images/industry-fabarta.jpg",
+        "sourcePage": "https://fabarta.com/news/detail/e2f385cb-43d7-4908-ac18-98c1af3db5b8",
+        "imageUrl": "https://fabarta.com/image/202608/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-09_171156_381.png",
+        "alt": "高校Agent实训平台与小学AIGC公益课：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-qinghe",
@@ -729,7 +809,17 @@
         "005"
       ],
       "firstCollected": "2026-10-12",
-      "lastVerified": "2026-11-02"
+      "lastVerified": "2026-11-02",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-create-learn.png",
+        "relativePath": "assets/profile-industry-images/industry-create-learn.png",
+        "sourcePage": "https://www.create-learn.us/ai-for-kids/create-with-chatgpt",
+        "imageUrl": null,
+        "alt": "Create & Learn官网Create with ChatGPT Class课程介绍页，2026-11-08官网截图，非历史事件实拍",
+        "credit": "2026-11-08现行官网截图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取官网现行页面；已目视核验。图内课程及课堂展示属于官方宣传，非独立效果验证，不代表各期历史页面状态。"
+      }
     },
     {
       "id": "industry-codakid",
@@ -785,7 +875,17 @@
         "005"
       ],
       "firstCollected": "2026-10-12",
-      "lastVerified": "2026-11-02"
+      "lastVerified": "2026-11-02",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-codakid.png",
+        "relativePath": "assets/profile-industry-images/industry-codakid.png",
+        "sourcePage": "https://codakid.com/ai-classes-for-kids/",
+        "imageUrl": null,
+        "alt": "CodaKid AI课程官方页面，2026-11-08截图，非历史事件实拍",
+        "credit": "2026-11-08现行官网课程页截图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取并目视核验CodaKid课程页；不将现行网页当历史期页面状态或课堂实拍。"
+      }
     },
     {
       "id": "industry-juniorcodes",
@@ -841,7 +941,17 @@
         "005"
       ],
       "firstCollected": "2026-10-12",
-      "lastVerified": "2026-11-02"
+      "lastVerified": "2026-11-02",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-juniorcodes.jpg",
+        "relativePath": "assets/profile-industry-images/industry-juniorcodes.jpg",
+        "sourcePage": "https://juniorcodes.com/courses/ai-course-for-kids",
+        "imageUrl": "https://juniorcodes.com/images/og-image.png",
+        "alt": "AI Explorers：直播课加一年练习平台：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-lingdong",
@@ -918,6 +1028,16 @@
         "firstIssueId": "003",
         "firstItemId": "industry-lingdong",
         "change": "相对私人004的7课包/63课，本轮公开目录返回6课包/62课；60分钟画布体验课未出现在当前返回列表，90分钟画布＋VibeCoding体验版本由2.8变为3.0。S1/S2/S3仍各16课、版本1.5/1.21/1.4。仅说明公开列表变化，不证明永久下架、实际功能升级或交付效果。"
+      },
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-lingdong.jpg",
+        "relativePath": "assets/profile-industry-images/industry-lingdong.jpg",
+        "sourcePage": "https://aicyld.com/",
+        "imageUrl": "https://aicyld.com/api/public/file-assets/file_52b10ece64ef4708859a/download?w=1200",
+        "alt": "灵动ai学院：体验课、三级课程与机构开课平台：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
       }
     },
     {
@@ -1012,6 +1132,16 @@
           "003",
           "004"
         ]
+      },
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-aiyou.jpg",
+        "relativePath": "assets/profile-industry-images/industry-aiyou.jpg",
+        "sourcePage": "https://www.aiyou.art/",
+        "imageUrl": "https://www.aiyou.art/_nuxt/logo2.CLMAXrWr.png",
+        "alt": "艾绘教育｜大陆AI创作课程竞争观察：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
       }
     },
     {
@@ -1092,6 +1222,16 @@
           "003",
           "004"
         ]
+      },
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-shengtong.jpg",
+        "relativePath": "assets/profile-industry-images/industry-shengtong.jpg",
+        "sourcePage": "https://www.shengtongedu.cn/article/37024.html",
+        "imageUrl": "https://q1.itc.cn/images01/20250719/1b9e8dc4ac484eb98e732e7d2f05d463.jpeg",
+        "alt": "盛通教育｜大陆AI创作课程竞争观察：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
       }
     },
     {
@@ -1130,7 +1270,17 @@
       "relatedIssueIds": [
         "003",
         "004"
-      ]
+      ],
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-aiscratch.png",
+        "relativePath": "assets/profile-industry-images/industry-aiscratch.png",
+        "sourcePage": "https://www.ai-scratch.cn/",
+        "imageUrl": null,
+        "alt": "AiScratch官网首页，学习AI编程与硬件创作及课堂宣传图，2026-11-08官网截图，非历史事件实拍",
+        "credit": "2026-11-08现行官网截图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "父任务通过浏览器截取官网现行页面；已目视核验。图内课程及课堂展示属于官方宣传，非独立效果验证，不代表各期历史页面状态。"
+      }
     },
     {
       "id": "industry-ideali",
@@ -1172,7 +1322,17 @@
       "relatedIssueIds": [
         "003",
         "004"
-      ]
+      ],
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-ideali.jpg",
+        "relativePath": "assets/profile-industry-images/industry-ideali.jpg",
+        "sourcePage": "https://www.ideali.com.tw/about/",
+        "imageUrl": "https://www.ideali.com.tw/wp-content/uploads/2021/12/創造栗logo-250x62.png",
+        "alt": "软硬件AI教学与课程、师训方案：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "firstIssueId": "004",
@@ -1221,7 +1381,17 @@
         }
       ],
       "freshness": "baseline",
-      "verificationNote": "保留原核验日期；无本期证据不推断业务没有变化。"
+      "verificationNote": "保留原核验日期；无本期证据不推断业务没有变化。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-m5stack004.jpg",
+        "relativePath": "assets/profile-industry-images/industry-m5stack004.jpg",
+        "sourcePage": "https://docs.m5stack.com/en/StackChan",
+        "imageUrl": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1205/K151_stack_chan_main_pictures_01.webp",
+        "alt": "从现成模块到教师可控的AI课堂原型：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "firstIssueId": "004",
@@ -1255,7 +1425,17 @@
         }
       ],
       "freshness": "baseline",
-      "verificationNote": "保留原核验日期；无本期证据不推断业务没有变化。"
+      "verificationNote": "保留原核验日期；无本期证据不推断业务没有变化。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-educause.png",
+        "relativePath": "assets/profile-industry-images/industry-educause.png",
+        "sourcePage": "https://events.educause.edu/ai-for-instructional-design-collaborating-with-intelligent-systems/2026/online-9",
+        "imageUrl": null,
+        "alt": "EDUCAUSE官方AI教学设计活动页，2026-11-08截图，非历史事件实拍",
+        "credit": "2026-11-08现行官方活动页截图",
+        "rightsStatus": "仅私人预览；版权归原权利人，公开转载许可未核实。",
+        "evidenceNote": "父任务浏览器截取并目视核验活动标题、日期、机构名；截图左下保留小型cookie提示，不遮挡主要主题。"
+      }
     },
     {
       "firstIssueId": "004",
@@ -1289,7 +1469,17 @@
         }
       ],
       "freshness": "baseline",
-      "verificationNote": "保留原核验日期；无本期证据不推断业务没有变化。"
+      "verificationNote": "保留原核验日期；无本期证据不推断业务没有变化。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-szu004.jpg",
+        "relativePath": "assets/profile-industry-images/industry-szu004.jpg",
+        "sourcePage": "https://bidding.szu.edu.cn/info/1023/376849.htm",
+        "imageUrl": "https://bidding.szu.edu.cn/images/logo.png",
+        "alt": "单门智慧课程服务出现6万元公开采购样本：官方品牌/机构标识参考图，非产品实拍",
+        "credit": "官方品牌/机构标识参考图，非产品实拍",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-umsl-scale",
@@ -1325,7 +1515,17 @@
       "firstIssueId": "005",
       "firstCollected": "2026-11-02",
       "checkedAt": "2026-11-02",
-      "changeSinceLastIssue": "本期首次建档；10月30日官方发布，不造上期变化。"
+      "changeSinceLastIssue": "本期首次建档；10月30日官方发布，不造上期变化。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-umsl-scale.jpg",
+        "relativePath": "assets/profile-industry-images/industry-umsl-scale.jpg",
+        "sourcePage": "https://blogs.umsl.edu/news/2026/10/30/umsl-scale-ai-lindbergh-schools-fundamentals-of-ai-for-educators/",
+        "imageUrl": "https://blogs.umsl.edu/news/files/2026/10/umsl-lindbergh-scale-collaboration-1250.jpg",
+        "alt": "免费12小时教师AI微证书：以课堂成品验收：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-aimagic",
@@ -1429,7 +1629,17 @@
       "freshness": "baseline",
       "firstCollected": "2026-11-02",
       "lastVerified": "2026-11-02",
-      "verificationNote": "2026-11-02同日补充研究；原005截止不变。"
+      "verificationNote": "2026-11-02同日补充研究；原005截止不变。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-bole.jpg",
+        "relativePath": "assets/profile-industry-images/industry-bole.jpg",
+        "sourcePage": "https://www.ar-max.com/companynews/9-619.html",
+        "imageUrl": "https://www.ar-max.com/uploads/202605/6a05693747fec.png",
+        "alt": "博乐信息｜玩转AI创想课｜大陆AI创作课程竞争观察：官方来源相关配图",
+        "credit": "官方来源相关配图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "2026-11-08从卡片所列官方来源取图；并非该期发布时间的历史截图。原网页及图片URL已归档。"
+      }
     },
     {
       "id": "industry-zhiqiyuntu",
@@ -1478,7 +1688,17 @@
       "freshness": "baseline",
       "firstCollected": "2026-11-02",
       "lastVerified": "2026-11-02",
-      "verificationNote": "2026-11-02同日补充研究；原005截止不变。"
+      "verificationNote": "2026-11-02同日补充研究；原005截止不变。",
+      "image": {
+        "localPath": "assets/profile-industry-images/industry-zhiqiyuntu.png",
+        "relativePath": "assets/profile-industry-images/industry-zhiqiyuntu.png",
+        "sourcePage": "https://zqyt-website-src-v2.tongshiai.com/xschool/courselist-202605.html",
+        "imageUrl": null,
+        "alt": "智启云图中小学AI通识课官方课程目录截图，页面标注2026-05-27更新",
+        "credit": "2026-11-08现行官网课程目录截图",
+        "rightsStatus": "版权归原权利人；仅私人预览，公开转载许可未核实。",
+        "evidenceNote": "父任务浏览器截取并目视核验。该图为2026-11-08现行页面，不是各历史期当时的截图。"
+      }
     },
     {
       "id": "industry-shaonianpai",

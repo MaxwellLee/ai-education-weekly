@@ -76,12 +76,16 @@
           "deadline": "2026-11-15T23:59:00-05:00"
         },
         "image": {
+          "localPath": "assets/news-images/bad935a41e71a3.jpg",
+          "relativePath": "assets/news-images/bad935a41e71a3.jpg",
+          "sourcePage": "https://blog.ted.com/ai-is-changing-how-we-teach-and-learn-educators-should-shape-what-comes-next/",
           "url": "https://blog.ted.com/wp-content/uploads/sites/2/2026/10/blog-image-1200-x-600-px.jpg",
-          "sourceUrl": "https://blog.ted.com/ai-is-changing-how-we-teach-and-learn-educators-should-shape-what-comes-next/",
-          "credit": "TED / Google官方配图",
-          "type": "官方宣传图",
-          "verified": "由官方原文图片链接打开；非产品实测截图",
-          "rights": "未核实再发布许可，预览如使用请署名并链接原文"
+          "alt": "TED × Google面向全球教师征集AI教学实践｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://blog.ted.com/wp-content/uploads/sites/2/2026/10/blog-image-1200-x-600-px.jpg",
+          "retrievedAt": "2026-11-08"
         },
         "educationLevels": [
           "小学教育",
@@ -140,12 +144,16 @@
           "price": "未披露"
         },
         "image": {
-          "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg",
-          "sourceUrl": "https://www.anthropic.com/news/claude-frontier-academy",
-          "credit": "Anthropic官方配图",
-          "type": "官方宣传图",
-          "verified": "URL由官方图片链接解析，检索器不支持SVG，未视觉核验",
-          "rights": "未核实再发布许可"
+          "localPath": "assets/news-images/6cec937a1c4cf8.jpg",
+          "relativePath": "assets/news-images/6cec937a1c4cf8.jpg",
+          "sourcePage": "https://github.com/anthropics/k12-teacher-skills",
+          "url": "https://avatars.githubusercontent.com/u/76263028?s=400&v=4",
+          "alt": "Anthropic官方GitHub组织标识参考图（非活动现场或产品界面）",
+          "credit": "Anthropic官方GitHub组织标识参考图（非活动现场或产品界面）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "Anthropic官方GitHub组织标识参考图（非活动现场或产品界面）。不代表本刊实测或本次事件的直接现场证据。",
+          "retrievedAt": "2026-11-08"
         },
         "educationLevels": [],
         "stageGroups": [],
@@ -220,7 +228,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "课堂案例"
+        "contentType": "课堂案例",
+        "image": {
+          "localPath": "assets/news-images/247b37f3377a4b.jpg",
+          "relativePath": "assets/news-images/247b37f3377a4b.jpg",
+          "sourcePage": "https://blog.google/products-and-platforms/products/education/special-education-gemini/",
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IMG-20261001-WA0009.max-1440x810.jpg",
+          "alt": "中小学课堂实践：特殊教育视觉支持与学生新闻项目｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IMG-20261001-WA0009.max-1440x810.jpg",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu04",
@@ -269,7 +289,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "项目与机会"
+        "contentType": "项目与机会",
+        "image": {
+          "localPath": "assets/news-images/bcf677d02c2b53.jpg",
+          "relativePath": "assets/news-images/bcf677d02c2b53.jpg",
+          "sourcePage": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/",
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ORG-44_Blog_Header_EDUCAUSE.width-1300.png",
+          "alt": "Google.org把高教AI支持延伸到成人学习与社区学院｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ORG-44_Blog_Header_EDUCAUSE.width-1300.png",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu05",
@@ -315,7 +347,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "治理与观点"
+        "contentType": "治理与观点",
+        "image": {
+          "localPath": "assets/news-images/04b7bf54a6a901.jpg",
+          "relativePath": "assets/news-images/04b7bf54a6a901.jpg",
+          "sourcePage": "https://www.unesco.org/en/articles/start-defining-problem-not-algorithm-designing-ai-education",
+          "url": "https://www.unesco.org/sites/default/files/styles/best_image/article/2026-10/ia_education_1.jpg.webp?itok=X3_m1Y0c",
+          "alt": "UNESCO强调：先定义教育问题，再决定是否使用AI｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.unesco.org/sites/default/files/styles/best_image/article/2026-10/ia_education_1.jpg.webp?itok=X3_m1Y0c",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu11",
@@ -363,7 +407,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "项目与机会"
+        "contentType": "项目与机会",
+        "image": {
+          "localPath": "assets/news-images/0e7aba9bd215a8.jpg",
+          "relativePath": "assets/news-images/0e7aba9bd215a8.jpg",
+          "sourcePage": "https://www.workera.ai/",
+          "url": "https://cdn.prod.website-files.com/68f1fe758b057338579c914a/6a63d160f344fdd4a107ecb1_skill-assestment.webp",
+          "alt": "Workera官网产品界面参考图（非收购现场，非本刊实测）",
+          "credit": "Workera官网产品界面参考图（非收购现场，非本刊实测）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "Workera官网产品界面参考图（非收购现场，非本刊实测）。不代表本刊实测或本次事件的直接现场证据。",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu07",
@@ -415,7 +471,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "治理与观点"
+        "contentType": "治理与观点",
+        "image": {
+          "localPath": "assets/news-images/eb7b69ae81ecd2.jpg",
+          "relativePath": "assets/news-images/eb7b69ae81ecd2.jpg",
+          "sourcePage": "https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf",
+          "url": "https://cdn.openai.com/pdf/from-curiosity-to-classroom-outcomes-k-12-ai-skills-jam-report.pdf",
+          "alt": "OpenAI K-12教育报告封面参考图（同机构另一教育资料，非本次青少年论坛现场）",
+          "credit": "OpenAI K-12教育报告封面参考图（同机构另一教育资料，非本次青少年论坛现场）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "OpenAI K-12教育报告封面参考图（同机构另一教育资料，非本次青少年论坛现场）。原报道图片暂不可下载，使用同机构教育产品/报告作主题参考，非直接事件证据。",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu06",
@@ -463,7 +531,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "治理与观点"
+        "contentType": "治理与观点",
+        "image": {
+          "localPath": "assets/news-images/eb0fe5028a1216.jpg",
+          "relativePath": "assets/news-images/eb0fe5028a1216.jpg",
+          "sourcePage": "https://www.microsoft.com/en-us/education/blog/2026/09/higher-educations-ai-advantage-is-the-intelligence-institutions-already-hold/",
+          "url": "https://www.microsoft.com/en-us/education/blog/wp-content/uploads/2026/09/SUR25-EDU-Laptop-13inch-Snapdragon-Ocean-Collab.jpg",
+          "alt": "Microsoft高教方案聚焦机构知识、工作流与权限治理｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.microsoft.com/en-us/education/blog/wp-content/uploads/2026/09/SUR25-EDU-Laptop-13inch-Snapdragon-Ocean-Collab.jpg",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu12",
@@ -518,7 +598,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "研究"
+        "contentType": "研究",
+        "image": {
+          "localPath": "assets/news-images/a7e909a337f47b.jpg",
+          "relativePath": "assets/news-images/a7e909a337f47b.jpg",
+          "sourcePage": "https://link.springer.com/content/pdf/10.1186/s40561-026-00472-y_reference.pdf",
+          "url": "https://link.springer.com/content/pdf/10.1186/s40561-026-00472-y_reference.pdf",
+          "alt": "小学亲子AI英语游戏研究：家长支持值得关注，不能只数AI对话｜原始论文／报告首页截图",
+          "credit": "原始论文／报告首页截图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://link.springer.com/content/pdf/10.1186/s40561-026-00472-y_reference.pdf",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu13",
@@ -568,7 +660,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": false,
-        "contentType": "研究"
+        "contentType": "研究",
+        "image": {
+          "localPath": "assets/news-images/566131a283e1dc.jpg",
+          "relativePath": "assets/news-images/566131a283e1dc.jpg",
+          "sourcePage": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1955487/full",
+          "url": "https://www.frontiersin.org/files/Articles/1955487/xml-images/feduc-11-1955487-g001.webp",
+          "alt": "高教STEAM与气候教育研究：学生自报收益，尚无因果成效｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.frontiersin.org/files/Articles/1955487/xml-images/feduc-11-1955487-g001.webp",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu08",
@@ -604,12 +708,16 @@
           "price": "美国学生Pro合资格试用12个月，后自动续费19.99美元/月；其他市场条款不同"
         },
         "image": {
-          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-200.format-webp.webp",
-          "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
-          "credit": "Google官方学习工具宣传图",
-          "type": "含产品界面的官方宣传图",
-          "verified": "由官方图片链接解析；检索器不支持返回的媒体类型，未视觉核验",
-          "rights": "未核实再发布许可"
+          "localPath": "assets/news-images/989115e26afad6.jpg",
+          "relativePath": "assets/news-images/989115e26afad6.jpg",
+          "sourcePage": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-1300.png",
+          "alt": "背景｜Gemini Notebook把笔记延伸到语音与交互练习｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-1300.png",
+          "retrievedAt": "2026-11-08"
         },
         "educationLevels": [
           "高等教育"
@@ -689,7 +797,19 @@
         "ageRestriction": "18+：Claude教师产品仅供教育者使用",
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": true,
-        "contentType": "背景资源"
+        "contentType": "背景资源",
+        "image": {
+          "localPath": "assets/news-images/6cec937a1c4cf8.jpg",
+          "relativePath": "assets/news-images/6cec937a1c4cf8.jpg",
+          "sourcePage": "https://github.com/anthropics/k12-teacher-skills",
+          "url": "https://avatars.githubusercontent.com/u/76263028?s=400&v=4",
+          "alt": "Anthropic官方GitHub组织标识参考图（非活动现场或产品界面）",
+          "credit": "Anthropic官方GitHub组织标识参考图（非活动现场或产品界面）；版权归原权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "Anthropic官方GitHub组织标识参考图（非活动现场或产品界面）。不代表本刊实测或本次事件的直接现场证据。",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "edu10",
@@ -738,7 +858,19 @@
         "ageRestriction": null,
         "applicationLabel": "可关注的实践方向｜编辑建议",
         "isBackground": true,
-        "contentType": "背景资源"
+        "contentType": "背景资源",
+        "image": {
+          "localPath": "assets/news-images/9a8e38b2dcdfc2.jpg",
+          "relativePath": "assets/news-images/9a8e38b2dcdfc2.jpg",
+          "sourcePage": "https://www.unesco.org/en/articles/unesco-opens-third-edition-its-course-digital-citizenship-and-artificial-intelligence-now-also?hub=701",
+          "url": "https://www.unesco.org/sites/default/files/styles/best_image/article/2026-09/Banner%20ES%203.jpg.webp?itok=pedTs3p1",
+          "alt": "近期资源｜UNESCO免费AI与数字公民课程10月12日开课｜官网文章配图",
+          "credit": "官网文章配图；版权归原来源权利人",
+          "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.unesco.org/sites/default/files/styles/best_image/article/2026-09/Banner%20ES%203.jpg.webp?itok=pedTs3p1",
+          "retrievedAt": "2026-11-08"
+        }
       }
     ],
     "methodology": [

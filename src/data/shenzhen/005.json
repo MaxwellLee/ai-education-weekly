@@ -35,6 +35,18 @@
         "firstIssueId": "003",
         "firstItemId": "sz003-04",
         "change": "跟进003期招标项目；此前139,200元为预算，本次138,800元为成交金额，属于新进展而非改写旧预算。"
+      },
+      "image": {
+        "localPath": "assets/news-images/95e7386dc4ee66.jpg",
+        "relativePath": "assets/news-images/95e7386dc4ee66.jpg",
+        "sourcePage": "https://www.jseducationfoundation.com/campusfacilities/index.aspx",
+        "url": "https://www.jseducationfoundation.com/szsjsj201902252910/uploadfiles/image/RighInfo002552_pic1.jpg",
+        "alt": "深圳湾学校校园设施官网参考图（非AI智学社区交付现场）",
+        "credit": "深圳湾学校校园设施官网参考图（非AI智学社区交付现场）；版权归原权利人",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "深圳湾学校校园设施官网参考图（非AI智学社区交付现场）。不代表本刊实测或本次事件的直接现场证据。",
+        "retrievedAt": "2026-11-08"
       }
     },
     {
@@ -65,7 +77,19 @@
         "高中阶段教育"
       ],
       "audienceTypes": [],
-      "scopeTags": []
+      "scopeTags": [],
+      "image": {
+        "localPath": "assets/news-images/pingshan-science.png",
+        "relativePath": "assets/news-images/pingshan-science.png",
+        "sourcePage": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_13047674.html",
+        "url": "https://www.sz.gov.cn/img/4/4495/4495916/13047674.png",
+        "alt": "坪山校园科技嘉年华官方报道场地门头照片",
+        "credit": "坪山校园科技嘉年华官方报道场地门头照片",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "父任务通过正常浏览器/官方下载获取，本任务已目视核验标题或活动门头。",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz005-03",
@@ -93,7 +117,19 @@
         "高等教育"
       ],
       "audienceTypes": [],
-      "scopeTags": []
+      "scopeTags": [],
+      "image": {
+        "localPath": "assets/news-images/d0d8abce4cb3ec.jpg",
+        "relativePath": "assets/news-images/d0d8abce4cb3ec.jpg",
+        "sourcePage": "https://www.smbu.edu.cn/info/4551/141571.htm",
+        "url": "https://www.smbu.edu.cn/__local/D/36/96/147B08DD248C6F1A676ACCB65C3_E979A027_345C7.jpeg",
+        "alt": "深北莫张量方法国际学校与会议完成十日研习｜官网文章配图",
+        "credit": "官网文章配图；版权归原来源权利人",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://www.smbu.edu.cn/__local/D/36/96/147B08DD248C6F1A676ACCB65C3_E979A027_345C7.jpeg",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz005-04",
@@ -123,7 +159,19 @@
         "教育工作者",
         "成人与继续教育"
       ],
-      "scopeTags": []
+      "scopeTags": [],
+      "image": {
+        "localPath": "assets/news-images/8e1a859cfc71d4.jpg",
+        "relativePath": "assets/news-images/8e1a859cfc71d4.jpg",
+        "sourcePage": "https://jpxy.szpu.edu.cn/info/1011/1739.htm",
+        "url": "https://jpxy.szpu.edu.cn/__local/5/4A/DE/60BE19EBF9DDED088C4ED993F8B_8D0D976E_70481.jpg",
+        "alt": "深职大人形机器人研修班把遥操作数据采集纳入课程｜官网文章配图",
+        "credit": "官网文章配图；版权归原来源权利人",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "来自本条原始来源的配图或附件；非本刊实测结果。原图地址：https://jpxy.szpu.edu.cn/__local/5/4A/DE/60BE19EBF9DDED088C4ED993F8B_8D0D976E_70481.jpg",
+        "retrievedAt": "2026-11-08"
+      }
     },
     {
       "id": "sz005-05",
@@ -153,7 +201,19 @@
       "audienceTypes": [
         "教育工作者"
       ],
-      "scopeTags": []
+      "scopeTags": [],
+      "image": {
+        "localPath": "assets/news-images/shenzhen-design.png",
+        "relativePath": "assets/news-images/shenzhen-design.png",
+        "sourcePage": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_13044987.html",
+        "url": null,
+        "alt": "未来设计学苑官方报道页面截图（2026-11-08获取）",
+        "credit": "未来设计学苑官方报道页面截图（2026-11-08获取）",
+        "rightsStatus": "私人预览参考；公开复用许可未独立确认",
+        "publicReuseCleared": false,
+        "evidenceNote": "父任务通过正常浏览器/官方下载获取，本任务已目视核验标题或活动门头。",
+        "retrievedAt": "2026-11-08"
+      }
     }
   ]
 }
