@@ -414,7 +414,19 @@
         "firstSeen": "2026-10-28",
         "lastVerified": "2026-10-28",
         "checkedAt": "2026-10-28",
-        "isBackground": false
+        "isBackground": false,
+        "image": {
+          "localPath": "assets/news-images/smuhsd-ai-update-20261022.png",
+          "relativePath": "assets/news-images/smuhsd-ai-update-20261022.png",
+          "sourcePage": "https://www.smuhsd.org/departments/curriculum-and-assessment/artificial-intelligence-in-education",
+          "url": "https://www.smuhsd.org/departments/curriculum-and-assessment/artificial-intelligence-in-education",
+          "alt": "SMUHSD官网2026年10月22日AI指导委员会更新页面截图",
+          "credit": "SMUHSD官网对应更新截图，非会议现场照片或演示视频截图",
+          "rightsStatus": "版权归原权利人；公开转载许可未独立确认",
+          "publicReuseCleared": false,
+          "evidenceNote": "2026-11-08通过正常浏览器截取原官网中October 22, 2026 Update及对应正文；未改写页面内容，未声称已逐帧核验演讲。",
+          "retrievedAt": "2026-11-08"
+        }
       },
       {
         "id": "e004-10",
