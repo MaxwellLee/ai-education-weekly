@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "issueId": "006",
+  "verifiedAt": "2026-11-09",
+  "coverageNote": "4条深圳相关观察，含未来活动公告和本周报道的此前活动；区属不明时不推定。北京跨城共同体另见教育前沿e006-12，不重复计数。未覆盖全部区校。",
+  "items": [
+    {
+      "id": "sz006-01",
+      "title": "深职大WorkBuddy师训：从文稿处理走向课程开发",
+      "publishedDate": "2026-11-02",
+      "eventDate": "2026-10-29至11-01培训；10月30日开班",
+      "stage": "2026-10-29至11-01培训；10月30日开班",
+      "districts": [
+        "南山区"
+      ],
+      "type": "机构官方报道／公告",
+      "organizations": "深圳职业技术大学／腾讯云",
+      "peopleCompanies": "深圳职业技术大学／腾讯云",
+      "summary": "43名职业院校教师参加校企师训，围绕WorkBuddy操作、AI教学设计、备课教研与课程开发开展训练。",
+      "relevance": "适合比较教师高频工作与培训成果交付如何衔接。",
+      "limits": "本周发布但活动在主要窗口之前；43为校方报名参与口径，不是通过率或效果证据。",
+      "sources": [
+        {
+          "label": "官方原文",
+          "url": "https://jpxy.szpu.edu.cn/info/1011/1752.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "职业教育",
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-09"
+    },
+    {
+      "id": "sz006-02",
+      "title": "深职大预告智慧课程建设研修：图谱、知识库与助教连成流程",
+      "publishedDate": "2026-11-03",
+      "eventDate": "计划2026-12-04至12-08",
+      "stage": "计划2026-12-04至12-08",
+      "districts": [
+        "南山区／西丽校区"
+      ],
+      "type": "机构官方报道／公告",
+      "organizations": "深圳职业技术大学",
+      "peopleCompanies": "深圳职业技术大学",
+      "summary": "面向中职、高职和职业本科管理者与教师，拟研修能力图谱、知识图谱、专属知识库、智能助教与资源生成。",
+      "relevance": "参考教师交付流程，而不止展示工具功能。",
+      "limits": "仅为招生通知与课程计划；未发生的研修不能写成完成或实证成效。",
+      "sources": [
+        {
+          "label": "官方原文",
+          "url": "https://www.szpu.edu.cn/info/1392/23895.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "职业教育",
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-09"
+    },
+    {
+      "id": "sz006-03",
+      "title": "深圳越疆与浙江经贸签约具身智能运维服务中心",
+      "publishedDate": "2026-11-06",
+      "eventDate": "2026-11-06签约揭牌",
+      "stage": "2026-11-06签约揭牌",
+      "districts": [
+        "深圳企业／活动在浙江"
+      ],
+      "type": "机构官方报道／公告",
+      "organizations": "深圳市越疆科技股份有限公司／浙江经贸职业技术学院",
+      "peopleCompanies": "深圳市越疆科技股份有限公司／浙江经贸职业技术学院",
+      "summary": "校企签署合作协议并揭牌运维服务中心，讨论课程建设、企业标准与教学内容衔接；AI文化馆讲解仍为拟开发方向。",
+      "relevance": "观察深圳机器人企业怎样形成课程、实训与服务协作。",
+      "limits": "签约揭牌不等于全部课程落地、收入或利润；深圳区属未核，不猜具体区。行业栏目如建档应详述，本处仅关联。",
+      "sources": [
+        {
+          "label": "官方原文",
+          "url": "https://www.zjiet.edu.cn/2026/1106/c108a72585/page.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "职业教育"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-09"
+    },
+    {
+      "id": "sz006-04",
+      "title": "深圳一体化中小学AI教育列入全国交流活动议程",
+      "publishedDate": "2026-11-04",
+      "eventDate": "计划2026-11-25 14:00–14:15报告；活动11月24–26日",
+      "stage": "计划2026-11-25 14:00–14:15报告；活动11月24–26日",
+      "districts": [
+        "市级"
+      ],
+      "type": "机构官方报道／公告",
+      "organizations": "中国儿童中心／深圳市中小学AI教育议题",
+      "peopleCompanies": "中国儿童中心／深圳市中小学AI教育议题",
+      "summary": "官方议程列出深圳市一体化推进中小学AI教育的探索报告，活动在上海举行。",
+      "relevance": "为后续寻找深圳区域课程协同的公开材料留下明确追踪入口。",
+      "limits": "只是议程，未公布该报告讲者及具体成果；不将未来报告内容或政策效果写成事实。通知落款10月30日，网页发布11月4日。",
+      "sources": [
+        {
+          "label": "官方原文",
+          "url": "https://www.ccc.org.cn/art/2026/11/4/art_665_233649.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-09"
+    }
+  ]
+}

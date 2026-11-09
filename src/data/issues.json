@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "latestIssueId": "005",
-  "libraryAsOf": "2026-11-02",
+  "latestIssueId": "006",
+  "libraryAsOf": "2026-11-09",
   "issues": [
     {
       "id": "001",
@@ -37,6 +37,13 @@
       "date": "2026-11-02",
       "title": "把AI课堂变成可检查的学习过程",
       "file": "issues/005.json"
+    },
+    {
+      "id": "006",
+      "number": 6,
+      "date": "2026-11-09",
+      "title": "从引导式学习到可检查的课程流程",
+      "file": "issues/006.json"
     }
   ]
 }

@@ -379,6 +379,65 @@
       ],
       "factCorrections": [],
       "evidenceUpdates": []
+    },
+    "006": {
+      "experiments": [
+        {
+          "id": "try006-guided",
+          "title": "把一个答案题变成三次解释",
+          "audience": "中学或高校教师；先用模拟学生答案",
+          "estimatedMinutes": "25–35分钟（编辑估计）",
+          "steps": "用自编题列出初步判断、解释依据和反例三步；在已有获准工具中只提供教师材料，检查每轮是否直接泄露结论。",
+          "verificationGoal": "能否让学生解释取舍，并在无AI的同类题上独立作答。",
+          "sourceIds": [
+            "e006-01",
+            "e006-05"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "try006-confidence",
+          "title": "把自信程度和实际表现放在一起",
+          "audience": "教师培训或高校课程设计者",
+          "estimatedMinutes": "20–30分钟（编辑估计）",
+          "steps": "自编三个AI输出核验情境，先让参与者自评把握，再展示来源冲突，记录能否找到错误和修正理由。",
+          "verificationGoal": "自评分与实际来源判断是否一致，不用满意度代替能力。",
+          "sourceIds": [
+            "e006-02"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "try006-policy",
+          "title": "给一次课堂AI活动写清责任边界",
+          "audience": "学校管理者与教研组",
+          "estimatedMinutes": "15–25分钟（编辑估计）",
+          "steps": "选一个获准的备课活动，列出工具开关、资料范围、人工审核人、学生可见步骤和退出条件。",
+          "verificationGoal": "任何同事能否判断何时停止工具、转交教师及如何记录问题。",
+          "sourceIds": [
+            "e006-12",
+            "e006-11"
+          ],
+          "status": "编辑建议，未实测"
+        }
+      ],
+      "changes": {
+        "status": "no-verified-change",
+        "baselineIssue": "005",
+        "baselineDate": "2026-11-02",
+        "items": [],
+        "note": "本期教育前沿采用新的原文，不强行把不同研究连成进步曲线。可核平台目录变化见行业动态灵动档案；上线排序和配图属于界面修订，不算教学或产品效果。"
+      },
+      "revisionLog": [
+        {
+          "date": "2026-11-09",
+          "version": "006-private-preview",
+          "type": "新期内容与证据增补",
+          "summary": "基于远端c7ff02ae保留全部已公开历史期、加入时间排序与图片；新增本期内容和去重创意，不提交或部署。新增图片未核公开许可时只给原作入口。"
+        }
+      ],
+      "factCorrections": [],
+      "evidenceUpdates": []
     }
   }
 }

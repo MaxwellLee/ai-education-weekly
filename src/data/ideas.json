@@ -1,7 +1,7 @@
 {
-  "cutoff": "2026-11-02T09:00:00+08:00",
+  "cutoff": "2026-11-09T09:00:00+08:00",
   "title": "有趣实用AI创意精选",
-  "editorialNote": "两版004合并52项，005上午新增12项（2项当周发布、10项历史灵感），11月2日下午再补6项历史真实课堂案例；累计70项。与独立课堂创意库分开，不混算；原有3项硬件编辑方案仍标明未实测。",
+  "editorialNote": "保留已发布的前70项，006新增13项，累计83项。新增2项本周案例、1项历史跟进与10项历史灵感，非全为本周首发。新图片未核公开复用许可时只提供原作入口。",
   "imageRightsNote": "每项图片保留来源、署名及权利状态；未确认公开复用许可不表示已获转载授权。",
   "items": [
     {
@@ -5802,11 +5802,1102 @@
       "lastVerified": "2026-11-02",
       "freshness": "历史案例 · 11月2日下午补充",
       "reproductionStatus": "原案例有公开来源；本刊课堂迁移未实测"
+    },
+    {
+      "id": "giorgio-cam",
+      "title": "把桌上物品的识别结果变成一段节奏歌词",
+      "date": "2017-05",
+      "originalDate": "2017-05",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Eric Rosenbaum、Yotam Mann 与 Google Creative Lab",
+      "category": "音乐声音",
+      "categories": [
+        "音乐声音"
+      ],
+      "summary": "原演示用图像识别给照片贴标签，再把标签变成歌曲歌词。",
+      "play": "原演示用图像识别给照片贴标签，再把标签变成歌曲歌词。",
+      "tools": [
+        "Google Cloud Vision API",
+        "MaryTTS",
+        "Tone.js"
+      ],
+      "reproduce": "教师用三件普通物品演示“拍照—核对标签—修改歌词—朗读节奏”。先由孩子纠正识别，再共同编互助主题小段落。",
+      "education": "物品标签纠错单与四句节奏歌词",
+      "expectedOutput": "物品标签纠错单与四句节奏歌词",
+      "limits": "官方已标原实验不再运行；课堂方案是迁移构想，不能承诺直接打开可用。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://experiments.withgoogle.com/giorgio-cam"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "物品标签纠错单与四句节奏歌词"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/giorgio-cam",
+        "alt": "把桌上物品的识别结果变成一段节奏歌词：官方演示配图",
+        "credit": "Eric Rosenbaum、Yotam Mann 与 Google Creative Lab",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "semi-conductor",
+      "title": "用手臂指挥同一段乐曲的速度与力度",
+      "date": "2018-12",
+      "originalDate": "2018-12",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Google Creative Lab Sydney",
+      "category": "音乐声音",
+      "categories": [
+        "音乐声音"
+      ],
+      "summary": "原实验用浏览器姿态识别，把手臂动作映射为管弦乐速度、音量与配器。",
+      "play": "原实验用浏览器姿态识别，把手臂动作映射为管弦乐速度、音量与配器。",
+      "tools": [
+        "PoseNet",
+        "TensorFlow.js",
+        "摄像头"
+      ],
+      "reproduce": "先观看官方演示，再用慢快、大幅小幅动作讨论音乐表达；若复刻需教师另行部署和检查镜头权限。",
+      "education": "两版指挥动作脚本与力度速度对照卡",
+      "expectedOutput": "两版指挥动作脚本与力度速度对照卡",
+      "limits": "官方已标原实验不再运行；不是现成可用课堂服务。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://experiments.withgoogle.com/semi-conductor"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "两版指挥动作脚本与力度速度对照卡"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/semi-conductor",
+        "alt": "用手臂指挥同一段乐曲的速度与力度：官方演示配图",
+        "credit": "Google Creative Lab Sydney",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "emoji-scavenger",
+      "title": "让表情符号变成实物寻找与识别纠错游戏",
+      "date": "2018-03",
+      "originalDate": "2018-03",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Google Brand Studio / PAIR",
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "summary": "原游戏通过手机镜头寻找表情符号对应的真实物品，用浏览器神经网络判断。",
+      "play": "原游戏通过手机镜头寻找表情符号对应的真实物品，用浏览器神经网络判断。",
+      "tools": [
+        "TensorFlow.js",
+        "手机摄像头"
+      ],
+      "reproduce": "教师先准备三件无个人信息的物品，孩子预测哪些角度容易误认，再比较识别结果并给出原因。",
+      "education": "寻物记录卡、误识别角度对照图",
+      "expectedOutput": "寻物记录卡、误识别角度对照图",
+      "limits": "原界面含13岁以上确认，仓库已归档；低龄活动仅教师演示/纸卡迁移，不让儿童自行确认年龄。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://experiments.withgoogle.com/emoji-scavenger"
+        },
+        {
+          "label": "原界面13岁以上声明与源码",
+          "url": "https://github.com/google/emoji-scavenger-hunt/blob/main/dist/index.html"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "寻物记录卡、误识别角度对照图"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/emoji-scavenger",
+        "alt": "让表情符号变成实物寻找与识别纠错游戏：官方演示配图",
+        "credit": "Google Brand Studio / PAIR",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "fabricius",
+      "title": "把象形文字变成一张有解释的秘密消息卡",
+      "date": "2020-07",
+      "originalDate": "2020-07",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Google Arts & Culture、Macquarie University、Ubisoft、Psycle",
+      "category": "教学应用",
+      "categories": [
+        "教学应用"
+      ],
+      "summary": "真实项目以机器学习辅助象形文字研究，同时提供学习、编码消息和研究工具三个入口。",
+      "play": "真实项目以机器学习辅助象形文字研究，同时提供学习、编码消息和研究工具三个入口。",
+      "tools": [
+        "Fabricius",
+        "Google Cloud Vision API"
+      ],
+      "reproduce": "教师区分历史文字研究与娱乐编码，学生设计一条友善消息，并说明每个符号的意义和不确定处。",
+      "education": "象形消息卡及逐符号说明",
+      "expectedOutput": "象形消息卡及逐符号说明",
+      "limits": "娱乐消息不是可靠古埃及文翻译，不能把模型建议当考古事实。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://experiments.withgoogle.com/fabricius"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "教学应用",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "象形消息卡及逐符号说明"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/fabricius",
+        "alt": "把象形文字变成一张有解释的秘密消息卡：官方演示配图",
+        "credit": "Google Arts & Culture、Macquarie University、Ubisoft、Psycle",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "art-palette",
+      "title": "用五种颜色寻找跨文化的画面伙伴",
+      "date": "2018-03-07",
+      "originalDate": "2018-03-07",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Simon Doury、Etienne Ferrier / Google Arts & Culture",
+      "category": "图像设计",
+      "categories": [
+        "图像设计"
+      ],
+      "summary": "项目用计算机视觉把选定色板与不同文化机构的艺术作品关联。",
+      "play": "项目用计算机视觉把选定色板与不同文化机构的艺术作品关联。",
+      "tools": [
+        "Art Palette",
+        "色卡"
+      ],
+      "reproduce": "先为“互助小屋”手绘五色色板，再看匹配馆藏，讨论相同颜色为何表达不同故事；回到纸上改自己的构图。",
+      "education": "五色色板、馆藏来源卡和原创小屋画",
+      "expectedOutput": "五色色板、馆藏来源卡和原创小屋画",
+      "limits": "色彩接近不代表历史关系；馆藏图片权利逐项不同，不自动获得复制许可。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://experiments.withgoogle.com/art-palette"
+        },
+        {
+          "label": "2018年3月7日官方发布与AI说明",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/machine-learning-meets-culture/"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "五色色板、馆藏来源卡和原创小屋画"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/art-palette",
+        "alt": "用五种颜色寻找跨文化的画面伙伴：官方演示配图",
+        "credit": "Simon Doury、Etienne Ferrier / Google Arts & Culture",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "bird-sounds",
+      "title": "听相似鸟鸣，为声音地图写一段探索解说",
+      "date": "2017-05",
+      "originalDate": "2017-05",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Manny Tan、Kyle McDonald、Yotam Mann 与 Google Creative Lab",
+      "category": "音乐声音",
+      "categories": [
+        "音乐声音"
+      ],
+      "summary": "真实可视化用机器学习将声音相似的鸟鸣放在邻近位置，训练输入不是鸟名标签。",
+      "play": "真实可视化用机器学习将声音相似的鸟鸣放在邻近位置，训练输入不是鸟名标签。",
+      "tools": [
+        "Bird Sounds",
+        "t-SNE",
+        "Macaulay Library音频"
+      ],
+      "reproduce": "教师选择三种声音让学生盲听、描述高低长短，再比较地图邻近关系，最后录制自己的观察解说。",
+      "education": "声音观察地图与一分钟解说稿",
+      "expectedOutput": "声音观察地图与一分钟解说稿",
+      "limits": "原作音频不是免费再分发素材；声音相似不等于物种亲缘关系。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://experiments.withgoogle.com/bird-sounds"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "声音观察地图与一分钟解说稿"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/bird-sounds",
+        "alt": "听相似鸟鸣，为声音地图写一段探索解说：官方演示配图",
+        "credit": "Manny Tan、Kyle McDonald、Yotam Mann 与 Google Creative Lab",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "pattern-radio",
+      "title": "把鲸歌时间轴变成海洋声音观察日记",
+      "date": "2019-06",
+      "originalDate": "2019-06",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "NOAA 与 Google Creative Lab",
+      "category": "教学应用",
+      "categories": [
+        "教学应用"
+      ],
+      "summary": "项目用音频可视化与AI帮助公众探索大量座头鲸录音。",
+      "play": "项目用音频可视化与AI帮助公众探索大量座头鲸录音。",
+      "tools": [
+        "Pattern Radio",
+        "TensorFlow",
+        "Web Audio API"
+      ],
+      "reproduce": "教师选取短时间窗，孩子先描述听到的重复模式，再查看可视化；把观察与猜测分栏记录。",
+      "education": "鲸歌观察日记与标注时间轴",
+      "expectedOutput": "鲸歌观察日记与标注时间轴",
+      "limits": "不能从图像或声音猜出鲸的情绪、意图；原平台和课堂迁移本次未实测。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://experiments.withgoogle.com/patternradio"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "教学应用",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "鲸歌观察日记与标注时间轴"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/patternradio",
+        "alt": "把鲸歌时间轴变成海洋声音观察日记：官方演示配图",
+        "credit": "NOAA 与 Google Creative Lab",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "textfx",
+      "title": "让AI只给比喻和视角，不替你写完整故事",
+      "date": "2023-08-02",
+      "originalDate": "2023-08-02",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Lupe Fiasco 与 Google Lab Sessions",
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "summary": "真实工具把创作拆成比喻、联想链、不同视角等小任务，源于与创作者的合作。",
+      "play": "真实工具把创作拆成比喻、联想链、不同视角等小任务，源于与创作者的合作。",
+      "tools": [
+        "TextFX",
+        "原项目PaLM 2",
+        "教师批准的文本工具"
+      ],
+      "reproduce": "先写自己的互助故事开头，再只请求三种比喻或角色视角，学生挑选、修改并解释不采用的建议。",
+      "education": "原稿、候选比喻与有理由的修订稿",
+      "expectedOutput": "原稿、候选比喻与有理由的修订稿",
+      "limits": "中文迁移与课堂成效未实测；历史模型和API不代表当前服务。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://developers.googleblog.com/how-its-made-textfx-is-a-suite-of-ai-tools-made-in-collaboration-with-lupe-fiasco/"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "原稿、候选比喻与有理由的修订稿"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://developers.googleblog.com/how-its-made-textfx-is-a-suite-of-ai-tools-made-in-collaboration-with-lupe-fiasco/",
+        "alt": "让AI只给比喻和视角，不替你写完整故事：官方演示配图",
+        "credit": "Lupe Fiasco 与 Google Lab Sessions",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "verse-by-verse",
+      "title": "保留自己的第一句，挑选或拒绝AI续诗",
+      "date": "2020-11-23",
+      "originalDate": "2020-11-23",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Dave Uthus / Google AI",
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "summary": "原实验在用户写第一句后提供下一句候选，作者可以拒绝、修改或继续自己写，完成后可保存诗图。",
+      "play": "原实验在用户写第一句后提供下一句候选，作者可以拒绝、修改或继续自己写，完成后可保存诗图。",
+      "tools": [
+        "Verse by Verse历史演示",
+        "纸笔",
+        "教师批准的文本工具"
+      ],
+      "reproduce": "用“朋友递来一把伞”为自写首句，让教师准备三条续句，孩子解释哪条更贴合真实感受，再完成自己的四行诗。",
+      "education": "带选择理由的四行诗卡",
+      "expectedOutput": "带选择理由的四行诗卡",
+      "limits": "官方确认原实验2025年10月关闭；仅参考协作机制，不作为在用工具推荐。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://blog.google/innovation-and-ai/products/verse-by-verse/"
+        },
+        {
+          "label": "官方2025年10月关闭公告",
+          "url": "https://research.google.com/semanticexperiences/about.html"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "带选择理由的四行诗卡"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://blog.google/innovation-and-ai/products/verse-by-verse/",
+        "alt": "保留自己的第一句，挑选或拒绝AI续诗：官方演示配图",
+        "credit": "Dave Uthus / Google AI",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "infinite-wonderland",
+      "title": "比较同一故事句子的四种视觉解读",
+      "date": "2024-05-14",
+      "originalDate": "2024-05-14",
+      "dateNote": "历史案例；原日期按来源保留到日或月，不以核验日充当发布日期。",
+      "author": "Eric Hu、Shawna X、Erik Carter、Haruko Hayakawa 与 Google Creative Lab",
+      "category": "图像设计",
+      "categories": [
+        "图像设计"
+      ],
+      "summary": "艺术家用自己的原创图训练Imagen 2风格，给《爱丽丝梦游仙境》的句子生成不同视觉解释。",
+      "play": "艺术家用自己的原创图训练Imagen 2风格，给《爱丽丝梦游仙境》的句子生成不同视觉解释。",
+      "tools": [
+        "Imagen 2",
+        "StyleDrop",
+        "官方案例页面"
+      ],
+      "reproduce": "教育工作者比较同一句文字的构图差异，再以自己拥有权利的故事与图像设计示范；儿童课堂仅参考方法，不操作该服务。",
+      "education": "教师视觉解读对照板",
+      "expectedOutput": "教师视觉解读对照板",
+      "limits": "官方明确18+；不建议儿童直接使用，也不模仿未经同意的在世艺术家个人风格。 中国大陆访问、账户条件和本刊课堂迁移未实测。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "官方原项目与演示",
+          "url": "https://blog.google/innovation-and-ai/products/google-ai-imagen-2-alices-adventures-in-wonderland/"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "真实已公开项目；官方演示；课堂迁移为编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "教师视觉解读对照板"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://blog.google/innovation-and-ai/products/google-ai-imagen-2-alices-adventures-in-wonderland/",
+        "alt": "比较同一故事句子的四种视觉解读：官方演示配图",
+        "credit": "Eric Hu、Shawna X、Erik Carter、Haruko Hayakawa 与 Google Creative Lab",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "官方项目示例，不是课堂效果证明。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "palette-deck-workflow",
+      "title": "Palette：先写设计简报，再生成并检查幻灯片",
+      "date": "2026-11-03",
+      "originalDate": "2026-11-03",
+      "dateNote": "原文发布2026-11-03；研究演示，不将研究系统描述为已上线课堂工具。",
+      "author": "Praveen Venkateswaran、Anupama Murthi、Hamid Adebayo / IBM Research",
+      "category": "Agent自动化",
+      "categories": [
+        "Agent自动化"
+      ],
+      "summary": "IBM Research展示由设计者生成结构化简报、编码者生成PptxGenJS幻灯片、检查器检测并修复重叠溢出的流程。",
+      "play": "IBM Research展示由设计者生成结构化简报、编码者生成PptxGenJS幻灯片、检查器检测并修复重叠溢出的流程。",
+      "tools": [
+        "Palette研究模型",
+        "PptxGenJS",
+        "渲染与几何检查器"
+      ],
+      "reproduce": "迁移建议：教师提供三页科学讲解的已核实事实，先批准内容与版式简报，再生成幻灯片；逐页检查事实、文字溢出和图示表达，保留前后对照。",
+      "education": "三页讲解幻灯片、设计简报与纠错记录",
+      "expectedOutput": "三页讲解幻灯片、设计简报与纠错记录",
+      "limits": "作者研究演示，不等于已公开可直接使用的教学产品；模型权重/服务开放状态未核，本刊未运行。不能把自动几何检查当作事实正确性保证。",
+      "difficulty": "进阶：需要代码与渲染环境",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "IBM Research作者原文，2026-11-03",
+          "url": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "一手项目说明；课堂迁移为编辑建议，未实测",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "Agent自动化",
+        "本周案例"
+      ],
+      "timeLayer": "本周案例",
+      "freshness": "本周案例 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "三页讲解幻灯片、设计简报与纠错记录"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+        "alt": "Palette：先写设计简报，再生成并检查幻灯片：原作图示入口",
+        "credit": "Praveen Venkateswaran、Anupama Murthi、Hamid Adebayo / IBM Research",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "原文配图/节目图示入口；未核复用许可，不嵌入新图。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "maro-watercolor-ai-animation",
+      "title": "MARO：从原创水彩作品延伸出AI辅助动画",
+      "date": "2026-11-04",
+      "originalDate": "2026-11-04",
+      "dateNote": "2026-11-04为官网排期的放映日期，不是影片首发日期；页面发布日期未标。",
+      "author": "Anatomic Alchemy；节目来源 MAD Arts / FLIFF",
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "summary": "作者在电影节节目页说明，影片从自己的水彩和混合媒介作品出发，以AI辅助动画和补充生成影像构建叙事。",
+      "play": "作者在电影节节目页说明，影片从自己的水彩和混合媒介作品出发，以AI辅助动画和补充生成影像构建叙事。",
+      "tools": [
+        "原创水彩/混合媒介作品",
+        "AI辅助动画工具（原文未具名）"
+      ],
+      "reproduce": "迁移建议：教师用自有画作制作10秒片段，先写镜头、动作和必须保留的视觉元素，再生成动画并记录哪些细节漂移；不需仿制原片。",
+      "education": "自有画作、镜头计划、动画短片与细节一致性对照",
+      "expectedOutput": "自有画作、镜头计划、动画短片与细节一致性对照",
+      "limits": "官网列入11月4日放映节目，不等同已核实活动实际举行。影片首发日未知，原文未披露工具。哥特题材未核年龄分级，教师先筛选，不直接推荐幼儿观看；课堂方案未实测。",
+      "difficulty": "中阶：教师演示与逐帧检查",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "MAD Arts官方节目与作者创作说明",
+          "url": "https://www.yeswearemadarts.com/calendar-events/fliffshorts-the-digital-canvas"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "一手项目说明；课堂迁移为编辑建议，未实测",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "故事视频",
+        "本周案例"
+      ],
+      "timeLayer": "本周案例",
+      "freshness": "本周案例 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "自有画作、镜头计划、动画短片与细节一致性对照"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://www.yeswearemadarts.com/calendar-events/fliffshorts-the-digital-canvas",
+        "alt": "MARO：从原创水彩作品延伸出AI辅助动画：原作图示入口",
+        "credit": "Anatomic Alchemy；节目来源 MAD Arts / FLIFF",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "原文配图/节目图示入口；未核复用许可，不嵌入新图。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      }
+    },
+    {
+      "id": "panoptic-tours",
+      "title": "Panoptic Tours：用每个人拍到的物品共同推进故事",
+      "date": "2026-10-15",
+      "originalDate": "2026-10-15",
+      "dateNote": "原作画廊审核2026-10-15；本周跟进文章2026-11-05；不包装成新上线。",
+      "author": "sndrv（荷兰）",
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "summary": "参与者以手机照片贡献故事元素，AI将不同视角织入共同叙事。艺术家描述了初次活动测试；本周主办方专题再次介绍。",
+      "play": "参与者以手机照片贡献故事元素，AI将不同视角织入共同叙事。艺术家描述了初次活动测试；本周主办方专题再次介绍。",
+      "tools": [
+        "Panoptic Tours",
+        "手机相机",
+        "多模态AI（原文未具名）"
+      ],
+      "reproduce": "迁移建议：教师先收集不含人脸和个人信息的物品照片，由同学分别写下想表达的意图，再由教师代操作串成故事，核对是否保留了每个人的选择；也可用纸卡先演练。",
+      "education": "多人故事、照片贡献清单与意图保留核对表",
+      "expectedOutput": "多人故事、照片贡献清单与意图保留核对表",
+      "limits": "2026-10-15是画廊审核日期，不是精确首发日期。初测效果为作者自述；本刊访问应用入口失败，不能承诺当前可运行。年龄、隐私与上传条件未核，未实测，不上传未成年人信息。",
+      "difficulty": "教师引导",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "艺术家参展项目说明与原作入口",
+          "url": "https://conveneo.eu/artprize/gallery/CHA-5BB41A2C"
+        },
+        {
+          "label": "主办方2026-11-05专题跟进（非获奖结果）",
+          "url": "https://conveneo.eu/artprize/blog/what-ai-art-is-teaching-us-about-being-human"
+        },
+        {
+          "label": "应用入口（本次无法读取）",
+          "url": "https://panoptic-tours.lovable.app/"
+        }
+      ],
+      "firstSeen": "2026-11-09",
+      "firstIssue": "006",
+      "relatedIssues": [
+        "006"
+      ],
+      "verifiedAt": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "tested": false,
+      "evidenceType": "一手项目说明；课堂迁移为编辑建议，未实测",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第006期首次收录",
+      "reproductionStatus": "原项目真实存在；本刊未实测；具体限制见条目",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "多人故事、照片贡献清单与意图保留核对表"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://conveneo.eu/artprize/gallery/CHA-5BB41A2C",
+        "alt": "Panoptic Tours：用每个人拍到的物品共同推进故事：原作图示入口",
+        "credit": "sndrv（荷兰）",
+        "publicReuseCleared": false,
+        "rightsStatus": "官方配图公开复用许可未独立确认；本期只给原作入口。",
+        "availability": "原作入口已核；不嵌入未获许可新图",
+        "evidenceNote": "原文配图/节目图示入口；未核复用许可，不嵌入新图。 新图公开复用许可未核实，本版仅提供原作入口。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
     }
   ],
   "schemaVersion": 2,
-  "asOf": "2026-11-02",
-  "editionNote": "第003期私人审阅版",
+  "asOf": "2026-11-09",
+  "editionNote": "第006期用户确认发布版",
   "categoryOrder": [
     "图像设计",
     "故事视频",

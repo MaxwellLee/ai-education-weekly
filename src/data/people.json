@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-02",
+  "checkedAt": "2026-11-09",
   "title": "公众人物档案",
-  "rightsNotice": "第002期7/10位有真实来源低清头像，3位因可靠照片不可取得保留明确缺图说明；公开复用许可未确认。",
+  "rightsNotice": "历史已发布档案保留原来源与权利说明；第006期10位人物均仅提供真实照片来源入口，不新增公开转载未核许可的头像。资料核对日逐人注明。",
   "editorialNotice": "简介记录专业身份；代表成果包括研究、著作、项目和教学实践，未按名气排序。关注理由为编者判断。",
   "items": [
     {
@@ -4439,9 +4439,626 @@
         "rightsStatus": "仅私人预览；图像版权归原权利人，公开转载许可未核实。",
         "evidenceNote": "人物官方资料页获取503；采用其所属机构现行官网品牌标识，不推断人物相貌。2026-11-08获取。"
       }
+    },
+    {
+      "id": "p006-chris-phillips",
+      "name": "Chris Phillips",
+      "identity": "Google 教育副总裁兼总经理",
+      "bio": [
+        "Google 教育及地理产品负责人；过往领导 Maps、Waze 等地理产品组合。"
+      ],
+      "contributions": [
+        {
+          "title": "LearnLM 塞拉利昂试验的领导支持（2026）",
+          "text": "2026-05-15 技术报告致谢将其列为提供领导与支持的负责人之一；不是报告主笔，不把试验结果归作个人研究成果。",
+          "period": "2026-05-15",
+          "source": {
+            "title": "LearnLM 塞拉利昂试验的领导支持（2026）",
+            "url": "https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "LearnLM 塞拉利昂试验的领导支持（2026）",
+              "url": "https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "关注产品规模化负责人如何把课堂证据、安全开关和教师选择落实到部署。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "本人署名或机构明确归属报道",
+          "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "LearnLM 塞拉利昂试验的领导支持（2026）",
+          "url": "https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://asugsvsummit.com/speakers/chris-phillips",
+        "credit": "ASU+GSV 官方嘉宾页；摄影者未注明",
+        "publicReuseCleared": false,
+        "rightsStatus": "来源公开不等于转载授权；仅私人预览，公开复用许可待核。；公开复用许可未确认",
+        "imageUrl": "https://cdn.prod.website-files.com/5de98c06bb83ab1e27fc1c95/69c01f17fc8d116468a545fb_Chris%20Phillips%20(1)-p-500.jpg",
+        "alt": "Chris Phillips的真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。",
+        "processing": "仅等比例缩小和JPEG压缩；无生成或身份推断",
+        "displayContext": "人物背景资料中的来源照片；不表示本人背书。"
+      }
+    },
+    {
+      "id": "p006-sofie-cornelis",
+      "name": "Sofie Cornelis",
+      "identity": "Google for Education 高级产品经理",
+      "bio": [
+        "Google for Education 高级产品经理，参与 Classroom 与 Gemini 的教师主导学习流程。"
+      ],
+      "contributions": [
+        {
+          "title": "ISTE 2026 产品演示与集成工作",
+          "text": "本人公开回顾与 Kristi Krulcik 联合登台演示，并列举 Classroom 与 NotebookLM、Gemini、Guided Learning 集成工作；这是本人实践记录，非独立效果认证。",
+          "period": "ISTE 2026；页面只显示相对时间，未推算具体日期",
+          "source": {
+            "title": "ISTE 2026 产品演示与集成工作",
+            "url": "https://www.linkedin.com/posts/sofiecornelis_wrapping-up-an-incredible-week-at-iste-2026-activity-7480318357288726531-HA7X",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "ISTE 2026 产品演示与集成工作",
+              "url": "https://www.linkedin.com/posts/sofiecornelis_wrapping-up-an-incredible-week-at-iste-2026-activity-7480318357288726531-HA7X",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "跟踪课程材料、教师布置任务与学习数据反馈能否连成可用流程。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "本人署名或机构明确归属报道",
+          "url": "https://blog.google/products-and-platforms/products/education/guided-learning-uk-japan/",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "ISTE 2026 产品演示与集成工作",
+          "url": "https://www.linkedin.com/posts/sofiecornelis_wrapping-up-an-incredible-week-at-iste-2026-activity-7480318357288726531-HA7X",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://blog.google/products-and-platforms/products/education/guided-learning-uk-japan/",
+        "credit": "暂无可核验单人头像",
+        "publicReuseCleared": false,
+        "rightsStatus": "头像未取得，明确缺失，不使用AI造脸。；公开复用许可未确认",
+        "imageUrl": null,
+        "alt": "Sofie Cornelis真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。"
+      }
+    },
+    {
+      "id": "p006-asha-johnson",
+      "name": "Asha Johnson",
+      "identity": "Google DeepMind 产品经理",
+      "bio": [
+        "Google DeepMind 产品经理，参与 LearnLM 教育工作。"
+      ],
+      "contributions": [
+        {
+          "title": "塞拉利昂 Guided Learning 研究核心贡献者",
+          "text": "2026-05-15 官方技术报告第8页将其列入 Google 团队核心贡献者；名单按字母排序，未披露她的具体分工，不能称其为试验负责人。",
+          "period": "2026-05-15",
+          "source": {
+            "title": "塞拉利昂 Guided Learning 研究核心贡献者",
+            "url": "https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "塞拉利昂 Guided Learning 研究核心贡献者",
+              "url": "https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "关注教育产品经理如何连接学习科学、真实课堂试验和产品发布。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "本人署名或机构明确归属报道",
+          "url": "https://blog.google/products-and-platforms/products/education/guided-learning-uk-japan/",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "塞拉利昂 Guided Learning 研究核心贡献者",
+          "url": "https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://blog.google/products-and-platforms/products/education/guided-learning-uk-japan/",
+        "credit": "暂无可核验单人头像",
+        "publicReuseCleared": false,
+        "rightsStatus": "头像未取得，明确缺失，不使用AI造脸。；公开复用许可未确认",
+        "imageUrl": null,
+        "alt": "Asha Johnson真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。"
+      }
+    },
+    {
+      "id": "p006-jennie-magiera",
+      "name": "Jennie Magiera",
+      "identity": "Google 全球教育影响负责人",
+      "bio": [
+        "Google 全球教育影响负责人，曾任芝加哥公立学校教师；长期关注教师专业学习和课堂创新。"
+      ],
+      "contributions": [
+        {
+          "title": "《Courageous Edventures》（2016）",
+          "text": "著作围绕教育技术、课堂创新与教师实践；出版社作者资料同时记载其参与美国2016年国家教育技术计划技术工作组。",
+          "period": "2016",
+          "source": {
+            "title": "《Courageous Edventures》（2016）",
+            "url": "https://corwin-connect.com/author/jenniemagiera/",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "《Courageous Edventures》（2016）",
+              "url": "https://corwin-connect.com/author/jenniemagiera/",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "关注培训能否转化为教师可执行的课堂活动，而不仅是工具介绍。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "本人署名或机构明确归属报道",
+          "url": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026/",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "《Courageous Edventures》（2016）",
+          "url": "https://corwin-connect.com/author/jenniemagiera/",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://corwin-connect.com/author/jenniemagiera/",
+        "credit": "暂无可核验单人头像",
+        "publicReuseCleared": false,
+        "rightsStatus": "头像未取得，明确缺失，不使用AI造脸。；公开复用许可未确认",
+        "imageUrl": "https://us.corwin.com/sites/default/files/upm-binaries/711947_author_photo.jpg",
+        "alt": "Jennie Magiera真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。"
+      }
+    },
+    {
+      "id": "p006-dan-fitzpatrick",
+      "name": "Dan Fitzpatrick",
+      "identity": "The AI Educator 作者、演讲者及AI培训与战略顾问（依据本人官网）",
+      "bio": [
+        "人工智能教育作者、演讲者与培训顾问，以 The AI Educator 开展教师培训及学校人工智能战略支持。",
+        "其工作聚焦课堂应用、教育领导力与技术采用中的安全治理。"
+      ],
+      "contributions": [
+        {
+          "title": "合著《The AI Classroom》",
+          "text": "与 Amanda Fox、Brad Weinstein 合著，整理教育者可用的AI策略、工具与应用框架。",
+          "period": null,
+          "source": {
+            "title": "作者官网：The Books 栏目",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "作者官网：The Books 栏目",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "The AI Classroom 官方书站",
+              "url": "https://www.theaiclassroom.net/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        },
+        {
+          "title": "《Infinite Education》",
+          "text": "面向教育领导者提出AI时代推动学校变革的四步策略，重点是组织与教学转变，而非仅罗列新工具。",
+          "period": null,
+          "source": {
+            "title": "作者官网：Infinite Education 介绍",
+            "url": "https://theaieducator.io/",
+            "source_type": "一手来源",
+            "checked_on": "2026-10-06"
+          },
+          "sources": [
+            {
+              "title": "作者官网：Infinite Education 介绍",
+              "url": "https://theaieducator.io/",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            },
+            {
+              "title": "作者官网：Infinite Education 书籍介绍文件",
+              "url": "https://www.theaieducator.io/_files/ugd/28e2c0_40c9f1ea90a44108a2b824c93118da03.pdf",
+              "source_type": "一手来源",
+              "checked_on": "2026-10-06"
+            }
+          ],
+          "evidenceNote": "项目、著作或公开实践记录，不将介绍或愿景当作已验证学习成效。"
+        }
+      ],
+      "followReason": "适合跟进一线教师能理解的AI实践与学校采用建议；具体成效仍需结合独立证据判断。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-10-26",
+      "profileSources": [
+        {
+          "title": "Dan Fitzpatrick 官方网站",
+          "url": "https://theaieducator.io/",
+          "source_type": "一手来源",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "title": "本期核对来源",
+          "url": "https://blog.aieducator.tools/about",
+          "source_type": "本人或机构一手来源",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.theaiclassroom.net/",
+        "credit": "来源：The AI Classroom 官方团队页；页面未注明摄影者",
+        "alt": "Dan Fitzpatrick的真实人物照片（官方来源）",
+        "processing": "等比例缩小至最长边不超过300px；JPEG压缩；无生成、修饰或身份推断",
+        "imageUrl": null,
+        "publicReuseCleared": false,
+        "rightsStatus": "图像版权归原权利人；公开转载许可未确认。",
+        "displayContext": "随人物背景介绍展示既有低分辨率来源照片；不表示本人或来源机构背书。",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。"
+      },
+      "canonicalPersonId": "person-dan-fitzpatrick"
+    },
+    {
+      "id": "p006-ursula-von-der-leyen",
+      "name": "Ursula von der Leyen",
+      "identity": "欧盟委员会主席",
+      "bio": [
+        "自2019年起任欧盟委员会主席；2024年开始第二个任期。"
+      ],
+      "contributions": [
+        {
+          "title": "2019–2024 欧盟委员会工作",
+          "text": "其领导的委员会推出欧洲绿色协议等政策，并组织疫情与危机应对。此处是官方机构回顾中的领导角色，不把欧盟集体政策归为个人独立成果。",
+          "period": "2019–2024",
+          "source": {
+            "title": "2019–2024 欧盟委员会工作",
+            "url": "https://ec.europa.eu/stories/von-der-Leyen-Commission-2019-2024/",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "2019–2024 欧盟委员会工作",
+              "url": "https://ec.europa.eu/stories/von-der-Leyen-Commission-2019-2024/",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "关注欧盟如何将AI、基础能力和教师支持转化为政策与资源安排。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "本人署名或机构明确归属报道",
+          "url": "https://cna.org.cy/en/press_releases/article/11147217/en?lang=EN",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "2019–2024 欧盟委员会工作",
+          "url": "https://ec.europa.eu/stories/von-der-Leyen-Commission-2019-2024/",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://commission.europa.eu/about/organisation/president_en",
+        "credit": "暂无可核验单人头像",
+        "publicReuseCleared": false,
+        "rightsStatus": "头像未取得，明确缺失，不使用AI造脸。；公开复用许可未确认",
+        "imageUrl": null,
+        "alt": "Ursula von der Leyen真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。"
+      }
+    },
+    {
+      "id": "p006-john-lee",
+      "name": "李子建",
+      "identity": "香港教育大学校长",
+      "bio": [
+        "香港教育大学校长、课程与教学讲座教授；研究涉及课程、教师发展与学校改进。"
+      ],
+      "contributions": [
+        {
+          "title": "世界银行越南教师教育顾问项目",
+          "text": "2017年教大受委任支持越南教师专业发展，李子建担任专家顾问团队总监；团队协助八所师范大学，属于团队项目。",
+          "period": "2017–2018",
+          "source": {
+            "title": "世界银行越南教师教育顾问项目",
+            "url": "https://p-blog.eduhk.hk/zht/press-releases/eduhk-becomes-world-bank-consultant-to-promote-teachers-professional-development-in-vietnam",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "世界银行越南教师教育顾问项目",
+              "url": "https://p-blog.eduhk.hk/zht/press-releases/eduhk-becomes-world-bank-consultant-to-promote-teachers-professional-development-in-vietnam",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "关注教育领导与跨地区教师发展经验如何转入AI时代。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "本人署名或机构明确归属报道",
+          "url": "https://www.eduhk.hk/zht/campus-news/eduhk-hosts-the-third-global-heads-forum-in-education-to-advance-educational-leadership-in-the-ai-era",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "世界银行越南教师教育顾问项目",
+          "url": "https://p-blog.eduhk.hk/zht/press-releases/eduhk-becomes-world-bank-consultant-to-promote-teachers-professional-development-in-vietnam",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.eduhk.hk/zht/experts/professor-lee-chi-kin-john",
+        "credit": "香港教育大学学者页；摄影者未注明",
+        "publicReuseCleared": false,
+        "rightsStatus": "来源公开不等于转载授权；仅私人预览，公开复用许可待核。；公开复用许可未确认",
+        "imageUrl": "https://www.eduhk.hk/cms/f/expert/14235/360c480/Prof%20John%20Lee_720.jpg",
+        "alt": "李子建的真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。",
+        "processing": "仅等比例缩小和JPEG压缩；无生成或身份推断",
+        "displayContext": "人物背景资料中的来源照片；不表示本人背书。"
+      }
+    },
+    {
+      "id": "p006-zheng-guocheng",
+      "name": "郑国城",
+      "identity": "香港教育大学教学科技中心总监",
+      "bio": [
+        "香港教育大学教学科技中心总监，从事教育科技与学习反馈相关工作。"
+      ],
+      "contributions": [
+        {
+          "title": "学生回应教师评语自动化追踪系统",
+          "text": "教大获奖项目清单列郑国城负责的系统获2019年美国矽谷国际发明节银奖；获奖记录并非学习效果的随机试验证据。",
+          "period": "2019",
+          "source": {
+            "title": "学生回应教师评语自动化追踪系统",
+            "url": "https://www.eduhk.hk/KnowledgeTransfer/tc/Innovation-Showcase/International-Recognitions/Silicon-Valley-International-Invention-Festival-Sviif.html",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "学生回应教师评语自动化追踪系统",
+              "url": "https://www.eduhk.hk/KnowledgeTransfer/tc/Innovation-Showcase/International-Recognitions/Silicon-Valley-International-Invention-Festival-Sviif.html",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "跟踪自动化反馈、具身AI和教学技术从实验到课程的连接。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "本人署名或机构明确归属报道",
+          "url": "https://www.eduhk.hk/zht/campus-news/eduhk-hosts-symposium-on-embodied-ai-and-humanoid-robots-in-future-education",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "学生回应教师评语自动化追踪系统",
+          "url": "https://www.eduhk.hk/KnowledgeTransfer/tc/Innovation-Showcase/International-Recognitions/Silicon-Valley-International-Invention-Festival-Sviif.html",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.eduhk.hk/zht/campus-news/eduhk-hosts-symposium-on-embodied-ai-and-humanoid-robots-in-future-education",
+        "credit": "香港教育大学；原图说明明确标识欢迎辞发言人为郑国城；摄影者未注明",
+        "publicReuseCleared": false,
+        "rightsStatus": "来源公开不等于转载授权；仅私人预览，公开复用许可待核。；公开复用许可未确认",
+        "imageUrl": "https://www.eduhk.hk/cms/f/gallery/35151/462p345/PR_PH02_Welcome.jpg",
+        "alt": "郑国城的真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。",
+        "processing": "仅等比例缩小和JPEG压缩；无生成或身份推断",
+        "displayContext": "人物背景资料中的来源照片；不表示本人背书。"
+      }
+    },
+    {
+      "id": "p006-yu-yingjie",
+      "name": "于英杰",
+      "identity": "北京市委常委、教育工委书记",
+      "bio": [
+        "北京市委常委、教育工委书记，工学博士；曾任中科院微小卫星创新研究院院长。"
+      ],
+      "contributions": [
+        {
+          "title": "微小卫星创新研究院的科研组织工作",
+          "text": "2018-02-13 中科院报道记录其作为院长汇报卫星项目及在轨运行。报道中卫星发射成绩属于全院团队，不能当作其个人研发成果。",
+          "period": "2018-02-13",
+          "source": {
+            "title": "微小卫星创新研究院的科研组织工作",
+            "url": "https://microsate.cas.cn/xwzx/zhxw/202111/t20211116_6256384.html",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "微小卫星创新研究院的科研组织工作",
+              "url": "https://microsate.cas.cn/xwzx/zhxw/202111/t20211116_6256384.html",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "关注教育政策如何区别学段与学生认知、自主管理能力，避免统一套用AI。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "机构明确归属报道",
+          "url": "https://www.bjesr.cn/jdxw/2026-11-06/55302.html",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "微小卫星创新研究院的科研组织工作",
+          "url": "https://microsate.cas.cn/xwzx/zhxw/202111/t20211116_6256384.html",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.beijing.gov.cn/gongkai/sld/swld/swcw/202312/t20231228_3516463.html",
+        "credit": "北京市政府人物简历页；摄影者未注明",
+        "publicReuseCleared": false,
+        "rightsStatus": "来源公开不等于转载授权；仅私人预览，公开复用许可待核。；公开复用许可未确认",
+        "imageUrl": "https://www.beijing.gov.cn/gongkai/sld/swld/swcw/202312/W020231228340531257469.jpg",
+        "alt": "于英杰的真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。",
+        "processing": "仅等比例缩小和JPEG压缩；无生成或身份推断",
+        "displayContext": "人物背景资料中的来源照片；不表示本人背书。"
+      }
+    },
+    {
+      "id": "p006-houda-bouamor",
+      "name": "Houda Bouamor",
+      "identity": "卡内基梅隆大学卡塔尔分校信息系统领域负责人、教学副教授",
+      "bio": [
+        "卡内基梅隆大学卡塔尔分校信息系统领域负责人、教学副教授；从事阿拉伯语及方言自然语言处理。"
+      ],
+      "contributions": [
+        {
+          "title": "MADAR 阿拉伯方言语料库与词典",
+          "text": "2018年 LREC 论文第一署名作者，联合多位研究者发表多方言语言资源；是团队研究，不是个人独立成果。",
+          "period": "2018-05",
+          "source": {
+            "title": "MADAR 阿拉伯方言语料库与词典",
+            "url": "https://aclanthology.org/L18-1535/",
+            "source_type": "一手来源",
+            "checked_on": "2026-11-09"
+          },
+          "sources": [
+            {
+              "title": "MADAR 阿拉伯方言语料库与词典",
+              "url": "https://aclanthology.org/L18-1535/",
+              "source_type": "一手来源",
+              "checked_on": "2026-11-09"
+            }
+          ],
+          "evidenceNote": "团队工作或作品记录，不等同独立验证的教育成效。"
+        }
+      ],
+      "followReason": "关注非英语语言资源、负责任AI及教师AI素养的结合。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-09",
+      "profileSources": [
+        {
+          "title": "机构明确归属报道",
+          "url": "https://www.qatar.cmu.edu/news/houda-bouamor-unesco-responsible-ai-arabic-language-models/",
+          "checked_on": "2026-11-09"
+        },
+        {
+          "title": "MADAR 阿拉伯方言语料库与词典",
+          "url": "https://aclanthology.org/L18-1535/",
+          "source_type": "一手来源",
+          "checked_on": "2026-11-09"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.andrew.cmu.edu/user/hbouamor/",
+        "credit": "CMU 本人学术网页；摄影者未注明",
+        "publicReuseCleared": false,
+        "rightsStatus": "来源公开不等于转载授权；仅私人预览，公开复用许可待核。；公开复用许可未确认",
+        "imageUrl": "https://www.andrew.cmu.edu/user/hbouamor/img/h.jpg",
+        "alt": "Houda Bouamor的真实人物照片",
+        "missingReason": "本期公开版仅保留真实照片来源入口；尚未确认可公开复用许可，不转载。",
+        "processing": "仅等比例缩小和JPEG压缩；无生成或身份推断",
+        "displayContext": "人物背景资料中的来源照片；不表示本人背书。"
+      }
     }
   ],
   "schemaVersion": 1,
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-09",
   "publicationStatus": "public-edition"
 }
