@@ -21,6 +21,8 @@ def news(item):
 def portrait(profile):
  im=profile['portrait'];p=im.get('path');name=profile['name'];image_label='相关官方配图' if im.get('imageKind')=='reference' else '照片'
  if not p:
+  if profile['id'].startswith(('p007-', 'p008-')):
+   return '<span class="portrait-placeholder" aria-label="'+E(name+'：暂缺头像')+'"><span>暂缺头像</span></span>'
   direct=im.get('imageUrl')
   link=direct if direct and direct.startswith('https://') else im['sourcePage']
   label='查看原始肖像' if direct else '查看人物资料'
