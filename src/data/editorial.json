@@ -580,6 +580,12 @@
           "version": "008-public",
           "type": "公开发布",
           "summary": "发布完成的周刊正文和创意条目；新增图片与头像只保留原作或人物资料链接。"
+        },
+        {
+          "date": "2026-11-25",
+          "version": "008-vibe-business",
+          "type": "专题补充",
+          "summary": "补录 10 个 Vibe Coding 作品、1 个原创练习和 AI 创收案例；原观察窗口不变。"
         }
       ],
       "factCorrections": [],

@@ -1,7 +1,7 @@
 {
   "cutoff": "2026-11-23T09:00:00+08:00",
   "title": "有趣实用AI创意精选",
-  "editorialNote": "保留至007期的96项；008新增10项，累计106项。原作日期与收录日期分开，历史灵感不作近期上新；新图仅提供原作入口。",
+  "editorialNote": "保留原106条；第008期补录10个真实 Vibe Coding 作品，共116条。原创动手建议不计入真实作品。",
   "imageRightsNote": "每项图片保留来源、署名及权利状态；未确认公开复用许可不表示已获转载授权。",
   "items": [
     {
@@ -9459,11 +9459,775 @@
       },
       "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
       "tested": false
+    },
+    {
+      "id": "vibe-yarn-planet",
+      "title": "毛线星球：走过的路会变成一根彩线",
+      "author": "Maker Jackie",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "2026-10-20",
+      "originalDate": "2026-10-20",
+      "dateNote": "原作时间与 11 月 25 日补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "互动游戏"
+      ],
+      "summary": "在铅笔速写风的 3D 小星球上走出彩线，把泉水牵到水车、把电送到灯塔；连接成功时，周围被颜色唤醒。",
+      "play": "从源点连到缺水、缺电的位置；线不够长就换更短的路。原作还可看到其他玩家。",
+      "reproduce": "只保留「点位相连 → 留下可分享作品」。用 Canvas 或 SVG 做三点连线，导出 PNG；不做 3D、联机或账户。",
+      "education": "选三个原创停歇点，让孩子或老师说出路线理由。示意场景不是实测候鸟地图。",
+      "tools": [
+        "原作用 Claude Code、Three.js；联机用 Cloudflare Durable Objects",
+        "轻量改编用 Work/Codex、Canvas 或 SVG"
+      ],
+      "uses": [
+        "个人账号作品展示",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；课堂迁移是可选建议，不代表原作适龄许可。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "原作试玩（未实测）",
+          "url": "https://yarn.ynot.games/"
+        },
+        {
+          "label": "作者仓库 / 玩法和许可",
+          "url": "https://github.com/makerjackie/yarn-planet"
+        },
+        {
+          "label": "作者中文制作笔记及提示",
+          "url": "https://github.com/makerjackie/yarn-planet/blob/main/docs/making-of.md"
+        },
+        {
+          "label": "作者 B 站演示",
+          "url": "https://www.bilibili.com/video/BV1xnJo69EHs/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-yarn.jpg",
+        "sourceUrl": "https://yarn.ynot.games/",
+        "sourcePage": "https://yarn.ynot.games/",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "AI 用于开发，不是每次玩都调用模型。代码 MIT，品牌、名称和预告配乐另计；正式改编用自己的视觉和名称。未经本刊实测。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "读取作者公开代码说明和图例；未现场试玩或部署。",
+      "evidenceType": "作者 README / 原始演示；改编是编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-type2build",
+      "title": "Type2Build：每输入对一个词，就点亮一栋楼",
+      "author": "diophung / WiGa",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "未核实首次公开日期",
+      "originalDate": "未核实首次公开日期",
+      "dateNote": "原作时间与 11 月 25 日补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "互动游戏"
+      ],
+      "summary": "作者的静态浏览器游戏用打字进度点亮灰色天际线：每完成一个词，随机区域上色；打错会扣时间。",
+      "play": "把输入、即时反馈和一轮结束时的统计都做成看得见的画面。",
+      "reproduce": "换成自己的词库和原创海报。第一版只做三个词，不做排行榜；为手机做大输入框，验证键盘弹出后还能看到进度。",
+      "education": "英语词汇热身可先取消倒计时；让学生选一个词来解释用途，避免只比速度。",
+      "tools": [
+        "原作自述用 Claude Code + Superpowers 协作",
+        "复刻可用静态 HTML、CSS、SVG"
+      ],
+      "uses": [
+        "个人账号作品展示",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；课堂迁移是可选建议，不代表原作适龄许可。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者仓库 / 玩法与原始截图",
+          "url": "https://github.com/diophung/chun-games#type2build"
+        },
+        {
+          "label": "原始游戏源码",
+          "url": "https://github.com/diophung/chun-games/blob/main/games/type2build.html"
+        },
+        {
+          "label": "原作者成品图",
+          "url": "https://github.com/diophung/chun-games/blob/main/docs/screenshots/type2build.png"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-type2build.jpg",
+        "sourceUrl": "https://github.com/diophung/chun-games#type2build",
+        "sourcePage": "https://github.com/diophung/chun-games#type2build",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "作者说明是 AI 协作开发；核心游戏为静态网页，不把代码开发工具当作成品联网模型。原作图可在作者页面查看，本刊不转载未知授权图。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "读取作者公开代码说明和图例；未现场试玩或部署。",
+      "evidenceType": "作者 README / 原始演示；改编是编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-felt",
+      "title": "Felt World：把开放世界做成毛毡模型",
+      "author": "az9713",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "2026（仓库版权年份；首次上线日未确认）",
+      "originalDate": "2026（仓库版权年份；首次上线日未确认）",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "互动游戏"
+      ],
+      "summary": "陆地、天空和海底共用一个编织材质世界；车驶进深水后变潜艇，玩家还可切换成鸟或海龟。",
+      "play": "陆地、天空和海底共用一个编织材质世界；车驶进深水后变潜艇，玩家还可切换成鸟或海龟。",
+      "reproduce": "先做一块能走动的地面，比较纯色与程序纹理的区别，不做交通或开放世界。",
+      "education": "体验设计可对比同一形状换不同表面材质。",
+      "tools": [
+        "Claude Code / Opus 5.5 + Three.js；材质与声音由代码生成"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://github.com/az9713/opus-5.5-open-world-game"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://az9713.github.io/opus-5.5-open-world-game/feltworld/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-felt.jpg",
+        "sourceUrl": "https://github.com/az9713/opus-5.5-open-world-game/blob/main/screenshots/underwater.jpg",
+        "sourcePage": "https://github.com/az9713/opus-5.5-open-world-game",
+        "credit": "az9713 · 作者成品截图，已缩放",
+        "alt": "az9713 · 作者成品截图，已缩放",
+        "rightsStatus": "仓库 MIT，保留版权与许可",
+        "publicReuseCleared": true,
+        "evidenceNote": "az9713 · 作者成品截图，已缩放",
+        "displayContext": "az9713 · 作者成品截图，已缩放",
+        "imageKind": "original",
+        "licenseUrl": "https://github.com/az9713/opus-5.5-open-world-game/blob/main/LICENSE",
+        "licenseName": "MIT"
+      },
+      "limits": "作者建议用桌面 Chrome，手机横屏；本刊未跑完整关卡，也不把模拟生物当科普。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-multiply",
+      "title": "Multiplication Buddies：错过的题会再回来",
+      "author": "Greg Stoll",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "未核实首次公开日期",
+      "originalDate": "未核实首次公开日期",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "教学应用"
+      ],
+      "summary": "选择动物伙伴、乘法范围和点击或键盘作答；没有倒计时，首答错误的题会在奖励轮再出现一次。",
+      "play": "选择动物伙伴、乘法范围和点击或键盘作答；没有倒计时，首答错误的题会在奖励轮再出现一次。",
+      "reproduce": "保留一个伙伴、一个题组、一次错题回练；先用纯文本和大按钮，记录首答而不是总尝试。",
+      "education": "适合让已学过乘法的孩子用自己的节奏练习；未验证教学成效。",
+      "tools": [
+        "Claude 对话记录可查；静态 HTML、CSS、JS、SVG 与 Web Audio"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://github.com/gregstoll/multiplication-game"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://gregstoll.com/multiplication/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-multiply.jpg",
+        "sourceUrl": "https://github.com/gregstoll/multiplication-game",
+        "sourcePage": "https://github.com/gregstoll/multiplication-game",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "作者在 README 链出 CHAT-LOG；工具用于开发，答题逻辑不依赖实时模型。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-kymo",
+      "title": "Kymograph：从信号猜隐藏规则",
+      "author": "Joey Salmons",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "未核实首次公开日期",
+      "originalDate": "未核实首次公开日期",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "互动游戏"
+      ],
+      "summary": "观察复古仪器上的信号变化，在错误额度用尽前，推理哪些规则把输入变成输出。",
+      "play": "观察复古仪器上的信号变化，在错误额度用尽前，推理哪些规则把输入变成输出。",
+      "reproduce": "只做两条波形，规则限反转与延时，让玩家解释为何排除另一条。",
+      "education": "可用于练习观察、提出假设与验证；别用动画速度代替推理。",
+      "tools": [
+        "作者合集说明用 Gemini 2.5 Pro 与 Claude Sonnet 4.5 起步；单页 HTML"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://github.com/JoeySalmons/vibe-coded-games#kymograph-v4"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://joeysalmons.github.io/vibe-coded-games/Kymograph%20v4.html"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-kymo.jpg",
+        "sourceUrl": "https://github.com/JoeySalmons/vibe-coded-games#kymograph-v4",
+        "sourcePage": "https://github.com/JoeySalmons/vibe-coded-games#kymograph-v4",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "合集记录为开发证据，不逐项猜测模型版本；优先桌面。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-drift",
+      "title": "Drift：把环境音与画面做成一个入口",
+      "author": "zexiro / Claude’s Corner",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "未核实首次公开日期",
+      "originalDate": "未核实首次公开日期",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "音乐声音"
+      ],
+      "summary": "用户选择声音场景，浏览器实时合成环境音与程序视觉，不必反复播放同一段音轨。",
+      "play": "用户选择声音场景，浏览器实时合成环境音与程序视觉，不必反复播放同一段音轨。",
+      "reproduce": "自己制作两种音色和一种慢动画；先实现显式播放／停止，再加心情切换。",
+      "education": "用相同画面配两种音色，对比叙事感受；默认静音。",
+      "tools": [
+        "作者自述由 Claude 编写；Web Audio、程序化视觉"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://github.com/zexiro/drift"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://drift.claudescorner.dev"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-drift.jpg",
+        "sourceUrl": "https://github.com/zexiro/drift",
+        "sourcePage": "https://github.com/zexiro/drift",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "程序化声音不等于实时调用大模型；本刊未实听各场景。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-pickle",
+      "title": "PicklePal：给匹克球新手的可点击原型",
+      "author": "Stephanie Liu",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "未核实首次公开日期",
+      "originalDate": "未核实首次公开日期",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "个性化体验"
+      ],
+      "summary": "把入门规则拆成短课与四周计划，并让用户体验与同水平球友匹配的产品流程。",
+      "play": "把入门规则拆成短课与四周计划，并让用户体验与同水平球友匹配的产品流程。",
+      "reproduce": "先做一个新手自评与三条练习建议，只用演示数据，不收集真实定位。",
+      "education": "用需求访谈检验初学者更想学规则、找人还是获得训练反馈。",
+      "tools": [
+        "作者作品集明确注明 Built with Claude"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://stephanie-liu.com/play"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://codingstephy.github.io/picklepal/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-pickle.jpg",
+        "sourceUrl": "https://stephanie-liu.com/play",
+        "sourcePage": "https://stephanie-liu.com/play",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "是可点击体验原型；不意味着真有球友、真实匹配系统或付费需求。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-sonovia",
+      "title": "Sonovia：把声音变成可见的反馈",
+      "author": "lakbychance",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "未核实首次公开日期",
+      "originalDate": "未核实首次公开日期",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "音乐声音"
+      ],
+      "summary": "作品把声音转成实时可见的反馈，适合先从一段内置或自有示例理解输入与反馈。",
+      "play": "作品把声音转成实时可见的反馈，适合先从一段内置或自有示例理解输入与反馈。",
+      "reproduce": "首先用模拟音频做音量条和暂停按钮，再决定是否真的需要麦克风。",
+      "education": "用音量与停顿给表达练习即时反馈，不给声音好坏打分。",
+      "tools": [
+        "作者仓库列 Bolt、Claude 与 Gemini 2.5 Pro"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://github.com/lakbychance/sonovia"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://sonovia.netlify.app/"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-sonovia.jpg",
+        "sourceUrl": "https://github.com/lakbychance/sonovia",
+        "sourcePage": "https://github.com/lakbychance/sonovia",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "未独立核实时音频实现与权限；未经同意不要录入人声，成品依赖与 AI 开发分开看。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-newton",
+      "title": "不经典力学 NEWTONignore：用改规则解谜",
+      "author": "诺米",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "2026-08-09（TapTap 测试页日期）",
+      "originalDate": "2026-08-09（TapTap 测试页日期）",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "互动游戏"
+      ],
+      "summary": "拖到目标不够，要动手改重力或弹性，让苹果到达指定位置。作品是故意让物理变得反常的谜题。",
+      "play": "拖到目标不够，要动手改重力或弹性，让苹果到达指定位置。作品是故意让物理变得反常的谜题。",
+      "reproduce": "二维场景只做同一颗球、一个目标和一个弹性滑杆；体验后用两轮记录对比。",
+      "education": "可用来讲一次只改一个变量；游戏里的规则不能当真实的物理定律。",
+      "tools": [
+        "TapTap 制造与 AI，见平台对创作者的采访"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://www.taptap.cn/moment/849257043985433519"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://www.taptap.cn/app/895312?os=android"
+        },
+        {
+          "label": "原作者成品图",
+          "url": "https://img2-tc.tapimg.com/moment/etag/a3e16c8a8a62cff374e3c5d220261dde.png/_tap_ugc.jpg"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-newton.jpg",
+        "sourceUrl": "https://www.taptap.cn/moment/849257043985433519",
+        "sourcePage": "https://www.taptap.cn/moment/849257043985433519",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "测试分发可能需要 TapTap 客户端；原商店有实图，本刊不转载未确认授权的图片。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
+    },
+    {
+      "id": "vibe-hajimi",
+      "title": "哈激咪：先画地图格子，再做成可玩的场景",
+      "author": "TapTap 原制作人（见开发日记）",
+      "firstIssue": "008",
+      "relatedIssues": [
+        "008"
+      ],
+      "date": "2026-07-15（开发日记）",
+      "originalDate": "2026-07-15（开发日记）",
+      "dateNote": "原作日期与 2026-11-25 补录日期分开。",
+      "firstSeen": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "category": "Vibe Coding 小作品",
+      "categories": [
+        "Vibe Coding 小作品",
+        "互动游戏"
+      ],
+      "summary": "作者先画格子规划路径，再让 AI 帮忙把布局转换成 Lua 地图。开发日记呈现了关卡怎么从图纸变成场景。",
+      "play": "作者先画格子规划路径，再让 AI 帮忙把布局转换成 Lua 地图。开发日记呈现了关卡怎么从图纸变成场景。",
+      "reproduce": "拿原创 6×6 网格做一个入口、两个岔路和一个终点，只测玩家会不会迷路。",
+      "education": "可做同桌互测：设计者先不解释，观察测试玩家走哪条路。",
+      "tools": [
+        "作者自述使用 TapTap 制造本地开发、Claude Code 与 DeepSeek V4 Pro"
+      ],
+      "uses": [
+        "创作参考",
+        "轻量 Vibe Coding 原型"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育",
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "stageBasis": "供成人复刻与展示；教育用途为编辑建议。",
+      "difficulty": "入门：只复刻一个机制",
+      "difficultyGroup": "入门",
+      "sources": [
+        {
+          "label": "作者过程 / 原始出处",
+          "url": "https://www.taptap.cn/moment/826479809533052291"
+        },
+        {
+          "label": "成品 / 可交互原型",
+          "url": "https://www.taptap.cn/app/876170"
+        },
+        {
+          "label": "原作者开发过程图",
+          "url": "https://img2-tc.tapimg.com/moment/etag/FlizKtT6SAKmoSeJ-G8ZrllSTv_d_20260715151817.png/_tap_ugc.jpg"
+        }
+      ],
+      "image": {
+        "localPath": "assets/creative-vibe-hajimi.jpg",
+        "sourceUrl": "https://www.taptap.cn/moment/826479809533052291",
+        "sourcePage": "https://www.taptap.cn/moment/826479809533052291",
+        "credit": "本刊绘制 · 机制示意，非原作截图",
+        "alt": "本刊绘制 · 机制示意，非原作截图",
+        "rightsStatus": "本刊原创机制示意，不描摹原作美术。",
+        "publicReuseCleared": true,
+        "evidenceNote": "本刊绘制 · 机制示意，非原作截图",
+        "displayContext": "本刊绘制 · 机制示意，非原作截图",
+        "imageKind": "editorial-illustration"
+      },
+      "limits": "试玩可能需要客户端；开发日记的地图图不是最终游戏截图。",
+      "tags": [
+        "Vibe Coding 小作品",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "第008期 · 11月25日补录",
+      "reproductionStatus": "本刊未做完整玩法及实机测试。",
+      "evidenceType": "原作者、作者访谈或项目仓库；复现为编辑构想",
+      "tested": false
     }
   ],
   "schemaVersion": 2,
-  "asOf": "2026-11-23",
-  "editionNote": "第008期公开版",
+  "asOf": "2026-11-25",
+  "editionNote": "第008期补充公开版",
   "categoryOrder": [
     "图像设计",
     "故事视频",
@@ -9472,7 +10236,8 @@
     "Agent自动化",
     "个性化体验",
     "教学应用",
-    "AI＋硬件"
+    "AI＋硬件",
+    "Vibe Coding 小作品"
   ],
   "educationLevelOrder": [
     "学前教育",

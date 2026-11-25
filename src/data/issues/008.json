@@ -10,7 +10,7 @@
     "note": "资料截至2026-11-23 09:00 Asia/Shanghai；主要窗口11月16至22日。研究原日期、活动日期、截止时间与本期收录分写。"
   },
   "cutoff": "2026-11-23T09:00:00+08:00",
-  "revisionNote": "第008期公开版；本期图像未核公开复用许可的仅保留原始来源链接。",
+  "revisionNote": "原周报观察窗口未改。2026年11月25日补录10个真实 Vibe Coding 作品和国内外独立项目创收专题。",
   "education": {
     "items": [
       {
@@ -520,7 +520,17 @@
     "creative-008-07",
     "creative-008-08",
     "creative-008-09",
-    "creative-008-10"
+    "creative-008-10",
+    "vibe-yarn-planet",
+    "vibe-type2build",
+    "vibe-felt",
+    "vibe-multiply",
+    "vibe-kymo",
+    "vibe-drift",
+    "vibe-pickle",
+    "vibe-sonovia",
+    "vibe-newton",
+    "vibe-hajimi"
   ],
   "creativeSnapshots": [
     {

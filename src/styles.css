@@ -46,3 +46,5 @@ button,select,input{font:inherit}select,input{max-width:100%;color:var(--ink);ba
 .news-card>.figure,.shenzhen-card>.figure,.industry-card>.figure{margin:16px 0 20px;border-radius:10px;border:1px solid var(--line)}.news-card>.figure img,.shenzhen-card>.figure img,.industry-card>.figure img{max-height:300px;object-fit:contain}
 
 .portrait-reference{width:140px!important;height:100px!important;object-fit:contain!important;border-radius:6px!important}.portrait-kind{font-size:13px!important;color:var(--muted)}
+
+.supplement-trial{margin:1rem 0;padding:1rem 1.2rem}.supplement-trial li{margin:.45rem 0}.supplement-trial h2{margin:.45rem 0}.supplement-trial .sources{margin-top:.75rem}#business-cases{scroll-margin-top:7rem}#business-cases .summary-card{min-width:0}.supplement-trial a{overflow-wrap:anywhere}
