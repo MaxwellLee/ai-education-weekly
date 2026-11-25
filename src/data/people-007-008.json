@@ -1,0 +1,969 @@
+{
+  "checkedAt": "2026-11-23",
+  "title": "公众人物档案",
+  "rightsNotice": "历史已发布档案保留原来源与权利说明；第006期10位人物均仅提供真实照片来源入口，不新增公开转载未核许可的头像。资料核对日逐人注明。",
+  "editorialNotice": "简介记录专业身份；代表成果包括研究、著作、项目和教学实践，未按名气排序。关注理由为编者判断。",
+  "items": [
+    {
+      "id": "p007-randi-weingarten",
+      "name": "Randi Weingarten",
+      "identity": "美国教师联合会主席",
+      "bio": [
+        "美国教师联合会主席，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "Share My Lesson",
+          "text": "AFT官方简介记载她推动Share My Lesson免费教学资源平台；为机构集体项目。",
+          "period": null,
+          "source": {
+            "title": "Share My Lesson",
+            "url": "https://www.aft.org/about/leadership/randi-weingarten",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "Share My Lesson",
+              "url": "https://www.aft.org/about/leadership/randi-weingarten",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注安全约束与培训同等重要如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.aft.org/press-release/aft-uft-and-anthropic-sign-binding-ai-safety-and-privacy-agreement-schools",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "Share My Lesson",
+          "url": "https://www.aft.org/about/leadership/randi-weingarten",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.aft.org/about/leadership/randi-weingarten",
+        "imageUrl": null,
+        "alt": "Randi Weingarten公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-elizabeth-kelly",
+      "name": "Elizabeth Kelly",
+      "identity": "Anthropic有益部署负责人",
+      "bio": [
+        "Anthropic有益部署负责人，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "美国AI安全研究所模型测试协议",
+          "text": "作为首任所长参与2024年与OpenAI及Anthropic建立模型安全研究测试协议；是机构合作。",
+          "period": "2024",
+          "source": {
+            "title": "美国AI安全研究所模型测试协议",
+            "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "美国AI安全研究所模型测试协议",
+              "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注信任是教育部署的基础如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.aft.org/press-release/aft-uft-and-anthropic-sign-binding-ai-safety-and-privacy-agreement-schools",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "美国AI安全研究所模型测试协议",
+          "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research",
+        "imageUrl": null,
+        "alt": "Elizabeth Kelly公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-michael-mulgrew",
+      "name": "Michael Mulgrew",
+      "identity": "纽约联合教师工会主席",
+      "bio": [
+        "纽约联合教师工会主席，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "United Community Schools支持工作",
+          "text": "其领导的UFT赞助社区学校网络，2019年欢迎Albany学校加入；不将网络成效归为个人独立成果。",
+          "period": "2019",
+          "source": {
+            "title": "United Community Schools支持工作",
+            "url": "https://www.uft.org/news/press-releases/albanys-oneal-school-joins-united-community-schools-network",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "United Community Schools支持工作",
+              "url": "https://www.uft.org/news/press-releases/albanys-oneal-school-joins-united-community-schools-network",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注工会要求AI企业承担责任如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.aft.org/press-release/aft-uft-and-anthropic-sign-binding-ai-safety-and-privacy-agreement-schools",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "United Community Schools支持工作",
+          "url": "https://www.uft.org/news/press-releases/albanys-oneal-school-joins-united-community-schools-network",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.uft.org/news/press-releases/albanys-oneal-school-joins-united-community-schools-network",
+        "imageUrl": null,
+        "alt": "Michael Mulgrew公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-jeffrey-james-curley",
+      "name": "Jeffrey James Curley",
+      "identity": "哈佛教育学院战略事务负责人、Compass共同负责人",
+      "bio": [
+        "哈佛教育学院战略事务负责人、Compass共同负责人，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "iCivics早期建设",
+          "text": "iCivics机构历史确认其为创始副主任，后任临时执行主任，参与早期发展。",
+          "period": null,
+          "source": {
+            "title": "iCivics早期建设",
+            "url": "https://vision.icivics.org/about/history/",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "iCivics早期建设",
+              "url": "https://vision.icivics.org/about/history/",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注以学习者而非技术为起点如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "iCivics早期建设",
+          "url": "https://vision.icivics.org/about/history/",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://vision.icivics.org/about/history/",
+        "imageUrl": null,
+        "alt": "Jeffrey James Curley公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-tessa-forshaw",
+      "name": "Tessa Forshaw",
+      "identity": "哈佛教育学院讲师、Compass共同负责人",
+      "bio": [
+        "哈佛教育学院讲师、Compass共同负责人，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "Innovation-ish合著",
+          "text": "2025年Wiley出版的Innovation-ish合著者；曾在Stanford设计学院授课。",
+          "period": "2025",
+          "source": {
+            "title": "Innovation-ish合著",
+            "url": "https://www.gse.harvard.edu/directory/faculty/tessa-forshaw",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "Innovation-ish合著",
+              "url": "https://www.gse.harvard.edu/directory/faculty/tessa-forshaw",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注问AI为谁、替代了什么如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "Innovation-ish合著",
+          "url": "https://www.gse.harvard.edu/directory/faculty/tessa-forshaw",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.gse.harvard.edu/directory/faculty/tessa-forshaw",
+        "imageUrl": null,
+        "alt": "Tessa Forshaw公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-susanna-loeb",
+      "name": "Susanna Loeb",
+      "identity": "斯坦福大学教育教授、SCALE负责人",
+      "bio": [
+        "斯坦福大学教育教授、SCALE负责人，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "National Student Support Accelerator",
+          "text": "创立并担任执行负责人，推动高影响力辅导的可及性；团队项目非个人独立成效。",
+          "period": null,
+          "source": {
+            "title": "National Student Support Accelerator",
+            "url": "https://scale.stanford.edu/people/susanna-loeb",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "National Student Support Accelerator",
+              "url": "https://scale.stanford.edu/people/susanna-loeb",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注不能笼统问AI好不好如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "National Student Support Accelerator",
+          "url": "https://scale.stanford.edu/people/susanna-loeb",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://scale.stanford.edu/people/susanna-loeb",
+        "imageUrl": null,
+        "alt": "Susanna Loeb公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-elizabeth-tipton",
+      "name": "Elizabeth Tipton",
+      "identity": "西北大学统计与数据科学教授",
+      "bio": [
+        "西北大学统计与数据科学教授，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "稳健方差估计元分析研究",
+          "text": "与James Pustejovsky合著2022年Meta-analysis with robust variance estimation，扩展工作模型范围。",
+          "period": "2022",
+          "source": {
+            "title": "稳健方差估计元分析研究",
+            "url": "https://statistics.northwestern.edu/people/faculty/elizabeth-tipton.html",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "稳健方差估计元分析研究",
+              "url": "https://statistics.northwestern.edu/people/faculty/elizabeth-tipton.html",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注关注高标准研究仍稀少如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "稳健方差估计元分析研究",
+          "url": "https://statistics.northwestern.edu/people/faculty/elizabeth-tipton.html",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://statistics.northwestern.edu/people/faculty/elizabeth-tipton.html",
+        "imageUrl": null,
+        "alt": "Elizabeth Tipton公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-sina-rismanchian",
+      "name": "Sina Rismanchian",
+      "identity": "加州大学尔湾分校教育博士候选人",
+      "bio": [
+        "加州大学尔湾分校教育博士候选人，背景及工作记录见来源。"
+      ],
+      "contributions": [
+        {
+          "title": "数学学习与生成式AI研究",
+          "text": "2026年Faster Completion, Less Learning预印本第一作者；团队分析数学平台行为与学习变化，预印本非已完成同行评审定论。",
+          "period": "2026-05",
+          "source": {
+            "title": "数学学习与生成式AI研究",
+            "url": "https://arxiv.org/abs/2605.21629",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "数学学习与生成式AI研究",
+              "url": "https://arxiv.org/abs/2605.21629",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "明确个人角色和团队成果；不以本周发言充当过往成果。"
+        }
+      ],
+      "followReason": "关注有效特征取决于学习任务如何落实到课程、教师工作或证据评价。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "具体署名动态或直接采访",
+          "url": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "数学学习与生成式AI研究",
+          "url": "https://arxiv.org/abs/2605.21629",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://arxiv.org/abs/2605.21629",
+        "imageUrl": null,
+        "alt": "Sina Rismanchian公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-tan-tianwei",
+      "name": "谭天伟",
+      "identity": "北京化工大学校长、中国工程院院士",
+      "bio": [
+        "北京化工大学校长、中国工程院院士"
+      ],
+      "contributions": [
+        {
+          "title": "生物制造研究",
+          "text": "校方简介记录其作为第一完成人获两项国家技术发明二等奖；脂肪酶生产与工业催化等是团队成果，非AI教学成效。",
+          "period": null,
+          "source": {
+            "title": "生物制造研究",
+            "url": "https://www.buct.edu.cn/2019/1112/c11395a149724/page.htm",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "生物制造研究",
+              "url": "https://www.buct.edu.cn/2019/1112/c11395a149724/page.htm",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "科研成果与本期教育主张分开；不将机构成绩等同个人贡献。"
+        }
+      ],
+      "followReason": "跟踪中国高校课程、教师角色和评价改革的实际落地。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "北京化工大学，教务处供稿，王伟撰稿",
+          "url": "https://news.buct.edu.cn/2026/1113/c2109a224407/page.htm",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "生物制造研究",
+          "url": "https://www.buct.edu.cn/2019/1112/c11395a149724/page.htm",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.buct.edu.cn/2019/1112/c11395a149724/page.htm",
+        "imageUrl": null,
+        "alt": "谭天伟公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p007-su-haijia",
+      "name": "苏海佳",
+      "identity": "北京化工大学副校长",
+      "bio": [
+        "北京化工大学副校长"
+      ],
+      "contributions": [
+        {
+          "title": "《绿色生物制造》共同作者",
+          "text": "2018年北京化工大学学报论文共同作者，署名排第二；不据署名推断具体研发分工。",
+          "period": "2018",
+          "source": {
+            "title": "《绿色生物制造》共同作者",
+            "url": "https://journal.buct.edu.cn/CN/10.13543/j.bhxbzr.2018.05.013",
+            "checked_on": "2026-11-16"
+          },
+          "sources": [
+            {
+              "title": "《绿色生物制造》共同作者",
+              "url": "https://journal.buct.edu.cn/CN/10.13543/j.bhxbzr.2018.05.013",
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "evidenceNote": "科研成果与本期教育主张分开；不将机构成绩等同个人贡献。"
+        }
+      ],
+      "followReason": "跟踪中国高校课程、教师角色和评价改革的实际落地。",
+      "followReasonIsEditorial": true,
+      "profileUpdatedAt": "2026-11-16",
+      "profileSources": [
+        {
+          "title": "北京化工大学，教务处供稿，王伟撰稿",
+          "url": "https://news.buct.edu.cn/2026/1113/c2109a224407/page.htm",
+          "checked_on": "2026-11-16"
+        },
+        {
+          "title": "《绿色生物制造》共同作者",
+          "url": "https://journal.buct.edu.cn/CN/10.13543/j.bhxbzr.2018.05.013",
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "profileCaveats": [],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://journal.buct.edu.cn/CN/10.13543/j.bhxbzr.2018.05.013",
+        "imageUrl": null,
+        "alt": "苏海佳公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-01",
+      "name": "Daniel Susskind",
+      "identity": "英国格雷沙姆学院 Mercers’ School Memorial Professor of Business，研究技术对工作与社会的影响。",
+      "bio": [
+        "英国格雷沙姆学院 Mercers’ School Memorial Professor of Business，研究技术对工作与社会的影响。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "著有《A World Without Work》（2020）；2026 年 5 月在学院主讲《Education – And Its Limits》。关注他，可将未来就业论与低龄基础能力课程取舍分开。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.gresham.ac.uk/speakers/professor-daniel-susskind",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：把会使用 AI 和不用 AI 时仍会算都教给学生，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.gresham.ac.uk/speakers/professor-daniel-susskind",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.gresham.ac.uk/speakers/professor-daniel-susskind",
+        "imageUrl": null,
+        "alt": "Daniel Susskind公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-02",
+      "name": "Jennifer Kidd",
+      "identity": "美国老道明大学教学与学习系 Master Lecturer，方向包括教师培养、教育技术与同伴评价。",
+      "bio": [
+        "美国老道明大学教学与学习系 Master Lecturer，方向包括教师培养、教育技术与同伴评价。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "参与 NSF 资助的 ODU Ed+gineering 跨学科项目；参与发表关于职前教师教授机器人时自我效能的研究。适合继续跟踪师范生如何形成 AI 输出审核习惯。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.oduedgineering.com/investigators/",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：师范生先自己出题，再盲评 AI 和同伴的题，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.odu.edu/directory/jennifer-kidd",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.odu.edu/directory/jennifer-kidd",
+        "imageUrl": null,
+        "alt": "Jennifer Kidd公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-03",
+      "name": "Yanping Fang",
+      "identity": "新加坡南洋理工大学国立教育学院政策、课程与领导力副教授，研究教师学习与课程。",
+      "bio": [
+        "新加坡南洋理工大学国立教育学院政策、课程与领导力副教授，研究教师学习与课程。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "参与发表借《伊索寓言》教推断的课例研究（2022），用课堂话语与访谈分析教师如何通过共同研课预判学习困难。关注其在 AI 时代如何区分教师专业判断与工具建议。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://doi.org/10.1080/02188791.2022.2050354",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：在教师叙事探究中保留教师自己的解释和判断，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.ntu.edu.sg/nie/about-us/academic-departments/policy-curriculum-and-leadership/our-faculty",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.ntu.edu.sg/nie/about-us/academic-departments/policy-curriculum-and-leadership/our-faculty",
+        "imageUrl": null,
+        "alt": "Yanping Fang公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-04",
+      "name": "Fridolin Sze Thou Ting（陈世道）",
+      "identity": "香港教育大学数学与资讯科技学系一级高级讲师，研究协作式生成 AI 和主动学习。",
+      "bio": [
+        "香港教育大学数学与资讯科技学系一级高级讲师，研究协作式生成 AI 和主动学习。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "主持 2023–24 年面向数理个性化学习的提示设计项目；2025 年 YoChatGPT! 获日内瓦国际发明展银奖（项目奖）。适合跟踪不同追问设计后学生的可观察对话。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.eduhk.hk/mit/en/staff/fridolin",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：小组卡住时让 AI 追问，不让它把答案交出来，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.eduhk.hk/mit/en/staff/fridolin",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.eduhk.hk/mit/en/staff/fridolin",
+        "imageUrl": null,
+        "alt": "Fridolin Sze Thou Ting（陈世道）公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-05",
+      "name": "Susanne Walan",
+      "identity": "瑞典卡尔斯塔德大学科学教育研究者、Docent。",
+      "bio": [
+        "瑞典卡尔斯塔德大学科学教育研究者、Docent。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "与 Niklas Gericke 合作发表儿童大学非正式活动与 STEM 兴趣研究（2021），也研究将创客空间与戏剧结合时女孩的 STEM 兴趣（2021）。适合跟踪教师在真实课堂如何修订 AI 生成活动。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.kau.se/en/researchers/susanne-walan",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：AI 会低估五年级分数活动的时间，教学判断仍由教师做，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.kau.se/en/employees/susanne-walan",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.kau.se/en/employees/susanne-walan",
+        "imageUrl": null,
+        "alt": "Susanne Walan公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-06",
+      "name": "James Lawless",
+      "identity": "爱尔兰继续与高等教育、研究、创新及科学部长；曾任纳斯市长。",
+      "bio": [
+        "爱尔兰继续与高等教育、研究、创新及科学部长；曾任纳斯市长。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "他与国务部长 Marian Harkin 发布爱尔兰 2026–2030 年高等教育、研究和创新领域资本投资计划；投资口径是整个部门，不是 AI 经费。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/press-releases/minister-james-lawless-publishes-record-455-billion-investment-plan-to-transform-irelands-tertiary-education-research-and-innovation/",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：把 AI 素养、教师支持与终身学习一起推进，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/biographies/james-lawless/",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/",
+        "imageUrl": null,
+        "alt": "James Lawless公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-07",
+      "name": "李书福",
+      "identity": "吉利控股集团创始人、董事长。",
+      "bio": [
+        "吉利控股集团创始人、董事长。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "吉利控股与芯位科技于 2026 年联合发起“跨时代跃迁人才培养计划”；校方论坛记录称首届覆盖 AI、新能源汽车、低空飞行及低轨卫星四个方向。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.sanyau.edu.cn/2026/1120/c1749a461049/page.htm",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：用真实产业项目检验 AI 时代高校培养，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://global.geely.com/en/news/2020/geely-wins-companybest-accolade",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.sanyau.edu.cn/2026/1120/c1749a461049/page.htm",
+        "imageUrl": null,
+        "alt": "李书福公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-08",
+      "name": "高新波",
+      "identity": "西安电子科技大学校长、党委副书记；教授、博士生导师。",
+      "bio": [
+        "西安电子科技大学校长、党委副书记；教授、博士生导师。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "其教师主页记录其主讲《数字信号处理》入选教育部双语教学示范课程；发表基于图模型的新闻视频结构化分析等研究。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://web.xidian.edu.cn/xbgao/",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：大学不必跟机器比知识储备，要培养主体性，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.xidian.edu.cn/info/1067/65115.htm",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.xidian.edu.cn/info/1067/65115.htm",
+        "imageUrl": null,
+        "alt": "高新波公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-09",
+      "name": "柳玲玲",
+      "identity": "全国政协委员、湖南岳阳市岳阳楼区东风湖学校教师。",
+      "bio": [
+        "全国政协委员、湖南岳阳市岳阳楼区东风湖学校教师。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "长期在基层任教并提出乡村师资保留、未成年人保护及基础教育资源配置相关建议。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.hunanzx.gov.cn/hnzx/wylz/wyfc/202504/t20250414_33640956.html",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：备课让 AI 提供学生可能的问题，不替老师写满讲稿，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://hunan.gov.cn/topic/2026qglh/2026dbwyzs/202603/t20260304_33925763.html",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://hunan.gov.cn/topic/2026qglh/2026dbwyzs/202603/t20260304_33925763.html",
+        "imageUrl": null,
+        "alt": "柳玲玲公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-10",
+      "name": "倪闽景",
+      "identity": "上海科技馆馆长、全国政协委员；曾在中学长期任教。",
+      "bio": [
+        "上海科技馆馆长、全国政协委员；曾在中学长期任教。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "推动上海科技馆“一平米博物馆”校园主题微展，参与面向校长和教师的“科创校长空间站”科普实践。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://group.sstm.org.cn/article/35564/32",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：让孩子从参观展品走到自己策展，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.cppcc.gov.cn/zxww/2026/01/30/ARTI1769738843784153.shtml",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.cppcc.gov.cn/zxww/2026/01/30/ARTI1769738843784153.shtml",
+        "imageUrl": null,
+        "alt": "倪闽景公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    },
+    {
+      "id": "p008-11",
+      "name": "Kanishka Narayan",
+      "identity": "英国 AI 事务国务大臣；2024 年当选威尔士格拉摩根谷选区议会议员。",
+      "bio": [
+        "英国 AI 事务国务大臣；2024 年当选威尔士格拉摩根谷选区议会议员。"
+      ],
+      "contributions": [
+        {
+          "title": "可核对的工作",
+          "text": "曾共同公布 Barnsley 的四个 AI 技能培训项目资助，面向一线照护、建筑及再就业人群等；资金为项目合计。",
+          "source": {
+            "title": "代表成果来源",
+            "url": "https://www.gov.uk/government/news/care-workers-women-returning-to-employment-and-builders-to-gain-practical-ai-skills",
+            "checked_on": "2026-11-23"
+          }
+        }
+      ],
+      "followReason": "持续观察：让公共 AI 团队与青年同设计职业和培训支持，后续查有没有独立课堂证据或可对照的实施记录。",
+      "profileUpdatedAt": "2026-11-23",
+      "profileSources": [
+        {
+          "title": "作者／机构资料",
+          "url": "https://www.gov.uk/government/people/kanishka-narayan",
+          "checked_on": "2026-11-23"
+        }
+      ],
+      "portrait": {
+        "path": null,
+        "sourcePage": "https://www.gov.uk/government/people/kanishka-narayan",
+        "imageUrl": null,
+        "alt": "Kanishka Narayan公开职业资料",
+        "credit": "",
+        "rightsStatus": "公开职业资料仅链接，不转载照片。",
+        "publicReuseCleared": false,
+        "missingReason": "公开版仅提供人物或机构资料入口。"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "asOf": "2026-11-23",
+  "publicationStatus": "public-edition"
+}

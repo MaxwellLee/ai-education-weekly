@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "issueId": "008",
+  "verifiedAt": "2026-11-23",
+  "coverageNote": "聚焦有出处的市级采购与学校发布；秋假旧预告及12月教研前瞻单列，不视作本周新公告或既成结果。未覆盖所有区校。",
+  "items": [
+    {
+      "id": "sz008-01",
+      "title": "深圳实验学校集团发布AI教育教学融合创新建设招标",
+      "publishedDate": "2026-11-17",
+      "eventDate": "计划2026-12-01 14:00截标",
+      "stage": "基础教育｜采购",
+      "districts": [
+        "市级／学校集团"
+      ],
+      "type": "采购公告",
+      "organizations": "深圳实验学校（集团）",
+      "peopleCompanies": "深圳实验学校（集团）",
+      "summary": "原招标1项、合同签订起一年，预算及上限180.02万元，原投标截止12月1日14:00。公告未拆技术明细，不能算课程单价或已成交。",
+      "relevance": "可看集团服务采购口径，不能拆为单门课程价；一包、一年，禁止联合体、分包转包。",
+      "limits": "原预算和投标截止以公告及后续更正为准，未见成交，不拆算单课。",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.szyd11.com/tender/detail?TenderId=1011930"
+        },
+        {
+          "label": "补充来源",
+          "url": "https://www.arrbid.com/biddetail/2026-4329BC38996346258CA027B92F937E13.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [],
+      "scopeTags": [
+        "未限定"
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "id": "sz008-02",
+      "title": "深圳市计算机学会秋假营安排AI编程与仿生机器人",
+      "publishedDate": "2026-11-04",
+      "eventDate": "原定2026-11-19",
+      "stage": "青少年｜预告回看",
+      "districts": [
+        "南山区"
+      ],
+      "type": "教师与家庭／历史预告",
+      "organizations": "深圳市计算机学会／哈尔滨工业大学（深圳）",
+      "peopleCompanies": "深圳市计算机学会／哈尔滨工业大学（深圳）",
+      "summary": "11月4日公告安排11月19日哈尔滨工业大学（深圳）AI编程一日营：通识、工具、实操、自备电脑、作品展示。标价1000元含午餐；只核到原预报名方案，未证实实际交付或规模。",
+      "relevance": "有标价的青少年线下课程形式参照；与低龄无设备课不可直接比价。",
+      "limits": "原定日期已过，仅有预公告，未证实到场、实际交付或成交。",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.szccf.org.cn/?p=8168"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [],
+      "audienceTypes": [],
+      "scopeTags": [
+        "未限定"
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "id": "sz008-03",
+      "title": "深圳北理莫斯科大学科学文化节提供AI辨析设计参照",
+      "publishedDate": "2026-11-22",
+      "eventDate": "校方发布整体回顾；分项仅核预告",
+      "stage": "高校科普｜校方记录",
+      "districts": [
+        "龙岗区"
+      ],
+      "type": "大学科普",
+      "organizations": "深圳北理莫斯科大学",
+      "peopleCompanies": "深圳北理莫斯科大学",
+      "summary": "11月22日学校发布整体科学文化节回顾；独立预告的‘人工智能VS自然智能’拟通过科学、医学和艺术例子比较人类与算法、辨析误区。回顾未核实该分项实际开展，不混写。",
+      "relevance": "比较人类与算法适合做讨论题；没有用整体回顾证明每场活动均完成。",
+      "limits": "不能把整场回顾视作证明独立 AI 分项实际开展。",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://news.smbu.edu.cn/info/1083/22140.htm"
+        },
+        {
+          "label": "补充来源",
+          "url": "https://www.smbu.edu.cn/info/6191/143361.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "id": "sz008-04",
+      "title": "深圳AI高质量教学论坛前瞻：从真实课堂任务共创",
+      "publishedDate": "2026-09-29",
+      "eventDate": "计划2026-12-01至02",
+      "stage": "教师教研｜会前预告",
+      "districts": [
+        "深圳／场地待确认"
+      ],
+      "type": "教师教研／会前预告",
+      "organizations": "广东省东南教育科学研究院、芯耘公益项目",
+      "peopleCompanies": "广东省东南教育科学研究院、芯耘公益项目",
+      "summary": "12月1日论坛、2日分学科工作坊，拟产出设计片段、任务单与提示词；培训免收费用、名额需会务确认。已私讯分享，不作新提醒；独立开发者资格、余位和详细会址未核。",
+      "relevance": "可看五所深圳学校对照与分学科共创；此前已单独分享。",
+      "limits": "尚未核实详细地址、余位及独立开发者资格。",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.dnjky.cn/4037.html"
+        }
+      ],
+      "freshness": "baseline",
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "未限定"
+      ],
+      "lastVerified": "2026-11-23"
+    }
+  ]
+}

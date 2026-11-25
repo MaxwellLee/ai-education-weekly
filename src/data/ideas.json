@@ -1,7 +1,7 @@
 {
-  "cutoff": "2026-11-09T09:00:00+08:00",
+  "cutoff": "2026-11-23T09:00:00+08:00",
   "title": "有趣实用AI创意精选",
-  "editorialNote": "保留已发布的前70项，006新增13项，累计83项。新增2项本周案例、1项历史跟进与10项历史灵感，非全为本周首发。新图片未核公开复用许可时只提供原作入口。",
+  "editorialNote": "保留至007期的96项；008新增10项，累计106项。原作日期与收录日期分开，历史灵感不作近期上新；新图仅提供原作入口。",
   "imageRightsNote": "每项图片保留来源、署名及权利状态；未确认公开复用许可不表示已获转载授权。",
   "items": [
     {
@@ -6893,11 +6893,2577 @@
         "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
         "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
       }
+    },
+    {
+      "id": "rock-paper-scissors-machine",
+      "title": "戴手套教机器认出石头剪刀布",
+      "date": "2017-11",
+      "originalDate": "2017-11",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Kaz Sato",
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "summary": "手套传感器采集手势，TensorFlow模型辨认后让机器选择回应姿势。",
+      "play": "手套传感器采集手势，TensorFlow模型辨认后让机器选择回应姿势。",
+      "tools": [
+        "手套传感器",
+        "TensorFlow"
+      ],
+      "reproduce": "用纸卡先定义三类动作，再比较训练样本与新动作的识别结果，记录误判。",
+      "education": "分类混淆记录与公平游戏规则",
+      "expectedOutput": "分类混淆记录与公平游戏规则",
+      "limits": "原项目不是普通摄像头应用；硬件需另备，不能承诺即开即用。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/rock-paper-scissors"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "分类混淆记录与公平游戏规则"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/rock-paper-scissors",
+        "alt": "戴手套教机器认出石头剪刀布：原作配图入口",
+        "credit": "Kaz Sato",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "beat-blender",
+      "title": "画一条路径，听鼓点如何渐变",
+      "date": "2018-03",
+      "originalDate": "2018-03",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Torin Blankensmith、Kyle Phillips / Creative Lab + Magenta",
+      "category": "音乐声音",
+      "categories": [
+        "音乐声音"
+      ],
+      "summary": "在节奏空间中拖动圆点或画路径，探索神经网络生成的鼓点之间的过渡。",
+      "play": "在节奏空间中拖动圆点或画路径，探索神经网络生成的鼓点之间的过渡。",
+      "tools": [
+        "TensorFlow.js",
+        "Magenta"
+      ],
+      "reproduce": "教师选择两个节奏，学生先拍手猜中间变化，再比较直线路径与曲线路径。",
+      "education": "三段节奏结构对照",
+      "expectedOutput": "三段节奏结构对照",
+      "limits": "区别于已收录Melody Mixer的旋律插值，本项以鼓节奏与路径编排为主。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/beat-blender"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "三段节奏结构对照"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/beat-blender",
+        "alt": "画一条路径，听鼓点如何渐变：原作配图入口",
+        "credit": "Torin Blankensmith、Kyle Phillips / Creative Lab + Magenta",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "font-map",
+      "title": "在字体地图上寻找海报的语气",
+      "date": "2017-07",
+      "originalDate": "2017-07",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Kevin Ho / IDEO支持",
+      "category": "图像设计",
+      "categories": [
+        "图像设计"
+      ],
+      "summary": "用机器学习把字体的视觉关系组织成可探索地图。",
+      "play": "用机器学习把字体的视觉关系组织成可探索地图。",
+      "tools": [
+        "TensorFlow",
+        "D3.js"
+      ],
+      "reproduce": "为同一句公益标题挑三种字体，先说视觉证据，再做同伴盲评；不把相似度当美感分数。",
+      "education": "三版标题与字体选择理由",
+      "expectedOutput": "三版标题与字体选择理由",
+      "limits": "字体与项目配图许可分开核查；不是自动生成字体的GenType。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/font-map"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "三版标题与字体选择理由"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/font-map",
+        "alt": "在字体地图上寻找海报的语气：原作配图入口",
+        "credit": "Kevin Ho / IDEO支持",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "thousandstories",
+      "title": "从一张画找到不同的书中世界",
+      "date": "2019-10",
+      "originalDate": "2019-10",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Gael Hugo / Google Arts & Culture、Google Books",
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "summary": "以视觉识别和自然语言处理把馆藏图片与书籍内容建立探索连接。",
+      "play": "以视觉识别和自然语言处理把馆藏图片与书籍内容建立探索连接。",
+      "tools": [
+        "Google Cloud Vision",
+        "自然语言处理"
+      ],
+      "reproduce": "教师选公开可读图像，学生先写自己的联想，再核对推荐文本是否真的支持联想。",
+      "education": "图像—文字联想卡与出处",
+      "expectedOutput": "图像—文字联想卡与出处",
+      "limits": "自动连接不证明作者影响或史实关联；书籍正文引用须限量。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/thousandstories"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "图像—文字联想卡与出处"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/thousandstories",
+        "alt": "从一张画找到不同的书中世界：原作配图入口",
+        "credit": "Gael Hugo / Google Arts & Culture、Google Books",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "sound-of-earth-3",
+      "title": "把不同地方的声音连成无边界声景",
+      "date": "2022-06",
+      "originalDate": "2022-06",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Yuri Suzuki",
+      "category": "音乐声音",
+      "categories": [
+        "音乐声音"
+      ],
+      "summary": "机器学习连接各地提交的声音，配合网站和球体装置构成共同声景。",
+      "play": "机器学习连接各地提交的声音，配合网站和球体装置构成共同声景。",
+      "tools": [
+        "TensorFlow",
+        "互动声景网站"
+      ],
+      "reproduce": "只录无身份信息的环境声音，教师在本地排列相似声段，讨论共同点和不能据声音推断的内容。",
+      "education": "班级声景地图与录音来源表",
+      "expectedOutput": "班级声景地图与录音来源表",
+      "limits": "2022年实体展期已结束；不把历史装置当当前展览，勿上传可辨认个人谈话。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/sound-of-the-earth"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "班级声景地图与录音来源表"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/sound-of-the-earth",
+        "alt": "把不同地方的声音连成无边界声景：原作配图入口",
+        "credit": "Yuri Suzuki",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "nonsense-laboratory",
+      "title": "把词的声音当黏土，捏出新词",
+      "date": "2021-04",
+      "originalDate": "2021-04",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Allison Parrish / Google Arts & Culture",
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "summary": "机器学习工具混合、改拼和探索文字的声音，产生可朗读的虚构词。",
+      "play": "机器学习工具混合、改拼和探索文字的声音，产生可朗读的虚构词。",
+      "tools": [
+        "作者定制模型",
+        "The Nonsense Laboratory"
+      ],
+      "reproduce": "教师展示两个英文词的混合，学生先猜发音再为新词写虚构释义，标记非标准单词。",
+      "education": "新词词典与发音比较",
+      "expectedOutput": "新词词典与发音比较",
+      "limits": "原实验以拼写和发音游戏为主；不作标准词汇或普通话发音评测。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/nonsense-laboratory"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "新词词典与发音比较"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/nonsense-laboratory",
+        "alt": "把词的声音当黏土，捏出新词：原作配图入口",
+        "credit": "Allison Parrish / Google Arts & Culture",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "land-lines",
+      "title": "画一条线，寻找地球上相似的边界",
+      "date": "2016-12",
+      "originalDate": "2016-12",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Zach Lieberman、Data Arts Team",
+      "category": "图像设计",
+      "categories": [
+        "图像设计"
+      ],
+      "summary": "预处理卫星图像中的主要线条，以用户笔画快速检索相似地表形态。",
+      "play": "预处理卫星图像中的主要线条，以用户笔画快速检索相似地表形态。",
+      "tools": [
+        "机器学习",
+        "线条检测",
+        "Google Earth影像"
+      ],
+      "reproduce": "画弧线与折线，比较检索到的河流或道路，再用地图核对实际地物。",
+      "education": "线条观察页与地理解释",
+      "expectedOutput": "线条观察页与地理解释",
+      "limits": "视觉相似不等于成因相同；卫星影像不能自行视作可自由复用。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/land-lines"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "线条观察页与地理解释"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/land-lines",
+        "alt": "画一条线，寻找地球上相似的边界：原作配图入口",
+        "credit": "Zach Lieberman、Data Arts Team",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "klimt-color-enigma",
+      "title": "给历史黑白画面上色，同时写出证据边界",
+      "date": "2021-10",
+      "originalDate": "2021-10",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Emil Wallner、Romain Cazier、Franz Smola / Belvedere、Google Arts & Culture",
+      "category": "图像设计",
+      "categories": [
+        "图像设计"
+      ],
+      "summary": "结合文献颜色线索、现存作品和机器学习，对克里姆特失传作品提出可能的色彩重建。",
+      "play": "结合文献颜色线索、现存作品和机器学习，对克里姆特失传作品提出可能的色彩重建。",
+      "tools": [
+        "机器学习上色",
+        "专家文献研究"
+      ],
+      "reproduce": "教师用自有黑白图和明确颜色提示做两个版本，分列证据、推测和审美选择。",
+      "education": "带证据说明的两版配色",
+      "expectedOutput": "带证据说明的两版配色",
+      "limits": "重建是可能颜色，不是找回原作真彩；原馆藏涉及人体，教师先筛选展示图。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/the-klimt-color-enigma"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "带证据说明的两版配色"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/the-klimt-color-enigma",
+        "alt": "给历史黑白画面上色，同时写出证据边界：原作配图入口",
+        "credit": "Emil Wallner、Romain Cazier、Franz Smola / Belvedere、Google Arts & Culture",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "climate-impact-filter",
+      "title": "用温度滑杆提出物种风险问题",
+      "date": "2021-04",
+      "originalDate": "2021-04",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Sey Min / Google Arts & Culture",
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "summary": "将物种图像聚类与气候资料的艺术化表达结合，探索升温时可能失去的事物。",
+      "play": "将物种图像聚类与气候资料的艺术化表达结合，探索升温时可能失去的事物。",
+      "tools": [
+        "机器学习图像聚类",
+        "交互可视化"
+      ],
+      "reproduce": "教师展示一组变化，学生追问时间、地区与证据，再回到科学资料核对。",
+      "education": "风险问题清单与艺术/科学证据对照",
+      "expectedOutput": "风险问题清单与艺术/科学证据对照",
+      "limits": "这是艺术家解释数据的作品，不是精确地区预测模型；课堂结论需另核科学来源。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/climate-impact-filter"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "风险问题清单与艺术/科学证据对照"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/climate-impact-filter",
+        "alt": "用温度滑杆提出物种风险问题：原作配图入口",
+        "credit": "Sey Min / Google Arts & Culture",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "x-degrees-separation",
+      "title": "让两件不相似的作品走一条视觉接龙",
+      "date": "2018-03",
+      "originalDate": "2018-03",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Mario Klingemann、Simon Doury",
+      "category": "图像设计",
+      "categories": [
+        "图像设计"
+      ],
+      "summary": "机器学习分析视觉特征，以中间作品构建两件馆藏之间的连接路径。",
+      "play": "机器学习分析视觉特征，以中间作品构建两件馆藏之间的连接路径。",
+      "tools": [
+        "视觉特征分析",
+        "艺术馆藏检索"
+      ],
+      "reproduce": "学生先自己选三张过渡图，再比较算法路径，逐步说明颜色、形状或纹理依据。",
+      "education": "五图视觉接龙与每步解释",
+      "expectedOutput": "五图视觉接龙与每步解释",
+      "limits": "相似路径不证明历史传承、艺术影响或文化同源。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://experiments.withgoogle.com/x-degrees-of-separation"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "五图视觉接龙与每步解释"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://experiments.withgoogle.com/x-degrees-of-separation",
+        "alt": "让两件不相似的作品走一条视觉接龙：原作配图入口",
+        "credit": "Mario Klingemann、Simon Doury",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "seedfall",
+      "title": "SEEDFALL：先改地形和降雨，再观察虚拟生态",
+      "date": "2026-11-13",
+      "originalDate": "2026-11-13",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "JovialJus",
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "summary": "作者发布的游戏通过地形、雨水和种子工具构建虚拟星球，并可输出镜头巡游；作者披露AI参与代码、模型和音乐。",
+      "play": "作者发布的游戏通过地形、雨水和种子工具构建虚拟星球，并可输出镜头巡游；作者披露AI参与代码、模型和音乐。",
+      "tools": [
+        "Unreal Engine 5",
+        "Claude",
+        "Tripo",
+        "Suno"
+      ],
+      "reproduce": "教师参考玩法，用纸面网格或自制简单模型比较低洼积水和高地变化，先写假设，再解释结果。",
+      "education": "变量记录表与星球设计说明",
+      "expectedOutput": "变量记录表与星球设计说明",
+      "limits": "Windows下载程序未运行或安全验收；游戏规则不是生态科学仿真，不能用来证明真实气候效应。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://jovialjus.itch.io/seedfall"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "互动游戏",
+        "本周案例"
+      ],
+      "timeLayer": "本周案例",
+      "freshness": "本周案例 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "变量记录表与星球设计说明"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://jovialjus.itch.io/seedfall",
+        "alt": "SEEDFALL：先改地形和降雨，再观察虚拟生态：原作配图入口",
+        "credit": "JovialJus",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "frogline",
+      "title": "FROGLINE：把逃生路线设计成可测试的关卡",
+      "date": "2026-11-14",
+      "originalDate": "2026-11-14",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "MivaMagic",
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "summary": "青蛙借舌头摆荡、躲避风扇、利用水流与树苗离开排水道；作者披露Codex辅助开发测试、ImageGen制作环境纹理。",
+      "play": "青蛙借舌头摆荡、躲避风扇、利用水流与树苗离开排水道；作者披露Codex辅助开发测试、ImageGen制作环境纹理。",
+      "tools": [
+        "Unreal项目",
+        "OpenAI Codex",
+        "ImageGen"
+      ],
+      "reproduce": "以纸上关卡设计为起点，学生规定跳跃距离和检查点，同伴找出无解路径后修改。",
+      "education": "关卡图、失败路径与修订说明",
+      "expectedOutput": "关卡图、失败路径与修订说明",
+      "limits": "Windows下载未运行；CC0音效声明不代表游戏截图或全部素材开放许可。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://mivamagic.itch.io/frogline"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "互动游戏",
+        "本周案例"
+      ],
+      "timeLayer": "本周案例",
+      "freshness": "本周案例 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "关卡图、失败路径与修订说明"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://mivamagic.itch.io/frogline",
+        "alt": "FROGLINE：把逃生路线设计成可测试的关卡：原作配图入口",
+        "credit": "MivaMagic",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "directors-cat",
+      "title": "Director’s Cat：用资源与中断设计多结局故事",
+      "date": "2026-11-14",
+      "originalDate": "2026-11-14",
+      "dateNote": "原项目页标注日期，保留其日/月精度；不以核验日冒充首发日。",
+      "author": "Jburkland",
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "summary": "作者用Claude Code协作开发一款被猫打断的游戏制作模拟，任务取舍影响结局；作者称场景由基础形状和程序生成素材构成。",
+      "play": "作者用Claude Code协作开发一款被猫打断的游戏制作模拟，任务取舍影响结局；作者称场景由基础形状和程序生成素材构成。",
+      "tools": [
+        "Unreal Engine 5.8",
+        "C++",
+        "Claude Code",
+        "Python"
+      ],
+      "reproduce": "教师将机制迁移为纸面任务游戏，给有限回合安排工作与照顾伙伴，比较不同结局背后的选择。",
+      "education": "状态表与三种结局因果图",
+      "expectedOutput": "状态表与三种结局因果图",
+      "limits": "作者创作过程自述，未独立审核代码或版权链；Windows程序未运行，不据游戏分数评价学生心理状态。 本刊仅核验公开项目页，未实测运行、国内访问或课堂效果。",
+      "difficulty": "教师备课参考；原型迁移需引导",
+      "difficultyGroup": "进阶",
+      "sources": [
+        {
+          "label": "原作者/官方项目说明",
+          "url": "https://jburkland.itch.io/directors-cat"
+        }
+      ],
+      "firstSeen": "2026-11-16",
+      "firstIssue": "007",
+      "relatedIssues": [
+        "007"
+      ],
+      "verifiedAt": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "tested": false,
+      "evidenceType": "真实公开项目；玩法为来源说明，课堂改编为未实测编辑建议",
+      "audience": [
+        "教育工作者"
+      ],
+      "stage": [
+        "跨学段/未限定"
+      ],
+      "educationLevels": [],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "tags": [
+        "互动游戏",
+        "本周案例"
+      ],
+      "timeLayer": "本周案例",
+      "freshness": "本周案例 · 第007期首次收录",
+      "reproductionStatus": "未下载运行；有公开作品页，不等于已验证目前可用。",
+      "stageBasis": "原项目未普遍指定教育学段，故不推定年龄；课堂迁移不等于服务年龄许可。",
+      "uses": [
+        "状态表与三种结局因果图"
+      ],
+      "image": {
+        "url": "",
+        "sourcePage": "https://jburkland.itch.io/directors-cat",
+        "alt": "Director’s Cat：用资源与中断设计多结局故事：原作配图入口",
+        "credit": "Jburkland",
+        "publicReuseCleared": false,
+        "rightsStatus": "项目配图公开复用许可未核；仅链接原作，不新嵌入。开源代码许可不等于图片许可。",
+        "availability": "原作页提供图示或演示入口；未转存",
+        "evidenceNote": "真实项目资料，非本刊课堂成效。"
+      },
+      "popularity": {
+        "status": "未核验热度，不作热门排名"
+      },
+      "classroomPlan": {
+        "title": "三张图，一起找到回家的路",
+        "stage": "小学三至六年级（编辑教学建议，教师操作工具）",
+        "duration": "60分钟",
+        "status": "依据多人图片叙事项目迁移的备课方案，未实测；不依赖原实验能运行",
+        "goal": [
+          "共同讲清问题、互助行动及结果",
+          "用图片证据约束AI故事，不让工具替孩子决定情节",
+          "每组说明一次否决AI建议的理由"
+        ],
+        "materials": [
+          "三张教师自绘或获授权的虚构场景卡，不含儿童真实照片",
+          "纸笔与故事四格模板",
+          "学校已允许使用的文字工具；无网络时教师准备两版模拟AI续写"
+        ],
+        "prompt": "只依据这三张虚构场景卡，给出两个互助解决困难的故事续写方向，每个不超过80字。不要补人物真实身份，不替我们选择结局；列出你新添而图片里没有的细节。",
+        "steps": [
+          {
+            "minutes": "8",
+            "activity": "看图各说一个观察事实，不讲推测；每人补一条需要确认的问题。"
+          },
+          {
+            "minutes": "10",
+            "activity": "三人分别负责角色、困难、互助行动，在纸上先共同确定因果链。"
+          },
+          {
+            "minutes": "12",
+            "activity": "教师展示AI两版续写，学生用不同颜色圈出图片依据和虚构补充，决定保留或删去。"
+          },
+          {
+            "minutes": "15",
+            "activity": "画四格故事并改写旁白，至少保留一次孩子主动修改的痕迹。"
+          },
+          {
+            "minutes": "10",
+            "activity": "小组轮流讲述：我们选了什么、谁帮助谁、为什么不要另一版建议。"
+          },
+          {
+            "minutes": "5",
+            "activity": "用一张新场景卡独立写一句续写，观察是否能迁移因果表达。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "证据",
+            "observable": "能指出两处图中可见细节与一处AI新编细节"
+          },
+          {
+            "dimension": "互助逻辑",
+            "observable": "角色的帮助行为真正推动问题解决"
+          },
+          {
+            "dimension": "表达与判断",
+            "observable": "能说出保留或拒绝建议的具体理由，不仅说好看"
+          }
+        ],
+        "expectedOutput": "四格互助故事、AI建议取舍单、60秒作品分享；不是保证产生的学习成效。",
+        "safety": "不上传儿童姓名、照片、住址或声音；工具由教师依学校政策操作，原项目并非儿童账号许可依据。",
+        "homeExtension": "不用AI，向家人讲同一故事并听取一个追问，再改写一句。",
+        "evidenceBoundary": "原项目多人图片故事是真实公开案例；本课堂设计、时长及量规是编辑建议，未经教学试验。"
+      }
+    },
+    {
+      "id": "creative-008-01",
+      "title": "Project Genie 4：给虚拟小镇写一份「游客路线验收单」",
+      "date": "2026-11-18",
+      "originalDate": "2026-11-18",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "tools": [
+        "Project Genie / Genie 4（教师演示官方视频优先）",
+        "纸笔或投影"
+      ],
+      "summary": "官方展示了提示词、图片与交互世界衔接，以及可探索/改编的作品画廊。本周新版本，但与旧库 Marble 的差异要落在可操作规则：孩子先给同伴写三段路线和一个不能穿过的边界，再用官方实录逐项检查生成世界是否遵守，标注空间不一致处。产出含失败截图或手绘示意的路线验收单；不是地理或建筑复现。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑迁移建议（初中、高中），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "sourcePage": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "credit": "原项目 / 原作者图例",
+        "alt": "Project Genie 4：给虚拟小镇写一份「游客路线验收单」 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作页见效果图或演示；本版未内嵌。"
+      },
+      "limits": "本周新版本；地区、订阅和年龄资格有限，不需要学生注册",
+      "tags": [
+        "互动游戏",
+        "本周案例"
+      ],
+      "timeLayer": "本周案例",
+      "freshness": "本周案例 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-02",
+      "title": "Techno Firma：同一段影像档案，为什么每个观众看到的不一样？",
+      "date": "2026-11-21",
+      "originalDate": "2026-11-21",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "tools": [
+        "展方作品照片",
+        "纸卡或 Scratch（离线模拟）"
+      ],
+      "summary": "PAMM 与 Onassis ONX 展出的交互装置用机器学习、计算机视觉和三路影片重组一部电影的档案。课堂先给同一组六段资料各贴节奏/主题标签，接着由一组操作两种观众触发规则、另一组猜规则，最终展示两段带来源的蒙太奇分镜。无需收集学生脸部影像；用按钮或纸卡替代摄像机。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "成人与继续教育"
+      ],
+      "scopeTags": [],
+      "stageBasis": "学段为编辑迁移建议（高中及成人），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://www.pamm.org/en/press/perez-art-museum-miami-and-onassis-onx-present-techno-firma/"
+        },
+        {
+          "label": "原作图像文件（外链，非转载）",
+          "url": "https://www.pamm.org/wp-content/uploads/2026/10/technofirma13-circuit-freeway-819x1024.png"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://www.pamm.org/wp-content/uploads/2026/10/technofirma13-circuit-freeway-819x1024.png",
+        "sourcePage": "https://www.pamm.org/en/press/perez-art-museum-miami-and-onassis-onx-present-techno-firma/",
+        "credit": "原项目 / 原作者图例",
+        "alt": "Techno Firma：同一段影像档案，为什么每个观众看到的不一样？ · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作图像入口见来源；未内嵌不等于没有配图。"
+      },
+      "limits": "本周开展；发布稿早于开展；艺术案例非教学成效",
+      "tags": [
+        "故事视频",
+        "本周案例"
+      ],
+      "timeLayer": "本周案例",
+      "freshness": "本周案例 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-03",
+      "title": "那不勒斯低年级：先共写手绘，让AI画同一个故事",
+      "date": "2026-10-30",
+      "originalDate": "2026-10-30",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "教学应用",
+      "categories": [
+        "教学应用"
+      ],
+      "tools": [
+        "纸笔/漫画格",
+        "教师操作的 LlamaGen.Ai 或学校许可图像工具"
+      ],
+      "summary": "意大利小学行动研究案例由孩子协商角色和情节、先画纸本，研究者用 LlamaGen.Ai 生成数字漫画，最后让孩子比较两版。用虚构互助情境，孩子指出哪一格更传达角色心情并说明动作细节；产出并列手绘页和一条口头取舍。区别于角色跨页一致性，比较的是情绪表达，不将个人情绪数据交给 AI。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "学段为编辑迁移建议（小学1–2年级），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://renpress.it/index.php/gsdj/en/article/download/1901/pdf"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://renpress.it/index.php/gsdj/en/article/download/1901/pdf",
+        "sourcePage": "https://renpress.it/index.php/gsdj/en/article/download/1901/pdf",
+        "credit": "原项目 / 原作者图例",
+        "alt": "那不勒斯低年级：先共写手绘，让AI画同一个故事 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作页见效果图或演示；本版未内嵌。"
+      },
+      "limits": "历史课例；质性行动研究，不是受控因果实验",
+      "tags": [
+        "教学应用",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false,
+      "classroomPlan": {
+        "title": "同一段互助故事，两种画法",
+        "stage": "小学一至二年级，教师单机操作",
+        "duration": "25分钟",
+        "status": "改编建议，未试教",
+        "goal": [
+          "指出伙伴做了什么",
+          "用画面证据解释自己的版本选择"
+        ],
+        "materials": [
+          "三格纸卡、铅笔、课前的两张虚构示例图",
+          "已获学校批准的工具；离线用两张示例图"
+        ],
+        "prompt": "只画伙伴指向干路这一个动作；沿用孩子已选的造型，不加文字、姓名、照片或新情节。",
+        "steps": [
+          {
+            "minutes": "5",
+            "activity": "孩子两人一组，口述问题、协助动作和结局。"
+          },
+          {
+            "minutes": "8",
+            "activity": "先在纸上画三格，圈出不能删掉的一个互助动作。"
+          },
+          {
+            "minutes": "5",
+            "activity": "老师投屏一张有意漏掉动作的课前示例，说明它是示例，孩子找回纸画和口述之间的证据。"
+          },
+          {
+            "minutes": "7",
+            "activity": "选手改一处、复述一处或保留原画；一句话说清为什么。"
+          }
+        ],
+        "assessment": [
+          {
+            "dimension": "观察",
+            "observable": "能指具体动作与画格"
+          },
+          {
+            "dimension": "表达",
+            "observable": "能说清版本选择的理由，教师记录额外提示次数"
+          }
+        ],
+        "expectedOutput": "手绘三格、一个明确的修订标记或保留理由。不把参与表现当学习增益。",
+        "safety": "不需要儿童账号；生成由教师代操作，不上传儿童身份或可识别素材。",
+        "homeExtension": "把同一故事讲给没看过的听众，再标出一处对方没听懂的动作。",
+        "evidenceBoundary": "原作是质性行动研究，研究人员参与操作；本方案是新改编，不是原项目成效或相同人员配置。"
+      }
+    },
+    {
+      "id": "creative-008-04",
+      "title": "《The AI Adventures》：让孩子来挑漫画里摄像头看不见的地方",
+      "date": "2026-09-02",
+      "originalDate": "2026-09-02",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "教学应用",
+      "categories": [
+        "教学应用"
+      ],
+      "tools": [
+        "开放论文漫画样张",
+        "教师预制两幅图",
+        "纸质盲区卡"
+      ],
+      "summary": "作者使用 Gemini 与人工修改共同开发四套小学计算机科学故事漫画，《The AI Adventures》讲摄像头帮助机器人感知环境。两组轮流当机器人和场景设计员，先给漫画每格标记可见／不可见，再改画一个盲区并写给同学的解释。产出带视野范围和遮挡的四格故事；原论文是课程设计案例，不是已证实的学习提升。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "学段为编辑迁移建议（小学4–6年级），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://www.mdpi.com/2227-7102/16/9/1426"
+        },
+        {
+          "label": "原作图像文件（外链，非转载）",
+          "url": "https://mdpi-res.com/education/education-16-01426/article_deploy/html/images/education-16-01426-g002-550.jpg"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://mdpi-res.com/education/education-16-01426/article_deploy/html/images/education-16-01426-g002-550.jpg",
+        "sourcePage": "https://www.mdpi.com/2227-7102/16/9/1426",
+        "credit": "原项目 / 原作者图例",
+        "alt": "《The AI Adventures》：让孩子来挑漫画里摄像头看不见的地方 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作图像入口见来源；未内嵌不等于没有配图。"
+      },
+      "limits": "历史设计案例",
+      "tags": [
+        "教学应用",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-05",
+      "title": "The Talking Museum：给开口说话的馆藏做一张事实卡",
+      "date": "2026-09-24",
+      "originalDate": "2026-09-24",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "tools": [
+        "Google Arts & Culture / Gemini",
+        "真实馆藏页面",
+        "纸卡"
+      ],
+      "summary": "数字博物馆把文化藏品做成可旋转的三维对象，并提供 Gemini 辅助问答与音频。只选一个器物，教师预备一段回答，让学生标三类：画面可见、馆方记录可查、当前不知；每组写50字可查证的展签，保留一条未知。产出带观察和证据区分的讲解卡；AI讲解不等于馆方事实。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑迁移建议（小学高年级、初中），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://artsandculture.google.com/experiment/the-talking-museum/XAHyUTtHIxB_tw"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://artsandculture.google.com/experiment/the-talking-museum/XAHyUTtHIxB_tw",
+        "sourcePage": "https://artsandculture.google.com/experiment/the-talking-museum/XAHyUTtHIxB_tw",
+        "credit": "原项目 / 原作者图例",
+        "alt": "The Talking Museum：给开口说话的馆藏做一张事实卡 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作页见效果图或演示；本版未内嵌。"
+      },
+      "limits": "历史互动案例",
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-06",
+      "title": "Sparky：用三个普通物件为别人解决一个小麻烦",
+      "date": "2025-04-07",
+      "originalDate": "2025-04-07",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "图像设计",
+      "categories": [
+        "图像设计"
+      ],
+      "tools": [
+        "Sparky（Gemini 与 Imagen）",
+        "三件实物/积木",
+        "纸质草图"
+      ],
+      "summary": "项目让用户排列物件并描述发明，生成视觉原型。给班级真实需求，如让小朋友更容易拿到画笔，先摆样机和说出使用动作，教师固定条件生成一图；孩子标注有用、好看但无用和可能失败各一处。产出『实物原型/AI想象图/验证方法』三联卡，不把图当可制造方案。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "小学教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [],
+      "stageBasis": "学段为编辑迁移建议（小学1–6年级），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://artsandculture.google.com/experiment/sparky/EAGta7kR_XEXeA"
+        },
+        {
+          "label": "原作图像文件（外链，非转载）",
+          "url": "https://lexfefegha.com/projects/sparky/sparky-inventions.png"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://lexfefegha.com/projects/sparky/sparky-inventions.png",
+        "sourcePage": "https://artsandculture.google.com/experiment/sparky/EAGta7kR_XEXeA",
+        "credit": "原项目 / 原作者图例",
+        "alt": "Sparky：用三个普通物件为别人解决一个小麻烦 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作图像入口见来源；未内嵌不等于没有配图。"
+      },
+      "limits": "历史创作工具",
+      "tags": [
+        "图像设计",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-07",
+      "title": "One Sound, Two Frames：盲听配乐，再给你的选择找依据",
+      "date": "2024-07-17",
+      "originalDate": "2024-07-17",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "音乐声音",
+      "categories": [
+        "音乐声音"
+      ],
+      "tools": [
+        "Google Arts & Culture 实验（教师演示）",
+        "两张学校获准使用的图",
+        "节奏词纸卡"
+      ],
+      "summary": "原游戏让听众用 AI 配乐反推哪件艺术品是灵感来源；区别于为自画配乐，先隐藏图，学生盲听后写出两个节奏或音色依据，再比较不同同学的合理联想。产出图—声音依据卡；不把主观选择当唯一判断。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑迁移建议（小学高年级、初中），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://artsandculture.google.com/experiment/one-sound-two-frames/IQFz5C4K_sgFpg"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://artsandculture.google.com/experiment/one-sound-two-frames/IQFz5C4K_sgFpg",
+        "sourcePage": "https://artsandculture.google.com/experiment/one-sound-two-frames/IQFz5C4K_sgFpg",
+        "credit": "原项目 / 原作者图例",
+        "alt": "One Sound, Two Frames：盲听配乐，再给你的选择找依据 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作页见效果图或演示；本版未内嵌。"
+      },
+      "limits": "历史互动案例",
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-08",
+      "title": "Odd One Out：美术馆里出现一幅AI混入图",
+      "date": "2023-05-03",
+      "originalDate": "2023-05-03",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "互动游戏",
+      "categories": [
+        "互动游戏"
+      ],
+      "tools": [
+        "Google Arts & Culture Odd One Out",
+        "两条馆藏原始记录"
+      ],
+      "summary": "官方游戏将 AI 图放入真馆藏作品组。课堂先让学生写一个可能误判的视觉线索，再靠馆藏编号、作者及机构页追证，最后各组设计一张『可以怎样核实』的提示卡。产出证据来源清单；不是用纹理、手指或直觉给网上图片下定论。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑迁移建议（小学高年级、初中），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://artsandculture.google.com/experiment/odd-one-out/wAHNn4JsVTFOiw"
+        },
+        {
+          "label": "原作图像文件（外链，非转载）",
+          "url": "https://storage.googleapis.com/gweb-experiments.appspot.com/5487-3Ci2FseQxDGqNyH%20%281%29.png"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://storage.googleapis.com/gweb-experiments.appspot.com/5487-3Ci2FseQxDGqNyH%20%281%29.png",
+        "sourcePage": "https://artsandculture.google.com/experiment/odd-one-out/wAHNn4JsVTFOiw",
+        "credit": "原项目 / 原作者图例",
+        "alt": "Odd One Out：美术馆里出现一幅AI混入图 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作图像入口见来源；未内嵌不等于没有配图。"
+      },
+      "limits": "历史互动案例",
+      "tags": [
+        "互动游戏",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-09",
+      "title": "Forest Listeners：给检测到的声音打上可复核的标记",
+      "date": "2025-11-05",
+      "originalDate": "2025-11-05",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "音乐声音",
+      "categories": [
+        "音乐声音"
+      ],
+      "tools": [
+        "Google Arts & Culture / WildMon 演示",
+        "声音时间轴纸卡"
+      ],
+      "summary": "原项目让公民科学参与者在亚马孙与大西洋雨林录音中点记目标动物鸣叫，以帮助训练生物多样性监测模型。课堂由教师播放公开示范，两组独立记录开始秒和确信度；时间点冲突时重听、保留不确定，从而编制复核表。区别旧库 Bird Sounds 相似检索，这是标注一致度和训练数据检查；不代学生向项目正式提交。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "小学教育",
+        "初中教育"
+      ],
+      "audienceTypes": [],
+      "scopeTags": [
+        "跨学段"
+      ],
+      "stageBasis": "学段为编辑迁移建议（小学高年级、初中），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://artsandculture.google.com/experiment/forest-listeners/jAHbryPWSLc1rA"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://artsandculture.google.com/experiment/forest-listeners/jAHbryPWSLc1rA",
+        "sourcePage": "https://artsandculture.google.com/experiment/forest-listeners/jAHbryPWSLc1rA",
+        "credit": "原项目 / 原作者图例",
+        "alt": "Forest Listeners：给检测到的声音打上可复核的标记 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作页见效果图或演示；本版未内嵌。"
+      },
+      "limits": "历史公民科学项目",
+      "tags": [
+        "音乐声音",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
+    },
+    {
+      "id": "creative-008-10",
+      "title": "Folks Like Us：给AI讽刺短片写一张制作与证据清单",
+      "date": "2026-10-21",
+      "originalDate": "2026-10-21",
+      "dateNote": "原作日期与本期收录日期分列；未标明时不以核验日代替。",
+      "firstIssue": "008",
+      "firstSeen": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "lastVerified": "2026-11-23",
+      "relatedIssues": [
+        "008"
+      ],
+      "category": "故事视频",
+      "categories": [
+        "故事视频"
+      ],
+      "tools": [
+        "Derivative Work 公开制作与来源记录",
+        "可下载空白分镜/版式"
+      ],
+      "summary": "作者自建项目公开了歌曲/视频的制作说明和新闻来源；选择一段经教师先审的片段，分别标记事实来源、创作者立场及 AI 合成表现，最后为校内议题做15秒无真人肖像原创分镜，并写清素材署名。用来练来源与讽刺边界，不把影片言论当独立证明。",
+      "play": "",
+      "reproduce": "教师对照原作，以小组作品说明取舍",
+      "education": "教师对照原作，以小组作品说明取舍",
+      "uses": [
+        "教师对照原作，以小组作品说明取舍"
+      ],
+      "difficulty": "入门",
+      "difficultyGroup": "入门",
+      "educationLevels": [
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "成人与继续教育"
+      ],
+      "scopeTags": [],
+      "stageBasis": "学段为编辑迁移建议（高中及成人），不代表原平台账户年龄许可。",
+      "sources": [
+        {
+          "label": "作者或项目原作",
+          "url": "https://github.com/Derivative-Work/folks-like-us"
+        }
+      ],
+      "author": "",
+      "image": {
+        "url": "",
+        "localPath": null,
+        "sourceUrl": "https://github.com/Derivative-Work/folks-like-us",
+        "sourcePage": "https://github.com/Derivative-Work/folks-like-us",
+        "credit": "原项目 / 原作者图例",
+        "alt": "Folks Like Us：给AI讽刺短片写一张制作与证据清单 · 原作展示",
+        "publicReuseCleared": false,
+        "rightsStatus": "公开复用许可未核实；不作为可公开发布素材。",
+        "evidenceNote": "原作页见效果图或演示；本版未内嵌。"
+      },
+      "limits": "历史公开制作案例，教师先审核内容",
+      "tags": [
+        "故事视频",
+        "历史灵感"
+      ],
+      "timeLayer": "历史灵感",
+      "freshness": "历史灵感 · 第008期首次收录",
+      "reproductionStatus": "未实测运行、地区可用性或教学效果。",
+      "popularity": {
+        "status": "无可靠热度指标，不作热门排名"
+      },
+      "evidenceType": "公开原作 / 官方示例；课堂建议未试教",
+      "tested": false
     }
   ],
   "schemaVersion": 2,
-  "asOf": "2026-11-09",
-  "editionNote": "第006期用户确认发布版",
+  "asOf": "2026-11-23",
+  "editionNote": "第008期公开版",
   "categoryOrder": [
     "图像设计",
     "故事视频",

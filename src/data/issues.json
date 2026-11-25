@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "latestIssueId": "006",
-  "libraryAsOf": "2026-11-09",
+  "latestIssueId": "008",
+  "libraryAsOf": "2026-11-23",
   "issues": [
     {
       "id": "001",
@@ -44,6 +44,20 @@
       "date": "2026-11-09",
       "title": "从引导式学习到可检查的课程流程",
       "file": "issues/006.json"
+    },
+    {
+      "id": "007",
+      "number": 7,
+      "date": "2026-11-16",
+      "title": "从AI使用走向证据与责任",
+      "file": "issues/007.json"
+    },
+    {
+      "id": "008",
+      "number": 8,
+      "date": "2026-11-23",
+      "title": "谁操作 AI，谁保留学习判断",
+      "file": "issues/008.json"
     }
   ]
 }

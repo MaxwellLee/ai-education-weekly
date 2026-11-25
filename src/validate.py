@@ -44,6 +44,10 @@ for index in issues:
 print(f'PASS: {len(issues)} issue(s), {len(ideas)} cumulative ideas; production data and references are consistent.')
 
 profiles=load(ROOT/'data/people.json')
+for f in sorted((ROOT/'data').glob('people-*.json')):
+ extra=load(f)
+ assert extra['schemaVersion']==1 and extra['publicationStatus']=='public-edition'
+ profiles['items'].extend(extra['items'])
 assert profiles['schemaVersion']==1 and profiles['publicationStatus'] in ['public-edition','private-preview']
 assert re.fullmatch(r'\d{4}-\d{2}-\d{2}',profiles['asOf'])
 profile_ids={p['id'] for p in profiles['items']}

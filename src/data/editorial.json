@@ -438,6 +438,152 @@
       ],
       "factCorrections": [],
       "evidenceUpdates": []
+    },
+    "007": {
+      "experiments": [
+        {
+          "id": "try007-evidence",
+          "title": "用四个问题读一项AI研究",
+          "audience": "教育工作者与教研组",
+          "estimatedMinutes": "20–30分钟（编辑估计）",
+          "steps": "从本期一项研究提取对象、比较条件、测量指标与限制；区分相关、自报、准实验与因果证据，再写一句不能据此推出的结论。",
+          "verificationGoal": "能否避免把大学研究外推小学、把满意度当学习增益。",
+          "sourceIds": [
+            "e007-01",
+            "e007-04"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "try007-transparency",
+          "title": "给AI反馈加一张可检查说明卡",
+          "audience": "高校教师或成人培训者；儿童情境须教师改编",
+          "estimatedMinutes": "25–35分钟（编辑估计）",
+          "steps": "用虚构作业制作有/无解释的两种反馈，标明依据、可能错误和申诉入口，让同事找出需要人工裁量的地方。",
+          "verificationGoal": "比较解释是否帮助识别错误而不只是增加信任，不把同事体验当教学实证。",
+          "sourceIds": [
+            "e007-10"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "try007-school-controls",
+          "title": "做一次学校AI开关与替代路线演练",
+          "audience": "学校管理者、信息教师与教研组",
+          "estimatedMinutes": "15–25分钟（编辑估计）",
+          "steps": "纸上列出搜索、生成式AI和课件资料三种需求，分别写出管理员开关、替代路线和故障联系人；不实际改动账号设置。",
+          "verificationGoal": "当生成式AI不可用时，教师能否仍用已有获准资源完成同一教学目标。",
+          "sourceIds": [
+            "e007-13",
+            "e007-09"
+          ],
+          "status": "编辑建议，未实测"
+        }
+      ],
+      "changes": {
+        "status": "compared",
+        "baselineIssue": "006",
+        "baselineDate": "2026-11-09",
+        "items": [
+          {
+            "title": "Google学校控制进入政策质询阶段",
+            "previous": "006记录Google的产品与学校控制说明，未验证全部政策已实施。",
+            "current": "11月9日Markey要求说明停用AI时的Search访问、安全及学习证据；截至本轮未核到Google针对该信的答复。",
+            "changeType": "新增外部质询，不是厂商政策已改变",
+            "sourceDate": "2026-11-09",
+            "sources": [
+              {
+                "label": "Markey官方信函说明",
+                "url": "https://www.markey.senate.gov/news/press-releases/markey-demands-google-allow-schools-to-disable-ai-services-without-blocking-search-access"
+              }
+            ],
+            "firstIssue": "006",
+            "firstItemId": "e006-05",
+            "previousIssue": "006",
+            "previousItemId": "e006-05"
+          }
+        ],
+        "note": "行业另记录灵动体验版本、艾达艾赛事计划与过期促销；访问恢复属于证据增补。"
+      },
+      "revisionLog": [
+        {
+          "date": "2026-11-16",
+          "version": "007-private-preview",
+          "type": "新期内容与证据增补",
+          "summary": "以最新远端953f569a的006为基线，保留全部历史、图片与排序，新增本期证据及双库去重创意。未提交或部署。"
+        },
+        {
+          "date": "2026-11-25",
+          "version": "007-public",
+          "type": "公开发布",
+          "summary": "发布完成的周刊正文和创意条目；新增图片与头像只保留原作或人物资料链接。"
+        }
+      ],
+      "factCorrections": [],
+      "evidenceUpdates": []
+    },
+    "008": {
+      "experiments": [
+        {
+          "id": "try008-1",
+          "title": "给备课时长做一次实测",
+          "audience": "教研人员、一线教师",
+          "estimatedMinutes": "15–20分钟（编辑估计）",
+          "steps": "任选一段 AI 草拟活动，分别记计划与实际分钟、孩子在哪一处需补提示及教师最大一处改动。",
+          "verificationGoal": "能否校正估时和减少不必要的指令，让另一位老师接手。",
+          "sourceIds": [
+            "e008-01"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "try008-2",
+          "title": "留一份不用 AI 也能做的对照任务",
+          "audience": "小学或初中教师",
+          "estimatedMinutes": "15分钟（编辑估计）",
+          "steps": "对同一任务先让学生记录自己的方案，再看教师投屏的 AI 支架，收屏后用新例子请学生独立解释。",
+          "verificationGoal": "区分即时产出和独立迁移，不把一节试教当成效评估。",
+          "sourceIds": [
+            "e008-02"
+          ],
+          "status": "编辑建议，未实测"
+        },
+        {
+          "id": "try008-3",
+          "title": "用两张样图追踪一个故事选择",
+          "audience": "学前及小学低年级教师",
+          "estimatedMinutes": "10–15分钟备图与试讲（编辑估计）",
+          "steps": "先将孩子选择画或说在纸上，教师复述；再出示一张课前制作的错配示意，由孩子指出哪一步掉了动作，自己选口头重试或手改。",
+          "verificationGoal": "能否复述并解释一项自己做的决定，下一轮只改一个变量。",
+          "sourceIds": [
+            "e008-07"
+          ],
+          "status": "编辑建议，未实测"
+        }
+      ],
+      "changes": {
+        "status": "no-verified-change",
+        "baselineIssue": "007",
+        "baselineDate": "2026-11-16",
+        "items": [],
+        "note": "本期新增研究、招标和供应对照不是既有事件结果。对007的 Google 学校控制质询未得到后续可核答复；不写成已实施或宣称趋势。行业各档沿用上次明确日期，有新证据再重核。"
+      },
+      "revisionLog": [
+        {
+          "date": "2026-11-23",
+          "version": "008-private-preview",
+          "type": "新期内容与证据增补",
+          "summary": "对照已公开006、私下007及原作链接；保留历史与独立创意索引。未提交或部署。"
+        },
+        {
+          "date": "2026-11-25",
+          "version": "008-public",
+          "type": "公开发布",
+          "summary": "发布完成的周刊正文和创意条目；新增图片与头像只保留原作或人物资料链接。"
+        }
+      ],
+      "factCorrections": [],
+      "evidenceUpdates": []
     }
   }
 }

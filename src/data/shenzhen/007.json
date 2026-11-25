@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "issueId": "007",
+  "verifiedAt": "2026-11-16",
+  "coverageNote": "4条深圳观察，包含已举行对接活动、未来师训及讲座、已过计划日期但未核完成的成人课程。福田多个学校企业同一活动不重复计数，未覆盖全部区校。",
+  "items": [
+    {
+      "id": "sz007-01",
+      "title": "福田教育供需对接：20项初步意向尚待真实课堂验证",
+      "publishedDate": "2026-11-12",
+      "eventDate": "2026-11-10",
+      "stage": "小学教育、初中教育、高中阶段教育、教育工作者",
+      "districts": [
+        "福田区"
+      ],
+      "type": "机构官方报道／公告",
+      "organizations": "福田区教育局／政数局／深圳市人工智能行业协会",
+      "peopleCompanies": "福田区教育局／政数局／深圳市人工智能行业协会",
+      "summary": "6家企业与11所学校及区教科院对接，涉及AI助教、体育、备课与端侧模型等，形成20项初步意向。",
+      "relevance": "学校提出数据最小必要采集、分级权限、生成内容人工复核；AI评价只辅助，不标签化排名。",
+      "limits": "承办方报道的初步洽谈不是签约、验收或有效性证据；多学校和企业归为同一活动不重复计数。",
+      "sources": [
+        {
+          "label": "官方原文",
+          "url": "https://www.saiia.org.cn/index.php/2026/11/12/20261112/"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "小学教育",
+        "初中教育",
+        "高中阶段教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-16"
+    },
+    {
+      "id": "sz007-02",
+      "title": "WorkBuddy第二期师训发出招生通知，跟进首期",
+      "publishedDate": "2026-11-10",
+      "eventDate": "计划2026-12-10至12-13",
+      "stage": "职业教育、教育工作者",
+      "districts": [
+        "南山区"
+      ],
+      "type": "机构官方报道／公告",
+      "organizations": "深圳职业技术大学／腾讯云",
+      "peopleCompanies": "深圳职业技术大学／腾讯云",
+      "summary": "新一期面向职业院校教师与教研管理人员，不含在校学生，限招140人，拟在腾讯与深职大训练教学、备课、科研、行政任务。",
+      "relevance": "相比006首期开班报道，新增第二期日期、名额与任务编排课程安排。",
+      "limits": "140是招生上限不是参训或结业人数；12月活动尚未发生，培训宣传不能当实证效果。",
+      "sources": [
+        {
+          "label": "官方原文",
+          "url": "https://www.szpu.edu.cn/info/1392/23932.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "职业教育",
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-16",
+      "followUp": {
+        "firstIssueId": "006",
+        "firstItemId": "sz006-01",
+        "change": "从首期已举办报道，更新为第二期招生通知；保留两期日期和状态差异。"
+      }
+    },
+    {
+      "id": "sz007-03",
+      "title": "深北莫预告教育AI应用讲座，讨论工具与研究对象双重角色",
+      "publishedDate": "2026-11-13",
+      "eventDate": "计划2026-11-16 18:00–19:00，截止时未举行",
+      "stage": "高等教育、教育工作者",
+      "districts": [
+        "龙岗区"
+      ],
+      "type": "机构官方报道／公告",
+      "organizations": "深圳北理莫斯科大学",
+      "peopleCompanies": "深圳北理莫斯科大学",
+      "summary": "学校公告讲座将以案例讨论教育AI应用潜力、风险和限制，并梳理教育研究方向。",
+      "relevance": "关注高校如何同时讲使用方法和边界。",
+      "limits": "仅有官方讲座预告，无已发生分享或效果；页面未显示讲者姓名，不猜。",
+      "sources": [
+        {
+          "label": "官方原文",
+          "url": "https://www.smbu.edu.cn/info/6191/143131.htm"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [
+        "高等教育"
+      ],
+      "audienceTypes": [
+        "教育工作者"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-16"
+    },
+    {
+      "id": "sz007-04",
+      "title": "深圳湾FDE成人实操课：计划日期已过，完成情况待核",
+      "publishedDate": "2026-11-10",
+      "eventDate": "计划2026-11-15 14:00–17:30，未核完成回顾",
+      "stage": "成人与继续教育",
+      "districts": [
+        "南山区／深圳湾"
+      ],
+      "type": "协会课程公告",
+      "organizations": "深圳市人工智能产业协会",
+      "peopleCompanies": "深圳市人工智能产业协会",
+      "summary": "官方公布99元/人的半天线下课，面向企业主、高管、产品经理与工程师，内容含需求拆解、资料准备、智能体原型和问题诊断。",
+      "relevance": "分析：低价实操入口可观察任务拆解和原型交付，但获客转化与盈利均未知。",
+      "limits": "截止11月16日计划日期已过，不能当当前可报名班期；未取得活动已完成或学员成效证据。部分图为AI生成示意，不是真实课堂照片。",
+      "sources": [
+        {
+          "label": "协会培训目录，发布11月10日",
+          "url": "https://www.szaicx.com/jypxzx.html"
+        },
+        {
+          "label": "官方课程详情",
+          "url": "https://www.szaicx.com/zsjz/27402.html"
+        }
+      ],
+      "freshness": "current",
+      "educationLevels": [],
+      "audienceTypes": [
+        "成人与继续教育"
+      ],
+      "scopeTags": [],
+      "lastVerified": "2026-11-16"
+    }
+  ]
+}
